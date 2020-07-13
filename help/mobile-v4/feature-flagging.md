@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -35,7 +35,9 @@ Aan het eind van deze les, zult u kunnen:
 
 In de demo-app uit onze vorige lessen voegen we een nieuwe locatie met de naam &quot;wetravel_feature_flag_recs&quot; toe aan het prefetch-verzoek in de Home Activity en laden we deze met een nieuwe Java-methode naar het scherm.
 
->[!NOTE] Één van de voordelen van het gebruiken van een prefetch verzoek is dat het toevoegen van een nieuw verzoek geen extra netwerkoverheadkosten toevoegt of extra ladingswerk veroorzaakt aangezien het verzoek binnen het prefetch verzoek wordt verpakt
+>[!NOTE]
+>
+>Één van de voordelen van het gebruiken van een prefetch verzoek is dat het toevoegen van een nieuw verzoek geen extra netwerkoverheadkosten toevoegt of extra ladingswerk veroorzaakt aangezien het verzoek binnen het prefetch verzoek wordt verpakt
 
 Controleer eerst of de constante wetravel_feature_flag_recs is toegevoegd aan het bestand Constant.java:
 
