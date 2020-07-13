@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -78,13 +78,17 @@ Volg dezelfde stappen hierboven om een publiek voor terugkerende gebruikers te m
 
    ![Een publiek met terugkerende gebruikers maken](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] Alle levenscyclusmetriek en afmetingen die in de [!DNL Target] mobiele SDK worden verzameld, worden voorafgegaan door &quot;a&quot; (bijvoorbeeld a.Launches) en zijn beschikbaar in de optie &quot;Aangepast&quot; van het keuzemenu en kunnen worden gebruikt om een publiek te maken.
+>[!NOTE]
+>
+>Alle levenscyclusmetriek en afmetingen die in de [!DNL Target] mobiele SDK worden verzameld, worden voorafgegaan door &quot;a&quot; (bijvoorbeeld a.Launches) en zijn beschikbaar in de optie &quot;Aangepast&quot; van het keuzemenu en kunnen worden gebruikt om een publiek te maken.
 
 ### Creeer een Publiek voor Gebruikers die een Trip aan San Diego boeken
 
 Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aangeboden door de app We.Travel. In de laatste les hebben wij de bestemming als plaatsparameter in het wetravel_context_dest locatieverzoek overgegaan. Deze parameter is beschikbaar in de optie Aangepast van het keuzemenu.
 
->[!NOTE] Als een parameter u in de dropdown van de Douane verwacht te zien niet in de [!DNL Target] interface verschijnt, controleer tweemaal dat het inderdaad in het verzoek wordt overgegaan. Als u hebt geverifieerd dat dat in het verzoek is, maar niet in de [!DNL Target] interface heeft geladen, kunt u enkel de parameternaam typen en binnengaan klikken om uw publiek te blijven bepalen
+>[!NOTE]
+>
+>Als een parameter u in de dropdown van de Douane verwacht te zien niet in de [!DNL Target] interface verschijnt, controleer tweemaal dat het inderdaad in het verzoek wordt overgegaan. Als u hebt geverifieerd dat dat in het verzoek is, maar niet in de [!DNL Target] interface heeft geladen, kunt u enkel de parameternaam typen en binnengaan klikken om uw publiek te blijven bepalen
 
 1. Geef de doelgroep een naam _op: San Diego_.
 1. Gebruik een aangepaste regel met deze definitie: _locationDest bevat San Diego_.
