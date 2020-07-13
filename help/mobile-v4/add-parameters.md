@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -47,7 +47,9 @@ Hoewel we alleen `Config.collectLifecycleData()` aan de HomeActivity-controller 
 
 Adobe Target-eigenschappen worden gedefinieerd in de [!DNL Target] interface en worden gebruikt om grenzen vast te stellen voor het aanpassen van apps en websites. De parameter at_property identificeert het specifieke bezit waar uw aanbiedingen en activiteiten worden betreden en gehandhaafd. We voegen een eigenschap toe aan de aanvragen voor de prefetch en live-locatie.
 
->[!NOTE] Afhankelijk van uw licentie worden de opties voor eigenschappen al dan niet weergegeven in de [!DNL Target] interface. Als u deze opties niet hebt, of als u geen Eigenschappen in uw bedrijf gebruikt, overslaan enkel naar de volgende sectie van deze les.
+>[!NOTE]
+>
+>Afhankelijk van uw licentie worden de opties voor eigenschappen al dan niet weergegeven in de [!DNL Target] interface. Als u deze opties niet hebt, of als u geen Eigenschappen in uw bedrijf gebruikt, overslaan enkel naar de volgende sectie van deze les.
 
 U kunt uw at_property waarde in de [!DNL Target] interface onder [!UICONTROL Setup] > terugwinnen [!UICONTROL Properties].  Houd de muisaanwijzer boven de eigenschap en selecteer het pictogram van het codefragment en kopieer de `at_property` waarde:
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 Voer de emulator uit en open Logcat. Filter voor een van de parameters om te controleren of het verzoek de benodigde parameters bevat:
 ![Valideer de parameters van de Douane in het Levende Verzoek van de Plaats](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] Bevestigingsverzoeken en parameters voor bestelling: Hoewel niet gebruikt in dit demoproject, worden de orderdetails gewoonlijk gevangen in een echte implementatie zodat [!DNL Target] kan ordedetails als metriek/afmetingen gebruiken. Raadpleeg de documentatie voor instructies over het [implementeren van het verzoek om bevestiging van de bestelling en de parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>[!NOTE]
+>
+>Bevestigingsverzoeken en parameters voor bestelling: Hoewel niet gebruikt in dit demoproject, worden de orderdetails gewoonlijk gevangen in een echte implementatie zodat [!DNL Target] kan ordedetails als metriek/afmetingen gebruiken. Raadpleeg de documentatie voor instructies over het [implementeren van het verzoek om bevestiging van de bestelling en de parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
->[!NOTE] Analytics voor Target (A4T): Adobe Analytics kan worden geconfigureerd als de rapportbron voor [!DNL Target]. Hierdoor kunnen alle metriek/afmetingen die door de Target SDK zijn verzameld, worden weergegeven in Adobe Analytics. Zie het [A4T Overzicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) voor meer details.
+>[!NOTE]
+>
+>Analytics voor Target (A4T): Adobe Analytics kan worden geconfigureerd als de rapportbron voor [!DNL Target]. Hierdoor kunnen alle metriek/afmetingen die door de Target SDK zijn verzameld, worden weergegeven in Adobe Analytics. Zie het [A4T Overzicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) voor meer details.
 
 Mooi werk! Nu er parameters zijn, zijn we klaar om die parameters te gebruiken om publiek en aanbiedingen te maken in Adobe Target.
 
