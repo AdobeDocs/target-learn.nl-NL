@@ -1,6 +1,6 @@
 ---
-title: Criteria maken in aanbevelingen
-seo-title: Criteria maken in Adobe Target-aanbevelingen
+title: Criteria maken in Recommendations
+seo-title: Criteria maken in Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Criteria maken in aanbevelingen
+# Criteria maken in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [Een activiteit voor aanbevelingen maken](create-a-recommendations-activity.md)
+* [Een Recommendations-activiteit maken](create-a-recommendations-activity.md)
 * [feeds begrijpen](understanding-feeds.md)
 * [Een feed maken](create-a-feed.md)
-* [Documentatie met aanbevelingen](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-documentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
