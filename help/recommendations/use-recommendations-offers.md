@@ -1,7 +1,7 @@
 ---
-title: Aanbevelingen gebruiken in A/B-test- en ervaringsgerichte activiteiten
-seo-title: Aanbevelingen gebruiken in tests en ervaringen met A/B-tests en gerichte activiteiten in Adobe Target
-description: Aanbiedingen van aanbevelingen kunnen worden gebruikt met A/B Test en de ervaring gerichte Activiteiten.
+title: Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten
+seo-title: Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten in Adobe Target
+description: Recommendations-aanbiedingen kunnen worden gebruikt in combinatie met A/B Test and Experience Targeting Activiteiten.
 feature: recommendations
 kt: kt-3451
 audience: marketer
@@ -16,9 +16,9 @@ ht-degree: 0%
 ---
 
 
-# Aanbevelingen gebruiken in A/B-test- en ervaringsgerichte activiteiten
+# Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten
 
-Aanbiedingen van aanbevelingen kunnen worden gebruikt met A/B Test en de ervaring gerichte Activiteiten. Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
+Recommendations-aanbiedingen kunnen worden gebruikt in combinatie met A/B Test and Experience Targeting Activiteiten. Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
 
 * Aanbevelingen en niet-aanbevelingen in dezelfde activiteit mixen
 * Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen
@@ -29,5 +29,5 @@ Aanbiedingen van aanbevelingen kunnen worden gebruikt met A/B Test en de ervarin
 
 ## Aanvullende bronnen
 
-* [Aanbevelingen in de vorm van een aanbiedingsdocumentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
-* [Video over activiteiten voor aanbevelingen maken](create-a-recommendations-activity.md)
+* [Recommendations als aanbiedingsdocumentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Video over Recommendations-activiteiten maken](create-a-recommendations-activity.md)
