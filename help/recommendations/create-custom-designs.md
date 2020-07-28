@@ -1,6 +1,6 @@
 ---
-title: Aangepaste ontwerpen maken in aanbevelingen
-seo-title: Aangepaste ontwerpen maken in Adobe Target-aanbevelingen
+title: Aangepaste ontwerpen maken in Recommendations
+seo-title: Aangepaste ontwerpen maken in Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,15 +15,15 @@ ht-degree: 0%
 ---
 
 
-# Aangepaste ontwerpen maken in aanbevelingen
+# Aangepaste ontwerpen maken in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?quality=12)
 
 ## Aanvullende bronnen
 
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [Een activiteit voor aanbevelingen maken](create-a-recommendations-activity.md)
+* [Een Recommendations-activiteit maken](create-a-recommendations-activity.md)
 * [feeds begrijpen](understanding-feeds.md)
 * [Een feed maken](create-a-feed.md)
 * [Criteria maken](create-criteria.md)
-* [Documentatie met aanbevelingen](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-documentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
