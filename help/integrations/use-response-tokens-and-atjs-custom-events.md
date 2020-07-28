@@ -33,7 +33,7 @@ Met respontokens en `at.js` Aangepaste gebeurtenissen kunt u profielgegevens del
 
 ## Aanvullende bronnen
 
-* [Experience Cloud Debugger gebruiken met Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+* [De Experience Cloud Debugger gebruiken met Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
 * [Documentatie over responstoken](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
 * [Aangepaste gebeurtenisdocumentatie At.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
 * [Gegevensleveranciers gebruiken in Adobe Target](use-data-providers-to-integrate-third-party-data.md)
