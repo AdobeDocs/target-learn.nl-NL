@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Begrijpen hoe Adobe Target in.js 2.0 werkt
 
-`at.js` 2.0 verbetert de steun van Adobe Target voor enige paginatoepassingen (SPA) en integreert met andere oplossingen van Experience Cloud. In deze video en de bijbehorende diagrammen wordt uitgelegd hoe alles samenkomt.
+`at.js` 2.0 verbetert Adobe Target steun voor enige paginatoepassingen (SPA) en integreert met andere oplossingen van Experience Cloud. In deze video en de bijbehorende diagrammen wordt uitgelegd hoe alles samenkomt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![gedrag at.js 2.0 bij het laden van de pagina](assets/pageload.png)
 
-1. De vraag keert Experience Cloud ID (ECID) terug. Als de gebruiker voor authentiek wordt verklaard, synchroniseert een andere vraag de klantenidentiteitskaart
+1. De vraag keert identiteitskaart van Experience Cloud (ECID) terug. Als de gebruiker voor authentiek wordt verklaard, synchroniseert een andere vraag de klantenidentiteitskaart
 
 1. `at.js` De bibliotheek wordt synchroon geladen en de hoofdtekst van het document wordt verborgen (`at.js` kan ook asynchroon worden geladen met een optioneel vooraf verborgen fragment dat op de pagina is geïmplementeerd).
 
