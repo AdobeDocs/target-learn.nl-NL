@@ -28,7 +28,7 @@ De nieuwste versie van `at.js` verstrekt rijke eigenschapreeksen die uw zaken ui
 * Voer de `adobe.target.triggerView()` functie uit wanneer de meningsveranderingen in uw SPA. Verschillende technieken kunnen worden gebruikt om dit te doen, zoals het luisteren naar veranderingen van het knoeiboel URL, het luisteren naar douanegebeurtenissen die door uw SPA in brand worden gestoken, of het direct inbedden van de `triggerView()` code in uw toepassing. Kies de optie die het beste werkt voor uw specifieke toepassing met één pagina.
 * De weergavenaam is de eerste parameter van de `triggerView()` functie. Gebruik eenvoudige, duidelijke en unieke namen, zodat u ze gemakkelijk kunt selecteren in de Target-composer voor visuele beleving.
 * U kunt meningen in kleine meningsveranderingen, evenals in niet-SPA contexten zoals half-onderaan een oneindige het scrollen pagina teweegbrengen.
-* `at.js` 2.0 en `triggerView()` kunnen worden geïmplementeerd via een oplossing voor tagbeheer, zoals het starten van Adobe Experience Platforms.
+* `at.js` 2.0 en `triggerView()` kunnen worden geïmplementeerd via een oplossing voor tagbeheer, zoals Adobe Experience Platform Launch.
 
 ## at.js 2.0 Beperkingen
 
