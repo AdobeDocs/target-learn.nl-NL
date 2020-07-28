@@ -1,6 +1,6 @@
 ---
-title: Problemen met Adobe Target oplossen met Experience Cloud Debugger
-description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk inzicht krijgen in uw Target-implementatie. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van Target onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel van het Spoor Mbox gebruiken om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
+title: Problemen met Adobe Target oplossen met de Experience Cloud Debugger
+description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk inzicht krijgen in uw Target-implementatie. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van Target onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel van het Spoor gebruiken Mbox om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,16 +15,16 @@ ht-degree: 0%
 ---
 
 
-# Problemen oplossen met Experience Cloud Debugger
+# Problemen met de Experience Cloud Debugger oplossen
 
-Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk inzicht krijgen in uw Target-implementatie. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van Target onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel van het Spoor Mbox gebruiken om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
+Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk inzicht krijgen in uw Target-implementatie. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van Target onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel van het Spoor gebruiken Mbox om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Aanvullende bronnen
 
 * [Video over het oplossen van problemen met Target Traces](troubleshoot-with-target-traces.md)
-* [Adobe Experience Cloud Debugger in de Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
+* [Adobe Experience Cloud-foutopsporing in de Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [Video over de extensie Foutopsporing toevoegen](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/add-the-extension.html)
 * [Documentatie Target Help-oplossing](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [De Experience Cloud Debugger-video gebruiken](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [De video Experience Cloud Debugger gebruiken](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
