@@ -45,7 +45,7 @@ Hieronder volgen enkele belangrijke Target-terminologie die we in de rest van de
 * **Batchaanvraag:**  één verzoek dat veelvoudige plaatsen omvat
 * **Prefetch-aanvraag:**  één aanvraag die aanbiedingen ophaalt en deze in het geheugen ophaalt voor toekomstig gebruik in de app
 * **Prefetch-aanvraag batch:**  één enkel verzoek dat prefetters voor veelvoudige plaatsen aanbiedt
-* **Publiek:**  een groep bezoekers die in de [!DNL Target] interface is gedefinieerd of waarmee ze worden gedeeld vanuit [!DNL Target] andere Adobe-toepassingen (bijvoorbeeld &quot;iPhone X bezoekers&quot;, &quot;bezoekers in Californië&quot;, &quot;Eerste app geopend&quot;)
+* **Publiek:**  een groep bezoekers, gedefinieerd in de [!DNL Target] interface of gedeeld met [!DNL Target] andere Adobe-toepassingen (bijvoorbeeld &quot;iPhone X bezoekers&quot;, &quot;bezoekers in Californië&quot;, &quot;Eerste app geopend&quot;)
 * **Activiteit:**  een [!DNL Target] concept, gedefinieerd in de [!DNL Target] gebruikersinterface (of met API), dat locaties, aanbiedingen en soorten publiek koppelt om een gepersonaliseerde ervaring te creëren
 
 ## Een aanvraag voor een batchvoorvertoning toevoegen
