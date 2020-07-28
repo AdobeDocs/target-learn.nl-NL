@@ -1,8 +1,8 @@
 ---
 title: Download en werk de voorbeeldtoepassing Web.Travel bij
 seo-title: Download de voorbeeldapp en controleer de SDK voor mobiele services
-description: 'De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U hoeft deze alleen bij te werken, zodat deze naar uw eigen Experience Cloud Org- en Solution-accounts verwijst.   '
-seo-description: De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U hoeft deze alleen bij te werken, zodat deze naar uw eigen Experience Cloud Org- en Solution-accounts verwijst.
+description: 'De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.   '
+seo-description: De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Download en werk de voorbeeldtoepassing Web.Travel bij
 
-De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U hoeft deze alleen bij te werken, zodat deze naar uw eigen Experience Cloud Org- en Solution-accounts verwijst.
+De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken, zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.
 
 ## Leerdoelen
 
@@ -32,7 +32,7 @@ Aan het eind van deze les, zult u kunnen:
 
 * Download de [sample-app-android-SDKv4-Base-Version.zip](assets/sample-app-android-SDKv4-Base-Version.zip)
 * Het ZIP-bestand decomprimeren
-* Open de toepassing in Android Studio als een bestaand project (negeer eventuele fouten over &quot;Ongeldige VCS-hoofdtoewijzing&quot;).
+* Open de toepassing in Android Studio als een bestaand project (negeer eventuele fouten met betrekking tot &quot;Ongeldige VCS-hoofdtoewijzing&quot;).
 * Voer de app in een emulator uit om te bevestigen dat de app is gemaakt en dat u het beginscherm kunt zien
 * Blader naar de app en controleer of u het boekingsproces kunt voltooien (selecteer een betalingsoptie en druk op Doorgaan om het factureringsscherm over te slaan!)
 
@@ -44,7 +44,7 @@ De SDK van Adobe Mobile Services is vooraf geïnstalleerd in de Web-app [volgens
 
 Maak eerst een nieuwe toepassing in de gebruikersinterface voor mobiele services:
 
-1. Meld u aan bij de interface [](https://mobilemarketing.adobe.com)Adobe Mobile Services.
+1. Meld u aan bij de interface [Adobe Mobile Services](https://mobilemarketing.adobe.com).
 1. Ga naar de [!UICONTROL Manage Apps]zelfstudie en klik **[!UICONTROL Add]** om een nieuwe app toe te voegen die u kunt gebruiken in deze zelfstudie (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
 1. Kies een Analytics-rapportsuite met niet-productiegegevens, geef de toepassing een naam, selecteer het **[!UICONTROL Standard]** type en klik op **[!UICONTROL Save]**.
 1. Nadat de app is toegevoegd, voegt u uw [!DNL Target] clientcode toe aan het volgende scherm in de [!UICONTROL SDK Target Options] sectie (u vindt uw clientcode in de [!DNL Target] interface onder **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, naast de `at.js` knop Downloaden).
