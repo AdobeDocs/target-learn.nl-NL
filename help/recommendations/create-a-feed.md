@@ -1,6 +1,6 @@
 ---
-title: Een feed maken in aanbevelingen
-seo-title: Een feed maken in Adobe Target-aanbevelingen
+title: Een feed maken in Recommendations
+seo-title: Een feed maken in Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,15 +15,15 @@ ht-degree: 0%
 ---
 
 
-# Een feed maken in aanbevelingen
+# Een feed maken in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
 ## Aanvullende bronnen
 
 * [feeds begrijpen](understanding-feeds.md)
-* [Een activiteit voor aanbevelingen maken](create-a-recommendations-activity.md)
+* [Een Recommendations-activiteit maken](create-a-recommendations-activity.md)
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [Documentatie met aanbevelingen](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-documentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
