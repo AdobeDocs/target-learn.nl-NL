@@ -25,7 +25,7 @@ Het KUUROORD VEC laat marketers toe om tests tot stand te brengen en inhoud in S
 ## Overzicht
 
 * Het KUUROORD VEC kan worden gebruikt om A/B tot stand te brengen en autom. toe te wijzen tests en Ervaring richtend (XT) activiteiten
-* Het KUUROORD VEC steunt Auto Target, Geautomatiseerde Personalisatie, of de activiteiten van Aanbevelingen niet
+* De SPA VEC ondersteunt geen Auto Target-, Automated Personalization- of Recommendations-activiteiten
 * SPA VEC steunt A4T, [!UICONTROL Experience Cloud Audiences], en [!UICONTROL Customer Attributes] integratie
 * Alle VEC-acties worden ondersteund in apps met één pagina, inclusief aangepaste code
 * VEC-handelingen kunnen worden toegepast op één weergave of op de gebeurtenis page load
