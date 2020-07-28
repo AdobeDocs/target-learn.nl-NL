@@ -1,6 +1,6 @@
 ---
-title: Werken met feeds in aanbevelingen
-seo-title: Werken met feeds in Adobe Target-aanbevelingen
+title: Feeds begrijpen in Recommendations
+seo-title: Feeds begrijpen in Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Werken met feeds in aanbevelingen
+# Feeds begrijpen in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
@@ -25,5 +25,5 @@ ht-degree: 0%
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [Een activiteit voor aanbevelingen maken](create-a-recommendations-activity.md)
-* [Documentatie met aanbevelingen](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Een Recommendations-activiteit maken](create-a-recommendations-activity.md)
+* [Recommendations-documentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
