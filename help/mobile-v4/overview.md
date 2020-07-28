@@ -1,6 +1,6 @@
 ---
 title: Adobe Target met Adobe Mobile Services SDK v4 voor Android
-description: Adobe Target met Adobe Mobile Services SDK v4 voor Android is het perfecte startpunt voor Android-ontwikkelaars die Adobe Mobile Services SDK v4 al gebruiken en de app-ervaringen willen aanpassen aan Adobe Target.
+description: Adobe Target met Adobe Mobile Services SDK v4 voor Android is het perfecte startpunt voor Android-ontwikkelaars die al Adobe Mobile Services SDK v4 gebruiken en de app-ervaringen met Adobe Target willen aanpassen.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Overzicht
 
-_Adobe Target met Adobe Mobile Services SDK v4 voor Android_ is het perfecte startpunt voor Android-ontwikkelaars die Adobe Mobile Services SDK v4 al gebruiken en de app willen aanpassen aan Adobe Target.
+_Adobe Target met Adobe Mobile Services SDK v4 voor Android_ is het perfecte startpunt voor Android-ontwikkelaars die al Adobe Mobile Services SDK v4 gebruiken en de app-ervaringen met Adobe Target willen aanpassen.
 
 Er is een demo-app voor Android beschikbaar waarmee u de lessen kunt voltooien. Nadat u deze zelfstudie hebt voltooid, kunt u de implementatie starten [!DNL Target] in uw eigen Android-app.
 
@@ -40,12 +40,12 @@ Na het voltooien van deze zelfstudie kunt u het volgende doen:
 
 In deze lessen wordt aangenomen dat u:
 
-* Toegang tot de Adobe Target-interface op Adobe-id- en fiatterniveau hebben (zie de onderstaande verificatiestappen)
+* Een Adobe-id en op goedkeuringsniveau toegang tot de Adobe Target-interface hebben (zie de verificatiestappen hieronder)
 * Ken uw Adobe Target-clientcode zodat u aanvragen kunt indienen bij uw eigen account. De clientcode wordt weergegeven in de Adobe Target-interface op het scherm Setup > Implementation > Edit at.js.
 * Heb toegang tot en ben vertrouwd met het gebruikersinterface van de [Mobiele Diensten](https://mobilemarketing.adobe.com)
 * Een IDE voor mobiele app ontwikkelen voor Android. Deze zelfstudie bevat [Android Studio](https://developer.android.com/studio/install) in verschillende stappen en schermafbeeldingen
 
-Als u niet de vereiste toegang tot de Oplossingen van Experience Cloud hebt, contacteer uw Beheerder van Experience Cloud.
+Als u niet de vereiste toegang tot de Oplossingen van de Experience Cloud hebt, neem contact op met uw Beheerder van de Experience Cloud.
 
 Ook wordt aangenomen dat u bekend bent met de ontwikkeling van Android in Java. U hoeft geen Java-expert te zijn om de lessen te kunnen voltooien, maar u krijgt er meer uit als u de code eenvoudig kunt lezen en begrijpen.
 
@@ -53,12 +53,12 @@ Ook wordt aangenomen dat u bekend bent met de ontwikkeling van Android in Java. 
 
 Deze les vereist toegang tot Adobe Target. Voordat u de volgende stappen doorloopt, moet u ervoor zorgen dat u toegang hebt tot Adobe Target door het volgende te doen:
 
-1. Meld u aan bij de [Adobe Experience Cloud](https://experience.adobe.com/)
+1. Aanmelden bij de [Adobe Experience Cloud](https://experience.adobe.com/)
 1. Klik in het beginscherm van Experience Cloud op [!DNL Target]:
-   ![Experience Cloud-startscherm](assets/aec_homeScreen_clickTarget.png)
-1. Ga naar de lijst Activiteiten in Adobe Target, zoals hieronder wordt afgebeeld. Je moet zien dat de gebruiker toegang op fiveau heeft. Als u toegang tot het niveau van de fiatteur niet kunt hebben [!DNL Target] of niet kunt verifiëren, gelieve één van de Beheerders van Experience Cloud van uw bedrijf te contacteren, om deze toegang te verzoeken en deze zelfstudie te hervatten zodra het wordt verleend:
+   ![Experience Cloud startscherm](assets/aec_homeScreen_clickTarget.png)
+1. Ga naar de lijst Activiteiten in Adobe Target, zoals hieronder wordt afgebeeld. Je moet zien dat de gebruiker toegang op fiveau heeft. Als u niet tot toegang kunt [!DNL Target] of niet de toegang op het niveau van de fiatteur kunt verifiëren, gelieve één van de Beheerders van Experience Cloud van uw bedrijf te contacteren, om deze toegang te verzoeken en deze zelfstudie te hervatten zodra het wordt verleend:
 
-   ![Adobe-gebruikersinterface](assets/targetUI_approver.png)
+   ![Adobe UI](assets/targetUI_approver.png)
 
 ## Over de lessen
 
