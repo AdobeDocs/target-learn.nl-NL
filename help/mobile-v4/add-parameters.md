@@ -1,6 +1,6 @@
 ---
 title: Parameters toevoegen aan de verzoeken
-description: In deze les voegen wij metriek van de Levenscyclus van Adobe en douaneparameters aan de Target verzoeken toe die in de vorige les worden toegevoegd. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
+description: In deze les zullen wij Adobe levenscyclusmetriek en douaneparameters aan de Target verzoeken toevoegen die in de vorige les worden toegevoegd. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 # Parameters toevoegen aan de verzoeken
 
-In deze les voegen we metriek en aangepaste parameters van de levenscyclus van Adobe toe aan de [!DNL Target] aanvragen die in de vorige les zijn toegevoegd. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
+In deze les zullen wij de metriek van de levenscyclus van de Adobe en douaneparameters aan de [!DNL Target] verzoeken toevoegen die in de vorige les worden toegevoegd. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
 
 ## Leerdoelen
 
 Aan het eind van deze les, zult u kunnen:
 
-* Metrische gegevens over de mobiele levenscyclus van Adobe toevoegen
+* De Adobe mobiele levenscycluscijfers toevoegen
 * Parameters toevoegen aan een prefetch-aanvraag
 * Parameters toevoegen aan een live locatie
 * De parameters voor beide aanvragen valideren
 
 ## De levenscyclusparameters toevoegen
 
-Laten we de metriek [van de mobiele levenscyclus van](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)Adobe inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
+Laten we de [Adobe mobiele levenscycluswaarden](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
 
 Als u levenscyclusmetriek wilt inschakelen, opent u de HomeActivity-controller opnieuw en voegt u deze toe `Config.collectLifecycleData(this);` aan de functie onResume():
 
@@ -97,7 +97,7 @@ prefetchList.add(Target.createTargetPrefetchObject(location1_name, params1);
 prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ```
 
-## Valideer de parameter at_property in de Prefetch Request
+## Valideer de parameter at_property in de Prefetch-aanvraag
 
 Voer nu de emulator uit en gebruik Logcat om te controleren of de eigenschap at_property de aanvraag en de reactie voor beide locaties weergeeft:
 ![De parameter at_property valideren](assets/parameters_at_property_validation.jpg)
@@ -148,7 +148,7 @@ Voer de emulator uit en open Logcat. Filter voor een van de parameters om te con
 
 >[!NOTE]
 >
->Analytics voor Target (A4T): Adobe Analytics kan worden geconfigureerd als de rapportbron voor [!DNL Target]. Hierdoor kunnen alle metriek/afmetingen die door de Target SDK zijn verzameld, worden weergegeven in Adobe Analytics. Zie het [A4T Overzicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) voor meer details.
+>Analytics voor Target (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target]. Hierdoor kunnen alle door de Target SDK verzamelde metriek/dimensies in Adobe Analytics worden weergegeven. Zie het [A4T Overzicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) voor meer details.
 
 Mooi werk! Nu er parameters zijn, zijn we klaar om die parameters te gebruiken om publiek en aanbiedingen te maken in Adobe Target.
 
