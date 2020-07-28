@@ -1,6 +1,6 @@
 ---
-title: Een activiteit voor aanbevelingen maken
-seo-title: Een activiteit voor aanbevelingen maken in Adobe Target
+title: Een Recommendations-activiteit maken
+seo-title: Recommendations-activiteiten maken in Adobe Target
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,16 +15,16 @@ ht-degree: 0%
 ---
 
 
-# Een activiteit voor aanbevelingen maken
+# Een Recommendations-activiteit maken
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## Aanvullende bronnen
 
-* [Aanbevelingen gebruiken in A/B-test- en ervaringsgerichte activiteiten](use-recommendations-offers.md)
+* [Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten](use-recommendations-offers.md)
 * [feeds begrijpen](understanding-feeds.md)
 * [Een feed maken](create-a-feed.md)
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [Documentatie met aanbevelingen](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-documentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
