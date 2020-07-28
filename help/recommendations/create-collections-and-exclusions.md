@@ -1,6 +1,6 @@
 ---
 title: Verzamelingen en uitsluitingen maken
-seo-title: Verzamelingen en uitsluitingen maken in Adobe Target-aanbevelingen
+seo-title: Verzamelingen en uitsluitingen maken in Adobe Target Recommendations
 description: null
 audience: marketer
 difficulty: 3
@@ -16,15 +16,15 @@ ht-degree: 0%
 ---
 
 
-# Verzamelingen en uitsluitingen maken in aanbevelingen
+# Verzamelingen en uitsluitingen maken in Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
 ## Aanvullende bronnen
 
-* [Een activiteit voor aanbevelingen maken](create-a-recommendations-activity.md)
+* [Een Recommendations-activiteit maken](create-a-recommendations-activity.md)
 * [feeds begrijpen](understanding-feeds.md)
 * [Een feed maken](create-a-feed.md)
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
-* [Documentatie met aanbevelingen](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Recommendations-documentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
