@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9b9b03e8c3ea837f345a8535e7147450bf55b6ad
+source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 + Rapporten{#reports}
    + [De rapporten met persoonlijke inzichten gebruiken](../reports/use-the-personalization-insights-reports.md)
 + Integraties{#integrations}
-   + [Analytics gebruiken als gegevensbron voor Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Gegevens in: Gegevensleveranciers gebruiken om gegevens van derden te integreren](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Gegevens in: Gegevensleveranciers implementeren om gegevens van derden te integreren](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Gegevens uit: De Tokens van de Reactie van het gebruik en de Gebeurtenissen van de Douane bij.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -64,4 +64,8 @@ ht-degree: 0%
    + [Verzamelingen en uitsluitingen maken](../recommendations/create-collections-and-exclusions.md)
 + Problemen oplossen{#troubleshooting}
    + [Problemen met de Experience Cloud Debugger oplossen](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-   + [Problemen met Target Traces oplossen](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [Problemen oplossen met doelsporen](../troubleshooting/troubleshoot-with-target-traces.md)
++ API&#39;s{#apis}
+   + [Doel-API&#39;s begrijpen](../apis/api-overview.md)
+   + [Adobe API-verificatie configureren](../apis/configure-io-target-integration.md)
+   + [Recommendations API&#39;s gebruiken](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
