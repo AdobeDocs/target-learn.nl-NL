@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 18a9b664fe935fd5c52682b2bd798cafd75b6591
+source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,8 @@ ht-degree: 0%
 
 De Adobe Target- en Adobe Target- [!DNL Recommendations] API&#39;s kunnen worden gebruikt om reacties op webpagina&#39;s te leveren, maar kunnen ook worden gebruikt in niet-HTML-ervaringen, zoals apps, schermen, consoles, e-mails, kiosken en andere weergaveapparaten. Met andere woorden, wanneer [!DNL Target] bibliotheken en JavaScript niet kunnen worden gebruikt, biedt de **[!DNL Target]leverings-API **ons nog steeds toegang tot het volledige scala aan[!DNL Target]functies om persoonlijke ervaringen te bieden.
 
-> [!NOTE]
+>[!NOTE]
+>
 > Gebruik de API voor [!DNL Target] aflevering wanneer u inhoud aanvraagt met feitelijke aanbevelingen (aanbevolen producten of onderdelen).
 
 Om aanbevelingen terug te winnen, verzend een vraag van de POST van de Levering API van Adobe Target met de aangewezen contextuele informatie, die een gebruiker - identiteitskaart (voor gebruik met profiel-specifieke aanbevelingen zoals onlangs bekeken punten van de gebruiker), relevante mbox naam, mbox parameters, profielparameters, of andere attributen kan omvatten. De reactie zal geadviseerde entiteit.ids (en kan andere entiteitgegevens omvatten) in formaat JSON of HTML omvatten, die dan in het apparaat kunnen worden getoond.
