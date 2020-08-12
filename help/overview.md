@@ -3,9 +3,9 @@ title: Adobe Target Tutorials - Overzicht
 seo-title: Adobe Target Tutorials - Overzicht
 description: Een verzameling 'Hoe kan ik'-video's en zelfstudies om u tot een grootgebruiker van Adobe Target te maken
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -17,14 +17,19 @@ Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig 
 
 ## Nieuwe functies
 
+* **[De Recommendations API gebruiken (zelfstudie)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *Voor ontwikkelaars: Krijg hands-on praktijk gebruikend APIs om[!DNL Recommendations][!DNL Recommendations]catalogi en douanecriteria te vormen en te beheren, en meer.*
+
+* **[Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android (zelfstudie)](mobile-v4/overview.md)**   <br>
+   *Voor ontwikkelaars die al Adobe Mobile Services SDK v4 gebruiken: Leer hoe u uw app-ervaringen kunt aanpassen aan Adobe Target. Deze stappen worden geleverd als ondersteuning voor oudere gebruikers.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Recommendations-aanbiedingen gebruiken (video)](recommendations/use-recommendations-offers.md)**   <br>
-   *Gebruik productaanbevelingen in de gerichte activiteiten van A/B Test en Experience.*
+   *Voor alle doelgebruikers: Leer hoe u productaanbevelingen in A/B en Gericht werk van de Ervaring kunt gebruiken.*
 
-* **[Target-composer voor visuele beleving implementeren in Android™-apps (zelfstudie)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *Implementeer de Target-composer voor visuele beleving (VEC) voor markeertekens in systeemeigen Android-apps.*
-
-* **[Een Recommendations-activiteit maken (video)](recommendations/create-a-recommendations-activity.md)**   <br>
-   *Met deze Premium-functie kunt u op schaal producten aan uw klanten aanbevelen.*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## Personeelspictogrammen
 
@@ -32,11 +37,11 @@ Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig 
 <tr>
   <td>
     <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-      <img alt="Target implementeren met Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
+      <img alt="Doel implementeren met Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
     </a>
     <div>
       <a href="https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html">
-    <strong>Target implementeren met Adobe Experience Platform Launch</strong>
+    <strong>Doel implementeren met Adobe Experience Platform Launch</strong>
     </a>
     </div>
     <p>
@@ -58,11 +63,11 @@ Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig 
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Problemen met Target oplossen met de Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Probleemoplossing voor doel met de Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Problemen met Target oplossen met de Experience Cloud Debugger</strong>
+    <strong>Probleemoplossing voor doel met de Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
