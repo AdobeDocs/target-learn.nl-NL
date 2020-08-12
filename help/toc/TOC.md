@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: b1f825112e7a8ae2af3f94bca9b4a86cf5ec7856
+source-git-commit: 51c9942aba45fbe7a28dec18ae6cd2a6979bacfc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -15,14 +15,39 @@ ht-degree: 0%
 # Adobe Target Tutorials {#tutorials}
 
 + [Overzicht](../overview.md)
++ Beheer{#administration}
+   + [Implementatiestrategie en systeembeheer](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [Accountvoorkeuren instellen](../administration/set-up-account-preferences.md)
+   + [Gebruikermachtigingen voor bedrijven begrijpen](../administration/understanding-enterprise-user-permissions.md)
+   + [Gebruikersmachtigingen voor bedrijven configureren](../dev101/1.2-configure-ent-user-permissions.md)
+   + [Werkruimten instellen](../administration/set-up-workspaces.md)
+   + [Inleiding aan de Opstelling van het Beleid](../dev101/1.3-intro-to-admin-setup.md)
+   + [Eigenschappen instellen](../administration/set-up-properties.md)
 + Implementatie{#implementation}
+   + [Inleiding tot doelimplementatie](../dev101/2.1-intro-to-target-implementation.md)
+   + [Doel integreren met starten](../dev101/3.1-target-launch.md)
    + [Implementeren in websites met starten](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
-   + [Implementeren in iOS SWIFT-toepassingen](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-   + [Implementeren in iOS-toepassingen voor doelstelling-C](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-   + [Implementeren in Android-apps](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+   + [Voordelen van het gebruik van locaties](../dev101/2.2-benefits-of-locations.md)
+   + [Inleiding aan de Verzoeken van het Doel](../dev101/2.3-intro-to-target-requests.md)
+   + [Inleiding tot doelparameters](../dev101/2.4-intro-to-target-params.md)
+   + [Begrijp hoe at.js 2.0 werkt](../implementation/understanding-how-atjs-20-works.md)
    + [Implementeer at.js 2.0 in Één enkele Toepassing van de Pagina (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
-   + [Begrijpen hoe werkt at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
+   + [Een doelimplementatie ontwerpen](../dev101/2.5-design-target-implementation.md)
+   + [Volgende stappen om een doelimplementatie te ontwerpen](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
++ Integraties{#integrations}
+   + [Doel integreren met analyse](../dev101/3.2-target-analytics.md)
+   + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Doel integreren met Audience Manager](../dev101/3.3-target-dmp.md)
+   + [Doel integreren met publiek Experience Cloud](../dev101/3.4-target-exc-audiences.md)
+   + [Doel integreren met campagne](../dev101/3.6-target-campaign.md)
+   + [Doel integreren met Adobe I/O](../dev101/3.7-target-io.md)
+   + [Doel integreren met Scene7](../dev101/3.8-target-scene7.md)
+   + [Doel integreren met Adobe Experience Manager](../dev101/3.5-target-aem.md)
+   + [Fragmenten voor AEM ervaring in Adobe Target gebruiken](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Gegevens in: Gegevensleveranciers gebruiken om gegevens van derden te integreren](../integrations/use-data-providers-to-integrate-third-party-data.md)
+   + [Gegevens in: Gegevensleveranciers implementeren om gegevens van derden te integreren](../integrations/implement-data-providers-to-integrate-third-party-data.md)
+   + [Gegevens uit: De Tokens van de Reactie van het gebruik en de Gebeurtenissen van de Douane bij.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + Activiteiten{#activities}
    + [De soorten activiteiten begrijpen](../activities/understanding-the-types-of-activities.md)
    + [De mogelijkheden van de Kunstmatige Inlichtingen en van de Automatisering gebruiken om de Uitdagingen van Personalisering te ontmoeten](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
@@ -43,17 +68,6 @@ ht-degree: 0%
    + [Fragmenten voor AEM ervaring in Adobe Target gebruiken](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporten{#reports}
    + [De rapporten met persoonlijke inzichten gebruiken](../reports/use-the-personalization-insights-reports.md)
-+ Integraties{#integrations}
-   + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
-   + [Gegevens in: Gegevensleveranciers gebruiken om gegevens van derden te integreren](../integrations/use-data-providers-to-integrate-third-party-data.md)
-   + [Gegevens in: Gegevensleveranciers implementeren om gegevens van derden te integreren](../integrations/implement-data-providers-to-integrate-third-party-data.md)
-   + [Gegevens uit: De Tokens van de Reactie van het gebruik en de Gebeurtenissen van de Douane bij.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [Fragmenten voor AEM ervaring in Adobe Target gebruiken](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
-+ Beheer{#administration}
-   + [Accountvoorkeuren instellen](../administration/set-up-account-preferences.md)
-   + [Gebruikermachtigingen voor bedrijven begrijpen](../administration/understanding-enterprise-user-permissions.md)
-   + [Werkruimten instellen](../administration/set-up-workspaces.md)
-   + [Eigenschappen instellen](../administration/set-up-properties.md)
 + Recommendations{#recommendations}
    + [Een Recommendations-activiteit maken](../recommendations/create-a-recommendations-activity.md)
    + [Recommendations-aanbiedingen gebruiken](../recommendations/use-recommendations-offers.md)
@@ -65,6 +79,11 @@ ht-degree: 0%
 + Problemen oplossen{#troubleshooting}
    + [Problemen met de Experience Cloud Debugger oplossen](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Problemen oplossen met doelsporen](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [Mbox-fouten oplossen](../dev101/4.1-troubleshoot-mbox-errors.md)
+   + [Activiteitsfouten oplossen](../dev101/4.2-troubleshoot-activity-errors.md)
+   + [A4T-integratiefouten oplossen](../dev101/4.3-troubleshoot-integration-errors.md)
++ Mobiel{#mobile}
+   + [Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android](../mobile-v4/overview.md)
 + API&#39;s{#apis}
    + [Doel-API&#39;s begrijpen](../apis/api-overview.md)
    + [Adobe API-verificatie configureren](../apis/configure-io-target-integration.md)
