@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: b0e36ff68732f79c61797181da781ec7401f3f84
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 0%
 
 # Adobe Recommendations API-overzicht
 
-API&#39;s die relevant zijn voor API&#39;s voor [!DNL Recommendations] include- [beheer](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) waarmee u:
+API&#39;s die relevant zijn voor API&#39;s voor [!DNL Recommendations] include- [beheer](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) waarmee u:
 
 * Uw catalogus met aanbevolen producten of inhoud beheren
 * Uw [!DNL Recommendations] algoritmen en activiteiten beheren
 
-Met de API [!DNL Target] voor [](https://docs.adobe.com/content/help/en/target-learn/apis/api-overview.md) levering kunt u ook:
+Met de API [!DNL Target] voor [](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) levering kunt u ook:
 
 * U kunt aanbevelingen ophalen in JSON-, HTML- of XML-objecten, zodat deze kunnen worden weergegeven in web, mobiel, e-mail, internet van dingen (IOT) en andere kanalen.
 
