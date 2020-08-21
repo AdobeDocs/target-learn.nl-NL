@@ -116,7 +116,7 @@ We gaan nu een eenvoudige JSON-aanbieding maken die fungeert als vlag of trigger
 
 ![JSON-aanbieding met kenmerkmarkering maken](assets/feature_flag_json_offer.jpg)
 
-Noem het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaat&quot;:1
+Noem het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaat&quot;}
 
 ![feature_flag_v1 JSON-aanbieding](assets/feature_flag_json_name.jpg)
 
