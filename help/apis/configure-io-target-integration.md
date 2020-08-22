@@ -11,10 +11,10 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1826'
+ht-degree: 2%
 
 ---
 
@@ -79,7 +79,7 @@ In deze sectie krijgt u toegang tot de Adobe Developer Console en maakt u een pr
 
 >[!NOTE]
 > 
->In deze zelfstudie noemen we ons project &#39;Doelintegratie&#39;. Als u uw project voor meer dan enkel Adobe Target wilt gebruiken, kunt u het dienovereenkomstig willen noemen. U kunt bijvoorbeeld de naam &quot;Adobe API&#39;s&quot; of &quot;Experience Cloud API&#39;s&quot; wijzigen, omdat deze API&#39;s kunnen worden gebruikt met andere oplossingen in de Adobe Experience Cloud.
+>In deze zelfstudie noemen we ons project &#39;Doelintegratie&#39;. Als u uw project voor meer dan enkel Adobe Target wilt gebruiken, kunt u het dienovereenkomstig willen noemen. U kunt er bijvoorbeeld voor kiezen om de naam &quot;Adobe API&#39;s&quot; of &quot;Experience Cloud API&#39;s&quot; te geven, omdat deze API&#39;s kunnen worden gebruikt met andere oplossingen in de Adobe Experience Cloud.
 
 ## Projectdetails exporteren
 
@@ -115,7 +115,9 @@ Deze stappen worden ook hieronder gegeven.
 7. Nota `CLIENT_SECRET` en `API_KEY` (samen met andere variabelen) hebben hun waarden vooraf ingevuld, die uit uw integratie zoals die in de Console van de Ontwikkelaar van de Adobe wordt bepaald worden genomen. (De Postman- `CLIENT_SECRET` variabele moet overeenkomen met de `CLIENT SECRET` Adobe-referentie die wordt weergegeven in de Developer Console en `API_KEY` in Postman moet ook overeenkomen met `CLIENT ID` de Developer Console.) Notitie `PRIVATE_KEY`, `JWT_TOKEN`en `ACCESS_TOKEN` spatie daarentegen. Laten we beginnen met de `PRIVATE_KEY` waarde op te geven.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**Verrassend!**
    >
    >Pop-quiz! Kunt u zich herinneren waar uw persoonlijke sleutel is?
    >Dat klopt, het is in het `config` dossier dat eerder van de Console van de Ontwikkelaar van de Adobe wordt gedownload!
