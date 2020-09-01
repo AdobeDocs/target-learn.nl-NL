@@ -2,17 +2,18 @@
 cloud: marketing-cloud
 product: target
 solution: Adobe Target Tutorials
-solution-title: Target
+solution-title: Doel
 solution-hub-url: https://helpx.adobe.com/support/target.html
 getting-started-title: Aan de slag
 getting-started-url: https://helpx.adobe.com/target/get-started.html
-tutorials-title: Zelfstudies
+tutorials-title: Tutorials
 tutorials-url: /content/help/en/target-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/target-learn.en
+git-repo: https://git.corp.adobe.com/AdobeDocs/target-learn.nl-NL
 index: true
 mini-toc-levels: 2
+type: Tutorials
 translation-type: tm+mt
-source-git-commit: ab8e22db5626d318c48c2e69c08ad955aae26922
+source-git-commit: e399ad319b28a1988b7d30cb4f255f8b82915722
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -32,4 +33,4 @@ Het bestand metadata.md bevat metagegevens op repo-niveau die worden doorgegeven
 | aan de slag-url | Aan de slag met Help-pagina koppelen |
 | zelfstudies-url | Koppeling maken naar videozelfstudies: helpx-zelfstudies of KT-zelfstudies |
 | mini-toc-niveaus | Hiermee bepaalt u het aantal kopniveaus dat wordt weergegeven in de rechterrails. default is 2 |
-| git-repo | Hiermee geeft u de locatie op van het hoofdrepo voor intern gebruik |
+| git-repo | Hiermee wordt de locatie van het master repo voor intern gebruik opgegeven |
