@@ -8,12 +8,12 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Ga alleen verder met deze zelfstudie nadat u de bovenstaande waarschuwing hebt g
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. Voeg uw **Body** toe als **raw** JSON die de locatie van uw CSV-bestand met aangepaste criteria definieert. Gebruik het voorbeeld in de documentatie van de [Create Aangepaste Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) als malplaatje, die uw `environmentId` en andere waarden zonodig verstrekt. Voor dit voorbeeld, gebruiken wij LAST_PURCHASED als sleutel.
+2. Voeg uw **Body** toe als **onbewerkte** JSON die de locatie van uw CSV-bestand met aangepaste criteria definieert. Gebruik het voorbeeld in de documentatie van de [Create Aangepaste Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) als malplaatje, die uw `environmentId` en andere waarden zonodig verstrekt. Voor dit voorbeeld, gebruiken wij LAST_PURCHASED als sleutel.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
@@ -53,7 +53,7 @@ Ga alleen verder met deze zelfstudie nadat u de bovenstaande waarschuwing hebt g
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. Als u wilt controleren of er aangepaste criteria zijn gemaakt, navigeert u in Adobe Target naar **[!UICONTROL Recommendations]>[!UICONTROL Criteria]**en zoekt u de criteria op naam of gebruikt u de API **Aangepaste criteria**weergeven in de volgende stap.
+4. Als u wilt controleren of er aangepaste criteria zijn gemaakt, navigeert u in Adobe Target naar **[!UICONTROL Recommendations]>[!UICONTROL Criteria]** en zoekt u de criteria op naam of gebruikt u de API **Aangepaste criteria** weergeven in de volgende stap.
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
