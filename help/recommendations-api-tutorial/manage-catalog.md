@@ -8,13 +8,13 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '918'
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,7 @@ POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities
 
 Bijvoorbeeld, sparen Entiteiten kunnen worden gebruikt om punten bij te werken wanneer bepaalde drempels worden voldaan-zoals drempels voor inventaris of prijs-om die punten te markeren en hen te verhinderen worden geadviseerd.
 
-1. Navigeer naar **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]**om de[!DNL Target]Omgeving-id te verkrijgen waarin u een item wilt toevoegen of bijwerken.
+1. Navigeer naar **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]** om de [!DNL Target] Omgeving-id te verkrijgen waarin u een item wilt toevoegen of bijwerken.
 
    ![SaveEntities1](assets/SaveEntities01.png)
 
@@ -151,7 +151,7 @@ De gegevens van de entiteit kunnen slechts voor één enkele entiteit tegelijker
 
 3. Verzend de aanvraag.
 
-   ![GetEntiteit3](assets/GetEntity3.png)Als u een fout ontvangt die verklaart dat de entiteit niet, zoals aangetoond in het voorbeeld hierboven, werd gevonden verifieert u het verzoek aan het correcte [!DNL Target] milieu voorlegt.
+   ![GetEntiteit3](assets/GetEntity3.png)Als u een fout ontvangt die verklaart de entiteit niet werd gevonden, zoals aangetoond in het voorbeeld hierboven, verifieert u het verzoek aan het correcte [!DNL Target] milieu voorlegt.
 
    >[!NOTE]
    Als geen milieu uitdrukkelijk wordt gespecificeerd, krijg de pogingen van de Entiteit om de entiteit van uw [standaardmilieu](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0) slechts te krijgen. Als u van om het even welke milieu buiten uw standaardomgeving wenst te trekken, moet u milieu-identiteitskaart specificeren.
@@ -178,7 +178,7 @@ DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/entities?ids=[comma-delimit
 Deze API verwijdert entiteiten waarnaar wordt verwezen door id&#39;s die u opgeeft.
 Als er geen id&#39;s voor entiteiten zijn opgegeven, worden alle entiteiten in de opgegeven omgeving verwijderd. Als er geen milieu-id is opgegeven, worden entiteiten uit alle omgevingen verwijderd. Wees voorzichtig!
 
-1. Navigeer naar **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]**om de[!DNL Target]Omgeving-id te verkrijgen waaruit u items wilt verwijderen.
+1. Navigeer naar **[!DNL Target]>[!UICONTROL Setup]>[!UICONTROL Hosts]>[!UICONTROL Environments]** om de [!DNL Target] Omgeving-id te verkrijgen waaruit u items wilt verwijderen.
 
    ![DeleteEntities1](assets/SaveEntities01.png)
 
