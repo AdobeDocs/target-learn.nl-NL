@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Ophalen [!DNL Recommendations] met de leverings-API
 
-De Adobe Target- en Adobe Target- [!DNL Recommendations] API&#39;s kunnen worden gebruikt om reacties op webpagina&#39;s te leveren, maar kunnen ook worden gebruikt in niet-HTML-ervaringen, zoals apps, schermen, consoles, e-mails, kiosken en andere weergaveapparaten. Met andere woorden, wanneer [!DNL Target] bibliotheken en JavaScript niet kunnen worden gebruikt, biedt de **[!DNL Target]leverings-API **ons nog steeds toegang tot het volledige scala aan[!DNL Target]functies om persoonlijke ervaringen te bieden.
+De Adobe Target- en Adobe Target- [!DNL Recommendations] API&#39;s kunnen worden gebruikt om reacties op webpagina&#39;s te leveren, maar kunnen ook worden gebruikt in niet-HTML-ervaringen, zoals apps, schermen, consoles, e-mails, kiosken en andere weergaveapparaten. Met andere woorden, wanneer [!DNL Target] bibliotheken en JavaScript niet kunnen worden gebruikt, biedt de **[!DNL Target]leverings-API** ons nog steeds toegang tot het volledige scala aan [!DNL Target] functies om persoonlijke ervaringen te bieden.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Als u aanbevelingen wilt maken die u met de API voor aflevering kunt gebruiken, 
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
-2. Navigeer in [!DNL Target], navigeer naar **[!UICONTROL Activities]>[!UICONTROL Create Activity]>[!UICONTROL Recommendations]**en selecteer **[!UICONTROL Form]**.
+2. Navigeer in [!DNL Target], navigeer naar **[!UICONTROL Activities]>[!UICONTROL Create Activity]>[!UICONTROL Recommendations]** en selecteer **[!UICONTROL Form]**.
 
    ![server-side-create-recs.png](assets/server-side-create-recs.png)
 
@@ -70,14 +70,15 @@ De syntaxis voor de [leverings-API](https://developers.adobetarget.com/api/deliv
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
-1. Let op: de clientcode is vereist. Ter herinnering, uw clientcode kunt u in Adobe Target vinden door naar **[!UICONTROL Recommendations]>[!UICONTROL Settings]**te navigeren. Noteer de **[!UICONTROL Client Code]**waarde in de **[!UICONTROL Recommendation API Token]**sectie.   ![client-code.png](assets/client-code.png)
+1. Let op: de clientcode is vereist. Ter herinnering, uw clientcode kunt u in Adobe Target vinden door naar **[!UICONTROL Recommendations]>[!UICONTROL Settings]** te navigeren. Noteer de **[!UICONTROL Client Code]** waarde in de **[!UICONTROL Recommendation API Token]** sectie.
+   ![client-code.png](assets/client-code.png)
 1. Zodra u uw cliëntcode hebt, construeer uw levering API vraag. Het onderstaande voorbeeld begint met de **[!UICONTROL Web Batched Mboxes Delivery API Call]** informatie in de collectie [Postman van de](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)bezorgings-API en brengt wijzigingen aan. Bijvoorbeeld:
    * de **browser** en **adresvoorwerpen** werden verwijderd uit het **Lichaam**, aangezien zij niet voor niet-HTML gebruiksgevallen worden vereist
    * *api_charter* wordt in dit voorbeeld weergegeven als locatienaam
    * de entiteit.id wordt opgegeven, aangezien deze aanbeveling is gebaseerd op Content Gelijksheid, die vereist dat een huidige item-sleutel wordt doorgegeven aan [!DNL Target].
       ![server-kant-levering-API-call.png](assets/server-side-delivery-api-call2.png)Herinner me om uw vraagparameters correct te vormen. Zorg er bijvoorbeeld voor dat u de vereiste gegevens opgeeft`{{CLIENT_CODE}}` . <!--Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. --> <!--Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." -->
       ![client-code3](assets/client-code3.png)
-1. Verzend de aanvraag. Dit wordt uitgevoerd tegen de *api_charter* locatie, waarop een actieve aanbeveling wordt uitgevoerd, die is gedefinieerd met uw JSON-ontwerp en die een lijst met aanbevolen entiteiten uitvoert.
+1. Verzend de aanvraag. Dit wordt uitgevoerd tegen de *api_charter* plaats, die een actieve aanbeveling heeft die op het loopt, die met uw ontwerp JSON wordt bepaald die een lijst van geadviseerde entiteiten zal uitvoeren.
 1. Ontvang een reactie op basis van het JSON-ontwerp.
    ![server-side-create-recs-json-response2.png](assets/server-side-create-recs-json-response2.png)Het antwoord omvat de belangrijkste identiteitskaart, evenals de entiteitidentiteitskaart van de geadviseerde entiteiten.
 
