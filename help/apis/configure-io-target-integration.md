@@ -1,5 +1,5 @@
 ---
-title: Verificatie configureren
+title: Verificatie configureren voor Adobe Target API's
 keywords: recommendations;adobe recommendations;premium;api;apis
 description: Adobe Target Recommendations bevat een specifieke set API's waarmee u uw catalogus met aanbevolen producten en/of inhoud kunt beheren. uw aanbevelingen, algoritmen en campagnes beheren; en aanbevelingen doen in JSON-, HTML- of XML-objecten die moeten worden weergegeven in webkanalen, mobiele apparaten, e-mail, IOT en andere kanalen.
 kt: null
@@ -11,15 +11,15 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1834'
 ht-degree: 2%
 
 ---
 
 
-# Verificatie configureren
+# Verificatie voor Adobe Target API&#39;s configureren
 
 De Adobe Target Admin API&#39;s, waaronder [!DNL Recommendations] Admin API&#39;s, worden via verificatie beveiligd zodat alleen geautoriseerde gebruikers deze kunnen gebruiken om toegang te krijgen tot Adobe Target. Gebruik de [Adobe Developer Console](https://console.adobe.io/) om deze verificatie te beheren voor alle Adobe Experience Cloud-oplossingen, inclusief [!DNL Target].
 
