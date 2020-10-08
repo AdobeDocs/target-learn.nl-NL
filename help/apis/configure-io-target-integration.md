@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1834'
 ht-degree: 2%
@@ -181,13 +181,17 @@ In deze oefening, zult u uw nieuwe toegangstoken aan toonder gebruiken door een 
 1. Open het modaal beheer van milieu&#39;s, en selecteer uw milieu.
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. Typ om een nieuwe `{{TENANT_ID}}` omgevingsvariabele toe te voegen. Kopieer en plak de waarde voor de huurder-id in de velden **OORSPRONKELIJKE WAARDE** en **HUIDIGE WAARDE** voor de nieuwe `TENANT_ID` omgevingsvariabele.
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >De huurder-id is anders dan die van u [!DNL Target]`clientcode`. De huurder-id staat in de URL wanneer u bent aangemeld bij [!DNL Target]. Als u uw huurder-id wilt ophalen, meldt u zich aan bij de [!DNL Adobe Experience Cloud], opent u [!DNL Target]en klikt u op de [!DNL Target] kaart. Gebruik de waarde van de huurder-id zoals vermeld in het URL-subdomein.
    >
    >Stel bijvoorbeeld dat uw URL bij aanmelding bij Adobe Target
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >Dan is je Tenant ID &quot;mijnbedrijf&quot;.
 
 1. Verzend uw verzoek nadat u de juiste omgeving hebt geselecteerd. U ontvangt een reactie met uw lijst met activiteiten.
