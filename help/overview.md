@@ -1,17 +1,17 @@
 ---
-title: Adobe Target Tutorials - Overzicht
-seo-title: Adobe Target Tutorials - Overzicht
-description: Een verzameling 'Hoe kan ik'-video's en zelfstudies om u tot een grootgebruiker van Adobe Target te maken
+title: Adobe Target Tutorials
+seo-title: Adobe Target Tutorials
+description: Een verzameling 'Hoe kan ik'-video's en zelfstudies die u tot energiegebruiker van Adobe Target maken
 translation-type: tm+mt
-source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Target Tutorials - Overzicht
+# Adobe Target Tutorials
 
 Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen. Gebruik deze video&#39;s en zelfstudies om de vele componenten van Adobe Target te leren.
 
