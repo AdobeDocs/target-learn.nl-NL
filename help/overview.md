@@ -3,27 +3,33 @@ title: Adobe Target Tutorials - Overzicht
 seo-title: Adobe Target Tutorials - Overzicht
 description: Een verzameling 'Hoe kan ik'-video's en zelfstudies om u tot een grootgebruiker van Adobe Target te maken
 translation-type: tm+mt
-source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
+source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
 
-# Overzicht
+# Adobe Target Tutorials - Overzicht
 
 Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen. Gebruik deze video&#39;s en zelfstudies om de vele componenten van Adobe Target te leren.
 
 ## Nieuwe functies
 
-* **[De Recommendations API gebruiken (zelfstudie)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+* **[De Recommendations API gebruiken (zelfstudie)](recommendations-api-tutorial/recs-api-overview.md)**
+
+   <br>
    *Voor ontwikkelaars: Krijg hands-on praktijk gebruikend APIs om[!DNL Recommendations][!DNL Recommendations]catalogi en douanecriteria te vormen en te beheren, en meer.*
 
-* **[Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android (zelfstudie)](mobile-v4/overview.md)**   <br>
+* **[Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android (zelfstudie)](mobile-v4/overview.md)**
+
+   <br>
    *Voor ontwikkelaars die al Adobe Mobile Services SDK v4 gebruiken: Leer hoe u uw app-ervaringen kunt aanpassen aan Adobe Target. Deze stappen worden geleverd als ondersteuning voor oudere gebruikers.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Recommendations-aanbiedingen gebruiken (video)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Recommendations-aanbiedingen gebruiken (video)](recommendations/use-recommendations-offers.md)**
+
+   <br>
    *Voor alle doelgebruikers: Leer hoe u productaanbevelingen in A/B en Gericht werk van de Ervaring kunt gebruiken.*
 
 <!--
