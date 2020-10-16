@@ -1,13 +1,13 @@
 ---
 title: Adobe Target Tutorials
 user-guide-title: Adobe Target Tutorials
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Doel Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
    + [Inleiding aan de Verzoeken van het Doel](../dev101/2.3-intro-to-target-requests.md)
    + [Inleiding tot doelparameters](../dev101/2.4-intro-to-target-params.md)
    + [Begrijp hoe at.js 2.0 werkt](../implementation/understanding-how-atjs-20-works.md)
-   + [Implementeer at.js 2.0 in Één enkele Toepassing van de Pagina (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
+   + [Implementeren om.js 2.0 in een toepassing voor één pagina (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Een doelimplementatie ontwerpen](../dev101/2.5-design-target-implementation.md)
    + [Volgende stappen om een doelimplementatie te ontwerpen](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
@@ -65,7 +65,7 @@ ht-degree: 0%
    + [Profielvergelijking gebruiken om soorten publiek samen te stellen](../audiences/use-profile-comparison-to-build-audiences.md)
 + Ervaringen{#experiences}
    + [De composer voor visuele ervaring gebruiken](../experiences/use-the-visual-experience-composer.md)
-   + [Het gebruiken van de Visuele Composer van de Ervaring voor Enige Toepassingen van de Pagina (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+   + [Het gebruiken van de Visuele Composer van de Ervaring voor de Toepassingen van de Enige Pagina (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [De Form-Based Experience Composer gebruiken](../experiences/use-the-form-based-experience-composer.md)
    + [Fragmenten voor AEM ervaring in Adobe Target gebruiken](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporten{#reports}
