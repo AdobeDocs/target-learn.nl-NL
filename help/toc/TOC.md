@@ -4,10 +4,11 @@ user-guide-title: Adobe Target Tutorials
 breadcrumb-title: Doel Tutorials
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,7 @@ ht-degree: 0%
    + [Volgende stappen om een doelimplementatie te ontwerpen](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
+   + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
 + Integraties{#integrations}
    + [Doel integreren met analyse](../dev101/3.2-target-analytics.md)
    + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
