@@ -1,7 +1,7 @@
 ---
 title: Gegevensleveranciers gebruiken om gegevens van derden te integreren in Adobe Target
 seo-title: Gegevensleveranciers gebruiken om gegevens van derden te integreren in Adobe Target
-description: Gegevensleveranciers is een mogelijkheid waarmee u gegevens van derden eenvoudig kunt doorgeven aan Target.  Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken.
+description: Gegevensleveranciers zijn een mogelijkheid waarmee u gegevens van derden eenvoudig aan Doel kunt doorgeven.  Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken.
 audience: marketer
 difficulty: 5
 author: Daniel Wright
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 # Gegevensleveranciers gebruiken om gegevens van derden te integreren in Adobe Target
 
-[!UICONTROL Data Providers] is een mogelijkheid waarmee u eenvoudig gegevens van derden kunt doorgeven aan Target.  Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken.
+[!UICONTROL Data Providers] is een mogelijkheid waarmee u eenvoudig gegevens van derden aan Target kunt doorgeven.  Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22349/?quality=12)
 
 ## Gegevensleveranciers gebruiken
 
-1. De deskundige van de implementatie voegt code vóór at.js (of in de sectie van de Kopbal van de Bibliotheek van at.js) toe die de API vraag aan de derde maakt, de reactie ontleedt en met naam/waardeparen van de reactie specificeert te verzenden naar [!DNL Target].
-1. at.js beheert flikkering en neemt de naam/waardeparen als aangepaste parameters op in de algemene Target-aanvraag.
+1. De deskundige van de implementatie voegt code vóór at.js (of in de sectie van de Kopbal van de Bibliotheek van at.js) toe die de API vraag aan de derde maakt, de reactie ontleedt en met naam/waardeparen van de reactie specificeert om naar [!DNL Target] te verzenden.
+1. at.js beheert flikkering en neemt de naam/waardeparen als douaneparameters in het globale verzoek van het Doel op.
 1. Marketer bouwt publiek in de [!DNL Target] interface die op deze douaneparameters wordt gebaseerd.
 1. Marketer gebruikt dit publiek om ervaringen, activiteiten en metriek als doel in te stellen en om het publiek te melden.
 
