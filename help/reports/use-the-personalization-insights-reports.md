@@ -1,6 +1,6 @@
 ---
 title: De rapporten met persoonlijke informatie in Adobe Target gebruiken
-description: Automated Personalization- en Auto-Target-activiteiten maken gebruik van geavanceerd computerleren om elke bezoeker de meest op maat gemaakte ervaring te bieden op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen. In de rapporten met persoonlijke informatie wordt aangegeven hoe deze modellen hun beslissingen nemen.
+description: Automated Personalization- en Auto-Target-activiteiten maken gebruik van geavanceerd computerleren om iedere bezoeker de meest op maat gemaakte ervaring te bieden op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen. In de rapporten met persoonlijke informatie wordt aangegeven hoe deze modellen hun beslissingen nemen.
 audience: analyst
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # De rapporten met persoonlijke inzichten gebruiken
 
-Automated Personalization- en Auto-Target-activiteiten maken gebruik van geavanceerd computerleren om elke bezoeker de meest op maat gemaakte ervaring te bieden op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen. In de rapporten met persoonlijke informatie wordt aangegeven hoe deze modellen hun beslissingen nemen.
+Automated Personalization- en Auto-Target-activiteiten maken gebruik van geavanceerd computerleren om iedere bezoeker de meest op maat gemaakte ervaring te bieden op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen. In de rapporten met persoonlijke informatie wordt aangegeven hoe deze modellen hun beslissingen nemen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
