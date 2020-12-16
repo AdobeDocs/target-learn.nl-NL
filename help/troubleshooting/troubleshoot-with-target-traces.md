@@ -1,6 +1,6 @@
 ---
-title: Problemen met Adobe Target oplossen met Target Traces
-description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk inzicht krijgen in uw Target-implementatie. Leer hoe u zich in de Experience Cloud kunt verifiëren en met het krachtige Target Traces-gereedschap uw activiteit en publiekskwalificaties en uw bezoekersprofiel kunt inspecteren.
+title: Problemen met Adobe Target met doelsporen oplossen
+description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. Leer hoe u zich in de Experience Cloud verifieert en het krachtige hulpmiddel Doelsporen gebruikt om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Problemen met Target Traces oplossen
+# Problemen oplossen met doelsporen
 
 ## Mbox Trace
 
@@ -24,6 +24,6 @@ ht-degree: 0%
 ## Aanvullende bronnen
 
 * [Adobe Experience Cloud-foutopsporing in de Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Documentatie Target Help-oplossing](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Problemen met Target oplossen met de video Experience Cloud Debugger](troubleshoot-with-the-experience-cloud-debugger.md)
+* [Documentatie van Help voor probleemoplossing](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
+* [Probleemoplossing voor doel met de Experience Cloud Debugger-video](troubleshoot-with-the-experience-cloud-debugger.md)
 * [De video Experience Cloud Debugger gebruiken](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
