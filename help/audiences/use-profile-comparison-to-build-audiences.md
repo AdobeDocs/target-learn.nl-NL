@@ -1,7 +1,7 @@
 ---
 title: Profielvergelijking gebruiken om soorten publiek op te bouwen in Adobe Target
 seo-title: Profielvergelijking gebruiken om soorten publiek op te bouwen in Adobe Target
-description: Met de functie Profielvergelijking in Adobe Target kunt u twee numerieke profielwaarden vergelijken met elkaar wanneer u een publiek maakt. Dit is bijzonder handig als u aangepaste populatiescores doorgeeft aan Target en inhoud wilt aanpassen op basis van het product met de hoogst mogelijke score.
+description: Met de functie Profielvergelijking in Adobe Target kunt u twee numerieke profielwaarden vergelijken met elkaar wanneer u een publiek maakt. Dit is bijzonder nuttig als u douane-gebouwde bezitsscores in Doel overgaat en inhoud wilt personaliseren die op het product met de hoogste aandrijvingsscore wordt gebaseerd.
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Profielvergelijking gebruiken om soorten publiek op te bouwen in Adobe Target
 
-Met de [!UICONTROL Profile Comparison] functie in Adobe Target kunt u twee numerieke profielwaarden vergelijken met elkaar wanneer u een publiek maakt. Dit is uiterst nuttig als u douane-gebouwde eigenschapscores in [!DNL Target] en inhoud wilt personaliseren die op het product met de hoogste aandrijvingsscore wordt gebaseerd.
+Met de functie [!UICONTROL Profile Comparison] in Adobe Target kunt u twee numerieke profielwaarden vergelijken met elkaar wanneer u een publiek maakt. Dit is uiterst nuttig als u douane-gebouwde aandrijvingsscores in [!DNL Target] overgaat en inhoud wilt personaliseren die op het product met de hoogste aandrijvingsscore wordt gebaseerd.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
 
