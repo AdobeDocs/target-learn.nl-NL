@@ -39,7 +39,7 @@ ht-degree: 0%
    + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
    + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
-+ Integraties{#integrations}
++ Integratie{#integrations}
    + [Doel integreren met analyse](../dev101/3.2-target-analytics.md)
    + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Doel integreren met Audience Manager](../dev101/3.3-target-dmp.md)
@@ -61,7 +61,7 @@ ht-degree: 0%
    + [Activiteitengericht gebruiken](../activities/use-activity-targeting.md)
    + [Activiteitsinstellingen gebruiken](../activities/use-activity-settings.md)
    + [Metriek gebruiken in activiteiten](../activities/use-metrics-in-activities.md)
-+ Audiences{#audiences}
++ Soorten publiek{#audiences}
    + [Soorten publiek gebruiken](../audiences/use-audiences.md)
    + [Profielscripts maken](../audiences/create-profile-scripts.md)
    + [Profielvergelijking gebruiken om soorten publiek samen te stellen](../audiences/use-profile-comparison-to-build-audiences.md)
@@ -86,7 +86,7 @@ ht-degree: 0%
    + [Mbox-fouten oplossen](../dev101/4.1-troubleshoot-mbox-errors.md)
    + [Activiteitsfouten oplossen](../dev101/4.2-troubleshoot-activity-errors.md)
    + [A4T-integratiefouten oplossen](../dev101/4.3-troubleshoot-integration-errors.md)
-+ Mobiel{#mobile}
++ Mobile{#mobile}
    + [Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android](../mobile-v4/overview.md)
 + API&#39;s{#apis}
    + [Adobe API-verificatie configureren](../apis/configure-io-target-integration.md)
