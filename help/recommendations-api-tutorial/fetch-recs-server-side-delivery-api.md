@@ -19,17 +19,17 @@ ht-degree: 0%
 ---
 
 
-# Ophalen [!DNL Recommendations] met de leverings-API
+# [!DNL Recommendations] ophalen met de bezorgings-API
 
-De Adobe Target- en Adobe Target- [!DNL Recommendations] API&#39;s kunnen worden gebruikt om reacties op webpagina&#39;s te leveren, maar kunnen ook worden gebruikt in niet-HTML-ervaringen, zoals apps, schermen, consoles, e-mails, kiosken en andere weergaveapparaten. Met andere woorden, wanneer [!DNL Target] bibliotheken en JavaScript niet kunnen worden gebruikt, biedt de **[!DNL Target]leverings-API** ons nog steeds toegang tot het volledige scala aan [!DNL Target] functies om persoonlijke ervaringen te bieden.
+De API&#39;s van Adobe Target en Adobe Target [!DNL Recommendations] kunnen worden gebruikt om reacties op webpagina&#39;s te leveren, maar kunnen ook worden gebruikt in niet-HTML-ervaringen, zoals apps, schermen, consoles, e-mails, kiosken en andere weergaveapparaten. Met andere woorden, wanneer [!DNL Target] bibliotheken en JavaScript niet kunnen worden gebruikt, biedt de **[!DNL Target]Delivery API** ons nog steeds toegang tot het volledige bereik van [!DNL Target] functionaliteit om persoonlijke ervaringen te bieden.
 
 >[!NOTE]
 >
-> Gebruik de API voor [!DNL Target] aflevering wanneer u inhoud aanvraagt met feitelijke aanbevelingen (aanbevolen producten of onderdelen).
+> Wanneer u inhoud aanvraagt met feitelijke aanbevelingen (aanbevolen producten of items), gebruikt u de API [!DNL Target] Levering.
 
 Om aanbevelingen terug te winnen, verzend een vraag van de POST van de Levering API van Adobe Target met de aangewezen contextuele informatie, die een gebruiker - identiteitskaart (voor gebruik met profiel-specifieke aanbevelingen zoals onlangs bekeken punten van de gebruiker), relevante mbox naam, mbox parameters, profielparameters, of andere attributen kan omvatten. De reactie zal geadviseerde entiteit.ids (en kan andere entiteitgegevens omvatten) in formaat JSON of HTML omvatten, die dan in het apparaat kunnen worden getoond.
 
-De [leverings-API](https://developers.adobetarget.com/api/delivery-api/) voor Adobe Target stelt alle bestaande functies beschikbaar die een standaardaanvraag [!DNL Target] biedt.
+De [Delivery API](https://developers.adobetarget.com/api/delivery-api/) voor Adobe Target stelt alle bestaande eigenschappen bloot die een standaard [!DNL Target] verzoek verstrekt.
 
 >[!NOTE]
 >De leverings-API:
@@ -40,51 +40,54 @@ De [leverings-API](https://developers.adobetarget.com/api/delivery-api/) voor Ad
 >* Vereist of herkent geen &quot;gebruikersrollen.&quot; Het haalt eenvoudig inhoud op of rapporteert gebeurtenissen aan [!DNL Target] randservers.
 
 
-De leverings-API gebruiken om [!DNL Target] ervaring-met inbegrip van aanbevelingen-te leveren volgt deze stappen:
+Om levering API te gebruiken om [!DNL Target] ervaring-met inbegrip van aanbevelingen-volg deze stappen te leveren:
 
-1. Creeer een [!DNL Target] activiteit (A/B, XT, AP, of [!DNL Recommendations]) gebruikend de op vorm-Gebaseerde Composer (niet de Visuele Composer van de Ervaring).
-2. Gebruik de leverings-API om een antwoord te krijgen op de aanvragen die worden gegenereerd door de [!DNL Target] activiteit die u zojuist hebt gemaakt.
+1. Maak een [!DNL Target]-activiteit (A/B, XT, AP of [!DNL Recommendations]) met behulp van de op formulieren gebaseerde Composer (niet de Visual Experience Composer).
+2. Gebruik de leverings-API om een reactie op te halen voor de aanvragen die worden gegenereerd door de activiteit [!DNL Target] die u zojuist hebt gemaakt.
 
 <!-- Q: Why are BOTH steps necessary for this? If you have a Form-based recommendation defined for an mbox, what's the point/benefit of ALSO having the Delivery API step in to retrieve results? Why can't you just have the Form-based Rec deliver the results in the destination device...?? A: See use case below... it's when you want to "intercept" the pending results in order to do more stuff prior to displaying the results. Things like real-time comparisons to inventory levels. -->
 
 ## Een aanbeveling maken met de Form-based Experience Composer
 
-Als u aanbevelingen wilt maken die u met de API voor aflevering kunt gebruiken, gebruikt u de op [formulier gebaseerde Composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html).
+Om aanbevelingen tot stand te brengen die met levering API kunnen worden gebruikt, gebruik [Op vorm-gebaseerde Composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html).
 
-1. Maak eerst een JSON-ontwerp en sla dit op dat u in uw aanbeveling wilt gebruiken. Voor voorbeeld JSON, plus achtergrondinformatie betreffende hoe de reacties JSON kunnen worden teruggekeerd wanneer het vormen van een op vorm-gebaseerde activiteit, zie de documentatie over het [Creëren van de Ontwerpen](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html)van de Aanbeveling. In dit voorbeeld heet het ontwerp *Simple JSON.*
+1. Maak eerst een JSON-ontwerp en sla dit op dat u in uw aanbeveling wilt gebruiken. Voor voorbeeld JSON, plus achtergrondinformatie betreffende hoe de reacties JSON kunnen worden teruggekeerd wanneer het vormen van een op vorm-gebaseerde activiteit, zie de documentatie op [het Creëren van de Ontwerpen van de Aanbeveling](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html). In dit voorbeeld krijgt het ontwerp de naam *Eenvoudige JSON.*
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
-2. Navigeer in [!DNL Target], navigeer naar **[!UICONTROL Activities]>[!UICONTROL Create Activity]>[!UICONTROL Recommendations]** en selecteer **[!UICONTROL Form]**.
+2. Navigeer in [!DNL Target] naar **[!UICONTROL Activities]> [!UICONTROL Create Activity] >[!UICONTROL Recommendations]** en selecteer **[!UICONTROL Form]**.
 
    ![server-side-create-recs.png](assets/server-side-create-recs.png)
 
 3. Selecteer een eigenschap en klik op **[!UICONTROL Next]**.
-4. Bepaal de plaats waar u gebruikers de reactie van de aanbeveling wilt ontvangen. In het onderstaande voorbeeld wordt een locatie met de naam *api_charter* gebruikt. Selecteer uw JSON-ontwerp, dat eerder is gemaakt, met de naam *Simple JSON.*
+4. Bepaal de plaats waar u gebruikers de reactie van de aanbeveling wilt ontvangen. In het onderstaande voorbeeld wordt een locatie met de naam *api_charter* gebruikt. Selecteer uw JSON-ontwerp, dat u eerder hebt gemaakt, met de naam *Simple JSON.*
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. Sla de aanbeveling op en activeer deze. Het zal resultaten opleveren. [Zodra de resultaten klaar](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html)zijn, kunt u de levering API gebruiken om hen terug te winnen.
+5. Sla de aanbeveling op en activeer deze. Het zal resultaten opleveren. [Zodra de resultaten klaar](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html) zijn, kunt u de levering API gebruiken om hen terug te winnen.
 
 ## De API voor levering gebruiken
 
-De syntaxis voor de [leverings-API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) is:
+De syntaxis voor [Delivery API](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) is:
 
 `POST https://{{CLIENT_CODE}}.tt.omtrdc.net/rest/v1/delivery`
 
-1. Let op: de clientcode is vereist. Ter herinnering, uw clientcode kunt u in Adobe Target vinden door naar **[!UICONTROL Recommendations]>[!UICONTROL Settings]** te navigeren. Noteer de **[!UICONTROL Client Code]** waarde in de **[!UICONTROL Recommendation API Token]** sectie.
+1. Let op: de clientcode is vereist. Ter herinnering, uw cliëntcode kan in Adobe Target worden gevonden door aan **[!UICONTROL Recommendations]>[!UICONTROL Settings]** te navigeren. Noteer de waarde **[!UICONTROL Client Code]** in de sectie **[!UICONTROL Recommendation API Token]**.
    ![client-code.png](assets/client-code.png)
-1. Zodra u uw cliëntcode hebt, construeer uw levering API vraag. Het onderstaande voorbeeld begint met de **[!UICONTROL Web Batched Mboxes Delivery API Call]** informatie in de collectie [Postman van de](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection)bezorgings-API en brengt wijzigingen aan. Bijvoorbeeld:
-   * de **browser** en **adresvoorwerpen** werden verwijderd uit het **Lichaam**, aangezien zij niet voor niet-HTML gebruiksgevallen worden vereist
-   * *api_charter* wordt in dit voorbeeld weergegeven als locatienaam
-   * de entiteit.id wordt opgegeven, aangezien deze aanbeveling is gebaseerd op Content Gelijksheid, die vereist dat een huidige item-sleutel wordt doorgegeven aan [!DNL Target].
-      ![server-kant-levering-API-call.png](assets/server-side-delivery-api-call2.png)Herinner me om uw vraagparameters correct te vormen. Zorg er bijvoorbeeld voor dat u de vereiste gegevens opgeeft`{{CLIENT_CODE}}` . <!--Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. --> <!--Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." -->
+1. Zodra u uw cliëntcode hebt, construeer uw levering API vraag. Het onderstaande voorbeeld begint met de **[!UICONTROL Web Batched Mboxes Delivery API Call]** in de [Delivery API Postman collection](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection), waarbij relevante wijzigingen worden aangebracht. Bijvoorbeeld:
+   * de **browser** en **address** voorwerpen werden verwijderd uit **Body**, aangezien zij niet voor niet-HTML gebruiksgevallen worden vereist
+   * *api_* charteris weergegeven als locatienaam in dit voorbeeld
+   * de entiteit.id wordt opgegeven, omdat deze aanbeveling is gebaseerd op Content Gelijksheid, waarvoor een huidige itemsleutel moet worden doorgegeven aan [!DNL Target].
+      ![server-zij-levering-API-call.](assets/server-side-delivery-api-call2.png)
+pngRemember om uw vraagparameters correct te vormen. Zorg er bijvoorbeeld voor dat u 
+`{{CLIENT_CODE}}` indien nodig. <!--Q: In the updated call syntax, entity.id is listed as a profileParameter instead of an mboxParameter as in older versions. --> <!--Q: Old image ![server-side-create-recs-post.png](assets/server-side-create-recs-post.png) Old accompanying text: "Note this recommendation is based on Content Similar products based on the entity.id sent via mboxParameters." -->
       ![client-code3](assets/client-code3.png)
 1. Verzend de aanvraag. Dit wordt uitgevoerd tegen de *api_charter* plaats, die een actieve aanbeveling heeft die op het loopt, die met uw ontwerp JSON wordt bepaald die een lijst van geadviseerde entiteiten zal uitvoeren.
 1. Ontvang een reactie op basis van het JSON-ontwerp.
-   ![server-side-create-recs-json-response2.png](assets/server-side-create-recs-json-response2.png)Het antwoord omvat de belangrijkste identiteitskaart, evenals de entiteitidentiteitskaart van de geadviseerde entiteiten.
+   ![server-side-create-recs-json-response2.](assets/server-side-create-recs-json-response2.png)
+pngHet antwoord omvat de belangrijkste identiteitskaart, evenals entiteitidentiteitskaart van de geadviseerde entiteiten.
 
-Als u de API voor levering op deze [!DNL Recommendations] manier gebruikt, kunt u aanvullende stappen uitvoeren voordat u aanbevelingen weergeeft aan de bezoeker op het niet-HTML-apparaat. U kunt bijvoorbeeld de reactie van de API voor aflevering gebruiken om een extra, realtime zoekopdracht uit te voeren naar de details van de entiteitskenmerken (inventaris, prijs, classificatie, enzovoort) van een ander systeem (zoals een CMS-, PIM- of e-commerce-platform) voordat u de uiteindelijke resultaten weergeeft.
+Als u op deze manier de API voor aflevering gebruikt met [!DNL Recommendations], kunt u aanvullende stappen uitvoeren voordat u aanbevelingen aan de bezoeker weergeeft op het niet-HTML-apparaat. U kunt bijvoorbeeld de reactie van de API voor aflevering gebruiken om een extra, realtime zoekopdracht uit te voeren naar de details van de entiteitskenmerken (inventaris, prijs, classificatie, enzovoort) van een ander systeem (zoals een CMS-, PIM- of e-commerce-platform) voordat u de uiteindelijke resultaten weergeeft.
 
-Met behulp van de aanpak die in deze zelfstudie wordt beschreven, kunt u elke toepassing gebruiken om de reactie te benutten van [!DNL Target] om persoonlijke aanbevelingen te doen.
+Met behulp van de aanpak die in deze zelfstudie wordt beschreven, kunt u elke toepassing gebruiken om de reactie van [!DNL Target] te benutten en persoonlijke aanbevelingen te doen!
 
 ## Voorbeeldimplementaties
 
@@ -95,17 +98,17 @@ De volgende bronnen bieden voorbeelden van verschillende implementaties die niet
 | [RESTful-API&#39;s gebruiken in AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html) | Hoe te om een bundel van Adobe Experience Manager OSGi tot stand te brengen en op te stellen die gegevens van een derde RESTful Webdienst verbruikt. |
 | [Adobe Target Overal - Implementeer server-kant of in de IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab die praktijkervaring biedt voor een React-toepassing die gebruikmaakt van Adobe Target server-side API&#39;s. |
 | [Adobe Target in een mobiele toepassing zonder de Adobe-SDK](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | In deze handleiding ziet u hoe u Adobe Target kunt instellen in uw mobiele app zonder de SDK van de Adobe te installeren. Deze oplossing gebruikt de webweergave van Tealium SDK en de module Externe opdrachten om aanvragen te verzenden en te ontvangen naar de Adobe Visitor API (Experience Cloud) en de Adobe Target API. |
-| [Hoe Adobe Target werkt in mobiele apps](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Hoe [!DNL Target] werkt u met de Mobile SDK |
-| [API&#39; [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] s configureren](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Stappen voor het configureren van de [!DNL Target] extensie in Experience Platform Launch, het toevoegen van de extensie [!DNL Target] aan uw app en het implementeren van [!DNL Target] API&#39;s om activiteiten aan te vragen, aanbiedingen vooraf in te stellen en de modus voor visuele voorvertoning te activeren. |
+| [Hoe Adobe Target werkt in mobiele apps](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Hoe werkt [!DNL Target] met de mobiele SDK |
+| [API&#39; [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] s configureren](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Stappen voor het configureren van de [!DNL Target]-extensie in Experience Platform Launch, het toevoegen van de [!DNL Target]-extensie aan uw app en het implementeren van [!DNL Target]-API&#39;s om activiteiten, prefetch-aanbiedingen en de modus voor visuele voorvertoning te vragen. |
 | [Adobe Target Node-client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | Open-sourced [!DNL Target] Node.js SDK v1.0 |
-| [Overzicht van de server](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Informatie over Adobe Target Server Side Delivery API&#39;s, Server Side Batch Delivery API&#39;s, Node.js SDK en Adobe Target API&#39; [!DNL Recommendations] s. |
+| [Overzicht van de server](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Informatie over Adobe Target Server Side Delivery API&#39;s, Server Side Batch Delivery API&#39;s, Node.js SDK en Adobe Target [!DNL Recommendations] API&#39;s. |
 | [Adobe Campaign Content Recommendations in Email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Blog waarin wordt beschreven hoe u via Adobe Target en Adobe I/O Runtime in Adobe Campaign aanbevelingen kunt doen voor inhoud. |
 
-## Installatie beheren [!DNL Recommendations] met API&#39;s
+## [!DNL Recommendations] Setup met API&#39;s beheren
 
-Meestal worden aanbevelingen geconfigureerd in de gebruikersinterface van Adobe Target, en vervolgens gebruikt of benaderd via de API&#39; [!DNL Target] s, om redenen zoals de in de bovenstaande secties vermelde redenen. Deze UI-API-coördinatie komt veel voor. Soms willen gebruikers echter wel alle handelingen uitvoeren via API&#39;s, zowel de setup als het gebruik van resultaten. Hoewel veel minder vaak, kunnen de gebruikers absoluut vormen, uitvoeren ** en hefboomwerking de resultaten van aanbevelingen volledig gebruikend APIs.
+Meestal worden aanbevelingen geconfigureerd in de gebruikersinterface van Adobe Target, en vervolgens gebruikt of benaderd via de API&#39;s van [!DNL Target], om redenen zoals de in de bovenstaande secties vermelde redenen. Deze UI-API-coördinatie komt veel voor. Soms willen gebruikers echter wel alle handelingen uitvoeren via API&#39;s, zowel de setup als het gebruik van resultaten. Hoewel veel minder vaak, kunnen de gebruikers absoluut vormen, uitvoeren, *en* hefboomwerking de resultaten van aanbevelingen volledig gebruikend APIs.
 
-In een [eerdere sectie](manage-catalog.md) hebben we geleerd hoe we Adobe Target Recommendations-entiteiten kunnen beheren en op de server kunnen leveren. Op dezelfde manier staat Adobe I/O u toe om criteria, bevorderingen, inzamelingen, en ontwerpmalplaatjes te beheren zonder het moeten login aan Adobe Target. U vindt [!DNL Recommendations] hier [een volledige lijst van alle API&#39;](http://developers.adobetarget.com/api/recommendations/)s, maar hier volgt een overzicht ter referentie.
+In een [eerdere sectie](manage-catalog.md) hebben we geleerd hoe we Adobe Target Recommendations-entiteiten kunnen beheren en op de server kunnen leveren. Op dezelfde manier kunt u in Adobe I/O criteria, aanbiedingen, verzamelingen en ontwerpsjablonen beheren zonder u aan te melden bij Adobe Target. Een volledige lijst van alle [!DNL Recommendations] APIs kan [hier ](http://developers.adobetarget.com/api/recommendations/) worden gevonden, maar hier is een samenvatting ter verwijzing.
 
 | Resource | Details |
 | --- | --- |
