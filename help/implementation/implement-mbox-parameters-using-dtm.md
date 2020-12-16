@@ -1,6 +1,6 @@
 ---
-title: Mbox-parameters implementeren voor Target met DTM
-seo-title: Mbox-parameters implementeren voor Target met DTM
+title: Mbox-parameters implementeren voor doel met DTM
+seo-title: Mbox-parameters implementeren voor doel met DTM
 description: 'null'
 audience: developer
 difficulty: 3
