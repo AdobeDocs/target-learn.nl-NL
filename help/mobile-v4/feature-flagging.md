@@ -28,7 +28,7 @@ In deze les maken we een &quot;feature flag&quot;-aanbieding die kan worden gebr
 Aan het eind van deze les, zult u kunnen:
 
 * Een nieuwe locatie toevoegen aan de aanvraag voor de batchprefetch
-* Maak een [!DNL Target] activiteit met een aanbieding die als eigenschapmarkering zal worden gebruikt
+* Maak een [!DNL Target] activiteit met een aanbieding die als eigenschapvlag zal worden gebruikt
 * De functiemarkering in uw app laden en valideren
 
 ## Een nieuwe locatie toevoegen aan de Prefetch-aanvraag aan de thuisactiviteit
@@ -116,7 +116,7 @@ We gaan nu een eenvoudige JSON-aanbieding maken die fungeert als vlag of trigger
 
 ![JSON-aanbieding met kenmerkmarkering maken](assets/feature_flag_json_offer.jpg)
 
-Noem het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaat&quot;}
+Noem het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaat&quot;:1
 
 ![feature_flag_v1 JSON-aanbieding](assets/feature_flag_json_name.jpg)
 
@@ -132,16 +132,16 @@ Laten we nu een A/B-testactiviteit maken met die aanbieding. Zie de vorige les v
 
 1. Klik **[!UICONTROL Add Experience]** om ervaring B toe te voegen.
 1. De locatie &quot;wetravel_feature_flag_recs&quot; behouden
-1. Laat **[!UICONTROL Default Content]** de inhoud staan
+1. **[!UICONTROL Default Content]** laten staan voor de inhoud
 1. Klik **[!UICONTROL Next]** om naar het [!UICONTROL Targeting] scherm te gaan
 
    ![Configuratie van kenmerkvlagactiviteit](assets/feature_flag_activity_2.jpg)
 
-1. Controleer op het [!UICONTROL Targeting] scherm of de [!UICONTROL Traffic Allocation] methode is ingesteld op de standaardinstelling (Handmatig) en of elke ervaring de standaardtoewijzing van 50% heeft. Selecteer **[!UICONTROL Next]** om door te gaan naar **[!UICONTROL Goals & Settings]**.
+1. Controleer in het scherm [!UICONTROL Targeting] of de methode [!UICONTROL Traffic Allocation] is ingesteld op de standaardinstelling (Handmatig) en of elke ervaring de standaardtoewijzing van 50% heeft. Selecteer **[!UICONTROL Next]** om naar **[!UICONTROL Goals & Settings]** te gaan.
 
    ![Configuratie van kenmerkvlagactiviteit](assets/feature_flag_activity_3.jpg)
 
-1. Stel de **[!UICONTROL Primary Goal]** optie in op **[!UICONTROL Conversion]**.
+1. Stel **[!UICONTROL Primary Goal]** in op **[!UICONTROL Conversion]**.
 1. Stel de handeling in op **[!UICONTROL Viewed an Mbox]**. We gebruiken de locatie &quot;wetravel_context_dest&quot; (aangezien deze locatie zich op het bevestigingsscherm bevindt, kunnen we deze gebruiken om te zien of de nieuwe functie tot meer conversies leidt).
 1. Klik op **[!UICONTROL Save & Close]**.
 
@@ -151,19 +151,19 @@ Activeer de activiteit.
 
 ## Valideer de activiteit van de vlaggen van de Eigenschap
 
-Gebruik nu de emulator om te controleren op de aanvraag. Aangezien wij het richten aan 50% van gebruikers plaatsen, zal er een 50% zijn u zult zien de reactie van de eigenschapvlag de `{enable:1}` waarde bevat.
+Gebruik nu de emulator om te controleren op de aanvraag. Aangezien wij het richten aan 50% van gebruikers plaatsen, zult u 50% zien u de reactie van de eigenschapvlag de `{enable:1}` waarde bevat.
 
 ![Validatie van kenmerkvlaggen](assets/feature_flag_validation.jpg)
 
-Als je de `{enable:1}` waarde niet ziet, betekent dat dat je niet was aangewezen voor de ervaring. Als tijdelijke test kunt u het voorstel afdwingen om te tonen:
+Als u de `{enable:1}` waarde niet ziet, betekent dat u niet voor de ervaring werd gericht. Als tijdelijke test kunt u het voorstel afdwingen om te tonen:
 
 1. Deactiveer de activiteit.
 1. Verander de verkeerstoewijzing in 100% op de nieuwe eigenschapervaring.
 1. Opslaan en opnieuw activeren.
 1. Veeg de gegevens over de emulator en start de app opnieuw.
-1. De aanbieding moet nu de `{enable:1}` waarde retourneren.
+1. De aanbieding moet nu de waarde `{enable:1}` retourneren.
 
-In een live scenario kan de `{enable:1}` reactie worden gebruikt om meer aangepaste logica in uw app in te schakelen voor het weergeven van de specifieke functieset die u voor het doelpubliek wilt weergeven.
+In een levend scenario, kan de `{enable:1}` reactie worden gebruikt om meer douanelogica in uw app toe te laten om de specifieke eigenschapreeks te tonen u uw doelpubliek wilt tonen.
 
 ## Conclusie
 
