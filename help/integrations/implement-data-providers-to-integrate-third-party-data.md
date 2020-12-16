@@ -1,7 +1,7 @@
 ---
 title: Gegevensleveranciers implementeren om gegevens van derden te integreren in Adobe Target
 seo-title: Gegevensleveranciers implementeren om gegevens van derden te integreren in Adobe Target
-description: Implementatiedetails en voorbeelden van het gebruik van de functie Adobe Target Data Providers om gegevens van externe gegevensleveranciers op te halen en door te geven in de Target-aanvraag.
+description: Implementatiedetails en voorbeelden van het gebruik van de functie Adobe Target Data Providers om gegevens van externe gegevensleveranciers op te halen en door te geven in de aanvraag Target.
 audience: developer
 difficulty: 5
 author: Daniel Wright
@@ -16,19 +16,19 @@ ht-degree: 0%
 ---
 
 
-# Implementeren [!UICONTROL Data Providers] om gegevens van derden te integreren in Adobe Target
+# [!UICONTROL Data Providers] implementeren om gegevens van derden te integreren in Adobe Target
 
-Implementatiedetails en voorbeelden van hoe u de Adobe Target- [!UICONTROL Data Providers] functie kunt gebruiken om gegevens van externe gegevensleveranciers op te halen en door te geven in de Target-aanvraag.
+Implementatiedetails en voorbeelden van hoe u de Adobe Target-functie [!UICONTROL Data Providers] kunt gebruiken om gegevens van externe gegevensproviders op te halen en door te geven in de aanvraag Doel.
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] vereist `at.js` 1.3 of hoger
+>[!UICONTROL Data Providers] vereist  `at.js` 1.3 of hoger
 
 ## Implementeer de basiscomponenten van gegevensleveranciers
 
 >[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-Een kort overzicht van de basiscomponenten van een code `dataProvider` en hoe u de code in de juiste volgorde kunt krijgen.\
+Een kort overzicht van de basiscomponenten van een `dataProvider` en hoe te om uw code in de juiste orde te krijgen.\
 Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
@@ -44,7 +44,7 @@ Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-Hoe te om gegevens van veelvoudige leveranciers in uw globaal [!DNL Target] verzoek op te nemen.\
+Hoe te om gegevens van veelvoudige leveranciers in uw globale [!DNL Target] verzoek op te nemen.\
 Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
@@ -52,7 +52,7 @@ Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimaliseer de invloed op de laadtijd van de pagina door gegevens in een voorwerp van de zittingsopslag op te slaan. U kunt de waarden ook doorgeven als profielparameters met behulp van het `profile.` voorvoegsel en deze alleen doorgeven in het eerste [!DNL Target] verzoek van de sessie. U kunt echter alleen vijftig profielparameters doorgeven per aanvraag.
+Minimaliseer de invloed op de laadtijd van de pagina door gegevens in een voorwerp van de zittingsopslag op te slaan. U kunt de waarden ook doorgeven als profielparameters met behulp van het voorvoegsel `profile.` en ze gewoon doorgeven in het eerste [!DNL Target]-verzoek van de sessie. U kunt echter alleen vijftig profielparameters doorgeven per aanvraag.
 
 Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
