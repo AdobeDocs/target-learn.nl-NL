@@ -1,6 +1,6 @@
 ---
 title: Parameters toevoegen aan de verzoeken
-description: In deze les zullen wij Adobe levenscyclusmetriek en douaneparameters aan de Target verzoeken toevoegen die in de vorige les worden toegevoegd. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
+description: In deze les zullen wij Adobe levenscyclusmetriek en douaneparameters aan de verzoeken van het Doel toevoegen in de vorige les. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Parameters toevoegen aan de verzoeken
 
-In deze les zullen wij de metriek van de levenscyclus van de Adobe en douaneparameters aan de [!DNL Target] verzoeken toevoegen die in de vorige les worden toegevoegd. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
+In deze les zullen wij de metriek van de levenscyclus van Adobe en douaneparameters aan [!DNL Target] verzoeken toevoegen die in de vorige les worden toegevoegd. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
 
 ## Leerdoelen
 
@@ -30,9 +30,9 @@ Aan het eind van deze les, zult u kunnen:
 
 ## De levenscyclusparameters toevoegen
 
-Laten we de [Adobe mobiele levenscycluswaarden](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
+Laten we de [Adobe mobiele levenscyclusmetriek](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html) inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
 
-Als u levenscyclusmetriek wilt inschakelen, opent u de HomeActivity-controller opnieuw en voegt u deze toe `Config.collectLifecycleData(this);` aan de functie onResume():
+Als u levenscyclusmetriek wilt inschakelen, opent u de HomeActivity-controller opnieuw en voegt u `Config.collectLifecycleData(this);` toe aan de functie onResume():
 
 ![Aanvraag levenscyclus](assets/lifecycle_code.jpg)
 
@@ -41,22 +41,23 @@ Als u levenscyclusmetriek wilt inschakelen, opent u de HomeActivity-controller o
 Voer de emulator uit en gebruik Logcat om de levenscyclusparameters te valideren. Filter voor &quot;prefetch&quot; om de prefetch-reactie te zoeken en de nieuwe parameters te zoeken:
 ![Levenscyclusvalidatie](assets/lifecycle_validation.jpg)
 
-Hoewel we alleen `Config.collectLifecycleData()` aan de HomeActivity-controller hebben toegevoegd, ziet u ook de levenscyclusgegevens die samen met de Target-aanvraag worden verzonden op uw scherm Vriendelijk bedankt.
+Hoewel wij slechts `Config.collectLifecycleData()` aan het controlemechanisme HomeActivity hebben toegevoegd, zou u de levenscyclusmetriek moeten zien die met het verzoek van het Doel op uw scherm wordt verzonden DankYou, eveneens.
 
 ## De parameter at_property toevoegen aan de Prefetch-aanvraag
 
-Adobe Target-eigenschappen worden gedefinieerd in de [!DNL Target] interface en worden gebruikt om grenzen vast te stellen voor het aanpassen van apps en websites. De parameter at_property identificeert het specifieke bezit waar uw aanbiedingen en activiteiten worden betreden en gehandhaafd. We voegen een eigenschap toe aan de aanvragen voor de prefetch en live-locatie.
+Adobe Target-eigenschappen worden gedefinieerd in de [!DNL Target]-interface en worden gebruikt om grenzen vast te stellen voor het aanpassen van apps en websites. De parameter at_property identificeert het specifieke bezit waar uw aanbiedingen en activiteiten worden betreden en gehandhaafd. We voegen een eigenschap toe aan de aanvragen voor de prefetch en live-locatie.
 
 >[!NOTE]
 >
->Afhankelijk van uw licentie worden de opties voor eigenschappen al dan niet weergegeven in de [!DNL Target] interface. Als u deze opties niet hebt, of als u geen Eigenschappen in uw bedrijf gebruikt, overslaan enkel naar de volgende sectie van deze les.
+>Afhankelijk van uw licentie kunt u de opties voor eigenschappen al dan niet zien in de [!DNL Target]-interface. Als u deze opties niet hebt, of als u geen Eigenschappen in uw bedrijf gebruikt, overslaan enkel naar de volgende sectie van deze les.
 
-U kunt uw at_property waarde in de [!DNL Target] interface onder [!UICONTROL Setup] > terugwinnen [!UICONTROL Properties].  Houd de muisaanwijzer boven de eigenschap en selecteer het pictogram van het codefragment en kopieer de `at_property` waarde:
+U kunt uw at_property waarde in [!DNL Target] interface onder [!UICONTROL Setup] > [!UICONTROL Properties] terugwinnen.  Als u de cursor op de eigenschap plaatst, selecteert u het pictogram van het codefragment en kopieert u de waarde `at_property`:
 
 ![Naar_eigenschap kopiëren](assets/at_property_interface.jpg)
 
 Voeg het als parameter voor elke plaats in het prefetch verzoek als dit toe:
-![Add at_property parameter](assets/params_at_property.jpg)Hier is de bijgewerkte code voor de `targetPrefetchContent()` functie (ben zeker om de _[!UICONTROL your at_property value goes here]_placeholder tekst bij te werken!):
+![Add at_property parameter](assets/params_at_property.jpg)
+Hier is de bijgewerkte code voor de functie `targetPrefetchContent()` (zorg dat u de plaatsaanduidingstekst _[!UICONTROL your at_property value goes here]_bijwerkt!):
 
 ```java
 public void targetPrefetchContent() {
@@ -88,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Opmerking over parameters
 
-Voor toekomstige projecten, kunt u extra parameters willen uitvoeren. De `createTargetPrefetchObject()` methode staat drie soorten parameters toe: `locationParams`, `orderParams`en `productParams`. Zie de documentatie voor [meer informatie over het toevoegen van deze parameters aan de prefetch aanvraag](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
+Voor toekomstige projecten, kunt u extra parameters willen uitvoeren. Bij de methode `createTargetPrefetchObject()` zijn drie typen parameters toegestaan: `locationParams`, `orderParams` en `productParams`. Zie de documentatie voor [meer details over het toevoegen van deze parameters aan het prefetch verzoek](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
 
 U kunt ook verschillende locatieparameters toevoegen aan elke locatie in de prefetch-aanvraag. Bijvoorbeeld, kon u een andere Kaart creëren genoemd param2, een nieuwe parameter in het zetten, dan plaats param2 in één plaats en param1 met de andere plaats. Hier volgt een voorbeeld:
 
@@ -100,14 +101,15 @@ prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ## Valideer de parameter at_property in de Prefetch-aanvraag
 
 Voer nu de emulator uit en gebruik Logcat om te controleren of de eigenschap at_property de aanvraag en de reactie voor beide locaties weergeeft:
-![De parameter at_property valideren](assets/parameters_at_property_validation.jpg)
+![Valideer de parameter at_property](assets/parameters_at_property_validation.jpg)
 
 ## Aangepaste parameters toevoegen aan de aanvraag voor Live locatie
 
 De live locatieaanvraag (wetravel_context_dest) is toegevoegd aan de vorige les zodat we een relevante promotie kunnen weergeven op het laatste bevestigingsscherm van het boekingsproces. Wij zouden de bevordering willen personaliseren die op de bestemming van de gebruiker wordt gebaseerd en dat doen wij dat als parameter aan het verzoek toevoegen. Wij zullen een parameter voor de tropoorsprong en at_property waarde eveneens toevoegen.
 
 Voeg de volgende parameters toe aan de targetLoadRequest() functie in de ControllerYouActivity:
-![Voeg Parameters toe aan de Live locatieaanvraag](assets/parameters_live_location.jpg)Hier is de bijgewerkte code voor de functie targetLoadRequest() (werk de plaatsaanduidingstekst &#39;add your at_property value here&#39; bij!):
+![Parameters toevoegen aan de Live-locatieaanvraag](assets/parameters_live_location.jpg)
+Hier is de bijgewerkte code voor de functie targetLoadRequest() (zorg dat u de plaatsaanduidingstekst &#39;add your at_property value here&#39; bijwerkt!):
 
 ```java
 public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
@@ -140,15 +142,15 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 ### Valideer de parameters van de Douane in het Levende Verzoek van de Plaats
 
 Voer de emulator uit en open Logcat. Filter voor een van de parameters om te controleren of het verzoek de benodigde parameters bevat:
-![Valideer de parameters van de Douane in het Levende Verzoek van de Plaats](assets/parameters_live_location_validation.jpg)
+![Valideer de Parameters van de Douane in het Levende Verzoek van de Plaats](assets/parameters_live_location_validation.jpg)
 
 >[!NOTE]
 >
->Bevestigingsverzoeken en parameters voor bestelling: Hoewel niet gebruikt in dit demoproject, worden de orderdetails gewoonlijk gevangen in een echte implementatie zodat [!DNL Target] kan ordedetails als metriek/afmetingen gebruiken. Raadpleeg de documentatie voor instructies over het [implementeren van het verzoek om bevestiging van de bestelling en de parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>Bevestigingsverzoeken en parameters voor bestelling: Hoewel niet gebruikt in dit demoproject, worden de orderdetails gewoonlijk gevangen in een echte implementatie zodat [!DNL Target] orderdetails als metriek/afmetingen kan gebruiken. Raadpleeg de documentatie voor instructies voor het [implementeren van het verzoek om bevestiging van de bestelling en de parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
 >[!NOTE]
 >
->Analytics voor Target (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target]. Hierdoor kunnen alle door de Target SDK verzamelde metriek/dimensies in Adobe Analytics worden weergegeven. Zie het [A4T Overzicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) voor meer details.
+>Analyse voor doel (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target]. Hierdoor kunnen alle metriek/dimensies die door de Doel-SDK worden verzameld, in Adobe Analytics worden weergegeven. Zie [A4T Overzicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) voor meer details.
 
 Mooi werk! Nu er parameters zijn, zijn we klaar om die parameters te gebruiken om publiek en aanbiedingen te maken in Adobe Target.
 
