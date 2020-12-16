@@ -1,8 +1,8 @@
 ---
 title: Soorten publiek en aanbiedingen maken in Adobe Target
 seo-title: Soorten publiek en aanbiedingen maken in Adobe Target
-description: 'In deze les bouwen we in Adobe Target publiek en aanbiedingen voor de drie locaties die we in de vorige lessen hebben geïmplementeerd. Deze zullen worden gebruikt om gepersonaliseerde ervaringen in de volgende les te tonen.   '
-seo-description: In deze les bouwen we in Adobe Target publiek en aanbiedingen voor de drie locaties die we in de vorige lessen hebben geïmplementeerd. Deze zullen worden gebruikt om gepersonaliseerde ervaringen in de volgende les te tonen.
+description: 'In deze les bouwen we een publiek en aanbiedingen in Adobe Target voor de drie locaties die we in de vorige lessen hebben geïmplementeerd. Deze zullen worden gebruikt om gepersonaliseerde ervaringen in de volgende les te tonen.   '
+seo-description: In deze les bouwen we een publiek en aanbiedingen in Adobe Target voor de drie locaties die we in de vorige lessen hebben geïmplementeerd. Deze zullen worden gebruikt om gepersonaliseerde ervaringen in de volgende les te tonen.
 feature: mobile
 kt: 3040
 audience: developer
@@ -53,11 +53,11 @@ Laten we nu het publiek maken dat we zullen gebruiken om de app aan te passen.
 
 Het publiek van Adobe Target wordt gebruikt om specifieke groepen bezoekers te identificeren. Aanbiedingen kunnen dan worden gericht op die specifieke groepen. Voor de eerste twee plaatsen, zullen wij een &quot;Nieuwe Gebruikers&quot;publiek gebruiken:
 
-1. Click **[!UICONTROL Audiences]** in the top navigation.
-1. Klik op de **[!UICONTROL Create Audience]** knop.
+1. Klik **[!UICONTROL Audiences]** in de hoogste navigatie.
+1. Klik op de knop **[!UICONTROL Create Audience]**.
    ![Een nieuw publiek maken](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Voer **[!UICONTROL New Mobile App Users]** de naam van het publiek in.
+1. Voer **[!UICONTROL New Mobile App Users]** in als de publieksnaam.
 1. Selecteer **[!UICONTROL Add Rule]**.
 1. Selecteer een **[!UICONTROL Custom]** regel.
    ![Een nieuw publiek maken](assets/audience_new_mobile_app_users_2.jpg)
@@ -72,15 +72,15 @@ Het publiek van Adobe Target wordt gebruikt om specifieke groepen bezoekers te i
 
 Volg dezelfde stappen hierboven om een publiek voor terugkerende gebruikers te maken.
 
-1. Geef een naam aan de doelgroep _die mobiele App-gebruikers_ retourneert.
-1. Gebruik **[!UICONTROL a.Launches is greater than or equal to 5]** als aangepaste regel.
+1. Geef het publiek _Mobiele App-gebruikers retourneren_ een naam.
+1. Gebruik **[!UICONTROL a.Launches is greater than or equal to 5]** als douaneregel.
 1. Sla het nieuwe publiek op.
 
    ![Een publiek met terugkerende gebruikers maken](assets/audience_returning_mobile_app_users.jpg)
 
 >[!NOTE]
 >
->Alle levenscyclusmetriek en afmetingen die in de [!DNL Target] mobiele SDK worden verzameld, worden voorafgegaan door &quot;a&quot; (bijvoorbeeld a.Launches) en zijn beschikbaar in de optie &quot;Aangepast&quot; van het keuzemenu en kunnen worden gebruikt om een publiek te maken.
+>Alle levenscyclusmetriek en afmetingen die in de mobiele SDK [!DNL Target] worden verzameld, worden voorafgegaan door &quot;a&quot; (bijvoorbeeld a.Launches) en zijn beschikbaar in de optie &quot;Aangepast&quot; van het keuzemenu en kunnen worden gebruikt om een publiek te maken.
 
 ### Creeer een Publiek voor Gebruikers die een Trip aan San Diego boeken
 
@@ -88,9 +88,9 @@ Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aan
 
 >[!NOTE]
 >
->Als een parameter u in de dropdown van de Douane verwacht te zien niet in de [!DNL Target] interface verschijnt, controleer tweemaal dat het inderdaad in het verzoek wordt overgegaan. Als u hebt geverifieerd dat dat in het verzoek is, maar niet in de [!DNL Target] interface heeft geladen, kunt u enkel de parameternaam typen en binnengaan klikken om uw publiek te blijven bepalen
+>Als een parameter u om in de dropdown van de Douane verwacht te zien niet in de [!DNL Target] interface verschijnt, controleer tweemaal dat het inderdaad in het verzoek wordt overgegaan. Als u hebt geverifieerd dat dit in het verzoek is, maar niet in de [!DNL Target] interface heeft geladen, kunt u enkel de parameternaam typen en ingaan binnengaan om uw publiek te blijven bepalen
 
-1. Geef de doelgroep een naam _op: San Diego_.
+1. Geef het publiek een naam _Doel: San Diego_.
 1. Gebruik een aangepaste regel met deze definitie: _locationDest bevat San Diego_.
 1. Sla het nieuwe publiek op.
 
@@ -98,7 +98,7 @@ Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aan
 
 ### Een publiek maken voor gebruikers die een reis naar Los Angeles boeken
 
-1. Geef de doelgroep een naam _op: Los Angeles_
+1. Geef het publiek een naam _Doel: Los Angeles_
 1. Gebruik een aangepaste regel met deze definitie: _locationDest bevat Los Angeles_
 1. Sla het nieuwe publiek op.
 
@@ -106,20 +106,20 @@ Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aan
 
 ## Aanbiedingen maken
 
-Laten we nu aanbiedingen maken om deze berichten weer te geven. Ter herinnering, aanbiedingen zijn fragmenten met code/inhoud, die in de [!DNL Target] reactie worden geleverd. Deze worden meestal gemaakt in de [!DNL Target] gebruikersinterface, maar kunnen ook worden gemaakt via API of via de Experience Fragments-integratie met Adobe Experience Manager. In mobiele apps zijn JSON-aanbiedingen gebruikelijk. In deze zelfstudie gebruiken we HTML-aanbiedingen die kunnen worden gebruikt om inhoud in normale tekst (inclusief JSON) in de app te leveren.
+Laten we nu aanbiedingen maken om deze berichten weer te geven. Ter herinnering, aanbiedingen zijn fragmenten van code/inhoud, die in de [!DNL Target] reactie worden geleverd. Deze worden meestal gemaakt in de gebruikersinterface [!DNL Target], maar kunnen ook worden gemaakt via API of via de integratie van Experience Fragments met Adobe Experience Manager. In mobiele apps zijn JSON-aanbiedingen gebruikelijk. In deze zelfstudie gebruiken we HTML-aanbiedingen die kunnen worden gebruikt om inhoud in normale tekst (inclusief JSON) in de app te leveren.
 
 ### De aanbieding voor nieuwe gebruikers maken
 
 Laten we eerst aanbiedingen voor de berichten aan Nieuwe gebruikers maken:
 
-1. Click **[!UICONTROL Offers]** in the top navigation.
+1. Klik **[!UICONTROL Offers]** in de hoogste navigatie.
 1. Klik op **[!UICONTROL Create]**.
 1. Selecteer **[!UICONTROL HTML Offer]**.
 
    ![Home-voorstel maken](assets/offer_home_1.jpg)
 
-1. Geef een naam op voor de _startpagina van de aanbieding: Nieuwe gebruikers_ inschakelen.
-1. Ga _Uitgezochte Bron en Doel in om naar beschikbare bussen_ als code te zoeken.
+1. Geef de aanbieding _Home: Nieuwe gebruikers inschakelen_.
+1. Typ _Selecteer Bron en Doel om te zoeken naar beschikbare bussen_ als code.
 1. Sla het nieuwe voorstel op.
 
    ![HTML-aanbieding voor startpagina maken](assets/offer_home_2.jpg)
@@ -128,7 +128,7 @@ Laten we eerst aanbiedingen voor de berichten aan Nieuwe gebruikers maken:
 
 Laten we nu de ene aanbieding voor terugkerende gebruikers maken (de tweede aanbieding is standaardinhoud die als niets wordt weergegeven):
 
-1. Geef een naam op voor de _startpagina van de aanbieding: Terugsturen van gebruikers_.
+1. Geef de aanbieding _Home: Terugkerende Gebruikers_.
 1. Voer _Welkom terug! Gebruik de Bodemcode BACK30 tijdens het afrekenen om een korting van 10% te krijgen._ als de HTML-code.
 1. Sla het nieuwe voorstel op.
 
@@ -138,8 +138,8 @@ Laten we nu de ene aanbieding voor terugkerende gebruikers maken (de tweede aanb
 
 Wanneer &quot;DJ&quot; wordt geretourneerd aan de activiteit Dankuwel, geeft logica in de functie filterRecommendationBasedOnOffer() een banner weer voor &quot;Rock Night with DJ SAM&quot;:
 
-1. Noem de aanbieding _Bevordering voor San Diego_.
-1. Voer _DJ_ in als HTML-code.
+1. Geef de aanbieding _Promotie voor San Diego_ een naam.
+1. Voer _DJ_ in als de HTML-code.
 1. Sla het nieuwe voorstel op.
 
 ![Aanbieding voor &quot;San Diego&quot; maken](assets/offer_san_diego.jpg)
@@ -148,8 +148,8 @@ Wanneer &quot;DJ&quot; wordt geretourneerd aan de activiteit Dankuwel, geeft log
 
 Wanneer &quot;Universal&quot; wordt geretourneerd naar de activiteit Dankuwel, wordt voor logica in de functie filterRecommendationBasedOnOffer() een banner voor &quot;Universal Studios&quot; weergegeven:
 
-1. Geef een naam op voor de aanbieding _Promotie voor Los Angeles_.
-1. Voer _Universal_ in als HTML-code.
+1. Geef de aanbieding _Promotie voor Los Angeles_ een naam.
+1. Voer _Universal_ in als de HTML-code.
 1. Sla het nieuwe voorstel op.
 
 ![Aanbieding voor &quot;Los Angeles&quot; maken](assets/offer_los_angeles.jpg)
