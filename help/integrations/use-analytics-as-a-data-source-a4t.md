@@ -1,6 +1,6 @@
 ---
-title: Analytics gebruiken als gegevensbron voor Target (A4T)
-seo-title: Analytics gebruiken als gegevensbron voor Target (A4T)
+title: Analyses gebruiken als gegevensbron voor doel (A4T)
+seo-title: Analyses gebruiken als gegevensbron voor doel (A4T)
 description: 'null'
 audience: marketer
 difficulty: 2
