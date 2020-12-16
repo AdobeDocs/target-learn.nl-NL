@@ -1,8 +1,8 @@
 ---
 title: Lay-outs aanpassen
 seo-title: Lay-outs aanpassen
-description: 'In deze laatste les bouwen we twee personaliseringsactiviteiten in Target voor ons publiek. We laden en geven de activiteiten in de app weer en valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.  '
-seo-description: In deze laatste les bouwen we twee personaliseringsactiviteiten in Target voor ons publiek. We laden en geven de activiteiten in de app weer en valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.
+description: 'In deze laatste les, bouwen wij twee verpersoonlijkingsactiviteiten in Doel voor ons publiek. We laden en geven de activiteiten in de app weer en valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.  '
+seo-description: In deze laatste les, bouwen wij twee verpersoonlijkingsactiviteiten in Doel voor ons publiek. We laden en geven de activiteiten in de app weer en valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Lay-outs aanpassen
 
-Nu is het tijd om alles samen te brengen en de gepersonaliseerde ervaringen te creëren. Een _Activiteit_ is het [!DNL Target] mechanisme dat de plaatsen, het publiek, en aanbiedingen samen verbindt, zodat wanneer het verzoek van app wordt gemaakt, met de gepersonaliseerde inhoud [!DNL Target] antwoordt. Wij bouwen twee verpersoonlijkingsactiviteiten in [!DNL Target] en bevestigen dat de gepersonaliseerde inhoud aan de juiste gebruiker op het juiste ogenblik en in de juiste plaats wordt getoond.
+Nu is het tijd om alles samen te brengen en de gepersonaliseerde ervaringen te creëren. Een _Activiteit_ is het [!DNL Target] mechanisme dat de plaatsen, het publiek, en aanbiedingen samen verbindt, zodat wanneer het verzoek van app wordt gemaakt, [!DNL Target] met de gepersonaliseerde inhoud antwoordt. Wij bouwen twee verpersoonlijkingsactiviteiten in [!DNL Target] en bevestigen dat de gepersonaliseerde inhoud aan de juiste gebruiker op de juiste tijd en op de juiste plaats wordt getoond.
 
 ## Leerdoelen
 
@@ -41,23 +41,23 @@ Hier volgt een overzicht van de activiteiten die we gaan ontwikkelen:
 | Nieuwe mobiele App-gebruikers | wetravel_enter_home, wetravel_enter_search | Home: Nieuwe gebruikers inschakelen, zoeken: Nieuwe gebruikers inschakelen |
 | Mobiele App-gebruikers retourneren | wetravel_enter_home, wetravel_enter_search | Home: Terugkerende Gebruikers, default_content |
 
-Ga als volgt te werk in de [!DNL Target] interface:
+In de [!DNL Target] interface doe het volgende:
 
 1. Selecteer **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
 
    ![Activiteit maken](assets/activity_create_1.jpg)
 
 1. Klik op **[!UICONTROL Mobile App]**.
-1. Selecteer de **[!UICONTROL Form composer]**.
+1. Selecteer **[!UICONTROL Form composer]**.
 1. Selecteer uw werkruimte (dezelfde werkruimte die u ook hebt gebruikt in vorige lessen).
 1. Selecteer uw bezit (het zelfde bezit u in vorige lessen gebruikte).
 1. Klik op **[!UICONTROL Next]**.
 
    ![Activiteit maken](assets/activity_create_2.jpg)
 
-1. Wijzig de titel van de activiteit in **[!UICONTROL Engage Users]**.
-1. Selecteer de optie **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**.
-   ![Nieuwe mobiele App Users wijzigt het publiek](assets/activity_create_3.jpg)
+1. Wijzig de activiteitstitel in **[!UICONTROL Engage Users]**.
+1. Selecteer **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]**.
+   ![Nieuwe mobiele gebruikers van de app wijzigen](assets/activity_create_3.jpg)
 1. Stel het publiek in op **[!UICONTROL New Mobile App Users]**.
 1. Klik op **[!UICONTROL Done]**.
    ![Nieuw publiek voor mobiele App-gebruikers](assets/activity_create_4.jpg)
@@ -67,7 +67,7 @@ Ga als volgt te werk in de [!DNL Target] interface:
 
    ![Nieuw publiek voor mobiele App-gebruikers](assets/activity_create_5.jpg)
 
-1. Selecteer het **[!UICONTROL Home: Engage New Users]** voorstel.
+1. Selecteer de **[!UICONTROL Home: Engage New Users]** aanbieding.
 1. Selecteer **[!UICONTROL Done]**.
 
    ![Nieuw publiek voor mobiele App-gebruikers](assets/activity_create_6.jpg)
@@ -75,12 +75,12 @@ Ga als volgt te werk in de [!DNL Target] interface:
 1. Selecteer **[!UICONTROL Add Location]**.
    ![Nieuw publiek voor mobiele App-gebruikers](assets/activity_create_7.jpg)
 
-1. Selecteer de locatie van _wetravel_engame_search_ .
+1. Selecteer de locatie _wetravel_commit_search_.
 1. Wijzig de HTML-aanbieding.
 
    ![Nieuw publiek voor mobiele App-gebruikers](assets/activity_create_8.jpg)
 
-1. Selecteer het **[!UICONTROL Search: Engage New Users]** voorstel.
+1. Selecteer de **[!UICONTROL Search: Engage New Users]** aanbieding.
 1. Klik op **[!UICONTROL Done]**.
 
    ![Nieuw publiek voor mobiele App-gebruikers](assets/activity_create_9.jpg)
@@ -91,7 +91,7 @@ U hebt zojuist een publiek verbonden met locaties en aanbiedingen en zo de perso
 
 Maak nu een ervaring voor het retourneren van gebruikers van mobiele apps:
 
-1. Selecteer **[!UICONTROL Add Experience Targeting]** links.
+1. Selecteer **[!UICONTROL Add Experience Targeting]** aan de linkerkant.
 1. Selecteer het publiek **[!UICONTROL Returning Mobile App Users]**.
 1. Selecteer **[!UICONTROL Done]**.
    ![Mobiele gebruikers van apps retourneren](assets/activity_create_11.jpg)
@@ -103,21 +103,21 @@ Gebruik nu het zelfde proces wij vroeger gebruikten om de nieuwe ervaring te vor
 Laten we doorgaan naar het volgende scherm in de configuratie:
 
 1. Klik **[!UICONTROL Next]** om naar het **[!UICONTROL Targeting]** scherm te gaan.
-1. Gebruik de standaardinstellingen voor Doel. Als u ervaring had met publiek dat overlapte (bijvoorbeeld _New York Users_ en _First Time Users_), kon u de prioritaire orde op dit scherm schikken.
-1. Klik **[!UICONTROL Next]** om door te gaan naar **[!UICONTROL Goals & Settings]**.
+1. Gebruik de standaardinstellingen voor Doel. Als u ervaring had met publiek dat overlapte (bijvoorbeeld _New York Users_ en _First Time Users_) kon u de prioritaire orde op dit scherm schikken.
+1. Klik op **[!UICONTROL Next]** om naar **[!UICONTROL Goals & Settings]** te gaan.
 
    ![Gebruikersactiviteit inschakelen - Standaardwaarde instellen](assets/activity_engage_users_targeting.jpg)
 
 Laten we nu de activiteiteninstellingen voltooien:
 
-1. Stel de **[!UICONTROL Primary Goal]** optie in op **[!UICONTROL Conversion]**.
+1. Stel **[!UICONTROL Primary Goal]** in op **[!UICONTROL Conversion]**.
 1. Stel de handeling in op **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (Aangezien deze locatie zich op het bevestigingsscherm bevindt, kunnen we deze gebruiken om conversies te meten).
 
    ![Gebruikersactiviteit inschakelen - Doelstellingen](assets/activity_create_12.jpg)
 
 1. Houd alle andere montages op het scherm aan de gebreken.
-1. Klik **[!UICONTROL Save & Close]** om de activiteit op te slaan.
-1. Activeer het **[!UICONTROL Activity]** op het volgende scherm.
+1. Klik **[!UICONTROL Save & Close]** om de Activiteit te bewaren.
+1. Activeer **[!UICONTROL Activity]** op het volgende scherm.
 
 ![Ervaring B-publiek](assets/activity_create_13.jpg)
 
@@ -144,7 +144,7 @@ Herhaal hetzelfde proces als hierboven voor de volgende activiteit - &quot;Conte
 
 Bij de stap Doelstellingen en instellingen wijzigen we het primaire doel in de locatie op het bevestigingsscherm van de reservering:
 
-1. Stel onder de **[!UICONTROL Reporting Settings]** optie de waarde in **[!UICONTROL Primary Goal]** op **[!UICONTROL Conversion]**.
+1. Stel onder **[!UICONTROL Reporting Settings]** **[!UICONTROL Primary Goal]** in op **[!UICONTROL Conversion]**.
 1. Stel de handeling in op **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (in deze activiteit is deze metrische waarde in feite betekenisloos omdat dit ook dezelfde locatie is die de ervaring oplevert).
 1. Klik op **[!UICONTROL Save & Close]**.
 
@@ -156,11 +156,11 @@ Onze tweede activiteit is live en klaar om te testen!
 
 ## Het thuisvoorstel valideren
 
-Voer de emulator uit en controleer of de eerste aanbieding onder aan het thuisscherm wordt weergegeven. Als u een terugkerende gebruiker bent met 5 of meer toepassingslanceringen, zou u de _welkomstaanbieding_ getoond zien. Als u een nieuwe gebruiker bent (minder dan 5 toepassingen worden gestart), ziet u het _nieuwe gebruikersbericht_ :
+Voer de emulator uit en controleer of de eerste aanbieding onder aan het thuisscherm wordt weergegeven. Als u een terugkerende gebruiker bent met 5 of meer toepassingslanceringen, zou u de _welkomstback_ aanbieding zien getoond. Als u een nieuwe gebruiker bent (minder dan 5 toepassingslanceringen), zou u het _nieuwe gebruiker_ bericht moeten zien:
 
 ![Home-voorstel valideren](assets/layout_home_validate.jpg)
 
-Als de nieuwe gebruikersaanbieding niet wordt weergegeven, probeert u de gegevens voor uw emulator te wissen. De volgende keer dat u de app start, wordt de app opnieuw ingesteld op 1. Dit gebeurt onder **[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]**. Mogelijk moet u Android Studio opnieuw starten als Logcat niet correct werkt:
+Als de nieuwe gebruikersaanbieding niet wordt weergegeven, probeert u de gegevens voor uw emulator te wissen. De volgende keer dat u de app start, wordt de app opnieuw ingesteld op 1. Dit wordt gedaan onder **[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]**. Mogelijk moet u Android Studio opnieuw starten als Logcat niet correct werkt:
 
 ![Emulator vegen](assets/layout_home_validate_avd_wipe.jpg)
 
@@ -172,7 +172,7 @@ U kunt de reactie in Logcat ook bevestigen door voor _wetravel_engt_home_ te fil
 
 Selecteer **[!UICONTROL San Jose]** als uw **[!UICONTROL Departure]** en **[!UICONTROL San Diego]** als uw **[!UICONTROL Destination]** en klik **[!UICONTROL Find Bus]** om naar beschikbare bussen te zoeken.
 
-Op het resultatenscherm, zou u het bericht van de _gebruiksfilters_ moeten zien. Als u een terugkerende gebruiker bent met 5 of meer toepassingslanceringen, zal geen bericht hier verschijnen aangezien de standaardinhoud voor deze plaats (die leeg is) wordt geplaatst:
+Op het resultatenscherm, zou u het _use filters_ bericht moeten zien. Als u een terugkerende gebruiker bent met 5 of meer toepassingslanceringen, zal geen bericht hier verschijnen aangezien de standaardinhoud voor deze plaats (die leeg is) wordt geplaatst:
 
 ![Zoekvoorstel valideren](assets/layout_search_validate.jpg)
 
@@ -184,11 +184,11 @@ Doorgaan met het boekingsproces:
 * Selecteer een licentie op het uitcheckscherm.
 * Selecteer **[!UICONTROL Credit Card]** op het betalingsscherm (laat de betalingsinformatie leeg - er vindt geen eigenlijke boeking plaats).
 
-Aangezien San Diego als bestemming werd geselecteerd, zou u de _DJ SAM_ aanbiedingsbanner op het bevestigingsscherm moeten zien:
+Aangezien San Diego als bestemming werd geselecteerd, zou u _DJ SAM_ aanbiedingsbanner op het bevestigingsscherm moeten zien:
 
 ![Contextaanbod valideren - San Diego](assets/layout_context_san_diego.jpg)
 
-Selecteer nu **[!UICONTROL Done]** en probeer een andere boeking met Los Angeles als bestemming. In het bevestigingsscherm moet de banner _Universal Studios_ worden weergegeven:
+Selecteer nu **[!UICONTROL Done]** en probeer een andere boeking met Los Angeles als bestemming. Het bevestigingsscherm zou _Universal Studios_ banner moeten tonen:
 
 ![Contextaanbod valideren - Los Angeles](assets/layout_context_los_angeles.jpg)
 
