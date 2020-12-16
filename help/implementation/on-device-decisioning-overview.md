@@ -47,4 +47,4 @@ Aan het einde van deze video kunt u het volgende doen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Raadpleeg de documentatie [bij de SDK van](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)Adobe Target voor meer informatie.
+Voor meer informatie raadpleegt u de [Adobe Target SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
