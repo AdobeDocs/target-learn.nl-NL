@@ -21,7 +21,7 @@ Adobe Target is de Adobe Experience Cloud-oplossing die alles biedt wat u nodig 
 
    *Voor architecten: Ga aan de slag met de beslissing op het apparaat om uw klanten bijna-nullatentie-ervaringen te bieden!*
 * **[De Recommendations API gebruiken (zelfstudie)](recommendations-api-tutorial/recs-api-overview.md)**
-   *Voor ontwikkelaars: Krijg hands-on praktijk gebruikend APIs om [!DNL Recommendations] [!DNL Recommendations] catalogi en douanecriteria te vormen en te beheren, en meer.*
+   *Voor ontwikkelaars: Krijg hands-on praktijk gebruikend  [!DNL Recommendations] APIs om  [!DNL Recommendations] catalogi en douanecriteria, en meer te vormen en te beheren.*
 
 * **[Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android (zelfstudie)](mobile-v4/overview.md)**
 
