@@ -22,8 +22,8 @@ Recommendations-aanbiedingen kunnen worden gebruikt in combinatie met A/B Test a
 
 * Aanbevelingen en niet-aanbevelingen in dezelfde activiteit mixen
 * Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen
-* Automatisch verkeer naar de best presterende aanbevelingen duwen met Automatisch toewijzen
-* Wijs bezoekers dynamisch toe aan op maat gemaakte aanbevelingen op basis van hun profiel met behulp van Automatisch-Target
+* Automatisch verkeer duwen naar de best presterende aanbevolen ervaring met Automatisch toewijzen
+* Wijs bezoekers dynamisch toe aan op maat gemaakte aanbevelingen ervaringen die op hun profiel worden gebaseerd gebruikend AutoTarget
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?quality=12)
 
