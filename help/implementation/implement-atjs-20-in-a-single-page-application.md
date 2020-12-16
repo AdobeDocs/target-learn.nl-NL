@@ -1,7 +1,7 @@
 ---
-title: Adobe Target-toepassing in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
-seo-title: Adobe Target-toepassing in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
-description: De nieuwste versie van at.js verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie wordt geconcentreerd op bevordering at.js om harmonieuze interactie met enige paginatoepassingen (SPAs) te hebben.
+title: Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
+seo-title: Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
+description: De nieuwste versie van at.js verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).
 audience: developer
 difficulty: 3
 author: Daniel Wright
@@ -16,31 +16,31 @@ ht-degree: 0%
 ---
 
 
-# Adobe Target-toepassing in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
+# Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
 
-De nieuwste versie van `at.js` verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie wordt geconcentreerd op bevordering `at.js` om harmonieuze interactie met enige paginatoepassingen (SPAs) te hebben.
+De nieuwste versie van `at.js` biedt rijke functiesets die uw bedrijf uitrusten om personalisatie uit te voeren op de volgende generatie clienttechnologieën. Deze nieuwe versie is gericht op het upgraden van `at.js` voor harmonieuze interacties met toepassingen op één pagina (SPA).
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
-## Hoe te om at.js 2.0 in een SPA uit te voeren
+## Hoe te om bij.js 2.0 in een SPA uit te voeren
 
 * Implementeer `at.js` 2.0 in de &lt;head> van de toepassing Eén pagina.
-* Voer de `adobe.target.triggerView()` functie uit wanneer de meningsveranderingen in uw SPA. Verschillende technieken kunnen worden gebruikt om dit te doen, zoals het luisteren naar veranderingen van het knoeiboel URL, het luisteren naar douanegebeurtenissen die door uw SPA in brand worden gestoken, of het direct inbedden van de `triggerView()` code in uw toepassing. Kies de optie die het beste werkt voor uw specifieke toepassing met één pagina.
-* De weergavenaam is de eerste parameter van de `triggerView()` functie. Gebruik eenvoudige, duidelijke en unieke namen, zodat u ze gemakkelijk kunt selecteren in de Target-composer voor visuele beleving.
-* U kunt meningen in kleine meningsveranderingen, evenals in niet-SPA contexten zoals half-onderaan een oneindige het scrollen pagina teweegbrengen.
-* `at.js` 2.0 en `triggerView()` kunnen worden geïmplementeerd via een oplossing voor tagbeheer, zoals Adobe Experience Platform Launch.
+* Voer de functie `adobe.target.triggerView()` uit wanneer de meningsveranderingen in uw SPA. Hiervoor kunnen verschillende technieken worden gebruikt, zoals het luisteren naar wijzigingen in URL-hashes, het luisteren naar aangepaste gebeurtenissen die door uw SPA worden geactiveerd of het rechtstreeks insluiten van de `triggerView()`-code in uw toepassing. Kies de optie die het beste werkt voor uw specifieke toepassing met één pagina.
+* De weergavenaam is de eerste parameter van de functie `triggerView()`. Gebruik eenvoudige, duidelijke en unieke namen, zodat u ze gemakkelijk kunt selecteren in de visuele ervaringscomposer van Target.
+* U kunt weergaven activeren in kleine weergavewijzigingen en in niet-SPA contexten, zoals een pagina waarop oneindig wordt geschoven.
+* `at.js` 2.0 en  `triggerView()` kunnen worden geïmplementeerd via een oplossing voor tagbeheer, zoals Adobe Experience Platform Launch.
 
 ## at.js 2.0 Beperkingen
 
-Houd rekening met de volgende beperkingen van `at.js` 2.0 voordat u de upgrade uitvoert:
+Houd rekening met de volgende beperkingen van `at.js` 2.0 voordat u een upgrade uitvoert:
 
-* Interdomeintracering wordt niet ondersteund in `at.js` 2.0
+* Het volgen tussen domeinen wordt niet gesteund in `at.js` 2.0
 * De URL-parameters mboxOverride.browserIp en mboxSession worden niet ondersteund in `at.js` 2.0
 * De oudere functies mboxCreate, mboxDefine, mboxUpdate zijn afgekeurd in `at.js` 2.0. De standaardinhoud zal worden getoond en geen netwerkverzoeken zullen worden gemaakt.
 
 ## Bibliotheekvoettekstcode gebruikt in de video
 
-De onderstaande code is tijdens de video toegevoegd aan het gedeelte Bibliotheekvoettekst van de `at.js` bibliotheek. Deze gebeurtenis wordt geactiveerd wanneer de app voor het eerst wordt geladen en vervolgens bij eventuele hash-wijzigingen in de app. Het gebruikt een schoongemaakte versie van de knoeiboel als meningsnaam, en &quot;huis&quot;wanneer de knoeiboel leeg is. Merk op dat om het KUUROORD te identificeren, de code de tekst &quot;reacties/&quot;in URL zoekt, die zeer waarschijnlijk op uw plaats zal moeten worden bijgewerkt. Houd ook in mening, dat het voor uw SPA geschikter zou kunnen zijn om `triggerView()` van douanegebeurtenissen af te vuren of door de code direct in uw app in te bedden.
+De onderstaande code is tijdens de video toegevoegd aan de sectie Bibliotheekvoettekst van de `at.js`-bibliotheek. Deze gebeurtenis wordt geactiveerd wanneer de app voor het eerst wordt geladen en vervolgens bij eventuele hash-wijzigingen in de app. Het gebruikt een schoongemaakte versie van de knoeiboel als meningsnaam, en &quot;huis&quot;wanneer de knoeiboel leeg is. Om de SPA te identificeren, zoekt de code naar de tekst &quot;reactie/&quot; in de URL, die waarschijnlijk op uw site moet worden bijgewerkt. Houd er ook rekening mee dat het voor uw SPA geschikter is om `triggerView()` af te vuren van aangepaste gebeurtenissen of door de code rechtstreeks in uw app in te sluiten.
 
 ```javascript
 function sanitizeViewName(viewName) {
