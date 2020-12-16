@@ -5,7 +5,7 @@ solution: Target
 translation-type: tm+mt
 source-git-commit: e7965702b852da879012837241dded12c0f182c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '25'
 ht-degree: 0%
 
 ---
