@@ -6,9 +6,9 @@ audience: end-user
 solution: Target
 type: zelfstudie
 translation-type: tm+mt
-source-git-commit: 009b19539470c64d7497e848e6042f8399192903
+source-git-commit: 60a434ae3bac84a9dfc3715850bb93ca8598ef2b
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 0%
 + Integratie{#integrations}
    + [Doel integreren met analyse](../dev101/3.2-target-analytics.md)
    + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Doel integreren met Audience Manager](../dev101/3.3-target-dmp.md)
    + [Doel integreren met publiek Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Doel integreren met campagne](../dev101/3.6-target-campaign.md)
