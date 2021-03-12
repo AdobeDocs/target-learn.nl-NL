@@ -10,7 +10,7 @@ topic: Analyses voor doel (A4T), automatisch doel
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
 source-wordcount: '2168'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren van [!DN
 
 Om een A4T voor [!DNL Auto-Target] rapport tot stand te brengen, of begin met **[!UICONTROL Analytics for Target]** paneel in Werkruimte, zoals hieronder getoond, of met een vrije vormlijst. Maak vervolgens de volgende selecties:
 
-1. **[!UICONTROL Control Experience]**: U kunt elke ervaring kiezen; deze keuze zullen wij echter later negeren . Merk op dat voor [!DNL Auto-Target] activiteiten, de controleervaring echt een controlestrategie is, die of a) willekeurig onder alle ervaringen dient, of b) één enkele ervaring dient (deze keus wordt gemaakt op het tijdstip van de activiteitenverwezenlijking in Adobe Target). Zelfs als u voor keus (b)-uw [!DNL Auto-Target] activiteit aangewezen een specifieke ervaring als controle-u zou nog de benadering moeten volgen die in deze zelfstudie voor het analyseren van A4T voor [!DNL Auto-Target] activiteiten wordt geschetst.
+1. **[!UICONTROL Control Experience]**: U kunt elke ervaring kiezen; u zult deze keuze later echter overschrijven. Merk op dat voor [!DNL Auto-Target] activiteiten, de controleervaring echt een controlestrategie is, die of a) willekeurig onder alle ervaringen dient, of b) één enkele ervaring dient (deze keus wordt gemaakt op het tijdstip van de activiteitenverwezenlijking in Adobe Target). Zelfs als u voor keus (b)-uw [!DNL Auto-Target] activiteit aangewezen een specifieke ervaring als controle-u zou nog de benadering moeten volgen die in deze zelfstudie voor het analyseren van A4T voor [!DNL Auto-Target] activiteiten wordt geschetst.
 2. **[!UICONTROL Normalizing Metric]**: Selecteer Bezoeken.
 3. **[!UICONTROL Success Metrics]**: Hoewel u om het even welke metrisch(e) kunt selecteren waarop om te melden, zou u rapporten over het algemeen over zelfde metrisch moeten bekijken die voor optimalisering tijdens activiteitenverwezenlijking in Adobe Target werd gekozen.
 
@@ -45,7 +45,7 @@ Om een A4T voor [!DNL Auto-Target] rapport tot stand te brengen, of begin met **
 >
 >Om uw Analytics voor het paneel van het Doel voor activiteiten te plaatsen Auto-Target, verkies om het even welke controleervaring, kies Bezoeken als normaliserend metrisch, en kies het zelfde doel metrisch dat voor optimalisering tijdens de verwezenlijking van de activiteit van het Doel werd gekozen.
 
-## Gebruik de besturingselementen versus de doeldimensie voor het vergelijken van het ensemble ML-model van Adobe Target met uw besturingselement
+## Gebruik de besturingselementen versus de doeldimensie om het samenstellende XML-model van Adobe Target te vergelijken met uw besturingselement
 
 Het standaard A4T-deelvenster is ontworpen voor klassieke (handmatige) A/B-tests of Auto-Allocate-activiteiten, waarbij het doel is de prestaties van individuele ervaringen te vergelijken met de ervaring in het beheer. Bij activiteiten [!DNL Auto-Target] moet de eerste orde vergelijking tussen de Controle *strategy* en de Gerichte *strategy* (met andere woorden, het bepalen van de lift van de algemene prestaties van het [!DNL Auto-Target] model van SPL over de strategie van de Controle) zijn.
 
@@ -87,8 +87,8 @@ Laten we de bezoekers vergelijken met de bezoekers:
 | Ervaring | Unieke bezoekers | Bezoeken | Conversies | Norm van bezoeker. Conv. Snelheid | Bezoek norm. Conv. Snelheid |
 | --- | --- | --- | --- | --- | --- |
 | A | 3 | 3 | - | 0% | 0% |
-| B | 2 | 3 | 1 | 50% | 33,3% |
-| Totalen | 2 | 4 | 3 | 50% | 25% |
+| B | 2 | 3 | 3 | 50% | 33,3% |
+| Totalen | 2 | 4 | 1 | 50% | 25% |
 *Tabel 1: Voorbeeld waarin bezoekers-genormaliseerde en bezoek-genormaliseerde rapporten voor een scenario worden vergeleken waarin de besluiten aan een bezoek kleven (en niet bezoeker, zoals met regelmatige tests A/B). De bezoeker-genormaliseerde metriek zijn verwarrend in dit scenario.*
 
 Zoals uit de tabel blijkt, is er een duidelijke incongruentie van bezoekersaantallen. Ondanks het feit dat er in totaal twee unieke bezoekers zijn, is dit geen som van afzonderlijke unieke bezoekers voor elke ervaring. Hoewel de conversiekoers op bezoekersniveau niet noodzakelijkerwijs verkeerd is, hebben conversiekoersen op bezoekniveau veel meer zin als men individuele ervaringen vergelijkt. Formeel is de eenheid van analyse (&quot;bezoeken&quot;) dezelfde als de eenheid van beslissingswaanzin, wat betekent dat uitsplitsingen van meetgegevens op ervaringsniveau kunnen worden toegevoegd en vergeleken.
