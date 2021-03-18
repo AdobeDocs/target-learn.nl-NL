@@ -1,16 +1,17 @@
 ---
-title: Gericht op ervaring in Adobe Target maken
-description: De ervaring die gerichte activiteiten richt staat marketers toe om specifieke inhoud aan een specifiek publiek te richten.
-seo-description: De ervaring die gerichte activiteiten richt staat marketers toe om specifieke inhoud aan een specifiek publiek te richten.
-audience: marketer
-difficulty: 1
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Ervaring maken voor gerichte activiteiten
+description: Met de Experience Targeting-activiteiten (XT) kunnen marketers specifieke inhoud voor een bepaald publiek afstemmen. Leer de voordelen van XT-activiteiten en hoe u deze kunt maken en gebruiken.
+role: Zakelijke praktiserer
+level: Begin
+topic: Personalisatie
+feature: Gerichte ervaring, Activiteiten, Visual Experience Composer (VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: bab376b87bb489492bde4e51f6e22ed0c6fa098d
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,16 @@ ht-degree: 0%
 # Gericht op ervaring maken
 
 De ervaring richt is een eerste stap in de wereld van personalisatie en begint vaak met het testen A/B. Een markeerteken voert een A/B-test uit en door het gebruik van verslaggevingsdoelgroepen wordt ontdekt dat verschillende ervaringen op verschillende doelgroepen reageren. De ervaring richt (of XT) staat de prijsmeter toe om die ontdekking gemakkelijk te hefboomwerking en op lange termijn het richten van inhoud op die verschillende gebruikerssegmenten over te schakelen.
+
+## Beschrijving
+
+In deze video leert u hoe u:
+
+* Gebruik de Adobe Target Visual Experience Composer (VEC) om een Experience Targeting (XT) activiteit tot stand te brengen
+
+## Beoogd publiek
+
+* Bedrijfs Praktijken
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
 
