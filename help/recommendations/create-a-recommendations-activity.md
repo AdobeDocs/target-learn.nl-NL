@@ -1,21 +1,33 @@
 ---
 title: Een Recommendations-activiteit maken
-seo-title: Recommendations-activiteiten maken in Adobe Target
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+description: Meer informatie over het maken van een Adobe Target Recommendations-activiteit
+role: Zakelijke praktiserer
+level: Intermediair
+topic: Personalisatie
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
 
-# Een Recommendations-activiteit maken
+# Een Adobe Target Recommendations-activiteit maken
+
+## Beschrijving
+
+In deze video leert u hoe u:
+
+* Een Recommendations-activiteit maken
+
+## Beoogd publiek
+
+* Zakelijke praktiserer
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
