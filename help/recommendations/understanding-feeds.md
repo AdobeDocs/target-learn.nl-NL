@@ -1,21 +1,33 @@
 ---
-title: Feeds begrijpen in Recommendations
-seo-title: Feeds begrijpen in Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Wat is een feed in Recommendations?
+description: Leer wat een Adobe Target Recommendations-feed is en hoe deze wordt gebruikt
+role: Zakelijke praktiserer
+level: Intermediair
+topic: Personalisatie
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 5f1691ce33dc3379d8ae3fb6af2714ee682a68ee
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '43'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
 
 
 # Feeds begrijpen in Recommendations
+
+## Beschrijving
+
+In deze video leert u hoe u:
+
+* Beschrijven wat een diervoeder is en begrijpen hoe zij worden gebruikt
+
+## Beoogd publiek
+
+* Zakelijke praktiserer
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
