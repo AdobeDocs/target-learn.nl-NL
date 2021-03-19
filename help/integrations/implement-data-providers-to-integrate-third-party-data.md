@@ -1,14 +1,16 @@
 ---
-title: Gegevensleveranciers implementeren om gegevens van derden te integreren in Adobe Target
-seo-title: Gegevensleveranciers implementeren om gegevens van derden te integreren in Adobe Target
-description: Implementatiedetails en voorbeelden van het gebruik van de functie Adobe Target Data Providers om gegevens van externe gegevensleveranciers op te halen en door te geven in de aanvraag Target.
-audience: developer
-difficulty: 5
+title: Hoe te om de Leveranciers van Gegevens uit te voeren om Gegevens van de derde te integreren
+description: Deze zelfstudie bevat implementatiedetails en voorbeelden van hoe u de functie Adobe Target-gegevensleveranciers kunt gebruiken om gegevens van externe gegevensleveranciers op te halen en door te geven in de aanvraag Doel.
+role: Ontwikkelaar
+level: Ervaren
+topic: Personalisatie, integratie
+feature: Implementatie, integratie, API's/SDK's
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
