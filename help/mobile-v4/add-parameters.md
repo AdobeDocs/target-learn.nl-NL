@@ -1,15 +1,17 @@
 ---
 title: Parameters toevoegen aan de verzoeken
 description: In deze les zullen wij Adobe levenscyclusmetriek en douaneparameters aan de verzoeken van het Doel toevoegen in de vorige les. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
-feature: mobile
-kt: 3040
-audience: developer
+role: Ontwikkelaar
+level: Intermediair
+topic: Mobiel, persoonlijke instellingen
+feature: Mobiel implementeren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -51,7 +53,7 @@ Adobe Target-eigenschappen worden gedefinieerd in de [!DNL Target]-interface en 
 >
 >Afhankelijk van uw licentie kunt u de opties voor eigenschappen al dan niet zien in de [!DNL Target]-interface. Als u deze opties niet hebt, of als u geen Eigenschappen in uw bedrijf gebruikt, overslaan enkel naar de volgende sectie van deze les.
 
-U kunt uw at_property waarde in [!DNL Target] interface onder [!UICONTROL Setup] > [!UICONTROL Properties] terugwinnen.  Als u de cursor op de eigenschap plaatst, selecteert u het pictogram van het codefragment en kopieert u de waarde `at_property`:
+U kunt uw at_property waarde in [!DNL Target] interface onder [!UICONTROL Setup] > [!UICONTROL Properties] terugwinnen.  Houd de muisaanwijzer boven de eigenschap en selecteer het pictogram van het codefragment en kopieer de waarde `at_property`:
 
 ![Naar_eigenschap kopiëren](assets/at_property_interface.jpg)
 
@@ -98,7 +100,7 @@ prefetchList.add(Target.createTargetPrefetchObject(location1_name, params1);
 prefetchList.add(Target.createTargetPrefetchObject(location2_name, params2);
 ```
 
-## Valideer de parameter at_property in de Prefetch-aanvraag
+## Valideer de parameter at_property in de Prefetch Request
 
 Voer nu de emulator uit en gebruik Logcat om te controleren of de eigenschap at_property de aanvraag en de reactie voor beide locaties weergeeft:
 ![Valideer de parameter at_property](assets/parameters_at_property_validation.jpg)
