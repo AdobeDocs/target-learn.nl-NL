@@ -1,16 +1,18 @@
 ---
-title: De Tokens van de Reactie van het gebruik en bij.js de Gebeurtenissen van de Douane met Adobe Target
-seo-title: De Tokens van de Reactie van het gebruik en bij.js de Gebeurtenissen van de Douane met Adobe Target
-description: Met responsietokens en aangepaste gebeurtenissen at.js kunt u profielgegevens van Target naar systemen van derden delen. Elk object in het profiel voor doelbezoekers, zoals aangepaste profielkenmerken, geografische informatie, activiteitsdetails en ingebouwde profielen, kan worden toegevoegd aan de doelreactie, waar u aangepaste JavaScript kunt gebruiken om te integreren met een derde.
-audience: developer
-difficulty: 5
+title: Hoe te om de Tokens van de Reactie en de Gebeurtenissen van de Douane bij.js te gebruiken
+description: Leer hoe te om de Tokens van de Reactie en de Gebeurtenissen van de Douane te gebruiken at.js om profielinformatie van Doel aan derdesystemen te delen.
+role: Ontwikkelaar
+level: Ervaren
+topic: Personalisatie, architectuur, ontwikkeling
+feature: Implementatie
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
