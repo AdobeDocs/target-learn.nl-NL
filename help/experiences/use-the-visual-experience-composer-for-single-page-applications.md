@@ -1,16 +1,18 @@
 ---
-title: Het gebruiken van Visual Experience Composer voor de Toepassingen van de Enige Pagina (SPA VEC) in Adobe Target
-seo-title: Het gebruiken van Visual Experience Composer voor de Toepassingen van de Enige Pagina (SPA VEC) in Adobe Target
-description: De SPA VEC laat marketers toe om tests tot stand te brengen en inhoud in SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. De VEC kan worden gebruikt om A/B Tests en de Gerichte (XT) activiteiten van de Ervaring tot stand te brengen in apps die met populaire kaders, zoals React en Hoekig worden gebouwd.
-audience: marketer
-difficulty: 1
+title: Hoe te om de Visuele Composer van de Ervaring voor de Toepassingen van de Enige Pagina te gebruiken (SPA VEC)
+description: Deze video introduceert marketers aan de Adobe Target Visual Experience Composer voor Toepassingen van de Enige Pagina (SPA VEC). Bekijk deze video om te leren hoe u activiteiten kunt maken met de SPA VEC.
+role: Zakelijke praktiserer
+level: Begin
+topic: SPA, personalisatie
+feature: Ervaringen en aanbiedingen, Visual Experience Composer (VEC)
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -18,9 +20,7 @@ ht-degree: 0%
 
 # De [!UICONTROL Visual Experience Composer] gebruiken voor toepassingen van één pagina (SPA VEC) in Adobe Target
 
-De SPA VEC laat marketers toe om tests tot stand te brengen en inhoud in SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. De VEC kan worden gebruikt om A/B Tests en de Gerichte (XT) activiteiten van de Ervaring tot stand te brengen in apps die met populaire kaders, zoals React en Hoekig worden gebouwd.
-
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+De SPA VEC laat marketers toe om tests tot stand te brengen en inhoud in SPA op een doe-het-zelfmanier zonder ononderbroken ontwikkelingsgebiedsdelen te personaliseren. De VEC kan worden gebruikt om A/B Tests en Experience Targeting (XT) activiteiten in apps tot stand te brengen die met populaire kaders, zoals React en Angular worden gebouwd. Bekijk de volgende video om te leren hoe u activiteiten kunt maken met de SPA VEC.
 
 ## Overzicht
 
@@ -31,6 +31,13 @@ De SPA VEC laat marketers toe om tests tot stand te brengen en inhoud in SPA op 
 * VEC-handelingen kunnen worden toegepast op één weergave of op de gebeurtenis page load
 * Verschillende wijzigingen kunnen worden toegevoegd aan verschillende weergaven zonder dat u de optie [!UICONTROL Additional Pages] hoeft te gebruiken
 * `at.js 2.0+` en de  `adobe.target.triggerView()` functie moet in de app zijn geïmplementeerd voordat u de SPA VEC kunt gebruiken
+
+## Beoogd publiek
+
+* Zakelijke praktiserer
+
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+
 
 ## Aanvullende bronnen
 
