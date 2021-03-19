@@ -1,16 +1,17 @@
 ---
-title: Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten
-seo-title: Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten in Adobe Target
-description: Recommendations-aanbiedingen kunnen worden gebruikt in combinatie met A/B Test and Experience Targeting Activiteiten.
-feature: recommendations
-kt: kt-3451
-audience: marketer
-doc-type: feature-video
-activity-type: use
+title: Hoe Recommendations-aanbiedingen te gebruiken bij A/B-tests en Gericht op ervaring
+description: Leer hoe u Recommendations-aanbiedingen kunt gebruiken in A/B Tests en Experience Targeting Activiteiten in Adobe Target.
+role: Zakelijke praktiserer
+level: Intermediair
+topic: Personalisatie
+feature: Recommendations, automatisch doel, automatisch toewijzen
+doc-type: feature video
+thumbnail: null
+kt: 3451
 translation-type: tm+mt
-source-git-commit: cbc8499b9c4018d709d8d93405b3f816b091b36e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten
 
-Recommendations-aanbiedingen kunnen worden gebruikt in combinatie met A/B Test and Experience Targeting Activiteiten. Deze functionaliteit opent volledig nieuwe mogelijkheden, zoals:
+Recommendations-aanbiedingen kunnen worden gebruikt in combinatie met A/B Test and Experience Targeting Activiteiten. Deze functionaliteit opent rijke mogelijkheden, toelatend u:
 
 * Aanbevelingen en niet-aanbevelingen in dezelfde activiteit mixen
 * Experimenteer eenvoudig met het plaatsen van aanbevelingen op de pagina, inclusief de volgorde van meerdere aanbevelingen
