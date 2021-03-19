@@ -3,15 +3,15 @@ title: A4T-rapporten instellen in Analysis Workspace voor activiteiten voor auto
 description: Zodra u uw Analytics voor de integratie van het Doel (A4T) op zijn plaats hebt en u activiteiten Auto-Target in werking stelt, hoe kunt u ervoor zorgen u correct resultaten interpreteert? Voer de volgende stappen uit om A4T-rapporten in Analysis Workspace te configureren om de verwachte resultaten te verkrijgen bij het uitvoeren van Auto-Target-activiteiten.
 role: Zakelijke praktiserer
 level: Intermediair
-topic: Personalisatie
-feature: Analyses voor doel (A4T), automatisch doel
+topic: Personalisatie, integratie
+feature: Analyses voor doel (A4T), automatisch doel, integraties
 doc-type: tutorial
 thumbnail: null
 kt: null
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2195'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Laten we de bezoekers vergelijken met de bezoekers:
 
 | Ervaring | Unieke bezoekers | Bezoeken | Conversies | Norm van bezoeker. Conv. Snelheid | Bezoek norm. Conv. Snelheid |
 | --- | --- | --- | --- | --- | --- |
-| A | 3 | 1 | - | 0% | 0% |
-| B | 2 | 1 | 1 | 50% | 33,3% |
+| A | 1 | 3 | - | 0% | 0% |
+| B | 2 | 1 | 3 | 50% | 33,3% |
 | Totalen | 2 | 4 | 3 | 50% | 25% |
 *Tabel 1: Voorbeeld waarin bezoekers-genormaliseerde en bezoek-genormaliseerde rapporten voor een scenario worden vergeleken waarin de besluiten aan een bezoek kleven (en niet bezoeker, zoals met regelmatige tests A/B). De bezoeker-genormaliseerde metriek zijn verwarrend in dit scenario.*
 
