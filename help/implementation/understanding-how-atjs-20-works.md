@@ -1,16 +1,18 @@
 ---
-title: Begrijpen hoe Adobe Target in.js 2.0 werkt
-seo-title: Begrijpen hoe Adobe Target in.js 2.0 werkt
+title: Hoe werkt at.js 2.0?
 description: at.js 2.0 verbetert Adobe Target-ondersteuning voor toepassingen van één pagina (SPA) en integreert deze met andere Experience Cloud-oplossingen. In deze video en de bijbehorende diagrammen wordt uitgelegd hoe alles samenkomt.
-audience: developer
-difficulty: 3
+role: Ontwikkelaar
+level: Intermediair
+topic: SPA, architectuur, ontwikkeling
+feature: Implementatie
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
