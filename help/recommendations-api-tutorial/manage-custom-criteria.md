@@ -1,19 +1,18 @@
 ---
 title: Aangepaste criteria beheren
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations bevat een specifieke set API's waarmee u uw catalogus met aanbevolen producten en/of inhoud kunt beheren. uw aanbevelingen, algoritmen en campagnes beheren; en aanbevelingen doen in JSON-, HTML- of XML-objecten die moeten worden weergegeven in webkanalen, mobiele apparaten, e-mail, IOT en andere kanalen.
-kt: 3815
-audience: developer
+description: Dit gedeelte van de zelfstudie begeleidt ontwikkelaars bij het uitvoeren van de stappen die nodig zijn om Adobe Target API's te gebruiken voor het beheren, maken, weergeven, bewerken, ophalen en verwijderen van Adobe Target Recommendations-criteria.
+role: Ontwikkelaar
+level: Intermediair
+topic: Personalisatie, administratie, integratie, ontwikkeling
+feature: API's/SDK's, Recommendations, Beheer en Configuratie
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
