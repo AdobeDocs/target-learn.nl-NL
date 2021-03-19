@@ -1,19 +1,18 @@
 ---
-title: Uw Recommendations-catalogus beheren met behulp van API's
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations bevat een specifieke set API's waarmee u uw catalogus met aanbevolen producten en/of inhoud kunt beheren. uw aanbevelingen, algoritmen en campagnes beheren; en aanbevelingen doen in JSON-, HTML- of XML-objecten die moeten worden weergegeven in webkanalen, mobiele apparaten, e-mail, IOT en andere kanalen.
-kt: 3815
-audience: developer
+title: Recommendations-catalogus beheren met API's
+description: Dit gedeelte van de zelfstudie begeleidt ontwikkelaars bij het doorlopen van de stappen die nodig zijn om Adobe Target API's te gebruiken voor het maken, bijwerken, opslaan, ophalen en verwijderen van entiteiten in uw Recommendations-catalogus.
+role: Ontwikkelaar
+level: Intermediair
+topic: Personalisatie, administratie, integratie, ontwikkeling
+feature: API's/SDK's, Recommendations, Beheer en Configuratie
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
@@ -83,7 +82,7 @@ Bijvoorbeeld, sparen Entiteiten kunnen worden gebruikt om punten bij te werken w
 
 4. Klik **Send**. U dient het volgende antwoord te ontvangen.
 
-   ![SaveEntities6.png](assets/SaveEntities05.png)
+   ![SaveEntities5.png](assets/SaveEntities05.png)
 
 Het JSON-object kan worden geschaald om meerdere producten te verzenden. In deze JSON worden bijvoorbeeld twee entiteiten opgegeven.
 
