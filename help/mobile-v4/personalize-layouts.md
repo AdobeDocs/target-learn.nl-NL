@@ -1,17 +1,18 @@
 ---
 title: Lay-outs aanpassen
-seo-title: Lay-outs aanpassen
-description: 'In deze laatste les, bouwen wij twee verpersoonlijkingsactiviteiten in Doel voor ons publiek. We laden en geven de activiteiten in de app weer en valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.  '
-seo-description: In deze laatste les, bouwen wij twee verpersoonlijkingsactiviteiten in Doel voor ons publiek. We laden en geven de activiteiten in de app weer en valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.
-feature: mobile
-kt: 3040
-audience: developer
+description: 'In deze laatste les bouwen wij twee verpersoonlijkingsactiviteiten in Doel voor ons publiek. Leer de activiteiten in de app te laden en weer te geven en te valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.  '
+role: Ontwikkelaar
+level: Intermediair
+topic: Mobiel, persoonlijke instellingen
+feature: Mobiel implementeren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
+author: Daniel Wright
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
