@@ -1,17 +1,17 @@
 ---
 title: Functiemarkering
-seo-title: Functiemarkering
 description: Adobe Target kan worden gebruikt om te experimenteren met UX-functies, zoals kleur, kopiëren, knoppen, tekst en afbeeldingen, en om deze functies aan specifieke doelgroepen te bieden.
-seo-description: Adobe Target kan worden gebruikt om te experimenteren met UX-functies, zoals kleur, kopiëren, knoppen, tekst en afbeeldingen, en om deze functies aan specifieke doelgroepen te bieden.
-feature: mobile
-kt: 3040
-audience: developer
+role: Ontwikkelaar
+level: Intermediair
+topic: Mobiel, persoonlijke instellingen
+feature: Mobiel implementeren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
