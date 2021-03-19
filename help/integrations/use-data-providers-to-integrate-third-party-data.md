@@ -1,16 +1,18 @@
 ---
-title: Gegevensleveranciers gebruiken om gegevens van derden te integreren in Adobe Target
-seo-title: Gegevensleveranciers gebruiken om gegevens van derden te integreren in Adobe Target
-description: Gegevensleveranciers zijn een mogelijkheid waarmee u gegevens van derden eenvoudig aan Doel kunt doorgeven.  Een derde partij zou een weerdienst, een DMP, of zelfs uw eigen Webdienst kunnen zijn. Vervolgens kunt u deze gegevens gebruiken om een publiek te maken, inhoud te benoemen en het profiel van de bezoeker te verrijken.
-audience: marketer
-difficulty: 5
+title: Hoe te om de Leveranciers van Gegevens te gebruiken om Gegevens van de derde te integreren
+description: Deze zelfstudie introduceert gebruikers aan Data Providers. Leer hoe u de functie Data Providers kunt gebruiken om gegevens van derden eenvoudig door te geven aan Adobe Target.
+role: Bedrijfs Praktijk, Ontwikkelaar
+level: Ervaren
+topic: Personalisatie, integratie
+feature: Implementatie, integratie, API's/SDK's
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
