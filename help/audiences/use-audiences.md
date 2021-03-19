@@ -1,21 +1,35 @@
 ---
-title: Soorten publiek gebruiken in Adobe Target
-seo-title: Soorten publiek gebruiken in Adobe Target
-description: Leer hoe publiek wordt gebruikt voor optimalisatie.
-audience: marketer
-difficulty: 1
+title: Wat zijn soorten publiek en hoe gebruik ik deze?
+description: In deze video ziet u hoe Adobe Target-gebruikers doelgroepen kunnen gebruiken voor doelactiviteiten en filterrapporten.
+role: Zakelijke praktiserer
+level: Begin
+topic: Personalisatie
+feature: Soorten publiek, rapporten
+doc-type: feature video
+thumbnail: null
+kt: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '22'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
 
 # Soorten publiek gebruiken in Adobe Target
+
+## Beschrijving
+
+In deze video leert u hoe u:
+
+* Definiëren wat een Adobe Target-publiek is
+* Soorten publiek zoeken in de lijst Publiek
+* Gebruik publiek om activiteiten en filterrapporten te richten
+
+## Beoogd publiek
+
+* Zakelijke praktiserer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)
