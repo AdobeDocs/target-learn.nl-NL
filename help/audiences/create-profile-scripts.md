@@ -1,21 +1,36 @@
 ---
-title: Profielscripts maken in Adobe Target
-seo-title: Profielscripts maken in Adobe Target
-description: 'null'
-audience: marketer
-difficulty: 5
+title: Profielscripts maken
+description: Deze video introduceert Adobe Target-gebruikers om scripts te profileren. Bekijk deze video als u ervaring hebt met Adobe Target en als u de basisbeginselen wilt leren van het gebruik van profielscripts voor het uitvoeren van gespecialiseerde doelbewerkingen of het maken van doelgroepen.
+role: Bedrijfs Praktijk, Ontwikkelaar
+level: Ervaren
+topic: Personalisatie
+feature: Soorten publiek, beheer en configuratie
+doc-type: feature video
+thumbnail: null
+kt: null
+badge: premium
 author: Daniel Wright
-doc-type: develop
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 902c05d4403cf367c559bf51a14563859be7b804
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '19'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
 
 
 # Profielscripts maken in Adobe Target
+
+## Beschrijving
+
+In deze video leert u hoe u:
+
+* Profielscripts beschrijven
+* Profielscripts maken
+
+## Beoogd publiek
+
+* Zakelijke praktiserer
+* Ontwikkelaar
 
 >[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
