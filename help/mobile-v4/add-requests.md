@@ -1,15 +1,17 @@
 ---
 title: Adobe Target-verzoeken toevoegen
 description: 'De Adobe Mobile Services SDK (v4) biedt Adobe Target-methoden en -functionaliteit waarmee u uw app kunt aanpassen met verschillende ervaringen voor verschillende gebruikers.   '
-feature: mobile
-kt: 3040
-audience: developer
+role: Ontwikkelaar
+level: Intermediair
+topic: Mobiel, persoonlijke instellingen
+feature: Mobiel implementeren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -120,7 +122,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 | `prefetchContent()` | De [!DNL Target] SDK-methode die de prefetch-aanvraag verzendt |
 | `Constant.wetravel_engage_home` | Vooraf ingestelde [!DNL Target]-locatienaam die de inhoud van het aanbod op het Homescherm weergeeft |
 | `Constant.wetravel_engage_search` | Vooraf geplaatste [!DNL Target] locatienaam die zijn aanbiedingsinhoud op het Scherm van de Resultaten van het Onderzoek zal tonen. Aangezien dit een tweede locatie in de prefetch is, wordt deze Prefetch-aanvraag een &quot;Prefetch-batchaanvraag&quot; genoemd. |
-| setUp() | Een door de gebruiker gedefinieerde functie waarmee het beginscherm van de app wordt weergegeven nadat de [!DNL Target]-aanbiedingen zijn voorafgegaan |
+| setUp() | Een door de gebruiker gedefinieerde functie die het beginscherm van de app rendert nadat de [!DNL Target] aanbiedingen zijn voorafgegaan |
 
 ### Info over Asynchroon versus Synchroon
 
