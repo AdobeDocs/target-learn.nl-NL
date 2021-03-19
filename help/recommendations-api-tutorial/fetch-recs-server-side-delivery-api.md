@@ -1,19 +1,18 @@
 ---
 title: Recommendations ophalen met de leverings-API
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations bevat een specifieke set API's waarmee u uw catalogus met aanbevolen producten en/of inhoud kunt beheren. uw aanbevelingen, algoritmen en campagnes beheren; en aanbevelingen doen in JSON-, HTML- of XML-objecten die moeten worden weergegeven in webkanalen, mobiele apparaten, e-mail, IOT en andere kanalen.
-kt: 3815
-audience: developer
+description: In dit gedeelte van de zelfstudie worden ontwikkelaars door de vereiste stappen geleid voor het ophalen van aanbevolen inhoud met de Adobe Target Delivery API.
+role: Ontwikkelaar
+level: Intermediair
+topic: Personalisatie, administratie, integratie, ontwikkeling
+feature: API's/SDK's, Recommendations, Beheer en Configuratie
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: 3815
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -108,7 +107,7 @@ De volgende bronnen bieden voorbeelden van verschillende implementaties die niet
 
 Meestal worden aanbevelingen geconfigureerd in de gebruikersinterface van Adobe Target, en vervolgens gebruikt of benaderd via de API&#39;s van [!DNL Target], om redenen zoals de in de bovenstaande secties vermelde redenen. Deze UI-API-coördinatie komt veel voor. Soms willen gebruikers echter wel alle handelingen uitvoeren via API&#39;s, zowel de setup als het gebruik van resultaten. Hoewel veel minder vaak, kunnen de gebruikers absoluut vormen, uitvoeren, *en* hefboomwerking de resultaten van aanbevelingen volledig gebruikend APIs.
 
-In een [eerdere sectie](manage-catalog.md) hebben we geleerd hoe we Adobe Target Recommendations-entiteiten kunnen beheren en op de server kunnen leveren. Op dezelfde manier kunt u in Adobe I/O criteria, aanbiedingen, verzamelingen en ontwerpsjablonen beheren zonder u aan te melden bij Adobe Target. Een volledige lijst van alle [!DNL Recommendations] APIs kan [hier ](http://developers.adobetarget.com/api/recommendations/) worden gevonden, maar hier is een samenvatting ter verwijzing.
+In een [eerdere sectie](manage-catalog.md) hebben we geleerd hoe we Adobe Target Recommendations-entiteiten kunnen beheren en op de server kunnen leveren. Op dezelfde manier staat Adobe I/O u toe om criteria, bevorderingen, inzamelingen, en ontwerpmalplaatjes te beheren zonder het moeten login aan Adobe Target. Een volledige lijst van alle [!DNL Recommendations] APIs kan [hier ](http://developers.adobetarget.com/api/recommendations/) worden gevonden, maar hier is een samenvatting ter verwijzing.
 
 | Resource | Details |
 | --- | --- |
