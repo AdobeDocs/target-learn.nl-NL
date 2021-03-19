@@ -1,15 +1,18 @@
 ---
-title: Problemen met Adobe Target met doelsporen oplossen
+title: Hoe te om met de Traces van het Doel problemen op te lossen
 description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. Leer hoe u zich in de Experience Cloud verifieert en het krachtige hulpmiddel Doelsporen gebruikt om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
-audience: marketer
-difficulty: 3
+role: Zakelijke praktiserer
+level: Intermediair
+topic: Personalisatie, prestaties
+feature: Problemen oplossen
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: feature-video
-activity-type: troubleshooting
 translation-type: tm+mt
-source-git-commit: 0a165e3cfebd18733b2d339eefa4357b6fdc0b37
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
