@@ -1,16 +1,18 @@
 ---
-title: Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
-seo-title: Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
-description: De nieuwste versie van at.js verstrekt rijke eigenschapreeksen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën uit te voeren. Deze nieuwe versie is gericht op het upgraden van at.js voor harmonieuze interacties met toepassingen van één pagina (SPA).
-audience: developer
-difficulty: 3
+title: Hoe te om bij.js 2.0 in een Enige Toepassing van de Pagina uit te voeren (SPA)
+description: Adobe Target at.js 2.0 biedt rijke functiesets die uw bedrijf uitrusten om personalisatie uit te voeren op client-side technologieën van de volgende generatie. Voer de volgende stappen uit om 0.js 2.0 te implementeren in een toepassing voor één pagina (SPA).
+role: Ontwikkelaar
+level: Intermediair
+topic: SPA, architectuur, ontwikkeling
+feature: Implementatie
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 # Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
 
-De nieuwste versie van `at.js` biedt rijke functiesets die uw bedrijf uitrusten om personalisatie uit te voeren op de volgende generatie clienttechnologieën. Deze nieuwe versie is gericht op het upgraden van `at.js` voor harmonieuze interacties met toepassingen op één pagina (SPA).
+Adobe Target `at.js` 2.0 biedt rijke functiesets die uw bedrijf uitrusten om personalisatie uit te voeren op client-side technologieën van de volgende generatie. Deze versie is gericht op het upgraden van `at.js` voor harmonieuze interacties met toepassingen op één pagina (SPA).
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
