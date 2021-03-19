@@ -1,17 +1,17 @@
 ---
 title: Download en werk de voorbeeldtoepassing Web.Travel bij
-seo-title: Download de voorbeeldapp en controleer de SDK voor mobiele services
 description: 'De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.   '
-seo-description: De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.
-feature: mobile
-kt: 3040
-audience: developer
+role: Ontwikkelaar
+level: Intermediair
+topic: Mobiel, persoonlijke instellingen
+feature: Mobiel implementeren
 doc-type: tutorial
-activity-type: implement
+kt: 3040
+thumbnail: null
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Aan het eind van deze les, zult u kunnen:
 
 * Download [sample-app-android-SDKv4-Base-Version.zip](assets/sample-app-android-SDKv4-Base-Version.zip)
 * Het ZIP-bestand decomprimeren
-* Open de toepassing in Android Studio als een bestaand project (negeer eventuele fouten met betrekking tot &quot;Ongeldige VCS-hoofdtoewijzing&quot;).
+* Open de toepassing in Android Studio als een bestaand project (negeer eventuele fouten over &quot;Ongeldige VCS-hoofdtoewijzing&quot;).
 * Voer de app in een emulator uit om te bevestigen dat de app is gemaakt en dat u het beginscherm kunt zien
 * Blader naar de app en controleer of u het boekingsproces kunt voltooien (selecteer een betalingsoptie en druk op Doorgaan om het factureringsscherm over te slaan!)
 
