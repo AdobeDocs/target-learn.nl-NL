@@ -1,19 +1,18 @@
 ---
 title: Verificatie configureren voor Adobe Target API's
-keywords: recommendations;adobe recommendations;premium;api;apis
-description: Adobe Target Recommendations bevat een specifieke set API's waarmee u uw catalogus met aanbevolen producten en/of inhoud kunt beheren. uw aanbevelingen, algoritmen en campagnes beheren; en aanbevelingen doen in JSON-, HTML- of XML-objecten die moeten worden weergegeven in webkanalen, mobiele apparaten, e-mail, IOT en andere kanalen.
-kt: null
-audience: developer
+description: Deze zelfstudie begeleidt ontwikkelaars bij het doorlopen van de vereiste stappen om verificatietokens te genereren die nodig zijn om te kunnen communiceren met Adobe Target API's. Voer de volgende stappen uit om de Adobe Developer Console te gebruiken om het toegangstoken voor toonder te genereren en te testen, dat nodig is om de doel-API's te gebruiken.
+role: Ontwikkelaar, beheerder, architect
+level: Intermediair
+topic: Personalisatie, administratie, integratie, ontwikkeling
+feature: API's/SDK's, beheer en configuratie
 doc-type: tutorial
-activity: use
-feature: api
-topics: recommendations;adobe recommendations;premium;api;apis
-solution: Target
+kt: null
+thumbnail: null
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
+source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1845'
 ht-degree: 2%
 
 ---
@@ -79,7 +78,7 @@ In deze sectie krijgt u toegang tot de Adobe Developer Console en maakt u een pr
 
 >[!NOTE]
 > 
->In deze zelfstudie noemen we ons project &#39;Doelintegratie&#39;. Als u uw project voor meer dan enkel Adobe Target wilt gebruiken, kunt u het dienovereenkomstig willen noemen. U kunt er bijvoorbeeld voor kiezen om de naam &quot;Adobe API&#39;s&quot; of &quot;Experience Cloud API&#39;s&quot; te geven, omdat deze API&#39;s kunnen worden gebruikt met andere oplossingen in de Adobe Experience Cloud.
+>In deze zelfstudie noemen we ons project &#39;Doelintegratie&#39;. Als u uw project voor meer dan enkel Adobe Target wilt gebruiken, kunt u het dienovereenkomstig willen noemen. U kunt bijvoorbeeld de naam &quot;Adobe API&#39;s&quot; of &quot;Experience Cloud API&#39;s&quot; wijzigen, omdat deze API&#39;s kunnen worden gebruikt met andere oplossingen in de Adobe Experience Cloud.
 
 ## Projectdetails exporteren
 
@@ -91,7 +90,7 @@ Er zijn vele manieren om de details van uw project in Postman te specificeren, m
 >
 >Zie [Postman gebruiken met Experience Platform-API&#39;s](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html) voor video-instructies die van toepassing zijn op elke Experience Cloud-oplossing, inclusief [!DNL Target]. De volgende secties zijn relevant voor de [!DNL Target] APIs:
 >
-> 1. Adobe I/O Integration Details exporteren naar Postman
+> 1. Adobe I/O-integratiegegevens exporteren naar Postman
 > 2. Een toegangstoken met Postman genereren
 
 >
@@ -114,7 +113,7 @@ Noteer het JSON-bestand in uw bestandssysteem.
    ![JWT5](assets/configure-io-target-jwt5.png)
 6. Klik in het modaal Postman **Omgevingen beheren** op de naam van de nieuw geïmporteerde omgeving om deze te inspecteren. (De naam van uw omgeving kan verschillen van de naam die u hier ziet. Bewerk de naam naar wens. Dit hoeft niet noodzakelijkerwijs overeen te komen met de naam van het Adobe-project.)
    ![JWT6](assets/configure-io-target-jwt6.png)
-7. Opmerking `CLIENT_SECRET` en `API_KEY` (samen met andere variabelen) hebben hun waarden vooraf ingevuld, ontleend aan uw integratie zoals gedefinieerd in de Adobe Developer Console. (De Postman `CLIENT_SECRET`-variabele moet overeenkomen met de `CLIENT SECRET` Adobe-referentie die wordt weergegeven in de Developer Console en `API_KEY` in Postman moet `CLIENT ID` in de Developer Console evenzo overeenkomen.) Notitie `PRIVATE_KEY`, `JWT_TOKEN` en `ACCESS_TOKEN` zijn daarentegen leeg. Laten we beginnen met het opgeven van de waarde `PRIVATE_KEY`.
+7. Opmerking `CLIENT_SECRET` en `API_KEY` (samen met andere variabelen) hebben hun waarden vooraf ingevuld, ontleend aan uw integratie zoals gedefinieerd in de Adobe Developer Console. (De Postman `CLIENT_SECRET`-variabele moet overeenkomen met de `CLIENT SECRET`-Adobe-referentie die wordt weergegeven in de Developer Console en `API_KEY` in Postman moet `CLIENT ID` in de Developer Console evenzo overeenkomen.) Notitie `PRIVATE_KEY`, `JWT_TOKEN` en `ACCESS_TOKEN` zijn daarentegen leeg. Laten we beginnen met het opgeven van de waarde `PRIVATE_KEY`.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
    >[!NOTE]
@@ -139,13 +138,13 @@ In deze sectie genereert u uw toegangstoken aan toonder, die nodig is voor het v
 
 1. Navigeer naar de [Adobe Identity Management Service API voorbeeldaanroepen](https://github.com/adobe/experience-platform-postman-samples/tree/master/apis/ims).
    ![token1](assets/configure-io-target-generatetoken1.png)
-2. Klik op de verzameling **Adobe I/O Access Token Generation Postman**.
+2. Klik de **inzameling van Postman van de Generatie van de Token van de Toegang van de Adobe I/O tot**.
    ![token2](assets/configure-io-target-generatetoken2.png)
 3. Haal de onbewerkte JSON voor deze verzameling op door op **Raw** te klikken en de resulterende JSON vervolgens naar het klembord te kopiëren. (U kunt de onbewerkte JSON ook opslaan als een .json-bestand.)
    ![token3](assets/configure-io-target-generatetoken3.png)
 4. Importeer de verzameling in Postman door de onbewerkte JSON vanaf het Klembord te plakken en in te dienen. (U kunt ook het .json-bestand uploaden dat u hebt opgeslagen.) Klik **Doorgaan**.
    ![token4](assets/configure-io-target-generatetoken4.png)
-5. Selecteer **[!UICONTROL IMS: JWT Generate + Auth via User Token]** verzoek in de inzameling van Postman van de Generatie van de Token van de Toegang van Adobe I/O, zorg ervoor uw milieu wordt geselecteerd, en klik **Send** om het teken te produceren.
+5. Selecteer **[!UICONTROL IMS: JWT Generate + Auth via User Token]** verzoek in de inzameling van Postman van de Generatie van de Token van de Toegang van de Adobe I/O, zorg ervoor uw milieu wordt geselecteerd, en klik **Send** om het teken te produceren.
 
    ![token5](assets/configure-io-target-generatetoken5.png)
 
@@ -160,9 +159,9 @@ In deze sectie genereert u uw toegangstoken aan toonder, die nodig is voor het v
 
 >[!NOTE]
 >
->V: Moet ik de inzameling van Postman van de Generatie van de Token van de Toegang van Adobe I/O gebruiken om de Token van het Web van JSON (JWT) en het toegangstoken van de tokentoken van de token van de Drager te produceren?
+>V: Moet ik de inzameling van Postman van de Generatie van de Token van de Toegang van de Adobe I/O gebruiken om de Token van het Web JSON (JWT) en het toegangstoken van de drager te produceren?
 >
->A: Nee! De inzameling van Postman van de Generatie van de Token van de Toegang van Adobe I/O is beschikbaar als gemak om JWT en het toegangstoken van de toonder gemakkelijker te produceren in Postman. U kunt ook de mogelijkheden in de Adobe Developer Console gebruiken om het toegangstoken voor toonder handmatig te genereren.
+>A: Nee! De inzameling van Postman van de Generatie van de Token van de Toegang van de Adobe I/O is beschikbaar als gemak JWT en het toegangstoken van de toonder gemakkelijker te produceren in Postman. U kunt ook de mogelijkheden in de Adobe Developer Console gebruiken om het toegangstoken voor toonder handmatig te genereren.
 
 ## Test het toegangstoken aan toonder
 
