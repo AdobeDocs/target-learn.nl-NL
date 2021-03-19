@@ -1,15 +1,18 @@
 ---
-title: Problemen met Adobe Target oplossen met de Experience Cloud Debugger
+title: Hoe te om Adobe Target met de Experience Cloud Debugger problemen op te lossen
 description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. U kunt uw bibliotheekconfiguratie snel bekijken, verzoeken onderzoeken om ervoor te zorgen uw douaneparameters correct worden overgegaan, console het registreren inschakelen, en alle verzoeken van het Doel onbruikbaar maken. Verifieer in de Experience Cloud en u kunt het krachtige hulpmiddel van het Spoor gebruiken Mbox om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
-audience: marketer
-difficulty: 3
+role: Zakelijke praktiserer
+level: Intermediair
+topic: Personalisatie, prestaties
+feature: Problemen oplossen
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: feature-video
-activity-type: troubleshooting
 translation-type: tm+mt
-source-git-commit: 0a165e3cfebd18733b2d339eefa4357b6fdc0b37
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
