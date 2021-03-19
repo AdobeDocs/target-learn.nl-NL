@@ -1,21 +1,33 @@
 ---
-title: Eigenschappen instellen in Adobe Target
-description: 'null'
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: Eigenschappen instellen
+description: In deze video ziet u hoe beheerders eigenschappen in Adobe Target kunnen maken.
+role: Beheerder
+level: Begin
+topic: Beheer
+feature: Beheer en configuratie
+doc-type: feature video
+thumbnail: null
+kt: null
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '10'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
 
 
-# Eigenschappen instellen
+# Eigenschappen instellen in Adobe Target
+
+## Beschrijving
+
+In deze video leert u hoe u:
+
+* Eigenschappen maken in Adobe Target
+
+## Beoogd publiek
+
+* Beheerder
 
 >[!VIDEO](https://video.tv.adobe.com/v/18990/?quality=12)
