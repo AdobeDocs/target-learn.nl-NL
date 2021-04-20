@@ -1,10 +1,10 @@
 ---
 title: Aangepaste criteria beheren
 description: Dit gedeelte van de zelfstudie begeleidt ontwikkelaars bij het uitvoeren van de stappen die nodig zijn om Adobe Target API's te gebruiken voor het beheren, maken, weergeven, bewerken, ophalen en verwijderen van Adobe Target Recommendations-criteria.
-role: Ontwikkelaar
-level: Intermediair
-topic: Personalisatie, administratie, integratie, ontwikkeling
-feature: API's/SDK's, Recommendations, Beheer en Configuratie
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

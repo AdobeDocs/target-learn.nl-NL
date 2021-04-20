@@ -1,10 +1,10 @@
 ---
 title: Ervaring maken voor gerichte activiteiten
 description: Met de Experience Targeting-activiteiten (XT) kunnen marketers specifieke inhoud voor een bepaald publiek afstemmen. Leer de voordelen van XT-activiteiten en hoe u deze kunt maken en gebruiken.
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie
-feature: Gerichte ervaring, Activiteiten, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

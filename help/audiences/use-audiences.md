@@ -1,10 +1,10 @@
 ---
 title: Wat zijn soorten publiek en hoe gebruik ik deze?
 description: In deze video ziet u hoe Adobe Target-gebruikers doelgroepen kunnen gebruiken voor doelactiviteiten en filterrapporten.
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie
-feature: Soorten publiek, rapporten
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
 thumbnail: null
 kt: null

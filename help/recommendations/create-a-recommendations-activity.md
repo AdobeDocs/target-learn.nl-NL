@@ -1,9 +1,9 @@
 ---
 title: Een Recommendations-activiteit maken
 description: Meer informatie over het maken van een Adobe Target Recommendations-activiteit
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

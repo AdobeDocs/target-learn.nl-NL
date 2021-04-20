@@ -1,10 +1,10 @@
 ---
 title: De op formulieren gebaseerde Experience Composer gebruiken
 description: In deze video ziet u hoe en wanneer Adobe Target-gebruikers de op formulieren gebaseerde ervaringscomposer gebruiken.
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie
-feature: Form-based Experience Composer, Ervaringen en Aanbiedingen, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

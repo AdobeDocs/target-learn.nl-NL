@@ -1,10 +1,10 @@
 ---
 title: Hoe werkt at.js 2.0?
 description: at.js 2.0 verbetert Adobe Target-ondersteuning voor toepassingen van één pagina (SPA) en integreert deze met andere Experience Cloud-oplossingen. In deze video en de bijbehorende diagrammen wordt uitgelegd hoe alles samenkomt.
-role: Ontwikkelaar
-level: Intermediair
-topic: SPA, architectuur, ontwikkeling
-feature: Implementatie
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

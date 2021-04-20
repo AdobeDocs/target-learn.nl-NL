@@ -1,10 +1,10 @@
 ---
 title: Hoe te om bij.js 2.0 in een Enige Toepassing van de Pagina uit te voeren (SPA)
 description: Adobe Target at.js 2.0 biedt rijke functiesets die uw bedrijf uitrusten om personalisatie uit te voeren op client-side technologieën van de volgende generatie. Voer de volgende stappen uit om 0.js 2.0 te implementeren in een toepassing voor één pagina (SPA).
-role: Ontwikkelaar
-level: Intermediair
-topic: SPA, architectuur, ontwikkeling
-feature: Implementatie
+role: Developer
+level: Intermediate
+topic: SPA, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

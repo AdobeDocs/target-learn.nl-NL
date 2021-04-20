@@ -1,10 +1,10 @@
 ---
 title: A4T-rapporten instellen in Analysis Workspace voor activiteiten voor automatisch doel
 description: Zodra u uw Analytics voor de integratie van het Doel (A4T) op zijn plaats hebt en u activiteiten Auto-Target in werking stelt, hoe kunt u ervoor zorgen u correct resultaten interpreteert? Voer de volgende stappen uit om A4T-rapporten in Analysis Workspace te configureren om de verwachte resultaten te verkrijgen bij het uitvoeren van Auto-Target-activiteiten.
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie, integratie
-feature: Analyses voor doel (A4T), automatisch doel, integraties
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

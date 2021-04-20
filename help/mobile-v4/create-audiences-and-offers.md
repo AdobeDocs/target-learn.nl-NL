@@ -1,10 +1,10 @@
 ---
 title: Soorten publiek en aanbiedingen maken in Adobe Target
 description: 'In deze les bouwen we publiek en aanbiedingen in Adobe Target voor de drie locaties die we in de vorige lessen hebben geïmplementeerd. Deze zullen worden gebruikt om gepersonaliseerde ervaringen in de volgende les te tonen.   '
-role: Ontwikkelaar
-level: Intermediair
-topic: Mobiel, persoonlijke instellingen
-feature: Mobiel implementeren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Analyses gebruiken als gegevensbron voor Doel (A4T)
 description: Deze video introduceert marketers aan Analytics voor Doel (A4T).
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie, integratie
-feature: Analyses voor doel (A4T), Integraties
+role: Business Practitioner
+level: Beginner
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Integrations
 doc-type: feature video
 thumbnail: null
 kt: null

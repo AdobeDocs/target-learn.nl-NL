@@ -1,10 +1,10 @@
 ---
 title: Wat zijn de verschillende soorten activiteiten?
 description: Leer meer over de verschillende soorten activiteiten die in Adobe Target zijn opgenomen en hoe ze kunnen helpen uw doelen te bereiken. Bekijk deze video om de grondbeginselen van A/B-activiteiten, MVT's (Multivariate Tests), XT-activiteiten (Experience Targeting), Recommendations en Automated Personalization-activiteiten () te leren kennen.
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie
-feature: Activiteiten, A/B-tests, multivariate tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

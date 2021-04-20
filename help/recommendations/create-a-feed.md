@@ -1,9 +1,9 @@
 ---
 title: Een feed maken in Recommendations
 description: Leer hoe u een gegevensfeed maakt in Adobe Target Recommendations
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

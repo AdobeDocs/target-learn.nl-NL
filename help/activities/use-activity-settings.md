@@ -1,10 +1,10 @@
 ---
 title: Activiteitsinstellingen gebruiken
 description: Bekijk deze video om te leren hoe u verschillende activiteitsinstellingen in Adobe Target kunt gebruiken, waaronder doelstellingen, prioriteitsniveaus, begin- en eindtijd en publiek.
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie
-feature: Activiteiten
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

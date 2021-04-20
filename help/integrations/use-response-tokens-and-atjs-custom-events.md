@@ -1,10 +1,10 @@
 ---
 title: Hoe te om de Tokens van de Reactie en de Gebeurtenissen van de Douane bij.js te gebruiken
 description: Leer hoe te om de Tokens van de Reactie en de Gebeurtenissen van de Douane te gebruiken at.js om profielinformatie van Doel aan derdesystemen te delen.
-role: Ontwikkelaar
-level: Ervaren
-topic: Personalisatie, architectuur, ontwikkeling
-feature: Implementatie
+role: Developer
+level: Experienced
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

@@ -1,10 +1,10 @@
 ---
 title: Hoe te om de Leveranciers van Gegevens uit te voeren om Gegevens van de derde te integreren
 description: Deze zelfstudie bevat implementatiedetails en voorbeelden van hoe u de functie Adobe Target-gegevensleveranciers kunt gebruiken om gegevens van externe gegevensleveranciers op te halen en door te geven in de aanvraag Doel.
-role: Ontwikkelaar
-level: Ervaren
-topic: Personalisatie, integratie
-feature: Implementatie, integratie, API's/SDK's
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

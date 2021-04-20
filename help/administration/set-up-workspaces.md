@@ -1,10 +1,10 @@
 ---
 title: Werkruimten instellen
 description: In deze video wordt uitgelegd hoe u in Adobe Target werkruimten kunt maken.
-role: Beheerder
-level: Begin
-topic: Beheer
-feature: Beheer en configuratie
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,10 +1,10 @@
 ---
 title: Functiemarkering
 description: Adobe Target kan worden gebruikt om te experimenteren met UX-functies, zoals kleur, kopiëren, knoppen, tekst en afbeeldingen, en om deze functies aan specifieke doelgroepen te bieden.
-role: Ontwikkelaar
-level: Intermediair
-topic: Mobiel, persoonlijke instellingen
-feature: Mobiel implementeren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

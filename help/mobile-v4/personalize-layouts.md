@@ -1,10 +1,10 @@
 ---
 title: Lay-outs aanpassen
 description: 'In deze laatste les bouwen wij twee verpersoonlijkingsactiviteiten in Doel voor ons publiek. Leer de activiteiten in de app te laden en weer te geven en te valideren dat de inhoud op het juiste moment op de juiste locaties wordt weergegeven.  '
-role: Ontwikkelaar
-level: Intermediair
-topic: Mobiel, persoonlijke instellingen
-feature: Mobiel implementeren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

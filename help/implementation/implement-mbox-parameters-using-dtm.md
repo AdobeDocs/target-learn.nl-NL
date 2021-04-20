@@ -1,10 +1,10 @@
 ---
 title: Mbox-parameters implementeren met DTM
 description: In deze video ziet u hoe ontwikkelaars mbox-parameters kunnen implementeren met behulp van Adobe Activation, voorheen bekend als Adobe Dynamic Tag Management (DTM).
-role: Ontwikkelaar
-level: Intermediair
-topic: Personalisatie, architectuur, ontwikkeling
-feature: Implementatie
+role: Developer
+level: Intermediate
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null

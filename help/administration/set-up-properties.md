@@ -1,10 +1,10 @@
 ---
 title: Eigenschappen instellen
 description: In deze video ziet u hoe beheerders eigenschappen in Adobe Target kunnen maken.
-role: Beheerder
-level: Begin
-topic: Beheer
-feature: Beheer en configuratie
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

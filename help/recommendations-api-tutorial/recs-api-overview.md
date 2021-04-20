@@ -1,10 +1,10 @@
 ---
 title: Wat is de Adobe Recommendations API?
 description: Deze zelfstudie begeleidt ontwikkelaars door praktische praktijken die Adobe Target Recommendations APIs gebruiken om de catalogi van Recommendations en douanecriteria te vormen en te beheren, evenals het gebruiken van levering API om aanbevelingen inhoud terug te winnen.
-role: Ontwikkelaar
-level: Intermediair
-topic: Personalisatie, administratie, integratie, ontwikkeling
-feature: API's/SDK's, Recommendations, Beheer en Configuratie, Overzicht
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration, Overview
 doc-type: tutorial
 kt: 3815
 thumbnail: null

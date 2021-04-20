@@ -1,10 +1,10 @@
 ---
 title: Accountvoorkeuren instellen
 description: In deze video worden Adobe Target-accountvoorkeuren beschreven. Bekijk deze video voor voorbeelden van hoe verschillende instellingen invloed hebben op Adobe Target.
-role: Beheerder
-level: Begin
-topic: Beheer
-feature: Beheer en configuratie
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

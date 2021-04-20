@@ -1,10 +1,10 @@
 ---
 title: 'Hoe te om Kunstmatige Intelligentie en Automatisering te gebruiken om de Uitdagingen van Personalisatie te ontmoeten '
 description: Deze video behandelt het belang van personalisatie, de uitdagingen van het goed doen van verpersoonlijking, de oplossing aan deze uitdagingen (het vier dienstenaanbod AI/Automation in Adobe Target), en de belangrijkste bouwstenen voor het leveren van gepersonaliseerde ervaringen. Het is een bewerkte versie van de Adobe Summit presentatie van Jamie Brighton in 2018.
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie
-feature: Automatisch toewijzen, Automatisch doel, Automated Personalization
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Auto-Allocate, Auto-Target, Automated Personalization
 doc-type: value video
 thumbnail: null
 kt: null

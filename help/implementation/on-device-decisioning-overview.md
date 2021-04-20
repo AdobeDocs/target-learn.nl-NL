@@ -2,9 +2,9 @@
 title: Wat is op apparaat beslissend?
 description: Met Adobe Target on-device-besluitvorming is het mogelijk inhoud met bijna-nullatentie te leveren. Bekijk deze video voor meer informatie over apparaatbeslissingen en hoe u deze kunt inschakelen.
 role: Architect
-level: Begin
-topic: Architectuur, ontwikkeling
-feature: Implementatie, Server implementeren, Client-kant implementeren
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691

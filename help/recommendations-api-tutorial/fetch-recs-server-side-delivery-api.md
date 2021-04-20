@@ -1,10 +1,10 @@
 ---
 title: Recommendations ophalen met de leverings-API
 description: In dit gedeelte van de zelfstudie worden ontwikkelaars door de vereiste stappen geleid voor het ophalen van aanbevolen inhoud met de Adobe Target Delivery API.
-role: Ontwikkelaar
-level: Intermediair
-topic: Personalisatie, administratie, integratie, ontwikkeling
-feature: API's/SDK's, Recommendations, Beheer en Configuratie
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

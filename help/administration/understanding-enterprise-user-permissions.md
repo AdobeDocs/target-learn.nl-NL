@@ -1,10 +1,10 @@
 ---
 title: Hoe te om de Toestemmingen van de Gebruiker van de Onderneming te vormen
 description: Deze video introduceert Adobe Target-beheerders voor gebruikersmachtigingen, eigenschappen en werkruimten. Bekijk deze video voor meer informatie over de verschillende gebruikersniveaus en over het gebruik van eigenschappen en werkruimten om de gebruikerstoegang te beheren.
-role: Beheerder
-level: Begin
-topic: Beheer
-feature: Beheer en configuratie
+role: Administrator
+level: Beginner
+topic: Administration
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

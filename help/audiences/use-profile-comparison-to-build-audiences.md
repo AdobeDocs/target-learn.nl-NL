@@ -1,10 +1,10 @@
 ---
 title: Hoe te om de Vergelijking van het Profiel te gebruiken om publiek te bouwen
 description: In deze video ziet u hoe Adobe Target-gebruikers de functie Profielvergelijking kunnen gebruiken om twee numerieke profielwaarden met elkaar te vergelijken bij het samenstellen van een publiek.
-role: Zakelijke praktiserer
-level: Ervaren
-topic: Personalisatie
-feature: Soorten publiek
+role: Business Practitioner
+level: Experienced
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

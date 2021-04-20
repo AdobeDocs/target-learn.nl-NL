@@ -1,10 +1,10 @@
 ---
 title: Activering gebruiken
 description: Adobe Target biedt verschillende manieren om de ervaringen te beheren die bij verschillende doelgroepen worden getoond wanneer een activiteit live gaat. Leer hoe te om te controleren wie wat door publiek en verkeerstoewijzing te gebruiken ziet.
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
-feature: Activiteiten, publiek
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

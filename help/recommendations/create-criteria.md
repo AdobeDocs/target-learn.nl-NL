@@ -1,9 +1,9 @@
 ---
 title: Criteria maken in Recommendations
 description: Meer informatie over het maken van criteria in Adobe Target Recommendations
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

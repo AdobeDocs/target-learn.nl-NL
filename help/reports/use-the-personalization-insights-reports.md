@@ -1,10 +1,10 @@
 ---
 title: Hoe de rapporten met persoonlijke informatie gebruiken
 description: Automated Personalization- en Auto-Target-activiteiten maken gebruik van geavanceerd computerleren om iedere bezoeker de meest op maat gemaakte ervaring te bieden op basis van zijn of haar individuele klantprofiel en het gedrag van eerdere bezoekers met vergelijkbare profielen. In de rapporten met persoonlijke informatie wordt aangegeven hoe deze modellen hun beslissingen nemen.
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
-feature: Rapporten, Automated Personalization, automatisch doel
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null

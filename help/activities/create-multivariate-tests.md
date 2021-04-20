@@ -1,10 +1,10 @@
 ---
 title: Hoe te om Multivariate Tests te creëren
 description: In deze video worden gebruikers door de hoofdworkflow geleid voor het maken van een MVT (Multivariate Test) in Adobe Target. Leer de stappen voor het maken en interpreteren van MVT's.
-role: Zakelijke praktiserer
-level: Begin
-topic: Personalisatie
-feature: Multivariate tests, Activiteiten, Visual Experience Composer (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Multivariate Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

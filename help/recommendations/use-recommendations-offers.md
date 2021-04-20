@@ -1,10 +1,10 @@
 ---
 title: Hoe Recommendations-aanbiedingen te gebruiken bij A/B-tests en Gericht op ervaring
 description: Leer hoe u Recommendations-aanbiedingen kunt gebruiken in A/B Tests en Experience Targeting Activiteiten in Adobe Target.
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
-feature: Recommendations, automatisch doel, automatisch toewijzen
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451

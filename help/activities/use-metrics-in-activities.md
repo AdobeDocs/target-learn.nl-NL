@@ -1,10 +1,10 @@
 ---
 title: Hoe te om Metriek in Activiteiten te gebruiken
 description: Hoe meet je of een Adobe Target-activiteit succesvol is? In deze video leert u de verschillende typen meetgegevens voor het doel en hoe u deze kunt gebruiken om de prestaties van uw activiteit te meten.
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
-feature: Activiteiten
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

@@ -1,9 +1,9 @@
 ---
 title: Aangepaste ontwerpen maken in Recommendations
 description: Leer hoe u aangepaste ontwerpen kunt maken in Adobe Target Recommendations.
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

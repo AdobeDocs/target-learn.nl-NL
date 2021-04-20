@@ -1,10 +1,10 @@
 ---
 title: Parameters toevoegen aan de verzoeken
 description: In deze les zullen wij Adobe levenscyclusmetriek en douaneparameters aan de verzoeken van het Doel toevoegen in de vorige les. Deze metriek en parameters zullen voor het creëren van gepersonaliseerde publiek later in het leerprogramma worden gebruikt.
-role: Ontwikkelaar
-level: Intermediair
-topic: Mobiel, persoonlijke instellingen
-feature: Mobiel implementeren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

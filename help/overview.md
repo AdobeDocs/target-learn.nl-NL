@@ -3,7 +3,7 @@ title: Meer informatie over het gebruik van Adobe Target
 description: Leer hoe u Adobe Target kunt gebruiken met deze verzameling zelfstudies en video's over alle componenten. Gebruik Adobe Target effectief.
 role: Leader, Architect, Developer, Administrator, Business Practitioner
 level: Beginner, Intermediate, Experienced
-topic: Personalisatie
+topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 translation-type: tm+mt
 source-git-commit: 62c9d6328f65945109c96f65d94659b59708ac82

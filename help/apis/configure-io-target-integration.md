@@ -1,10 +1,10 @@
 ---
 title: Verificatie configureren voor Adobe Target API's
 description: Deze zelfstudie begeleidt ontwikkelaars bij het doorlopen van de vereiste stappen om verificatietokens te genereren die nodig zijn om te kunnen communiceren met Adobe Target API's. Voer de volgende stappen uit om de Adobe Developer Console te gebruiken om het toegangstoken voor toonder te genereren en te testen, dat nodig is om de doel-API's te gebruiken.
-role: Ontwikkelaar, beheerder, architect
-level: Intermediair
-topic: Personalisatie, administratie, integratie, ontwikkeling
-feature: API's/SDK's, beheer en configuratie
+role: Developer, Administrator, Architect
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null

@@ -1,9 +1,9 @@
 ---
 title: Verzamelingen en uitsluitingen maken in Recommendations
 description: Leer wat een Recommendations-verzameling is en hoe u deze gebruikt. Leer wat een Recommendations-uitsluiting is en hoe u deze kunt gebruiken.
-role: Zakelijke praktiserer
-level: Intermediair
-topic: Personalisatie
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

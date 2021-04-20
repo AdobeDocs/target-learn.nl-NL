@@ -1,10 +1,10 @@
 ---
 title: Opties voor hybride implementatie
 description: 'Bekijk deze video voor meer informatie over het unieke hybride implementatiemodel van Adobe Target voor personalisatie: het overvloeien van client-side en server-side implementaties.'
-role: Ontwikkelaar, architect
-level: Begin
-topic: Personalisatie, architectuur, ontwikkeling
-feature: Implementatie, Server implementeren, Client-kant implementeren
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

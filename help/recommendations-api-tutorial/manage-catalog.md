@@ -1,10 +1,10 @@
 ---
 title: Recommendations-catalogus beheren met API's
 description: Dit gedeelte van de zelfstudie begeleidt ontwikkelaars bij het doorlopen van de stappen die nodig zijn om Adobe Target API's te gebruiken voor het maken, bijwerken, opslaan, ophalen en verwijderen van entiteiten in uw Recommendations-catalogus.
-role: Ontwikkelaar
-level: Intermediair
-topic: Personalisatie, administratie, integratie, ontwikkeling
-feature: API's/SDK's, Recommendations, Beheer en Configuratie
+role: Developer
+level: Intermediate
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
 thumbnail: null

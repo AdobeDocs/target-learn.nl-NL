@@ -1,10 +1,10 @@
 ---
 title: Download en werk de voorbeeldtoepassing Web.Travel bij
 description: 'De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.   '
-role: Ontwikkelaar
-level: Intermediair
-topic: Mobiel, persoonlijke instellingen
-feature: Mobiel implementeren
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
