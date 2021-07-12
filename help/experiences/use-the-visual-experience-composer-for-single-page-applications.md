@@ -1,22 +1,21 @@
 ---
 title: Hoe te om de Visuele Composer van de Ervaring voor de Toepassingen van de Enige Pagina te gebruiken (SPA VEC)
 description: Deze video introduceert marketers aan de Adobe Target Visual Experience Composer voor Toepassingen van de Enige Pagina (SPA VEC). Bekijk deze video om te leren hoe u activiteiten kunt maken met de SPA VEC.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: SPA, Personalization
-feature: Experiences and Offers, Visual Experience Composer (VEC)
+topic: SPA, personalisatie
+feature: Ervaringen en aanbiedingen, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 3e32d869-a94a-4253-93d7-58b615921067
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
-
 
 # De [!UICONTROL Visual Experience Composer] gebruiken voor toepassingen van één pagina (SPA VEC) in Adobe Target
 
