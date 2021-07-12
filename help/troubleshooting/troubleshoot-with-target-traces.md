@@ -1,22 +1,21 @@
 ---
 title: Hoe te om met de Traces van het Doel problemen op te lossen
 description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. Leer hoe u zich in de Experience Cloud verifieert en het krachtige hulpmiddel Doelsporen gebruikt om uw activiteit en publiekskwalificaties evenals uw bezoekersprofiel te inspecteren.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization, Performance
-feature: Troubleshooting
+topic: Personalisatie, prestaties
+feature: Problemen oplossen
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 5a38ac7f-a75a-43a8-8034-5735676b6be2
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
-
 
 # Problemen oplossen met doelsporen
 
