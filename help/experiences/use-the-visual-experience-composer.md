@@ -1,21 +1,20 @@
 ---
 title: Hoe wordt de Visual Experience Composer (VEC) gebruikt
 description: Deze twee video's introduceren marketers aan Adobe Target Visual Experience Composer (VEC). Bekijk deze video's om te leren hoe u activiteiten kunt maken met behulp van de VEC.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: Personalization
-feature: Visual Experience Composer (VEC), Experiences and Offers
+topic: Personalisatie
+feature: Visual Experience Composer (VEC), Ervaringen en Aanbiedingen
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL Visual Experience Composer] gebruiken in Adobe Target
 
