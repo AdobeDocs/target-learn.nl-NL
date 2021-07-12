@@ -1,21 +1,20 @@
 ---
 title: Activering gebruiken
 description: Adobe Target biedt verschillende manieren om de ervaringen te beheren die bij verschillende doelgroepen worden getoond wanneer een activiteit live gaat. Leer hoe te om te controleren wie wat door publiek en verkeerstoewijzing te gebruiken ziet.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
-feature: Activities, Audiences
+topic: Personalisatie
+feature: Activiteiten, publiek
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+exl-id: fa330c1d-4a67-4927-bd4c-adb57c10c769
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
-
 
 # Activiteitengericht gebruiken
 
