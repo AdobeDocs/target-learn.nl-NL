@@ -1,21 +1,20 @@
 ---
 title: Een Recommendations-activiteit maken
 description: Meer informatie over het maken van een Adobe Target Recommendations-activiteit
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization
+topic: Personalisatie
 feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # Een Adobe Target Recommendations-activiteit maken
 
