@@ -1,22 +1,21 @@
 ---
 title: Hoe te om de Leveranciers van Gegevens te gebruiken om Gegevens van de derde te integreren
 description: Deze zelfstudie introduceert gebruikers aan Data Providers. Leer hoe u de functie Data Providers kunt gebruiken om gegevens van derden eenvoudig door te geven aan Adobe Target.
-role: Business Practitioner, Developer
+role: User, Developer
 level: Experienced
-topic: Personalization, Integrations
-feature: Implementation, Integrations, APIs/SDKs
+topic: Personalisatie, integratie
+feature: Implementatie, integratie, API's/SDK's
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
-
 
 # Gegevensleveranciers gebruiken om gegevens van derden te integreren in Adobe Target
 
