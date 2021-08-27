@@ -1,10 +1,9 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 0%
 + Implementatie{#implementation}
    + [Inleiding tot doelimplementatie](../dev101/2.1-intro-to-target-implementation.md)
    + [Doel integreren met starten](../dev101/3.1-target-launch.md)
-   + [Implementeren in websites met starten](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
+   + [Implementeren in websites met starten](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Voordelen van het gebruik van locaties](../dev101/2.2-benefits-of-locations.md)
    + [Inleiding aan de Verzoeken van het Doel](../dev101/2.3-intro-to-target-requests.md)
    + [Inleiding tot doelparameters](../dev101/2.4-intro-to-target-params.md)
@@ -32,7 +31,7 @@ ht-degree: 0%
    + [Implementeren om.js 2.0 in een toepassing voor één pagina (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Een doelimplementatie ontwerpen](../dev101/2.5-design-target-implementation.md)
    + [Volgende stappen om een doelimplementatie te ontwerpen](../dev101/2.6-next-steps-design-target-implementation.md)
-   + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
    + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
 + Integratie{#integrations}
@@ -87,4 +86,4 @@ ht-degree: 0%
    + [Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android](../mobile-v4/overview.md)
 + API&#39;s{#apis}
    + [Adobe API-verificatie configureren](../apis/configure-io-target-integration.md)
-   + [Recommendations API&#39;s gebruiken](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
+   + [Recommendations API&#39;s gebruiken](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)

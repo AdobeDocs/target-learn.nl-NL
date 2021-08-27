@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Target-verzoeken toevoegen
 
@@ -54,7 +53,7 @@ Hieronder vindt u een aantal belangrijke doelterminologie die we in de rest van 
 
 Het eerste verzoek dat wij in Wij.Travel zullen uitvoeren is een partijprefetch verzoek met twee [!DNL Target] plaatsen op het Homescherm. In een recentere les, zullen wij aanbiedingen voor deze plaatsen vormen die berichten tonen helpen nieuwe gebruikers door het boekingsproces begeleiden.
 
-Met een Prefetch-aanvraag wordt [!DNL Target]-inhoud zo min mogelijk opgehaald door de Adobe Target-serverreactie (aanbieding) in cache te plaatsen. Een batch-prefetch-aanvraag haalt meerdere aanbiedingen op en plaatst deze in het cachegeheugen, elk gekoppeld aan een andere locatie. Alle vooraf ingestelde locaties worden in het cachegeheugen opgeslagen op het apparaat voor toekomstig gebruik in de gebruikerssessie. Door meerdere locaties vooraf in te stellen op het Basisscherm, kunnen we aanbiedingen ophalen die later kunnen worden gebruikt wanneer de bezoeker door de app navigeert. Raadpleeg de [prefetch documentatie](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) voor meer informatie over prefetch methoden.
+Met een Prefetch-aanvraag wordt [!DNL Target]-inhoud zo min mogelijk opgehaald door de Adobe Target-serverreactie (aanbieding) in cache te plaatsen. Een batch-prefetch-aanvraag haalt meerdere aanbiedingen op en plaatst deze in het cachegeheugen, elk gekoppeld aan een andere locatie. Alle vooraf ingestelde locaties worden in het cachegeheugen opgeslagen op het apparaat voor toekomstig gebruik in de gebruikerssessie. Door meerdere locaties vooraf in te stellen op het Basisscherm, kunnen we aanbiedingen ophalen die later kunnen worden gebruikt wanneer de bezoeker door de app navigeert. Raadpleeg de [prefetch documentatie](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) voor meer informatie over prefetch methoden.
 
 ### De aanvraag Batch Prefetch toevoegen
 

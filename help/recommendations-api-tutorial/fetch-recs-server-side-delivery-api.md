@@ -10,9 +10,9 @@ kt: 3815
 thumbnail: null
 author: Judy Kim
 exl-id: 553d1208-647f-479d-acc7-d7760469d642
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ Om levering API te gebruiken om [!DNL Target] ervaring-met inbegrip van aanbevel
 
 ## Een aanbeveling maken met de Form-based Experience Composer
 
-Om aanbevelingen tot stand te brengen die met levering API kunnen worden gebruikt, gebruik [Op vorm-gebaseerde Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=en).
+Om aanbevelingen tot stand te brengen die met levering API kunnen worden gebruikt, gebruik [Op vorm-gebaseerde Composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html).
 
-1. Maak eerst een JSON-ontwerp en sla dit op dat u in uw aanbeveling wilt gebruiken. Voor voorbeeld JSON, plus achtergrondinformatie betreffende hoe de reacties JSON kunnen worden teruggekeerd wanneer het vormen van een op vorm-gebaseerde activiteit, zie de documentatie op [het Creëren van de Ontwerpen van de Aanbeveling](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-design/create-design.html?lang=en). In dit voorbeeld krijgt het ontwerp de naam *Eenvoudige JSON.*
+1. Maak eerst een JSON-ontwerp en sla dit op dat u in uw aanbeveling wilt gebruiken. Voor voorbeeld JSON, plus achtergrondinformatie betreffende hoe de reacties JSON kunnen worden teruggekeerd wanneer het vormen van een op vorm-gebaseerde activiteit, zie de documentatie op [het Creëren van de Ontwerpen van de Aanbeveling](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-design/create-design.html). In dit voorbeeld krijgt het ontwerp de naam *Eenvoudige JSON.*
 
    ![server-side-create-recs-json-design.png](assets/server-side-create-recs-json-design.png)
 
@@ -60,7 +60,7 @@ Om aanbevelingen tot stand te brengen die met levering API kunnen worden gebruik
 3. Selecteer een eigenschap en klik op **[!UICONTROL Next]**.
 4. Bepaal de plaats waar u gebruikers de reactie van de aanbeveling wilt ontvangen. In het onderstaande voorbeeld wordt een locatie met de naam *api_charter* gebruikt. Selecteer uw JSON-ontwerp, dat u eerder hebt gemaakt, met de naam *Simple JSON.*
    ![server-side-create-recs-form.png](assets/server-side-create-recs-form1.png)
-5. Sla de aanbeveling op en activeer deze. Het zal resultaten opleveren. [Zodra de resultaten klaar](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html?lang=en) zijn, kunt u de levering API gebruiken om hen terug te winnen.
+5. Sla de aanbeveling op en activeer deze. Het zal resultaten opleveren. [Zodra de resultaten klaar](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-activity/previewing-and-launching-your-recommendations-activity.html) zijn, kunt u de levering API gebruiken om hen terug te winnen.
 
 ## De API voor levering gebruiken
 
@@ -95,38 +95,38 @@ De volgende bronnen bieden voorbeelden van verschillende implementaties die niet
 | --- | --- |
 | [Adobe Target Overal - Implementeer server-kant of in de IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab die praktijkervaring biedt voor een React-toepassing die gebruikmaakt van Adobe Target server-side API&#39;s. |
 | [Adobe Target in een mobiele toepassing zonder de Adobe-SDK](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | In deze handleiding ziet u hoe u Adobe Target kunt instellen in uw mobiele app zonder de SDK van de Adobe te installeren. Deze oplossing gebruikt de webweergave van Tealium SDK en de module Externe opdrachten om aanvragen te verzenden en te ontvangen naar de Adobe Visitor API (Experience Cloud) en de Adobe Target API. |
-| [Hoe Adobe Target werkt in mobiele apps](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html?lang=en) | Hoe werkt [!DNL Target] met de mobiele SDK |
+| [Hoe Adobe Target werkt in mobiele apps](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Hoe werkt [!DNL Target] met de mobiele SDK |
 | [API&#39; [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] s configureren](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Stappen voor het configureren van de [!DNL Target]-extensie in Experience Platform Launch, het toevoegen van de [!DNL Target]-extensie aan uw app en het implementeren van [!DNL Target]-API&#39;s om activiteiten, prefetch-aanbiedingen en de modus voor visuele voorvertoning te vragen. |
 | [Adobe Target Node-client](https://www.npmjs.com/package/@adobe/target-nodejs-sdk) | Open-sourced [!DNL Target] Node.js SDK v1.0 |
-| [Overzicht van de server](https://experienceleague.adobe.com/docs/target/using/implement-target/server-side/api-and-sdk-overview.html?lang=en) | Informatie over Adobe Target Server Side Delivery API&#39;s, Server Side Batch Delivery API&#39;s, Node.js SDK en Adobe Target [!DNL Recommendations] API&#39;s. |
+| [Overzicht van de server](https://docs.adobe.com/content/help/en/target/using/implement-target/server-side/api-and-sdk-overview.html) | Informatie over Adobe Target Server Side Delivery API&#39;s, Server Side Batch Delivery API&#39;s, Node.js SDK en Adobe Target [!DNL Recommendations] API&#39;s. |
 | [Adobe Campaign Content Recommendations in Email](https://medium.com/adobetech/adobe-campaign-content-recommendations-in-email-b51ced771d7f) | Blog waarin wordt beschreven hoe u via Adobe Target en Adobe I/O Runtime in Adobe Campaign aanbevelingen kunt doen voor inhoud. |
 
 ## [!DNL Recommendations] Setup met API&#39;s beheren
 
 Meestal worden aanbevelingen geconfigureerd in de gebruikersinterface van Adobe Target, en vervolgens gebruikt of benaderd via de API&#39;s van [!DNL Target], om redenen zoals de in de bovenstaande secties vermelde redenen. Deze UI-API-coördinatie komt veel voor. Soms willen gebruikers echter wel alle handelingen uitvoeren via API&#39;s, zowel de setup als het gebruik van resultaten. Hoewel veel minder vaak, kunnen de gebruikers absoluut vormen, uitvoeren, *en* hefboomwerking de resultaten van aanbevelingen volledig gebruikend APIs.
 
-In een [eerdere sectie](manage-catalog.md) hebben we geleerd hoe we Adobe Target Recommendations-entiteiten kunnen beheren en op de server kunnen leveren. Op dezelfde manier staat Adobe I/O u toe om criteria, bevorderingen, inzamelingen, en ontwerpmalplaatjes te beheren zonder het moeten login aan Adobe Target. Een volledige lijst van alle [!DNL Recommendations] APIs kan [hier ](https://developers.adobetarget.com/api/recommendations/) worden gevonden, maar hier is een samenvatting ter verwijzing.
+In een [eerdere sectie](manage-catalog.md) hebben we geleerd hoe we Adobe Target Recommendations-entiteiten kunnen beheren en op de server kunnen leveren. Op dezelfde manier staat Adobe I/O u toe om criteria, bevorderingen, inzamelingen, en ontwerpmalplaatjes te beheren zonder het moeten login aan Adobe Target. Een volledige lijst van alle [!DNL Recommendations] APIs kan [hier ](http://developers.adobetarget.com/api/recommendations/) worden gevonden, maar hier is een samenvatting ter verwijzing.
 
 | Resource | Details |
 | --- | --- |
-| [Verzamelingen](https://developers.adobetarget.com/api/recommendations/#tag/Collections) | Verzamelingen weergeven, maken, ophalen, bewerken en verwijderen. |
-| [Criteria](https://developers.adobetarget.com/api/recommendations/#tag/Criteria) | Lijst en krijg criteria. |
-| [Ontwerpen](https://developers.adobetarget.com/api/recommendations/#tag/Designs) | Ontwerp weergeven, maken, ophalen, bewerken, verwijderen en valideren. |
-| [Entiteiten](https://developers.adobetarget.com/api/recommendations/#tag/Entities) | Entiteiten opslaan, verwijderen en ophalen. |
-| [Aanbiedingen](https://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Promoties aanbieden, maken, ophalen, bewerken en verwijderen. |
-| [Categoriecriteria](https://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Categoriecriteria weergeven, maken, ophalen, bewerken en verwijderen. |
-| [Aangepaste criteria](https://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Aangepaste criteria weergeven, maken, ophalen, bewerken en verwijderen. |
-| [Objectcriteria](https://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Objectcriteria weergeven, maken, ophalen, bewerken en verwijderen. |
-| [Criteria voor populariteit](https://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Maak een lijst, maak, krijg, bewerk en verwijder populiteitscriteria. |
-| [Kenmerkcriteria profiel](https://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Criteria voor profielkenmerken weergeven, maken, ophalen, bewerken en verwijderen. |
-| [Recente criteria](https://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Recente criteria weergeven, maken, ophalen, bewerken en verwijderen. |
-| [Reekscriteria](https://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | U kunt volgreekscriteria weergeven, maken, ophalen, bewerken en verwijderen. |
+| [Verzamelingen](http://developers.adobetarget.com/api/recommendations/#tag/Collections) | Verzamelingen weergeven, maken, ophalen, bewerken en verwijderen. |
+| [Criteria](http://developers.adobetarget.com/api/recommendations/#tag/Criteria) | Lijst en krijg criteria. |
+| [Ontwerpen](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | Ontwerp weergeven, maken, ophalen, bewerken, verwijderen en valideren. |
+| [Entiteiten](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | Entiteiten opslaan, verwijderen en ophalen. |
+| [Aanbiedingen](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Promoties aanbieden, maken, ophalen, bewerken en verwijderen. |
+| [Categoriecriteria](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Categoriecriteria weergeven, maken, ophalen, bewerken en verwijderen. |
+| [Aangepaste criteria](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Aangepaste criteria weergeven, maken, ophalen, bewerken en verwijderen. |
+| [Objectcriteria](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Objectcriteria weergeven, maken, ophalen, bewerken en verwijderen. |
+| [Criteria voor populariteit](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Maak een lijst, maak, krijg, bewerk en verwijder populiteitscriteria. |
+| [Kenmerkcriteria profiel](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Criteria voor profielkenmerken weergeven, maken, ophalen, bewerken en verwijderen. |
+| [Recente criteria](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Recente criteria weergeven, maken, ophalen, bewerken en verwijderen. |
+| [Reekscriteria](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | U kunt volgreekscriteria weergeven, maken, ophalen, bewerken en verwijderen. |
 
 ## Referentiedocumentatie
 
 * [Adobe Target API-documentatie](https://developers.adobetarget.com/api/#getting-started)
 * [Adobe Target Delivery-API](https://developers.adobetarget.com/api/delivery-api/)
-* [ [!DNL Recommendations] Integreren met e-mail](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-faq/integrating-recs-email.html?lang=en)
+* [ [!DNL Recommendations] Integreren met e-mail](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-faq/integrating-recs-email.html)
 
 ## Overzicht en revisie
 

@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
-source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -43,7 +43,7 @@ De SDK van Adobe Mobile Services is vooraf geïnstalleerd in de Web.Travel-app [
 
 Maak eerst een nieuwe toepassing in de gebruikersinterface voor mobiele services:
 
-1. Meld u aan bij de [Adobe Mobile Services-interface](https://mobilemarketing.adobe.com/).
+1. Meld u aan bij de [Adobe Mobile Services-interface](https://mobilemarketing.adobe.com).
 1. Ga naar [!UICONTROL Manage Apps], dan klik **[!UICONTROL Add]** om een nieuwe app toe te voegen om met deze zelfstudie (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**) te gebruiken.
 1. Kies een Analytics-rapportsuite met niet-productiegegevens, geef de app een naam, selecteer het type **[!UICONTROL Standard]** en klik op **[!UICONTROL Save]**.
 1. Nadat de app is toegevoegd, voegt u uw [!DNL Target]-clientcode toe aan het volgende scherm in de sectie [!UICONTROL SDK Target Options] (u vindt uw clientcode in de interface [!DNL Target] onder **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, naast de knop `at.js` downloaden).

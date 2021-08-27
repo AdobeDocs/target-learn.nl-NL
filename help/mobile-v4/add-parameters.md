@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Aan het eind van deze les, zult u kunnen:
 
 ## De levenscyclusparameters toevoegen
 
-Laten we de [Adobe mobiele levenscyclusmetriek](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en) inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
+Laten we de [Adobe mobiele levenscyclusmetriek](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html) inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
 
 Als u levenscyclusmetriek wilt inschakelen, opent u de HomeActivity-controller opnieuw en voegt u `Config.collectLifecycleData(this);` toe aan de functie onResume():
 
