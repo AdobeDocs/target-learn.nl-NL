@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
-
 
 # Parameters toevoegen aan de verzoeken
 
@@ -32,7 +31,7 @@ Aan het eind van deze les, zult u kunnen:
 
 ## De levenscyclusparameters toevoegen
 
-Laten we de [Adobe mobiele levenscyclusmetriek](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html) inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
+Laten we de [Adobe mobiele levenscyclusmetriek](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en) inschakelen. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
 
 Als u levenscyclusmetriek wilt inschakelen, opent u de HomeActivity-controller opnieuw en voegt u `Config.collectLifecycleData(this);` toe aan de functie onResume():
 
@@ -91,7 +90,7 @@ public void targetPrefetchContent() {
 
 ### Opmerking over parameters
 
-Voor toekomstige projecten, kunt u extra parameters willen uitvoeren. Bij de methode `createTargetPrefetchObject()` zijn drie typen parameters toegestaan: `locationParams`, `orderParams` en `productParams`. Zie de documentatie voor [meer details over het toevoegen van deze parameters aan het prefetch verzoek](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html).
+Voor toekomstige projecten, kunt u extra parameters willen uitvoeren. Bij de methode `createTargetPrefetchObject()` zijn drie typen parameters toegestaan: `locationParams`, `orderParams` en `productParams`. Zie de documentatie voor [meer details over het toevoegen van deze parameters aan het prefetch verzoek](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 U kunt ook verschillende locatieparameters toevoegen aan elke locatie in de prefetch-aanvraag. Bijvoorbeeld, kon u een andere Kaart creëren genoemd param2, een nieuwe parameter in het zetten, dan plaats param2 in één plaats en param1 met de andere plaats. Hier volgt een voorbeeld:
 
@@ -148,11 +147,11 @@ Voer de emulator uit en open Logcat. Filter voor een van de parameters om te con
 
 >[!NOTE]
 >
->Bevestigingsverzoeken en parameters voor bestelling: Hoewel niet gebruikt in dit demoproject, worden de orderdetails gewoonlijk gevangen in een echte implementatie zodat [!DNL Target] orderdetails als metriek/afmetingen kan gebruiken. Raadpleeg de documentatie voor instructies voor het [implementeren van het verzoek om bevestiging van de bestelling en de parameters](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>Bevestigingsverzoeken en parameters voor bestelling: Hoewel niet gebruikt in dit demoproject, worden de orderdetails gewoonlijk gevangen in een echte implementatie zodat [!DNL Target] orderdetails als metriek/afmetingen kan gebruiken. Raadpleeg de documentatie voor instructies voor het [implementeren van het verzoek om bevestiging van de bestelling en de parameters](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analyse voor doel (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target]. Hierdoor kunnen alle metriek/dimensies die door de Doel-SDK worden verzameld, in Adobe Analytics worden weergegeven. Zie [A4T Overzicht](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) voor meer details.
+>Analyse voor doel (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target]. Hierdoor kunnen alle metriek/dimensies die door de Doel-SDK worden verzameld, in Adobe Analytics worden weergegeven. Zie [A4T Overzicht](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) voor meer details.
 
 Mooi werk! Nu er parameters zijn, zijn we klaar om die parameters te gebruiken om publiek en aanbiedingen te maken in Adobe Target.
 

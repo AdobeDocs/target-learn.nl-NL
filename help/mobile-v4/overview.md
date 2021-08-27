@@ -8,14 +8,13 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Target met Adobe Mobile Services SDK v4 voor Android - Overzicht
 
@@ -25,7 +24,7 @@ Er is een demo-app voor Android beschikbaar waarmee u de lessen kunt voltooien. 
 
 Na het voltooien van deze zelfstudie kunt u het volgende doen:
 
-* De [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)-instelling valideren
+* De [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)-instelling valideren
 * Voer de volgende types van [!DNL Target] verzoeken uit:
    * Voorvertoning van [!DNL Target]-inhoud
    * Meerdere [!DNL Target] locaties (mboxen) in één aanvraag in batch plaatsen
@@ -44,7 +43,7 @@ In deze lessen wordt aangenomen dat u:
 
 * Een Adobe-id en op goedkeuringsniveau toegang tot de Adobe Target-interface hebben (zie de verificatiestappen hieronder)
 * Ken uw Adobe Target-clientcode zodat u aanvragen kunt indienen bij uw eigen account. De clientcode wordt weergegeven in de Adobe Target-interface op het tabblad   Setup > Implementation > Edit at.js settings screen
-* Toegang hebben tot en vertrouwd zijn met de [gebruikersinterface voor mobiele services](https://mobilemarketing.adobe.com)
+* Toegang hebben tot en vertrouwd zijn met de [gebruikersinterface voor mobiele services](https://mobilemarketing.adobe.com/)
 * Een IDE voor mobiele app ontwikkelen voor Android. Deze zelfstudie bevat [Android Studio](https://developer.android.com/studio/install) in verschillende stappen en screenshots
 
 Als u niet de vereiste toegang tot de Oplossingen van de Experience Cloud hebt, neem contact op met uw Beheerder van de Experience Cloud.
