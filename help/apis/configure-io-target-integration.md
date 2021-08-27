@@ -3,17 +3,17 @@ title: Verificatie configureren voor Adobe Target API's
 description: Deze zelfstudie begeleidt ontwikkelaars bij het doorlopen van de vereiste stappen om verificatietokens te genereren die nodig zijn om te kunnen communiceren met Adobe Target API's. Voer de volgende stappen uit om de Adobe Developer Console te gebruiken om het toegangstoken voor toonder te genereren en te testen, dat nodig is om de doel-API's te gebruiken.
 role: Developer, Admin, Architect
 level: Intermediate
-topic: Personalisatie, administratie, integratie, ontwikkeling
-feature: API's/SDK's, beheer en configuratie
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,11 +51,11 @@ In deze sectie krijgt u toegang tot de Adobe Developer Console en maakt u een pr
 
    ![configure-io-target-create project3.png](assets/configure-io-target-createproject3.png)
 
-4. Klik **[!UICONTROL Add API]** om REST API aan uw project toe te voegen om tot de diensten en de producten van de Adobe toegang te hebben.
+4. Klik **[!UICONTROL Add API]** om een REST API aan uw project toe te voegen om tot de diensten en de producten van Adobe toegang te hebben.
 
    ![API toevoegen](assets/configure-io-target-createproject4.png)
 
-5. Selecteer **[!DNL Adobe Target]** als de service Adobe waarmee u wilt integreren. Klik op de knop **[!UICONTROL Next]** die wordt weergegeven.
+5. Selecteer **[!DNL Adobe Target]** als de Adobe-service waarmee u wilt integreren. Klik op de knop **[!UICONTROL Next]** die wordt weergegeven.
 
    ![configure-io-target-create project5](assets/configure-io-target-createproject5.png)
 
@@ -87,14 +87,13 @@ Er zijn vele manieren om de details van uw project in Postman te specificeren, m
 
 >[!NOTE]
 >
->Zie [Postman gebruiken met Experience Platform-API&#39;s](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html) voor video-instructies die van toepassing zijn op elke Experience Cloud-oplossing, inclusief [!DNL Target]. De volgende secties zijn relevant voor de [!DNL Target] APIs:
+>Zie [Postman gebruiken met Experience Platform-API&#39;s](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en) voor video-instructies die van toepassing zijn op elke Experience Cloud-oplossing, inclusief [!DNL Target]. De volgende secties zijn relevant voor de [!DNL Target] APIs:
 >
 > 1. Adobe I/O-integratiegegevens exporteren naar Postman
 > 2. Een toegangstoken met Postman genereren
 
 >
-> 
-Deze stappen worden ook hieronder gegeven.
+> Deze stappen worden ook hieronder gegeven.
 
 1. Nog in [Adobe de Console van de Ontwikkelaar](https://console.adobe.io/), navigeer om de geloofsbrieven van **[!UICONTROL Service Account (JWT)]** van uw nieuw project te bekijken. Gebruik de linkernavigatie of de sectie **[!UICONTROL Credentials]** zoals getoond.
    ![JWT1](assets/configure-io-target-jwt1.png)
@@ -197,4 +196,4 @@ In deze oefening, zult u uw nieuwe toegangstoken van de toonder gebruiken door e
 1. Verzend uw verzoek nadat u de juiste omgeving hebt geselecteerd. U ontvangt een reactie met uw lijst met activiteiten.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Gefeliciteerd! Nu u uw Adobe-verificatie hebt geverifieerd, kunt u deze gebruiken om te communiceren met Adobe Target API&#39;s (en andere Adobe API&#39;s). U kunt bijvoorbeeld [Recommendations API&#39;s](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) gebruiken om aanbevelingen te maken of te beheren.
+Gefeliciteerd! Nu u uw Adobe-verificatie hebt geverifieerd, kunt u deze gebruiken om te communiceren met Adobe Target API&#39;s (en andere Adobe API&#39;s). U kunt bijvoorbeeld [Recommendations API&#39;s](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en) gebruiken om aanbevelingen te maken of te beheren.

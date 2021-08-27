@@ -3,16 +3,16 @@ title: Hoe te om de Visuele Composer van de Ervaring voor de Toepassingen van de
 description: Deze video introduceert marketers aan de Adobe Target Visual Experience Composer voor Toepassingen van de Enige Pagina (SPA VEC). Bekijk deze video om te leren hoe u activiteiten kunt maken met de SPA VEC.
 role: User
 level: Beginner
-topic: SPA, personalisatie
-feature: Ervaringen en aanbiedingen, Visual Experience Composer (VEC)
+topic: SPA, Personalization
+feature: Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 3e32d869-a94a-4253-93d7-58b615921067
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ De SPA VEC laat marketers toe om tests tot stand te brengen en inhoud in SPA op 
 
 * [At.js 2.0 implementeren in een toepassing voor één pagina](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Begrijpen hoe at.js 2.0 werkt (architectuurdiagrammen)](../implementation/understanding-how-atjs-20-works.md)
-* [Documentatie over composer voor één pagina-toepassing (SPA)](https://docs.adobe.com/help/en/target/using/experiences/spa-visual-experience-composer.html)
+* [Documentatie over composer voor één pagina-toepassing (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

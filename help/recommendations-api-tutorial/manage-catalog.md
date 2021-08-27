@@ -9,14 +9,13 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Uw [!DNL Recommendations]-catalogus beheren met API&#39;s
 
@@ -154,7 +153,7 @@ De gegevens van de entiteit kunnen slechts voor één enkele entiteit tegelijker
 Als u een fout ontvangt die verklaart de entiteit niet werd gevonden, zoals aangetoond in het voorbeeld hierboven, verifieert u het verzoek aan het correcte  [!DNL Target] milieu voorlegt.
 
    >[!NOTE]
-   Als geen milieu uitdrukkelijk wordt gespecificeerd, krijg de pogingen van de Entiteit om de entiteit van uw [standaardmilieu ](https://docs.adobe.com/content/help/en/target/using/administer/hosts.html#section_4F8539B07C0C45E886E8525C344D5FB0) slechts te krijgen. Als u van om het even welke milieu buiten uw standaardomgeving wenst te trekken, moet u milieu-identiteitskaart specificeren.
+   Als geen milieu uitdrukkelijk wordt gespecificeerd, krijg de pogingen van de Entiteit om de entiteit van uw [standaardmilieu ](https://experienceleague.adobe.com/docs/target/using/administer/hosts.html?lang=en) slechts te krijgen. Als u van om het even welke milieu buiten uw standaardomgeving wenst te trekken, moet u milieu-identiteitskaart specificeren.
 
 4. Voeg zo nodig de parameter `environmentId` toe en verzend het verzoek opnieuw.
 

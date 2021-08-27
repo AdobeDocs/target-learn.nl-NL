@@ -3,15 +3,15 @@ title: Ervaring maken voor gerichte activiteiten
 description: Met de Experience Targeting-activiteiten (XT) kunnen marketers specifieke inhoud voor een bepaald publiek afstemmen. Leer de voordelen van XT-activiteiten en hoe u deze kunt maken en gebruiken.
 role: User
 level: Beginner
-topic: Personalisatie
-feature: Gerichte ervaring, Activiteiten, Visual Experience Composer (VEC)
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ In deze video leert u hoe u:
 ## Aanvullende bronnen
 
 * [Download de Playbook voor Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Experience Targeing-documentatie](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [Experience Targeing-documentatie](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Andere functies die in deze video worden gebruikt
 
-* [Soorten publiek voor rapportage van documentatie](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Documentatie voor soorten publiek maken](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Ervaringen maken met de documentatie van Visual Experience Composer](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [Soorten publiek voor rapportage van documentatie](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Documentatie voor soorten publiek maken](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Ervaringen maken met de documentatie van Visual Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

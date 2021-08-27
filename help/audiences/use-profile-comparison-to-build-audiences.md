@@ -3,16 +3,16 @@ title: Hoe te om de Vergelijking van het Profiel te gebruiken om publiek te bouw
 description: In deze video ziet u hoe Adobe Target-gebruikers de functie Profielvergelijking kunnen gebruiken om twee numerieke profielwaarden met elkaar te vergelijken bij het samenstellen van een publiek.
 role: User
 level: Experienced
-topic: Personalisatie
-feature: Soorten publiek
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In deze video leert u hoe u:
 
 ## Aanvullende bronnen
 
-* [Het creëren van een publiek van de Vergelijking van de Attributen van het Profiel](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [Methoden om gegevens in Adobe Target op te halen](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [Stimulerend publiek](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Het creëren van een publiek van de Vergelijking van de Attributen van het Profiel](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Methoden om gegevens in Adobe Target op te halen](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [Stimulerend publiek](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video over doelgerichte activiteiten maken](../activities/create-experience-targeting-activities.md)

@@ -9,18 +9,17 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-
 # Aangepaste criteria beheren
 
-Soms kunnen de algoritmen die door [!DNL Recommendations] worden geleverd, bepaalde items die u wilt promoten, niet oppervlakkig weergeven. In een dergelijke situatie bieden aangepaste criteria u een manier om een specifieke reeks aanbevolen items voor een bepaald sleutelitem of een bepaalde categorie te leveren. U definieert de toewijzing tussen het hoofditem of de categorie en de aanbevolen items en importeert die toewijzing als aangepaste criteria. Dit proces wordt beschreven in [de documentatie van de douanecriteria](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html). Zoals vermeld in die documentatie, kunt u douanecriteria tot stand brengen uitgeven en schrappen door [!DNL Target] gebruikersinterface (UI). [!DNL Target] biedt echter ook een set API&#39;s met aangepaste criteria waarmee u uw aangepaste criteria gedetailleerder kunt beheren.
+Soms kunnen de algoritmen die door [!DNL Recommendations] worden geleverd, bepaalde items die u wilt promoten, niet oppervlakkig weergeven. In een dergelijke situatie bieden aangepaste criteria u een manier om een specifieke reeks aanbevolen items voor een bepaald sleutelitem of een bepaalde categorie te leveren. U definieert de toewijzing tussen het hoofditem of de categorie en de aanbevolen items en importeert die toewijzing als aangepaste criteria. Dit proces wordt beschreven in [de documentatie van de douanecriteria](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Zoals vermeld in die documentatie, kunt u douanecriteria tot stand brengen uitgeven en schrappen door [!DNL Target] gebruikersinterface (UI). [!DNL Target] biedt echter ook een set API&#39;s met aangepaste criteria waarmee u uw aangepaste criteria gedetailleerder kunt beheren.
 
 >[!IMPORTANT]
 >
@@ -36,7 +35,7 @@ Als u aangepaste criteria wilt maken met de [Aangepaste criteria-API](https://de
 
 >[!WARNING]
 >
->Aangepaste criteria die zijn gemaakt met de Create Custom Criteria API (Aangepaste criteria maken), zoals in deze exercitie wordt beschreven, worden weergegeven in de gebruikersinterface, waar ze blijven bestaan. U kunt ze niet bewerken of verwijderen uit de gebruikersinterface. U kunt ze **via API** bewerken of verwijderen, maar in beide gevallen blijven ze wel zichtbaar in de gebruikersinterface van [!DNL Target]. Als u de optie voor het bewerken of verwijderen van de interface wilt behouden, maakt u aangepaste criteria met de UI per [de documentatie](https://docs.adobe.com/content/help/en/target/using/recommendations/criteria/recommendations-csv.html) in plaats van de API Aangepaste criteria maken.
+>Aangepaste criteria die zijn gemaakt met de Create Custom Criteria API (Aangepaste criteria maken), zoals in deze exercitie wordt beschreven, worden weergegeven in de gebruikersinterface, waar ze blijven bestaan. U kunt ze niet bewerken of verwijderen uit de gebruikersinterface. U kunt ze **via API** bewerken of verwijderen, maar in beide gevallen blijven ze wel zichtbaar in de gebruikersinterface van [!DNL Target]. Als u de optie voor het bewerken of verwijderen van de interface wilt behouden, maakt u aangepaste criteria met de UI per [de documentatie](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en) in plaats van de API Aangepaste criteria maken.
 
 Ga alleen verder met deze zelfstudie nadat u de bovenstaande waarschuwing hebt gelezen en u vertrouwd bent met het maken van nieuwe aangepaste criteria die vervolgens niet uit de gebruikersinterface kunnen worden verwijderd.
 

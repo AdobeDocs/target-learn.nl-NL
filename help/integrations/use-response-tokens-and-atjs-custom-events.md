@@ -9,14 +9,13 @@ doc-type: technical video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: d6ce5367-a453-4e6c-8545-9fa676977f04
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # De Tokens van de Reactie van het gebruik en bij.js de Gebeurtenissen van de Douane met Adobe Target
 
@@ -36,6 +35,6 @@ Met responsietokens en `at.js` Aangepaste gebeurtenissen kunt u profielgegevens 
 ## Aanvullende bronnen
 
 * [De Experience Cloud Debugger gebruiken met Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [Documentatie over responstoken](https://docs.adobe.com/help/en/target/using/administer/response-tokens.html)
-* [Aangepaste gebeurtenisdocumentatie At.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/atjs-custom-events.html)
+* [Documentatie over responstoken](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [Aangepaste gebeurtenisdocumentatie at.js](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en)
 * [Gegevensleveranciers gebruiken in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

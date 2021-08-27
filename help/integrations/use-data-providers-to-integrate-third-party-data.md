@@ -3,16 +3,16 @@ title: Hoe te om de Leveranciers van Gegevens te gebruiken om Gegevens van de de
 description: Deze zelfstudie introduceert gebruikers aan Data Providers. Leer hoe u de functie Data Providers kunt gebruiken om gegevens van derden eenvoudig door te geven aan Adobe Target.
 role: User, Developer
 level: Experienced
-topic: Personalisatie, integratie
-feature: Implementatie, integratie, API's/SDK's
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ ht-degree: 0%
 ## Ondersteunende materialen
 
 * [Gegevensleveranciers implementeren in at.js en Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Documentatie gegevensleveranciers](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
+* [Documentatie gegevensleveranciers](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)

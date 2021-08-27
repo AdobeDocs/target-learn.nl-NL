@@ -9,23 +9,22 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Recommendations API-overzicht
 
-API&#39;s die relevant zijn voor [!DNL Recommendations] zijn [admin API&#39;s](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) waarmee u het volgende kunt doen:
+API&#39;s die relevant zijn voor [!DNL Recommendations] zijn [admin API&#39;s](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) waarmee u het volgende kunt doen:
 
 * Uw catalogus met aanbevolen producten of inhoud beheren
 * Uw [!DNL Recommendations] algoritmen en activiteiten beheren
 
-Met de [!DNL Target] [bezorgings-API](https://docs.adobe.com/content/help/en/target/using/apis/api-overview.html) met Recommendations kunt u ook:
+Met de [!DNL Target] [bezorgings-API](https://experienceleague.adobe.com/docs/target/using/apis/api-overview.html?lang=en) met Recommendations kunt u ook:
 
 * U kunt aanbevelingen ophalen in JSON-, HTML- of XML-objecten, zodat deze kunnen worden weergegeven in web, mobiel, e-mail, internet van dingen (IOT) en andere kanalen.
 
