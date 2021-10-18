@@ -4,15 +4,14 @@ description: Deze twee video's introduceren marketers aan Adobe Target Visual Ex
 landing-page-description: Bekijk deze video's om te leren hoe te om activiteiten tot stand te brengen gebruikend Visual Experience Composer (VEC).
 role: User
 level: Beginner
-topic: Personalisatie
-feature: Visual Experience Composer (VEC), Ervaringen en Aanbiedingen
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---

@@ -7,9 +7,8 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -46,7 +45,7 @@ Hieronder vindt u een aantal belangrijke doelterminologie die we in de rest van 
 * **Batchaanvraag:**  één aanvraag die meerdere locaties bevat
 * **Prefetch-aanvraag:**  één aanvraag die aanbiedingen ophaalt en deze in het geheugen ophaalt voor toekomstig gebruik in de app
 * **Batchvoorkeursaanvraag:**  één aanvraag die prefetches bieden voor meerdere locaties
-* **Publiek:**  een groep bezoekers, gedefinieerd in de  [!DNL Target] interface of gedeeld  [!DNL Target] vanuit andere Adobe-toepassingen (bijvoorbeeld &quot;iPhone X bezoekers&quot;, &quot;bezoekers in Californië&quot;, &quot;Eerste app geopend&quot;)
+* **Publiek:**  een groep bezoekers, gedefinieerd in de  [!DNL Target] interface of gedeeld  [!DNL Target] vanuit andere Adobe-toepassingen (bijvoorbeeld &quot;iPhone X bezoekers&quot;, &quot;bezoekers in Californië&quot;, &quot;First App Open&quot;)
 * **Activiteit:**  een  [!DNL Target] constructie, die in het  [!DNL Target] gebruikersinterface (of met API) wordt bepaald die plaatsen, aanbiedingen en Soorten publiek verbindt om een gepersonaliseerde ervaring tot stand te brengen
 
 ## Een aanvraag voor een batchvoorvertoning toevoegen

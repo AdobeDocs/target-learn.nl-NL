@@ -4,16 +4,15 @@ description: In deze video ziet u hoe Adobe Target-gebruikers doelgroepen kunnen
 landing-page-description: Leer om publiek te bepalen, publiek, doelactiviteiten, en filterrapporten te vinden.
 role: User
 level: Beginner
-topic: Personalisatie
-feature: Soorten publiek, rapporten
+topic: Personalization
+feature: Audiences, Reports
 doc-type: feature video
-thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---

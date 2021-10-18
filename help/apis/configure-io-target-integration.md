@@ -7,12 +7,11 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
-thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1832'
 ht-degree: 2%
 
 ---
@@ -55,7 +54,7 @@ In deze sectie krijgt u toegang tot de Adobe Developer Console en maakt u een pr
 
    ![API toevoegen](assets/configure-io-target-createproject4.png)
 
-5. Selecteer **[!DNL Adobe Target]** als de service Adobe waarmee u wilt integreren. Klik op de knop **[!UICONTROL Next]** die wordt weergegeven.
+5. Selecteer **[!DNL Adobe Target]** als de Adobe-service waarmee u wilt integreren. Klik op de knop **[!UICONTROL Next]** die wordt weergegeven.
 
    ![configure-io-target-create project5](assets/configure-io-target-createproject5.png)
 
@@ -87,7 +86,7 @@ Er zijn vele manieren om de details van uw project in Postman te specificeren, m
 
 >[!NOTE]
 >
->Zie [Postman gebruiken met Experience Platform-API&#39;s](https://docs.adobe.com/content/help/en/platform-learn/tutorials/apis/postman.html) voor video-instructies die van toepassing zijn op elke Experience Cloud-oplossing, inclusief [!DNL Target]. De volgende secties zijn relevant voor de [!DNL Target] APIs:
+>Zie [Postman gebruiken met Experience Platform-API&#39;s](https://experienceleague.adobe.com/docs/platform-learn/tutorials/platform-api-authentication.html?lang=en) voor video-instructies die van toepassing zijn op elke Experience Cloud-oplossing, inclusief [!DNL Target]. De volgende secties zijn relevant voor de [!DNL Target] APIs:
 >
 > 1. Adobe I/O-integratiegegevens exporteren naar Postman
 > 2. Een toegangstoken met Postman genereren

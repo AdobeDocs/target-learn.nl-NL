@@ -3,15 +3,14 @@ title: Een A/B-test maken
 description: In deze video worden gebruikers door de sleutelworkflow geleid voor het maken van A/B-activiteiten in Adobe Target. Bekijk deze video om te leren hoe te om een basisactiviteit A/B tot stand te brengen gebruikend Visual Experience Composer (VEC).
 role: User
 level: Beginner
-topic: Personalisatie
-feature: A/B-tests, activiteiten, Visual Experience Composer (VEC)
+topic: Personalization
+feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---

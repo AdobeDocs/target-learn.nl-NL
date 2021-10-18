@@ -7,15 +7,13 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
-
 
 # Soorten publiek en aanbiedingen maken in Adobe Target
 
@@ -106,7 +104,7 @@ Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aan
 
 ## Aanbiedingen maken
 
-Laten we nu aanbiedingen maken om deze berichten weer te geven. Ter herinnering, aanbiedingen zijn fragmenten van code/inhoud, die in de [!DNL Target] reactie worden geleverd. Deze worden meestal gemaakt in de gebruikersinterface [!DNL Target], maar kunnen ook worden gemaakt via API of via de integratie van Experience Fragments met Adobe Experience Manager. In mobiele apps zijn JSON-aanbiedingen gebruikelijk. In deze zelfstudie gebruiken we HTML-aanbiedingen die kunnen worden gebruikt om inhoud in normale tekst (inclusief JSON) in de app te leveren.
+Laten we nu aanbiedingen maken om deze berichten weer te geven. Ter herinnering, aanbiedingen zijn fragmenten van code/inhoud, die in de [!DNL Target] reactie worden geleverd. Deze worden meestal gemaakt in de gebruikersinterface [!DNL Target], maar kunnen ook worden gemaakt via API of via de integratie van Experience Fragments met Adobe Experience Manager. In mobiele apps zijn JSON-aanbiedingen gebruikelijk. In deze zelfstudie gebruiken we HTML-aanbiedingen die kunnen worden gebruikt om inhoud in de vorm van gewone tekst (inclusief JSON) in de app te leveren.
 
 ### De aanbieding voor nieuwe gebruikers maken
 
@@ -122,7 +120,7 @@ Laten we eerst aanbiedingen voor de berichten aan Nieuwe gebruikers maken:
 1. Typ _Selecteer Bron en Doel om te zoeken naar beschikbare bussen_ als code.
 1. Sla het nieuwe voorstel op.
 
-   ![HTML-aanbieding voor startpagina maken](assets/offer_home_2.jpg)
+   ![Home HTML-aanbieding maken](assets/offer_home_2.jpg)
 
 ### De aanbieding voor terugkerende gebruikers maken
 
@@ -132,7 +130,7 @@ Laten we nu de ene aanbieding voor terugkerende gebruikers maken (de tweede aanb
 1. Voer _Welkom terug! Gebruik de Bodemcode BACK30 tijdens het afrekenen om een korting van 10% te krijgen._ als de HTML-code.
 1. Sla het nieuwe voorstel op.
 
-   ![HTML-aanbieding voor startpagina maken](assets/offer_home_returning_users.jpg)
+   ![Home HTML-aanbieding maken](assets/offer_home_returning_users.jpg)
 
 ### De San Diego-aanbieding maken
 
