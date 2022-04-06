@@ -1,5 +1,5 @@
 ---
-title: Hoe te om de Toestemmingen van de Gebruiker van de Onderneming te vormen
+title: Werken met Enterprise-gebruikersmachtigingen
 description: Deze video introduceert Adobe Target-beheerders voor gebruikersmachtigingen, eigenschappen en werkruimten. Bekijk deze video voor meer informatie over de verschillende gebruikersniveaus en over het gebruik van eigenschappen en werkruimten om de gebruikerstoegang te beheren.
 role: Admin
 level: Beginner
@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 0e2f4824fcef96841ace2460f68033530f384c93
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
