@@ -1,7 +1,7 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -34,14 +34,14 @@ ht-degree: 0%
    + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
    + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
-+ Integratie{#integrations}
++ Integraties{#integrations}
    + [Doel integreren met analyse](../dev101/3.2-target-analytics.md)
    + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [A4T-rapporten instellen in Analysis Workspace voor Auto-Target-activiteiten](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
    + [Doel integreren met Audience Manager](../dev101/3.3-target-dmp.md)
    + [Doel integreren met publiek Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Doel integreren met campagne](../dev101/3.6-target-campaign.md)
-   + [Doel integreren met Adobe I/O](../dev101/3.7-target-io.md)
+   + [Doel integreren met Adobe Developer Console](../dev101/3.7-target-io.md)
    + [Doel integreren met Scene7](../dev101/3.8-target-scene7.md)
    + [Doel integreren met Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Fragmenten voor AEM ervaring in Adobe Target gebruiken](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
@@ -82,7 +82,7 @@ ht-degree: 0%
    + [Mbox-fouten oplossen](../dev101/4.1-troubleshoot-mbox-errors.md)
    + [Activiteitsfouten oplossen](../dev101/4.2-troubleshoot-activity-errors.md)
    + [A4T-integratiefouten oplossen](../dev101/4.3-troubleshoot-integration-errors.md)
-+ Mobile{#mobile}
++ Mobiel{#mobile}
    + [Adobe Target implementeren met Adobe Mobile Services SDK v4 voor Android](../mobile-v4/overview.md)
 + API&#39;s{#apis}
    + [Adobe API-verificatie configureren](../apis/configure-io-target-integration.md)
