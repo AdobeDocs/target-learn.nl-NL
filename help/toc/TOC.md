@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
+source-git-commit: 43487fac3c31ee9e069b5a1c884f171010a1478e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 + [Adobe Target Tutorials - Overzicht](../overview.md)
 + Beheer{#administration}
-   + [Strategie en leiderschap]{#strategy}
+   + Strategie en leiderschap{#strategy}
       + [Snel aan de slag voor het testen van de personalisatie en het maken van routekaarten](../strategy/create-personalization-roadmap-testing-plan.md)
       + [Tenuitvoerleggingsstrategie en systeembeheer](../dev101/1.1-implementation-strategy-sys-governance.md)
       + [Aanbevolen procedures voor optimalisatie met Adobe Target](../strategy/target-best-practices-for-optimization.md)
