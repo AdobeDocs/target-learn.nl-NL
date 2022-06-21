@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
+source-git-commit: 18f3badbdcad6467f350b6f30aa0643a5a9d0139
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,11 @@ ht-degree: 0%
 
 + [Adobe Target Tutorials - Overzicht](../overview.md)
 + Beheer{#administration}
-   + [Implementatiestrategie en systeembeheer](../dev101/1.1-implementation-strategy-sys-governance.md)
+   + [Strategie en leiderschap]{#strategy}
+      + [Snel aan de slag voor het testen van de personalisatie en het maken van routekaarten](../strategy/create-personalization-roadmap-testing-plan.md)
+      + [Tenuitvoerleggingsstrategie en systeembeheer](../dev101/1.1-implementation-strategy-sys-governance.md)
+      + [Aanbevolen procedures voor optimalisatie met Adobe Target](../strategy/target-best-practices-for-optimization.md)
+      + [Uw Adobe Target-implementatie optimaliseren](../strategy/optimize-your-target-implementation.md)
    + [Accountvoorkeuren instellen](../administration/set-up-account-preferences.md)
    + [Gebruikermachtigingen voor bedrijven begrijpen](../administration/understanding-enterprise-user-permissions.md)
    + [Gebruikersmachtigingen voor bedrijven configureren](../dev101/1.2-configure-ent-user-permissions.md)
