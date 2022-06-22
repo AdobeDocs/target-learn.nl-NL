@@ -1,10 +1,11 @@
 ---
 title: Uw Adobe Target-implementatie optimaliseren
-description: 'Bekijk een overzicht van de Adobe Target-implementatie en -structuur. Leer hoe u de instelling van uw organisatie kunt begrijpen en controleren. Leer de algemene technieken en tips voor het oplossen van problemen bij het maken van een kennisopslagplaats voor uw team. '
+description: Bekijk een overzicht van de Adobe Target-implementatie en -structuur. Leer hoe u de instelling van uw organisatie kunt begrijpen en controleren. Leer de algemene technieken en tips voor het oplossen van problemen bij het maken van een kennisopslagplaats voor uw team.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: 49b69f41-0993-437c-bb69-84392be427df
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -162,3 +163,5 @@ De typische documenten in een Bewaarplaats van de Kennis omvatten:
 * **Programmadashboard** - een document dat wordt gebruikt om de prestaties, het tempo en de inkomstenvoordelen van het programma in de loop der tijd te volgen.
 
 Voor meer informatie raadpleegt u onze [webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) met senior consultant, Wilder Freed.
+
+Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.

@@ -1,10 +1,11 @@
 ---
 title: Aanbevolen procedures voor optimalisatie
-description: 'Leer zes essentiële Adobe om ze toe te passen. '
+description: Leer zes essentiële Adobe om ze toe te passen.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ Personalisatie omvat ook de ervaring die het type van testactiviteit richt, dat 
 Gezien het bovenstaande, adviseert Adobe dat u optimaliseert alvorens u, en vooruitgaat Personalisatie van breed aan korrelig aanpast. Om de Activiteiten van de Personalisatie van breed tot korrelig te rijpen, zult u beginnen gebruikend een één-aan-vele (brede) verpersoonlijkings (het gebruiken van A/B het testen), dan beweging in één-aan-één verpersoonlijkings (korrelige) stijl (het gebruiken van Geautomatiseerde verpersoonlijkingsactiviteiten).
 
 Ga voor meer informatie naar [webinar over het begrijpen en optimaliseren van uw Adobe Target-implementatie](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), met Business Consultant, Katie Cozby.
+
+Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
