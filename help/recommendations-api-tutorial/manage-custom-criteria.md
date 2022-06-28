@@ -9,16 +9,16 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Aangepaste criteria beheren
 
-Soms kunnen de algoritmen die door [!DNL Recommendations] worden geleverd, bepaalde items die u wilt promoten, niet oppervlakkig weergeven. In een dergelijke situatie bieden aangepaste criteria u een manier om een specifieke reeks aanbevolen items voor een bepaald sleutelitem of een bepaalde categorie te leveren. U definieert de toewijzing tussen het hoofditem of de categorie en de aanbevolen items en importeert die toewijzing als aangepaste criteria. Dit proces wordt beschreven in [de documentatie van de douanecriteria](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Zoals vermeld in die documentatie, kunt u douanecriteria tot stand brengen uitgeven en schrappen door [!DNL Target] gebruikersinterface (UI). [!DNL Target] biedt echter ook een set API&#39;s met aangepaste criteria waarmee u uw aangepaste criteria gedetailleerder kunt beheren.
+Soms worden de algoritmen geleverd door [!DNL Recommendations] bepaalde objecten die u wilt promoten, niet kunnen weergeven. In een dergelijke situatie bieden aangepaste criteria u een manier om een specifieke reeks aanbevolen items voor een bepaald sleutelitem of een bepaalde categorie te leveren. U definieert de toewijzing tussen het hoofditem of de categorie en de aanbevolen items en importeert die toewijzing als aangepaste criteria. Dit proces wordt beschreven in het dialoogvenster [documentatie met aangepaste criteria](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Zoals vermeld in die documentatie, kunt u douanecriteria tot stand brengen uitgeven en schrappen door [!DNL Target] gebruikersinterface (UI). Maar [!DNL Target] biedt ook een set API&#39;s met aangepaste criteria waarmee u uw aangepaste criteria gedetailleerder kunt beheren.
 
 >[!IMPORTANT]
 >
@@ -28,21 +28,21 @@ Soms kunnen de algoritmen die door [!DNL Recommendations] worden geleverd, bepaa
 
 ## Aangepaste criteria maken
 
-Als u aangepaste criteria wilt maken met de [Aangepaste criteria-API](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom) maken, is de syntaxis:
+Aangepaste criteria maken met de opdracht [Aangepaste criteria-API maken](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom), is de syntaxis:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
 >[!WARNING]
 >
->Aangepaste criteria die zijn gemaakt met de Create Custom Criteria API (Aangepaste criteria maken), zoals in deze exercitie wordt beschreven, worden weergegeven in de gebruikersinterface, waar ze blijven bestaan. U kunt ze niet bewerken of verwijderen uit de gebruikersinterface. U kunt ze **via API** bewerken of verwijderen, maar in beide gevallen blijven ze wel zichtbaar in de gebruikersinterface van [!DNL Target]. Als u de optie voor het bewerken of verwijderen van de interface wilt behouden, maakt u aangepaste criteria met de UI per [de documentatie](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en) in plaats van de API Aangepaste criteria maken.
+>Aangepaste criteria die zijn gemaakt met de Create Custom Criteria API (Aangepaste criteria maken), zoals in deze exercitie wordt beschreven, worden weergegeven in de gebruikersinterface, waar ze blijven bestaan. U kunt ze niet bewerken of verwijderen uit de gebruikersinterface. U kunt ze bewerken of verwijderen **via API**, maar in beide gevallen blijven ze in de [!DNL Target] UI. Als u de optie voor het bewerken of verwijderen van de interface wilt behouden, maakt u de aangepaste criteria met behulp van de interface per [de documentatie](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en)in plaats van de API Aangepaste criteria maken te gebruiken.
 
 Ga alleen verder met deze zelfstudie nadat u de bovenstaande waarschuwing hebt gelezen en u vertrouwd bent met het maken van nieuwe aangepaste criteria die vervolgens niet uit de gebruikersinterface kunnen worden verwijderd.
 
-1. Verifieer `TENANT_ID` en `API_KEY` voor **Aangepaste criteria maken** verwijzing naar de vroeger vastgestelde Postman-omgevingsvariabelen. Gebruik de onderstaande afbeelding om deze te vergelijken.
+1. Verifiëren `TENANT_ID` en `API_KEY` for **Aangepaste criteria maken** verwijzen naar de eerder vastgestelde Postman-omgevingsvariabelen. Gebruik de onderstaande afbeelding om deze te vergelijken.
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. Voeg uw **Body** toe als **raw** JSON die de locatie van uw CSV-bestand met aangepaste criteria definieert. Gebruik het voorbeeld in de [Create Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) documentatie als sjabloon en geef uw `environmentId` en andere waarden op als dat nodig is. Voor dit voorbeeld, gebruiken wij LAST_PURCHASED als sleutel.
+2. Voeg uw **Lichaam** als **ruw** JSON die de locatie van uw CSV-bestand met aangepaste criteria definieert. Gebruik het voorbeeld in het dialoogvenster [Aangepaste criteria-API maken](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) documentatie als sjabloon, die uw `environmentId` en andere waarden indien nodig. Voor dit voorbeeld, gebruiken wij LAST_PURCHASED als sleutel.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
@@ -50,30 +50,30 @@ Ga alleen verder met deze zelfstudie nadat u de bovenstaande waarschuwing hebt g
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. Als u wilt controleren of uw aangepaste criteria zijn gemaakt, navigeert u in Adobe Target naar **[!UICONTROL Recommendations]>[!UICONTROL Criteria]** en zoekt u uw criteria op naam of gebruikt u de **Aangepaste criteria-API** in de volgende stap.
+4. Als je wilt controleren of je aangepaste criteria zijn gemaakt, navigeer dan in Adobe Target naar **[!UICONTROL Recommendations]>[!UICONTROL Criteria]** en zoek uw criteria op naam of gebruik de **Aangepaste criteria-API weergeven** in de volgende stap.
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
-In dit geval hebben we een fout. Onderzoek de fout door de douanecriteria nauwkeuriger te onderzoeken, gebruikend **de Criteria API van de Douane van de Lijst**.
+In dit geval hebben we een fout. Laten we de fout onderzoeken door de aangepaste criteria nauwkeuriger te bekijken met de **Aangepaste criteria-API weergeven**.
 
 ## Aangepaste criteria weergeven
 
-Om een lijst van al uw douanecriteria samen met details voor elk terug te winnen, gebruik [Aangepaste Criteria API van de Lijst](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). De syntaxis is:
+Als u een lijst met al uw aangepaste criteria wilt ophalen, gebruikt u de opdracht [Aangepaste criteria-API weergeven](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). De syntaxis is:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
-1. Verifieer `TENANT_ID` en `API_KEY` zoals vóór, en verzend het verzoek. Let in de reactie op de id van de aangepaste criteria en op details met betrekking tot het eerder vermelde foutbericht.
+1. Verifiëren `TENANT_ID` en `API_KEY` als voorheen, en verzend het verzoek. Let in de reactie op de id van de aangepaste criteria en op details met betrekking tot het eerder vermelde foutbericht.
    ![ListCustomCriteria](assets/ListCustomCriteria.png)
 
-In dit geval is de fout opgetreden omdat de serverinformatie onjuist is. Dit betekent dat [!DNL Target] geen toegang heeft tot het CSV-bestand dat de definitie van aangepaste criteria bevat. Bewerk de aangepaste criteria om dit te corrigeren.
+In dit geval is de fout opgetreden omdat de serverinformatie onjuist is, wat betekent [!DNL Target] heeft geen toegang tot het CSV-bestand dat de definitie van aangepaste criteria bevat. Bewerk de aangepaste criteria om dit te corrigeren.
 
 ## Aangepaste criteria bewerken
 
-Als u de details van een definitie van een aangepast criterium wilt wijzigen, gebruikt u de [Aangepaste criteria-API](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom) bewerken. De syntaxis is:
+Als u de details van een definitie voor aangepaste criteria wilt wijzigen, gebruikt u de optie [Aangepaste criteria-API bewerken](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). De syntaxis is:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Verifieer `TENANT_ID` en `API_KEY`, zoals voordien.
+1. Verifiëren `TENANT_ID` en `API_KEY`, zoals eerder.
    ![EditCustomCriteria1](assets/EditCustomCriteria1.png)
 
 1. Geef de criteria-id op van de (enkele) aangepaste criteria die u wilt bewerken.
@@ -85,11 +85,11 @@ Als u de details van een definitie van een aangepast criterium wilt wijzigen, ge
 1. Verzend de aanvraag en noteer het antwoord.
    ![EditCustomCriteria4](assets/EditCustomCriteria4.png)
 
-Controleer het succes van de bijgewerkte douanecriteria, gebruikend **krijgen de Criteria van de Douane API**.
+Laten we het succes van de bijgewerkte aangepaste criteria controleren met de opdracht **API voor aangepaste criteria ophalen**.
 
 ## Aangepaste criteria ophalen
 
-Als u de details van aangepaste criteria voor specifieke aangepaste criteria wilt weergeven, gebruikt u [Aangepaste criteria-API](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom) ophalen. De syntaxis is:
+Als u de details van aangepaste criteria voor specifieke aangepaste criteria wilt bekijken, gebruikt u de opdracht [API voor aangepaste criteria ophalen](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). De syntaxis is:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -102,11 +102,11 @@ Als u de details van aangepaste criteria voor specifieke aangepaste criteria wil
 
 ## Aangepaste criteria verwijderen
 
-Verwijder met de eerder vermelde criteria-id uw aangepaste criteria met de [Aangepaste criteria-API](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom) verwijderen. De syntaxis is:
+Verwijder uw aangepaste criteria met de eerder vermelde criteria aan de hand van de [Aangepaste criteria-API verwijderen](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). De syntaxis is:
 
 `DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Geef de criteria-id op van de (enkele) aangepaste criteria die u wilt verwijderen. Klik **Send**.
+1. Geef de criteria-id op van de (enkele) aangepaste criteria die u wilt verwijderen. Klikken **Verzenden**.
    ![DeleteCustomCriteria1](assets/DeleteCustomCriteria1.png)
 
 1. Controleer of de criteria zijn verwijderd met Aangepaste criteria ophalen.
@@ -114,8 +114,8 @@ Verwijder met de eerder vermelde criteria-id uw aangepaste criteria met de [Aang
 In dit geval geeft de verwachte fout van 404 aan dat de verwijderde criteria niet kunnen worden gevonden.
 
 >[!NOTE]
->Ter herinnering: de criteria worden niet verwijderd uit de interface [!DNL Target], ook al is deze verwijderd, omdat deze is gemaakt met de API Aangepaste criteria maken.
+>Ter herinnering: de criteria worden niet verwijderd uit de [!DNL Target] UI, ook al is deze verwijderd, omdat deze is gemaakt met de API Aangepaste criteria maken.
 
-Gefeliciteerd! U kunt nu met de API [!DNL Recommendations] details maken, weergeven, bewerken, verwijderen en ophalen. In de volgende sectie gebruikt u de leverings-API [!DNL Target] om aanbevelingen op te halen.
+Gefeliciteerd! U kunt nu details over aangepaste criteria maken, weergeven, bewerken, verwijderen en ophalen met de opdracht [!DNL Recommendations] API. In de volgende sectie gebruikt u de opdracht [!DNL Target] Leverings-API om aanbevelingen op te halen.
 
-[Next &quot;Fetch Recommendations with the Server-side Delivery API&quot; >](fetch-recs-server-side-delivery-api.md)
+[Next &quot;Fetch Recommendations with the Server-side Delivery API&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
