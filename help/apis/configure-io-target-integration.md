@@ -9,10 +9,10 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1831'
+ht-degree: 2%
 
 ---
 
@@ -195,4 +195,4 @@ In deze oefening, zult u uw nieuwe toegangsteken van de toverdrager gebruiken do
 1. Verzend uw verzoek nadat u de juiste omgeving hebt geselecteerd. U ontvangt een reactie met uw lijst met activiteiten.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-Gefeliciteerd! Nu u uw Adobe-verificatie hebt geverifieerd, kunt u deze gebruiken om te communiceren met Adobe Target API&#39;s (en andere Adobe API&#39;s). U kunt bijvoorbeeld [Recommendations API&#39;s gebruiken](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank} om aanbevelingen te maken of te beheren.
+Gefeliciteerd! Nu u uw Adobe-verificatie hebt geverifieerd, kunt u deze gebruiken om te communiceren met Adobe Target API&#39;s (en andere Adobe API&#39;s). U kunt bijvoorbeeld [Recommendations API&#39;s gebruiken](https://developer.adobe.com/target/before-administer/recs-api/){target=&quot;_blank&quot;} om aanbevelingen te maken of te beheren.

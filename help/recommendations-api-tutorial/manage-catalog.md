@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 1%
@@ -24,7 +24,7 @@ U kunt de [Recommendations API&#39;s](https://developers.adobetarget.com/api/rec
 
 >[!TIP]
 >
->Verzend de **[!UICONTROL IMS: JWT Generate + Auth via User Token]** verzoek wanneer u uw toegangstoken voor authentificatie moet verfrissen, aangezien het na 24 uren verloopt. Zie [Adobe API-verificatie configureren](https://developer.adobe.com/target/before-administer/configure-authentication/){target=_blank} voor instructies.
+>Verzend de **[!UICONTROL IMS: JWT Generate + Auth via User Token]** verzoek wanneer u uw toegangstoken voor authentificatie moet verfrissen, aangezien het na 24 uren verloopt. Zie [Adobe API-verificatie configureren](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;} voor instructies.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -204,4 +204,4 @@ Als er geen id&#39;s voor entiteiten zijn opgegeven, worden alle entiteiten in d
 
 Gefeliciteerd! U kunt nu de opdracht [!DNL Recommendations] API&#39;s voor het maken, bijwerken, verwijderen en ophalen van gegevens over de entiteiten in uw catalogus. In de volgende sectie leert u hoe u aangepaste criteria kunt beheren.
 
-[Volgende &quot;Aangepaste criteria beheren&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=_blank}
+[Volgende &quot;Aangepaste criteria beheren&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-custom-criteria/){target=&quot;_blank&quot;}

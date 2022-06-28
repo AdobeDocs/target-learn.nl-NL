@@ -9,9 +9,9 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -118,4 +118,4 @@ In dit geval geeft de verwachte fout van 404 aan dat de verwijderde criteria nie
 
 Gefeliciteerd! U kunt nu details over aangepaste criteria maken, weergeven, bewerken, verwijderen en ophalen met de opdracht [!DNL Recommendations] API. In de volgende sectie gebruikt u de opdracht [!DNL Target] Leverings-API om aanbevelingen op te halen.
 
-[Next &quot;Fetch Recommendations with the Server-side Delivery API&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
+[Next &quot;Fetch Recommendations with the Server-side Delivery API&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=&quot;_blank&quot;}
