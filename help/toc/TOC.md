@@ -1,7 +1,7 @@
 ---
 user-guide-title: Adobe Target Tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3b278c1286da5376375622c157bb5cc634e23888
+source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -38,6 +38,7 @@ ht-degree: 0%
    + [Opt-In gebruiken om Experience Cloud-oplossingen te beheren op basis van toestemming van de gebruiker](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
    + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
+   + [Implementatiepatronen voor Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
 + Integraties{#integrations}
    + [Doel integreren met analyse](../dev101/3.2-target-analytics.md)
    + [Analyses gebruiken als gegevensbron voor doel (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
