@@ -1,7 +1,7 @@
 ---
 title: Wat zijn soorten publiek en hoe gebruik ik deze?
-description: In deze video ziet u hoe Adobe Target-gebruikers doelgroepen kunnen gebruiken voor doelactiviteiten en filterrapporten.
-landing-page-description: Leer om publiek te bepalen, publiek, doelactiviteiten, en filterrapporten te vinden.
+description: In deze video ziet u hoe Adobe Target-gebruikers doelgroepen kunnen gebruiken om activiteiten te targeten en rapportages te filteren.
+landing-page-description: Leer doelgroepen te definiëren en te zoeken, activiteiten te targeten en rapportages te filteren.
 role: User
 level: Beginner
 topic: Personalization
@@ -12,8 +12,8 @@ author: Daniel Wright
 exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '75'
+ht-degree: 37%
 
 ---
 
