@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2111'
 ht-degree: 0%
 
 ---
@@ -203,6 +203,8 @@ De volledige berekende metrische definitie wordt hier getoond.
 ## Overzicht: Eindmonster [!DNL Analysis Workspace] deelvenster voor [!UICONTROL Auto-Target] rapporten
 
 Als u alle bovenstaande stappen in één venster combineert, wordt in de onderstaande afbeelding een volledige weergave getoond van het aanbevolen rapport voor [!UICONTROL Auto-Target] A4T-activiteiten. Dit verslag is hetzelfde als het verslag van de [!DNL Target] ML modellen om uw doel metrisch te optimaliseren. Het verslag bevat alle nuances en aanbevelingen die in deze zelfstudie worden besproken. Dit verslag ligt ook het dichtst bij de in de traditionele [!DNL Target]-rapporteringsgestuurd [!UICONTROL Auto-Target] activiteiten.
+
+Klik om de afbeelding uit te vouwen.
 
 ![Definitief A4T-rapport in [!DNL Analysis Workspace]](assets/Figure8.png "A4T-rapport in Analysis Workspace"){width="600" zoomable="yes"}
 
