@@ -1,6 +1,8 @@
 ---
-title: A4T-rapporten instellen in Analysis Workspace voor activiteiten voor automatisch doel
-description: Zodra u uw Analytics voor de integratie van het Doel (A4T) op zijn plaats hebt en u activiteiten Auto-Target in werking stelt, hoe kunt u ervoor zorgen u correct resultaten interpreteert? Voer de volgende stappen uit om A4T-rapporten in Analysis Workspace te configureren om de verwachte resultaten te verkrijgen bij het uitvoeren van Auto-Target-activiteiten.
+title: A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activiteiten
+description: Hoe kan ik A4T-rapporten configureren in [!DNL Analysis Workspace] om de verwachte resultaten op te halen wanneer de toepassing wordt uitgevoerd [!UICONTROL Auto-Target] activiteiten?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,14 +10,18 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 2571964b557f696d8e0377b922d96e90611f2327
+source-git-commit: 12dc82a96a8df234d02dc56e9e5904571f2152ba
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2500'
 ht-degree: 0%
 
 ---
 
 # A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Target] activiteiten
+
+>[!NOTE]
+>
+>Deze functionaliteit is momenteel in Bèta en zal voor allen beschikbaar zijn [Doelpremie](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium){target=_blank} in een komende release.
 
 >[!IMPORTANT]
 >
@@ -89,7 +95,7 @@ Laten we de verslagen op bezoekersniveau en op bezoekersniveau vergelijken:
 | Ervaring | Unieke bezoekers | Bezoeken | Conversies | Norm van bezoeker. Conv. Snelheid | Bezoek norm. Conv. Snelheid |
 | --- | --- | --- | --- | --- | --- |
 | A | 1 | 1 | - | 0% | 0% |
-| B | 2 | 3 | 1 | 50% | 33,3% |
+| B | 2 | 3 | 1 | 50% | 33.3% |
 | Totalen | 2 | 4 | 1 | 50% | 25% |
 
 *Tabel 1: Voorbeeld waarin bezoekers-genormaliseerde en bezoek-genormaliseerde rapporten voor een scenario worden vergeleken waarin de besluiten aan een bezoek kleven (en niet bezoeker, zoals met regelmatige tests A/B). De bezoeker-genormaliseerde metriek zijn verwarrend in dit scenario.*
