@@ -2,15 +2,16 @@
 title: A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Activiteiten
 description: Hoe kan ik A4T-rapporten configureren in [!DNL Analysis Workspace] om de verwachte resultaten op te halen wanneer de toepassing wordt uitgevoerd [!UICONTROL Auto-Allocate] activiteiten.
 role: User
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!DNL Au
    * Het optimalisatiecriterium voor het optimaliseren van de unieke conversiesnelheid van bezoekers heeft een conversiesnelheid waarvan de teller een telling is van de unieke bezoekers met een positieve waarde van de metrische waarde.
    * De waarde &quot;maximaliseer metrische waarde per bezoeker* heeft een omzettingspercentage de regelmatige metrische waarde in [!DNL Adobe Analytics]. Dit wordt standaard opgegeven in het gedeelte **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace].
 * Wanneer uw optimalisatiemetrisch een [!DNL Target] gedefinieerde metrische conversie, standaard **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace] handgrepen voor het configureren van het deelvenster.
-* De [!UICONTROL Confidence] getallen weergegeven in [!DNL Analysis Workspace] niet de [conservatievere statistieken gebruikt door [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), en moet daarom worden geschrapt.
+* De [!UICONTROL Confidence] getallen weergegeven in [!DNL Analysis Workspace] niet de [conservatievere statistieken gebruikt door [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), en dat moet buiten beschouwing worden gelaten. Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage.
 
 ## A4T maken voor [!DNL Auto-Allocate] in [!DNL Analysis Workspace]
 

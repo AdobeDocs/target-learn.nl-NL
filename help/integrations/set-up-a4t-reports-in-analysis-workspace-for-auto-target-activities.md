@@ -2,6 +2,7 @@
 title: A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activiteiten
 description: Hoe kan ik A4T-rapporten configureren in [!DNL Analysis Workspace] om de verwachte resultaten op te halen wanneer de toepassing wordt uitgevoerd [!UICONTROL Auto-Target] activiteiten?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -51,7 +52,7 @@ Een A4T maken voor [!UICONTROL Auto-Target] rapport, of begin met **[!UICONTROL 
 
 ## Gebruik de [!UICONTROL Control vs.Targeted] dimensie die moet worden vergeleken [!DNL Target] ML-model samenvoegen tot uw besturingselement
 
-Het standaard A4T-deelvenster is ontworpen voor klassiek (handmatig) [!UICONTROL A/B Test] of [!UICONTROL Auto-Allocate] activiteiten waarbij het doel is de prestaties van individuele ervaringen te vergelijken met die van de controleervaring. In [!UICONTROL Auto-Target] de activiteiten, maar de eerste orde van vergelijking moet betrekking hebben op de *strategie* en de beoogde *strategie*. Met andere woorden, het bepalen van de totale prestatie van de [!UICONTROL Auto-Target] het ML-model samenvoegen boven de besturingsstrategie).
+Het standaard A4T-deelvenster is ontworpen voor klassiek (handmatig) [!UICONTROL A/B Test] of [!UICONTROL Auto-Allocate] activiteiten waarbij het doel is de prestaties van individuele ervaringen te vergelijken met die van de controleervaring. In [!UICONTROL Auto-Target] de activiteiten, maar de eerste orde van vergelijking moet betrekking hebben op de *strategie* en de beoogde *strategie*. Met andere woorden, het bepalen van de totale prestatie van de [!UICONTROL Auto-Target] Sluit het model van ML over de controlestrategie.
 
 Voor deze vergelijking gebruikt u de opdracht **[!UICONTROL Control vs Targeted (Analytics for Target)]** dimensie. Sleep en zet neer om de **[!UICONTROL Target Experiences]** dimensie in het standaardA4T rapport.
 
