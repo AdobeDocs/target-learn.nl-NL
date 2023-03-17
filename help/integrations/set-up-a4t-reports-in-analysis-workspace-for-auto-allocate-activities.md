@@ -9,9 +9,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!DNL Au
    * Het optimalisatiecriterium voor het optimaliseren van de unieke conversiesnelheid van bezoekers heeft een conversiesnelheid waarvan de teller een telling is van de unieke bezoekers met een positieve waarde van de metrische waarde.
    * De waarde &quot;maximaliseer metrische waarde per bezoeker* heeft een omzettingspercentage de regelmatige metrische waarde in [!DNL Adobe Analytics]. Dit wordt standaard opgegeven in het gedeelte **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace].
 * Wanneer uw optimalisatiemetrisch een [!DNL Target] gedefinieerde metrische conversie, standaard **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace] handgrepen voor het configureren van het deelvenster.
-* De [!UICONTROL Confidence] getallen weergegeven in [!DNL Analysis Workspace] niet de [conservatievere statistieken gebruikt door [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), en dat moet buiten beschouwing worden gelaten. Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage.
+* De [!UICONTROL Confidence] getallen weergegeven in [!DNL Analysis Workspace] niet de [conservatievere statistieken gebruikt door [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629)en moet daarom uit het A4T-deelvenster worden verwijderd. Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage.
 
 ## A4T maken voor [!DNL Auto-Allocate] in [!DNL Analysis Workspace]
 
@@ -51,7 +51,7 @@ Een A4T maken voor [!DNL Auto-Allocate] rapport begint met **[!UICONTROL Analyti
 
 De standaardhandgrepen van het A4T-deelvenster [!DNL Auto-Allocate] activiteiten waarin het doel metrisch is [!DNL Target] conversie of [!DNL Analytics] metrisch met optimalisatiecriterium &quot;Maximaliseer de Metrische Waarde per Bezoeker.&quot;
 
-Er wordt één voorbeeld van dit deelvenster weergegeven voor de [!UICONTROL Revenue] metrisch, waarbij &quot;Metrische waarde maximaliseren per bezoeker&quot;als optimalisatiecriteria op het tijdstip van de activiteitenverwezenlijking werd geselecteerd. Zoals eerder vermeld, [!DNL Auto-Allocate] gebruikt conservatievere betrouwbaarheidsberekeningen in vergelijking met de berekeningen in de **[!UICONTROL Analytics for Target]** deelvenster. Adobe raadt u aan de betrouwbaarheidsmetrische gegevens en de bijbehorende meetgegevens voor de lagere en bovenste lift te verwijderen.
+Er wordt één voorbeeld van dit deelvenster weergegeven voor de [!UICONTROL Revenue] metrisch, waarbij &quot;Metrische waarde maximaliseren per bezoeker&quot;als optimalisatiecriteria op het tijdstip van de activiteitenverwezenlijking werd geselecteerd. Zoals eerder vermeld, [!DNL Auto-Allocate] gebruikt conservatievere betrouwbaarheidsberekeningen in vergelijking met de berekeningen in de **[!UICONTROL Analytics for Target]** deelvenster. Adobe raadt u aan om de betrouwbaarheidsmetrische gegevens uit het A4T-deelvenster te verwijderen en de bijbehorende meetgegevens voor de lagere en bovenste lift. Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage.
 
 ![[!UICONTROL Analytics for Target - AutoAllocate Report] deelvenster](assets/AAFigure2.png)
 

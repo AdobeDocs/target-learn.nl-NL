@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 0c15c9f448556ba4f5746de62f0673c16202d65f
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2469'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Het uiteindelijke venster ziet er als volgt uit:
 
 *Figuur 6: Rapportpaneel met het segment Activiteit voor automatisch aanwijzen toegepast op het segment [!UICONTROL Visits] metrisch. Dit segment zorgt ervoor dat alleen bezoeken waarbij een gebruiker daadwerkelijk met het [!DNL Target] de betrokken activiteit is in het verslag opgenomen .*
 
-## Lijn de attributie tussen het modelopleiding van ML en doel metrische generatie uit
+## Zorg ervoor dat de maatstaf van het doel en de kenmerk zijn uitgelijnd op het optimalisatiecriterium
 
 De integratie A4T maakt de [!UICONTROL Auto-Target] Te gebruiken ML-model *opgeleid* dezelfde conversiegebeurtenisgegevens gebruiken die [!DNL Adobe Analytics] gebruiken voor *prestatierapporten genereren*. Er zijn echter bepaalde veronderstellingen die moeten worden gebruikt bij de interpretatie van deze gegevens bij de opleiding van de modellen van het ML, die verschillen van de standaardveronderstellingen die tijdens de rapportagefase in [!DNL Adobe Analytics].
 
@@ -148,7 +148,13 @@ Het verschil tussen de door de [!DNL Target] modellen (tijdens training) versus 
 
 >[!TIP]
 >
->Als de modellen van XML voor metrisch optimaliseren die verschillend van dat van de metriek wordt toegeschreven u in een rapport bekijkt, zouden de modellen niet kunnen uitvoeren zoals verwacht. Om deze situatie te vermijden, zorg ervoor dat de doelmetriek in uw rapport de zelfde die attributie gebruikt door [!DNL Target] ML-modellen.
+>Als de modellen van XML voor metrisch optimaliseren die verschillend van dat van de metriek wordt toegeschreven u in een rapport bekijkt, zouden de modellen niet kunnen uitvoeren zoals verwacht. Om dit te vermijden, zorg ervoor dat de doelmetriek op uw rapport de zelfde metrische definitie en de attributie gebruiken die door wordt gebruikt [!DNL Target] ML-modellen.
+
+De exacte metrische definitie en attribuutinstellingen zijn afhankelijk van de [optimalisatiecriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) u hebt opgegeven tijdens het maken van activiteiten.
+
+### door het doel gedefinieerde omzettingen, of [!DNL Analytics] cijfers met *Metrische waarde maximaliseren per bezoek*
+
+Wanneer de metrische waarde een [!DNL Target] conversie, of een [!DNL Analytics] cijfers met **Metrische waarde maximaliseren per bezoek**, staat de doel metrische definitie voor veelvoudige omzettingsgebeurtenissen toe om in het zelfde bezoek voor te komen.
 
 Doelmetriek bekijken die de zelfde attribuutmethodologie hebben die door wordt gebruikt [!DNL Target] In ML-modellen voert u de volgende stappen uit:
 
@@ -170,9 +176,43 @@ Doelmetriek bekijken die de zelfde attribuutmethodologie hebben die door wordt g
 
 Deze stappen zorgen ervoor dat uw rapport het doel metrisch aan de vertoning van de ervaring kenmerkt, als de doel metrische gebeurtenis gebeurde *elke keer* (&quot;deelname&quot;) aan hetzelfde bezoek dat een ervaring heeft opgedaan.
 
+### [!DNL Analytics] cijfers met *Unieke conversietarieven voor bezoek*
+
+**Bepaal het bezoek met positief metrisch segment**
+
+In het scenario waarin u hebt geselecteerd *De unieke conversiesnelheid voor bezoekers maximaliseren* als optimalisatiecriterium is de correcte definitie van de omrekeningskoers het deel van de bezoeken waarin de metrische waarde positief is . Dit kan worden bereikt door een segment te creëren dat neer aan bezoeken met een positieve waarde van metrisch filtreert, en dan de bezoeken metrisch filtreert.
+
+1. Selecteer de optie **[!UICONTROL Components > Create Segment]** in de [!DNL Analysis Workspace] werkbalk.
+2. Geef een **[!UICONTROL Title]** voor uw segment.
+
+   In het onderstaande voorbeeld krijgt het segment de naam [!DNL "Visits with an order"].
+
+3. Sleep metrische basis u in uw optimalisatiedoel in het segment gebruikte.
+
+   In het onderstaande voorbeeld gebruiken we de **orders** metrisch, zodat de omrekeningskoers het deel van de bezoeken waar een order wordt geregistreerd, meet.
+
+4. Bij de hoogste linkerzijde van de container van de segmentdefinitie, uitgezochte **[!UICONTROL Include]** **Bezoek**.
+5. Gebruik de **[!UICONTROL is greater than]** en stelt de waarde in op 0.
+
+   Als u de waarde instelt op 0, betekent dit dat dit segment bezoeken bevat waarbij de metrische orders positief zijn.
+
+6. Klik op **[!UICONTROL Save]**.
+
+![Figuur 7.png](assets/Figure7.png)
+
+*Figuur 7: Het filtreren van de segmentdefinitie aan bezoeken met een positieve orde. Afhankelijk van optimalisatiemetrisch van uw activiteit, moet u orden met aangewezen metrisch vervangen*
+
+**Dit toepassen op de bezoeken in metrisch gefilterde activiteit**
+
+Dit segment kan nu worden gebruikt om te filteren op bezoeken met een positief aantal bestellingen en bij een treffer voor de [!DNL Auto-Target] activiteit. De procedure om metrisch te filtreren is gelijkaardig aan vóór, en na het toepassen van het nieuwe segment op reeds gefilterde bezoek metrisch, zou het rapportpaneel als Figuur 8 moeten kijken
+
+![Figuur8.png](assets/Figure8.png)
+
+*Figuur 8: Het rapportpaneel met de correcte metrisch van de uniek-bezoek omzetting: het aantal bezoeken waar een hit uit de activiteit werd geregistreerd en waar de omrekeningsfactor (in dit voorbeeld bestellingen) niet gelijk was aan nul.*
+
 ## Laatste stap: Een conversiesnelheid maken waarmee de bovenstaande magie wordt vastgelegd
 
-Met de wijzigingen van de [!UICONTROL Visit] en doelmetriek in voorafgaande secties, de definitieve wijziging u aan uw gebrek A4T zou moeten maken voor [!UICONTROL Auto-Target] in het rapportagevenster moeten conversietarieven worden vastgesteld die de juiste verhouding hebben (die van een doel-metrische waarde met de juiste kenmerk) tot een correct gefilterde [!UICONTROL Visits] metrisch.
+Met de wijzigingen van de [!UICONTROL Visit] en doelmetriek in de voorafgaande secties, de definitieve wijziging u aan uw gebrek A4T zou moeten maken voor [!DNL Auto-Target] het melden paneel moet omzettingspercentages tot stand brengen die de correcte verhouding-dat van het gecorrigeerde doel metrisch, aan correct gefiltreerde metrische &quot;Bebezoeken&quot;zijn.
 
 Doe dit door een [!UICONTROL Calculated Metric] met behulp van de volgende stappen:
 
@@ -186,9 +226,13 @@ Doe dit door een [!UICONTROL Calculated Metric] met behulp van de volgende stapp
 1. Sleep de **[!UICONTROL Visits]** metrisch in de segmentcontainer.
 1. Klik op **[!UICONTROL Save]**.
 
+>[!TIP]
+>
+> U kunt deze metrisch ook tot stand brengen gebruikend [snel berekende metrische functionaliteit](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+
 De volledige berekende metrische definitie wordt hier getoond.
 
-![Figuur 7.png](assets/Figure7.png)
+![Figuur9.png](assets/Figure9.png)
 
 *Figuur 7: De voor het bezoek gecorrigeerde en attributie-gecorrigeerde definitie van de modelomrekeningskoers. (Merk op dit metrisch is afhankelijk van uw doel metrisch en activiteit. Met andere woorden, deze metrische definitie is niet herbruikbaar over activiteiten.)*
 
@@ -202,6 +246,6 @@ Als u alle bovenstaande stappen in één venster combineert, wordt in de onderst
 
 Klik om de afbeelding uit te vouwen.
 
-![Definitief A4T-rapport in [!DNL Analysis Workspace]](assets/Figure8.png "A4T-rapport in Analysis Workspace"){width="600" zoomable="yes"}
+![Definitief A4T-rapport in [!DNL Analysis Workspace]](assets/Figure10.png "A4T-rapport in Analysis Workspace"){width="600" zoomable="yes"}
 
-*Figuur 8: De uiteindelijke A4T [!UICONTROL Auto-Target] rapporteren in [!DNL Adobe Analytics] [!DNL Workspace], waarin alle aanpassingen aan metrische definities worden gecombineerd die in de vorige secties van deze zelfstudie worden beschreven.*
+*Figuur 10: De uiteindelijke A4T [!UICONTROL Auto-Target] rapporteren in [!DNL Adobe Analytics] [!DNL Workspace], waarin alle aanpassingen aan metrische definities worden gecombineerd die in de vorige secties van deze zelfstudie worden beschreven.*
