@@ -1,8 +1,8 @@
 ---
 title: A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activiteiten
 description: Hoe kan ik A4T-rapporten configureren in [!DNL Analysis Workspace] om de verwachte resultaten op te halen wanneer de toepassing wordt uitgevoerd [!UICONTROL Auto-Target] activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 538dfe6a26b4f62c52b24d54a189738677e63bf3
 workflow-type: tm+mt
-source-wordcount: '2469'
+source-wordcount: '2463'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytic
 Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!UICONTROL Auto-Target] activiteiten in [!DNL Analysis Workspace], die gebaseerd zijn op de volgende sleutelbegrippen:
 
 * De **[!UICONTROL Control vs Targeted]** dimensie kan worden gebruikt om onderscheid te maken tussen [!UICONTROL Control] ervaringen in vergelijking met die van de [!UICONTROL Auto-Target] ensemble ML algorithm.
-* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Daarnaast [De standaardmethode voor het tellen van gegevens van Adobe Analytics kan bezoeken omvatten waarbij de gebruiker de inhoud van de activiteit niet daadwerkelijk ziet](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=en#metrics), maar dit standaardgedrag kan worden gewijzigd door een segment met het juiste bereik te gebruiken (details verderop).
+* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Daarnaast [De standaardmethode voor het tellen van gegevens van Adobe Analytics kan bezoeken omvatten waarbij de gebruiker de inhoud van de activiteit niet daadwerkelijk ziet](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, maar dit standaardgedrag kan worden gewijzigd door een segment met het juiste bereik te gebruiken (details verderop).
 * Visit-lookback scoped attributie, ook gekend als &quot;bezoek lookback window&quot;op het voorgeschreven attribuutmodel, wordt gebruikt door [!DNL Adobe Target] De modellen van ML tijdens hun opleidingsfasen, en het zelfde (niet gebrek) attributiemodel zouden moeten worden gebruikt wanneer het breken van doel metrisch.
 
 ## A4T maken voor [!UICONTROL Auto-Target] in [!DNL Analysis Workspace]
@@ -64,7 +64,7 @@ Deze vervanging maakt de standaardinstelling ongeldig [!UICONTROL Lift and Confi
 
 >[!NOTE]
 >
->Momenteel [!UICONTROL Lift and Confidence] getallen zijn niet beschikbaar voor [!UICONTROL Control vs Targeted] afmetingen voor A4T-rapporten voor [!UICONTROL Auto-Target]. Totdat ondersteuning is toegevoegd, [!UICONTROL Lift and Confidence] kan handmatig worden berekend door de [betrouwbaarheidscalculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en).
+>Momenteel [!UICONTROL Lift and Confidence] getallen zijn niet beschikbaar voor [!UICONTROL Control vs Targeted] afmetingen voor A4T-rapporten voor [!UICONTROL Auto-Target]. Totdat ondersteuning is toegevoegd, [!UICONTROL Lift and Confidence] kan handmatig worden berekend door de [betrouwbaarheidscalculator](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Onderverdelingen op ervaringsniveau toevoegen voor metriek
 
@@ -150,7 +150,7 @@ Het verschil tussen de door de [!DNL Target] modellen (tijdens training) versus 
 >
 >Als de modellen van XML voor metrisch optimaliseren die verschillend van dat van de metriek wordt toegeschreven u in een rapport bekijkt, zouden de modellen niet kunnen uitvoeren zoals verwacht. Om dit te vermijden, zorg ervoor dat de doelmetriek op uw rapport de zelfde metrische definitie en de attributie gebruiken die door wordt gebruikt [!DNL Target] ML-modellen.
 
-De exacte metrische definitie en attribuutinstellingen zijn afhankelijk van de [optimalisatiecriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) u hebt opgegeven tijdens het maken van activiteiten.
+De exacte metrische definitie en attribuutinstellingen zijn afhankelijk van de [optimalisatiecriterium](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} u hebt opgegeven tijdens het maken van activiteiten.
 
 ### door het doel gedefinieerde omzettingen, of [!DNL Analytics] cijfers met *Metrische waarde maximaliseren per bezoek*
 
