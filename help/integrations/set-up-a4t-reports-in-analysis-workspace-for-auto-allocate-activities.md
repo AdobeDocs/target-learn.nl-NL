@@ -2,16 +2,16 @@
 title: A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Activiteiten
 description: Hoe kan ik A4T-rapporten configureren in [!DNL Analysis Workspace] om de verwachte resultaten op te halen wanneer de toepassing wordt uitgevoerd [!UICONTROL Auto-Allocate] activiteiten.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: dcea80b75953203556ae9ca001afd4b7edd756d2
+source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '992'
 ht-degree: 0%
 
 ---
@@ -20,23 +20,23 @@ ht-degree: 0%
 
 An [!DNL Auto-Allocate] de activiteit identificeert een winnaar onder twee of meer ervaringen en wijst automatisch meer verkeer aan de winnaar toe terwijl de test blijft lopen en leren. De [!UICONTROL Analytics for Target] (A4T) integratie voor [!UICONTROL Auto-Allocate] kunt u uw rapportgegevens weergeven in [!DNL Adobe Analytics]en u kunt zelfs optimaliseren voor aangepaste gebeurtenissen of maateenheden die zijn gedefinieerd in [!DNL Analytics].
 
-Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!DNL Analysis Workspace], enkele wijzigingen in de standaardwaarde **[!UICONTROL Analytics for Target]** het deelvenster moet correct worden geïnterpreteerd [!DNL Auto-Allocate] activiteiten, als gevolg van nuances in [optimalisatiecriteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported).
+Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!DNL Analysis Workspace], enkele wijzigingen in de standaardwaarde **[!UICONTROL Analytics for Target]** het deelvenster moet correct worden geïnterpreteerd [!DNL Auto-Allocate] activiteiten, als gevolg van nuances in [optimalisatiecriteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
 Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!DNL Auto-Allocate] activiteiten in [!DNL Analysis Workspace]. De belangrijkste concepten zijn:
 
 * [!UICONTROL Visitors] moet altijd worden gebruikt als de normaliserende metrische waarde in [!DNL Auto-Allocate] activiteiten.
 * Wanneer de metrische waarde een [!DNL Adobe Analytics] De juiste teller voor de conversiesnelheid is afhankelijk van het type optimalisatiecriteria dat is gekozen tijdens het instellen van de activiteit.
    * Het optimalisatiecriterium voor het optimaliseren van de unieke conversiesnelheid van bezoekers heeft een conversiesnelheid waarvan de teller een telling is van de unieke bezoekers met een positieve waarde van de metrische waarde.
-   * De waarde &quot;maximaliseer metrische waarde per bezoeker* heeft een omzettingspercentage de regelmatige metrische waarde in [!DNL Adobe Analytics]. Dit wordt standaard opgegeven in het gedeelte **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace].
+   * De &quot;metrische waarde maximaliseren per bezoeker&quot; heeft een omrekeningskoers waarvan de teller de normale metrische waarde in [!DNL Adobe Analytics]. Dit wordt standaard opgegeven in het gedeelte **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace].
 * Wanneer uw optimalisatiemetrisch een [!DNL Target] gedefinieerde metrische conversie, standaard **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace] handgrepen voor het configureren van het deelvenster.
 * Voor alles [!UICONTROL Auto-Allocate] activiteiten die vóór de [!DNL Target Standard/Premium] Release van 23.3.1 (28 maart 2023) [!DNL Analytics Workspace] en [!DNL Target] dezelfde waarde weergeven voor [!UICONTROL Confidence].
 
-   Voor alles [!UICONTROL Auto-Allocate] na 28 maart 2023 opgerichte [!UICONTROL Confidence] getallen weergegeven in [!DNL Analysis Workspace] niet de [conservatievere statistieken gebruikt door [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629) indien deze activiteiten *beide* van de volgende voorwaarden:
+   Voor alles [!UICONTROL Auto-Allocate] activiteiten die na 28 maart 2023 zijn gecreëerd, de betrouwbaarheidsintervalwaarden die zijn vastgesteld in [!DNL Analysis Workspace] niet de [conservatievere statistieken gebruikt door [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} indien deze activiteiten *beide* van de volgende voorwaarden:
 
    * [!DNL Analytics] als rapportagebron (A4T)
    * [!DNL Analytics] optimalisatiewaarden
 
-   Indien *beide* van deze voorwaarden bestaan, [!UICONTROL Confidence] Deze waarde moet uit het deelvenster A4T worden verwijderd. Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage.
+   Indien *beide* Als deze voorwaarden bestaan, moeten de betrouwbaarheidswaarden uit het A4T-deelvenster worden verwijderd. Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage.
 
 ## A4T maken voor [!DNL Auto-Allocate] in [!DNL Analysis Workspace]
 
@@ -91,7 +91,7 @@ Nadat het aangewezen segment is gecreeerd, het gebrek  **[!UICONTROL Analytics f
 
    *Figuur 4: Filteren [!UICONTROL Unique Visitors] door het nieuwe segment*
 
-3. Een omrekeningskoers kan [snel berekend](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en) door zowel de eerste als de tweede kolom te markeren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**.
+3. Een omrekeningskoers kan [snel berekend](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) door zowel de eerste als de tweede kolom te markeren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**.
 
    De standaardconversiesnelheid moet worden verwijderd en vervangen door deze nieuwe berekende maatstaf, zoals in de onderstaande afbeelding wordt getoond. Mogelijk moet u de nieuwe berekende metrische waarde bewerken om als een **[!UICONTROL Format]** > **[!UICONTROL Percent]** tot twee decimalen zoals getoond.
 
