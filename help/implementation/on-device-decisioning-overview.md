@@ -9,9 +9,9 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Aan het einde van deze video kunt u het volgende doen:
 * Beschrijf de beslissing op het apparaat en zijn voordelen
 * Apparaatbeslissingen binnen doel inschakelen
 * Een op formulieren gebaseerde composer-activiteit maken die is bedoeld voor gebruik met apparaatbeslissingen
-* Meer informatie over de SDK-configuratie die vereist is voor beslissingen op het apparaat vindt u in de [Adobe Target SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Meer informatie over de SDK-configuratie die vereist is voor apparaatbeslissingen kunt u vinden in de [Adobe Target SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Begrijp wat de eindgebruikers voor geleverde inhoud gebruikend op apparaat besluitvorming zullen ervaren
 
 ## Beoogd publiek
@@ -44,4 +44,4 @@ Aan het einde van deze video kunt u het volgende doen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Voor meer informatie raadpleegt u de [Adobe Target SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
+Zie voor meer informatie [Overzicht van apparaatbeslissingen](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} in de *Adobe Target Developer Guide*.
