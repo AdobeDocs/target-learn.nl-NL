@@ -5,9 +5,9 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
+source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -41,6 +41,10 @@ Voor beroepsbeoefenaars: Gebruikt u A4T voor [!UICONTROL Auto-Target]? Voer de v
 
 Voor architecten: Aan de slag met [!UICONTROL on-device decisioning] om bijna-nullatentie-ervaringen aan uw consumenten te bieden. Zie [Overzicht van apparaatbeslissingen](implementation/on-device-decisioning-overview.md).
 
+### Migreren [!DNL Target] vanuit om.js 2.*x* tot [!DNL Adobe Experience Platform Web SDK]
+
+Leer hoe u een [!DNL Target] at.js-implementatie naar [!DNL Adobe Experience Platform Web SDK]. Zie [Migreren [!DNL Target] van at.js 2.x tot [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} in de *Handleiding Adobe Experience Platform Tutorials*.
+
 ## Populairste video&#39;s
 
 De volgende video&#39;s zijn het meest toegankelijk voor Target-klanten:
@@ -67,20 +71,14 @@ De [!DNL Adobe Target] het personeel beveelt de volgende middelen aan :
 
 ### Doel implementeren met Adobe Experience Platform-tags
 
-Leer hoe u de Adobe Target-extensie implementeert met een aanvraag voor het laden van een pagina en aangepaste parameters.
-
-Zie voor meer informatie [Adobe Target toevoegen](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} in de *Implementeren in websites met zelfstudie over tags*.
+Leer hoe u de Adobe Target-extensie implementeert met een aanvraag voor het laden van een pagina en aangepaste parameters. Zie voor meer informatie [Adobe Target toevoegen](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} in de *Implementeren in websites met zelfstudie over tags*.
 
 ### Implementeren om.js 2.0 in een toepassing voor één pagina (SPA)
 
-Leer hoe te om.js 2.0 (en later) in SPA uitvoeren.
-
-Zie voor meer informatie [Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+Leer hoe te om.js 2.0 (en later) in SPA uitvoeren. Zie voor meer informatie [Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Probleemoplossing voor doel met de Experience Cloud Debugger
 
-Meer weten over hoe je Adobe Experience Cloud Debugger gebruikt om te begrijpen wat je doet? [!DNL Target] uitvoering. Leer hoe te om uw bibliotheekconfiguratie snel te bekijken, verzoeken onderzoeken om ervoor te zorgen dat uw douaneparameters correct worden overgegaan, console het registreren aanzetten en allen onbruikbaar maken [!DNL Target] verzoeken, en gebruik het hulpmiddel van het Spoor Mbox.
-
-Zie voor meer informatie [Problemen oplossen [!DNL Target] met de [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+Meer weten over hoe je Adobe Experience Cloud Debugger gebruikt om te begrijpen wat je doet? [!DNL Target] uitvoering. Leer hoe te om uw bibliotheekconfiguratie snel te bekijken, verzoeken onderzoeken om ervoor te zorgen dat uw douaneparameters correct worden overgegaan, console het registreren aanzetten en allen onbruikbaar maken [!DNL Target] verzoeken, en gebruik het hulpmiddel van het Spoor Mbox. Zie voor meer informatie [Problemen oplossen [!DNL Target] met de [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
