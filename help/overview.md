@@ -5,101 +5,82 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
+source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
 # Meer informatie over het gebruik van Adobe Target
 
-[!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] -oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen, zodat u uw omzet kunt maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen. Gebruik deze video&#39;s en zelfstudies om de vele componenten van [!DNL Adobe Target].
+[!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen. [!DNL Target] helpt u uw omzet te maximaliseren op uw web en mobiele sites, apps, sociale media en andere digitale kanalen. Gebruik deze video&#39;s en zelfstudies om de vele componenten van [!DNL Adobe Target].
 
-<div id="whats-new-section">
+>[!NOTE]
+>
+>Naast deze handleiding wordt het volgende [!DNL Adobe Target] hulplijnen zijn ook beschikbaar :
+>
+>* *[Handleiding Adobe Target Business Practitioner](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank}*
+>
+>* *[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+
 
 ## Nieuwe functies
 
-* **[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activiteiten](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
+De volgende bronnen zijn nieuw:
 
-   Voor beroepsbeoefenaars: De [!UICONTROL Analytics for Target] (A4T) integratie voor [!UICONTROL Auto-Allocate] kunt u uw rapportgegevens weergeven in [!DNL Adobe Analytics]en u kunt zelfs optimaliseren voor aangepaste gebeurtenissen of maateenheden die zijn gedefinieerd in [!DNL Analytics].
+### A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activiteiten
 
-* **[A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+Voor beroepsbeoefenaars: De [!UICONTROL Analytics for Target] (A4T) integratie voor [!UICONTROL Auto-Allocate] kunt u uw rapportgegevens weergeven in [!DNL Adobe Analytics]en u kunt zelfs optimaliseren voor aangepaste gebeurtenissen of maateenheden die zijn gedefinieerd in [!DNL Analytics]. Zie [A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activiteiten](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md).
 
-   Voor beroepsbeoefenaars: Gebruikt u A4T voor [!UICONTROL Auto-Target]? Voer de volgende stappen uit om A4T-rapporten te configureren in [!DNL Analysis Workspace] om ervoor te zorgen dat u verwachte resultaten krijgt wanneer u werkt [!UICONTROL Auto-Target] activiteiten.
+### A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten
 
-* **[Overzicht van apparaatbeslissingen](implementation/on-device-decisioning-overview.md)**
+Voor beroepsbeoefenaars: Gebruikt u A4T voor [!UICONTROL Auto-Target]? Voer de volgende stappen uit om A4T-rapporten te configureren in [!DNL Analysis Workspace] om ervoor te zorgen dat u verwachte resultaten krijgt wanneer u werkt [!UICONTROL Auto-Target] activiteiten. Zie [A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Target] activiteiten](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md).
 
-   Voor architecten: Aan de slag met [!UICONTROL on-device decisioning] om bijna-nullatentie-ervaringen aan uw consumenten te bieden.
+### Apparaatbeslissingen
 
-<!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
-    *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
+Voor architecten: Aan de slag met [!UICONTROL on-device decisioning] om bijna-nullatentie-ervaringen aan uw consumenten te bieden. Zie [Overzicht van apparaatbeslissingen](implementation/on-device-decisioning-overview.md).
 
-<!--* **[Implement Adobe Target with Adobe Mobile Services SDK v4 for Android (Tutorial)](mobile-v4/overview.md)**
-    *For developers who are already using Adobe Mobile Services SDK v4: learn how to start personalizing app experiences with Adobe Target. These steps are provided as legacy user support.*<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->
+## Populairste video&#39;s
 
-<!--* **[Use Recommendations Offers (Video)](recommendations/use-recommendations-offers.md)**
-    *For all Target Users: Learn how to use product recommendations in A/B and Experience Targeting Activities.*-->
+De volgende video&#39;s zijn het meest toegankelijk voor Target-klanten:
 
-<!--
-* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
-    <br>
-    *Recommend products to your customers at scale with this Premium feature.* -->
+### Overzicht van apparaatbeslissingen
 
-</div>
+>[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-<div id="recs-overview-body-1"></div>
-<div id="recs-overview-body-2"></div>
-<div id="recs-overview-body-3"></div>
-<div id="recs-overview-body-4"></div>
-<div id="recs-overview-body-5"></div>
-<div id="recs-overview-body-6"></div>
+Zie voor meer informatie [Overzicht van apparaatbeslissingen](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} in de *Adobe Target Developer Guide*.
 
-<div id="staff-picks-section">
+### Inleiding tot [!DNL Adobe Target] uitvoering
+
+>[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
+
+Zie voor meer informatie [Implementatie op de client](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} or [Server-side implementation](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} in de *[!UICONTROL Adobe Target Developer Guide]*.
+
+### Profielscripts maken in [!DNL Adobe Target]
+
+>[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
 
 ## Personeelsselectie
 
-<table>
-<tr>
-  <td>
-    <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-      <img alt="Doel implementeren met Adobe Experience Platform Launch" src="assets/launch_referencearchitectureguides.png" />
-    </a>
-    <div>
-      <a href="https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html?lang=en">
-    <strong>Doel implementeren met Adobe Experience Platform Launch</strong>
-    </a>
-    </div>
-    <p>
-    <em>Webimplementatie versnellen met Starten</em>
-    <p>
-  </td>
-  <td>
-    <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="Implementeren om.js 2.0 in een toepassing voor één pagina (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
-    </a>
-    <div>
-      <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>Implementeren om.js 2.0 in een toepassing voor één pagina (SPA)</strong>
-    </a>
-    </div>
-    <p>
-    <em>Zie hoe at.js 2.x SPA steunt</em>
-    <p>
-  </td>
-  <td>
-    <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Probleemoplossing voor doel met de Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
-    </a>
-    <div>
-      <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Probleemoplossing voor doel met de Experience Cloud Debugger</strong>
-    </a>
-    </div>
-    <p>
-    <em>Inzoomen op uw implementatie</em>
-    <p>
-  </td>
-</tr>
-</table>
-</div>
+De [!DNL Adobe Target] het personeel beveelt de volgende middelen aan :
+
+### Doel implementeren met Adobe Experience Platform-tags
+
+Leer hoe u de Adobe Target-extensie implementeert met een aanvraag voor het laden van een pagina en aangepaste parameters.
+
+Zie voor meer informatie [Adobe Target toevoegen](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} in de *Implementeren in websites met zelfstudie over tags*.
+
+### Implementeren om.js 2.0 in een toepassing voor één pagina (SPA)
+
+Leer hoe te om.js 2.0 (en later) in SPA uitvoeren.
+
+Zie voor meer informatie [Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+
+### Probleemoplossing voor doel met de Experience Cloud Debugger
+
+Meer weten over hoe je Adobe Experience Cloud Debugger gebruikt om te begrijpen wat je doet? [!DNL Target] uitvoering. Leer hoe te om uw bibliotheekconfiguratie snel te bekijken, verzoeken onderzoeken om ervoor te zorgen dat uw douaneparameters correct worden overgegaan, console het registreren aanzetten en allen onbruikbaar maken [!DNL Target] verzoeken, en gebruik het hulpmiddel van het Spoor Mbox.
+
+Zie voor meer informatie [Problemen oplossen [!DNL Target] met de [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+
+

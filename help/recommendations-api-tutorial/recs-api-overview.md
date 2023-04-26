@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: 10f80056-fb71-4362-86bc-d161f596cb91
-source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
+source-git-commit: 542ff406fc24df54a2f1b007422492341ea46507
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Deze zelfstudie is bedoeld voor ontwikkelaars die geen ervaring hebben met doel-
 
 ## Voorwaarden
 
-Het gebruik van de API&#39;s voor doelbeheer is vereist [Adobe-verificatie instellen](https://developer.adobe.com/target/before-administer/configure-authentication/){target=&quot;_blank&quot;}. Zorg ervoor u dit hebt gevormd voorafgaand aan het beginnen van met dit leerprogramma.
+Het gebruik van de API&#39;s voor doelbeheer is vereist [Adobe-verificatie instellen](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"}. Zorg ervoor u dit hebt gevormd voorafgaand aan het beginnen van met dit leerprogramma.
 
 ## Bronnen
 
@@ -52,4 +52,4 @@ Neem nota van de volgende middelen, die noodzakelijk zijn om dit leerprogramma t
 | Postman | Krijg de [Postman-app](https://www.postman.com/downloads/) voor uw besturingssysteem. Postman basic is gratis bij het maken van accounts. Hoewel Postman niet vereist is voor het gebruik van Adobe Target API&#39;s in het algemeen, maakt het API-workflows eenvoudiger en biedt Adobe Target verschillende Postman-verzamelingen om de API&#39;s van uit te voeren en te leren hoe ze werken. De rest van deze zelfstudie gaat uit van praktische kennis van Postman. Raadpleeg voor hulp de [Postman-documentatie](https://learning.getpostman.com/). |
 | Verwijzingen | Gedurende de rest van deze zelfstudie wordt aangenomen dat u bekend bent met de volgende bronnen:<UL><li>[Adobe I/O Github](https://github.com/adobeio)</li><li>[Doeldocumentatie voor Adobe I/O](https://developers.adobetarget.com/api/#introduction)</li><li>[Recommendations API-documentatie](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
-[Volgende &quot;Uw Recommendations-catalogus beheren&quot; >](https://developer.adobe.com/target/before-administer/recs-api/manage-catalog/){target=&quot;_blank&quot;}
+[Volgende &quot;Uw Recommendations-catalogus beheren&quot; >](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
