@@ -5,9 +5,9 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: bfb985f8f4d4d354b39dffacdda8c81fe828b9f1
+source-git-commit: 081475bb9928ba169e2a068c06456a415ed28124
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '420'
 ht-degree: 1%
 
 ---
@@ -115,11 +115,11 @@ De volgende bronnen zijn nieuw:
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)</strong>
+    <strong>Implementeren om 0,00 in een SPA</strong>
     </a>
     </div>
     <p>
-    <em> Leer hoe te om.js 2.0 (en later) in SPA uitvoeren.</em>
+    <em> Leer hoe u Adobe Target op 2.js 2.0 (en hoger) in toepassingen voor één pagina (SPA).</em>
     <p>
   </td>
   <td>
@@ -132,7 +132,7 @@ De volgende bronnen zijn nieuw:
     </a>
     </div>
     <p>
-    <em>Meer weten over hoe je Adobe Experience Cloud Debugger gebruikt om te begrijpen wat je doet? [!DNL Target] uitvoering. Leer hoe te om uw bibliotheekconfiguratie snel te bekijken, verzoeken onderzoeken om ervoor te zorgen dat uw douaneparameters correct worden overgegaan, console het registreren aanzetten en allen onbruikbaar maken [!DNL Target] verzoeken, en gebruik het hulpmiddel van het Spoor Mbox.</em>
+    <em>Meer weten over hoe je Adobe Experience Cloud Debugger gebruikt om te begrijpen wat je doet? [!DNL Target] uitvoering.</em>
     <p>
   </td>
 </tr>
