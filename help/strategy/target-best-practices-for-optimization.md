@@ -3,7 +3,7 @@ title: Aanbevolen procedures voor optimalisatie
 description: Leer zes essentiële Adobe om ze toe te passen.
 solution: Target
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -117,4 +117,4 @@ Gezien het bovenstaande, adviseert Adobe dat u optimaliseert alvorens u, en voor
 
 Ga voor meer informatie naar [webinar over het begrijpen en optimaliseren van uw Adobe Target-implementatie](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), met Business Consultant, Katie Cozby.
 
-Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.

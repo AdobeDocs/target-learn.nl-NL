@@ -3,7 +3,7 @@ title: Uw Adobe Target-implementatie optimaliseren
 description: Bekijk een overzicht van de Adobe Target-implementatie en -structuur. Leer hoe u de instelling van uw organisatie kunt begrijpen en controleren. Leer de algemene technieken en tips voor het oplossen van problemen bij het maken van een kennisopslagplaats voor uw team.
 solution: Target
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -164,4 +164,4 @@ De typische documenten in een Bewaarplaats van de Kennis omvatten:
 
 Voor meer informatie raadpleegt u onze [webinar](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) met senior consultant, Wilder Freed.
 
-Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.

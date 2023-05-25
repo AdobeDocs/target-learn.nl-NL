@@ -3,7 +3,7 @@ title: QuickStart voor personalisatie testen en routekaart maken
 description: Leer een framework dat u kunt gebruiken om uw personalisatieactiviteiten te valideren en een routekaart voor personalisatie te maken die via Adobe Target en Adobe Analytics kan worden uitgevoerd.
 solution: Target,Analytics
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
+source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 0%
@@ -88,4 +88,4 @@ Zodra uw verpersoonlijkingsactiviteit een representatieve steekproef van bezoeke
 
 We raden u aan deze video te bekijken waarin elk van deze stappen wordt besproken: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Meer informatie over strategie en leiderschap bij de [Klant geslaagd](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.

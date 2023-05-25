@@ -1,9 +1,9 @@
 ---
 user-guide-title: Adobe Target-tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 3d29d15e1463ed433cb085c9e01c857f31c33817
+source-git-commit: 398828af41f4d2a1d7620d8a7d1c290aae2cf34a
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,12 @@ ht-degree: 1%
    + [Doel integreren met publiek Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Doel integreren met campagne](../dev101/3.6-target-campaign.md)
    + [Doel integreren met Adobe Developer Console](../dev101/3.7-target-io.md)
+   + [Doel integreren met Real-Time CDP]{#rtcdp}
+      + [Volgend-klare personalisatie met Adobe Target](../integrations/rtcdp/next-hit-personalization.md)
+      + [De Adobe Target-bestemming configureren](../integrations/rtcdp/configure-the-target-destination.md)
+      + [Segmenten en profielkenmerken activeren](../integrations/rtcdp/activate-segments-and-profile-attributes.md)
+      + [Real-Time CDP-segmenten in doel gebruiken](../integrations/rtcdp/use-rtcdp-segments-in-target.md)
+      + [Real-Time CDP-profielkenmerken gebruiken in Doel](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Doel integreren met Scene7](../dev101/3.8-target-scene7.md)
    + [Doel integreren met Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Fragmenten voor AEM ervaring in Adobe Target gebruiken](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
