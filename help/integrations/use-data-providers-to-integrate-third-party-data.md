@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Gegevensleveranciers gebruiken
 
-1. De deskundige van de implementatie voegt code vóór at.js (of in de sectie van de Kopbal van de Bibliotheek van at.js) toe die de API vraag aan de derde maakt, de reactie ontleedt en met naam/waardeparen van de reactie specificeert om naar [!DNL Target] te verzenden.
+1. De deskundige van de implementatie voegt code vóór at.js (of in de sectie van de Kopbal van de Bibliotheek van at.js) toe die de API vraag aan de derde maakt, de reactie ontleedt en met naam/waardeparen van de reactie specificeert te verzenden naar [!DNL Target].
 1. at.js beheert flikkering en neemt de naam/waardeparen als douaneparameters in het globale verzoek van het Doel op.
 1. Marketer bouwt publiek in de [!DNL Target] interface die op deze douaneparameters wordt gebaseerd.
 1. Marketer gebruikt dit publiek om ervaringen, activiteiten en metriek als doel in te stellen en om het publiek te melden.
@@ -36,4 +36,3 @@ ht-degree: 0%
 ## Ondersteunende materialen
 
 * [Gegevensleveranciers implementeren in at.js en Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
-* [Documentatie gegevensleveranciers](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/targetgobalsettings.html?lang=en#data-providers)
