@@ -2,8 +2,10 @@
 title: Uw Adobe Target-implementatie optimaliseren
 description: Bekijk een overzicht van de Adobe Target-implementatie en -structuur. Leer hoe u de instelling van uw organisatie kunt begrijpen en controleren. Leer de algemene technieken en tips voor het oplossen van problemen bij het maken van een kennisopslagplaats voor uw team.
 solution: Target
+feature: Overview
+role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
-source-git-commit: 389f754ff909752d89f74a2d6c698fc9f5d8c354
+source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 0%
@@ -118,7 +120,7 @@ Adobe raadt aan maandelijks handmatige controles uit te voeren naar:
 
 >[!NOTE]
 >
->Adobe raadt u aan om de Adobe Experience Platform Debugger te installeren.
+>Adobe raadt u aan het Adobe Experience Platform Debugger te installeren.
 
 Hier volgen algemene tips voor het oplossen van problemen wanneer u de Experience invoert:
 
