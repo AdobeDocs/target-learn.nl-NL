@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
+source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!DNL Au
 
 * [!UICONTROL Visitors] moet altijd worden gebruikt als de normaliserende metrische waarde in [!DNL Auto-Allocate] activiteiten.
 * Wanneer metrisch een [!DNL Adobe Analytics] De berekening van de conversiesnelheid varieert, afhankelijk van het type optimalisatiecriteria dat tijdens het instellen van de activiteit is gedefinieerd.
-   * De conversiecijfer voor de conversiesnelheid &quot;maximaliseren unieke bezoekers&quot; is een aantal unieke bezoekers *met een positieve waarde van de metrieke waarde*.
-   * Voor deze methode is geen extra segment vereist om te kunnen voldoen aan de in het dialoogvenster [!DNL Target] UI.
-* De omzettingssnelheidsteller &quot;maximaliseren metrische waarde per bezoeker&quot;is de regelmatige metrische waarde in [!DNL Adobe Analytics]. Deze metrisch wordt verstrekt door gebrek in [!DNL Analytics for Target] deelvenster in [!DNL Analysis Workspace].
-   * Dit betekent: maximaliseert het aantal bezoekers dat zich omzet (&quot;aantal eenmaal per bezoeker&quot;).
-   * Deze methode vereist het maken van een extra segment in de rapportage om de in de [!DNL Target] UI.
+   * De conversiesnelheid &quot;maximaliseren van de metrische waarde per bezoeker&quot;: de teller is de normale metrische waarde in [!DNL Adobe Analytics] (dit wordt standaard opgegeven in het dialoogvenster [!UICONTROL Analytics for Target] deelvenster in [!DNL Analysis Workspace]).
+      * Dit betekent: maximaliseert het aantal conversies per bezoeker (&quot;tel elke bezoeker&quot;).
+      * Voor deze methode is geen extra segment vereist om overeen te stemmen met de in het dialoogvenster [!DNL Target] UI.
+   * De conversiesnelheid &quot;unieke bezoekersconversie maximaliseren&quot;: teller is een telling van de unieke bezoekers met een positieve waarde van de metrische waarde.
+      * Dit betekent: maximaliseert het aantal bezoekers dat zich omzet (&quot;aantal eenmaal per bezoeker&quot;).
+      * Deze methode *DOES* vereisen dat bij de rapportage een extra segment wordt gemaakt dat overeenkomt met de in de [!DNL Target] UI.
+
 * Wanneer uw optimalisatiemetrische waarde een [!DNL Target] gedefinieerde metrische conversie, standaard **[!UICONTROL Analytics for Target]** deelvenster in [!DNL Analysis Workspace] handgrepen voor het configureren van het deelvenster.
 * Voor alles [!UICONTROL Auto-Allocate] activiteiten die vóór de [!DNL Target Standard/Premium] Release van 23.3.1 (30 maart 2023) [!DNL Analytics Workspace] en [!DNL Target] dezelfde waarde weergeven voor [!UICONTROL Confidence].
 
@@ -45,7 +47,7 @@ Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!DNL Au
 Een A4T-deelvenster maken voor een [!DNL Auto-Allocate] rapport begint met **[!UICONTROL Analytics for Target]** deelvenster in [!DNL Analysis Workspace], zoals hieronder weergegeven. Maak vervolgens de volgende selecties:
 
 1. **[!UICONTROL Control Experience]**: U kunt elke gewenste ervaring kiezen.
-1. **[!UICONTROL Normalizing Metric]**: Selecteer Bezoekers (Bezoekers worden standaard in het deelvenster A4T opgenomen). [!DNL Auto-Allocate] normaliseert altijd de omrekeningskoersen door unieke bezoekers.
+1. **[!UICONTROL Normalizing Metric]**: Selecteer Bezoekers (bezoekers worden standaard opgenomen in het deelvenster A4T). [!DNL Auto-Allocate] normaliseert altijd de omrekeningskoersen door unieke bezoekers.
 1. **[!UICONTROL Success Metrics]**: Selecteer dezelfde metrische waarde die u tijdens het maken van activiteiten hebt gebruikt. Als dit een [!DNL Target] gedefinieerde metrische conversie, selecteert u **Activiteitenconversie**. Anders selecteert u de [!DNL Adobe Analytics] metrisch die u gebruikte.
 
 ![[!UICONTROL Analytics for Target] deelvenster instellen voor [!DNL Auto-Allocate] activiteiten.](assets/AAFigure1.png)
@@ -74,9 +76,9 @@ Er wordt één voorbeeld van dit deelvenster weergegeven voor de [!UICONTROL Rev
 
 *Afbeelding 2: Het aanbevolen rapport voor [!DNL Auto-Allocate] activiteiten met [!DNL Analytics] criteria voor het optimaliseren van metrische waarden per bezoeker. Voor deze typen metriek, en [!DNL Target] gedefinieerde conversiemetriek, standaard **[!UICONTROL Analytics for Target]**deelvenster in [!DNL Analysis Workspace] kan worden gebruikt.*
 
-## [!DNL Analytics] maatstaven met optimalisatiecriteria voor &quot;Unieke bezoeker maximaliseren&quot;
+## [!DNL Analytics] maatstaven met de optimalisatiecriteria voor de optimalisatiegraad van &quot;Unieke bezoekersconversie maximaliseren&quot;
 
-Het optimalisatiecriterium &quot;Unieke bezoeker maximaliseren met conversiesnelheid&quot; verwijst naar het aantal bezoekers voor wie de metrische waarde positief is. Als de omrekeningskoers bijvoorbeeld als inkomsten wordt gedefinieerd, zou het criterium &quot;Unieke bezoeker maximaliseren met omrekeningskoers&quot; optimaliseren op het aantal unieke bezoekers voor wie de inkomsten groter waren dan 0. Met andere woorden, dit criterium zou het maximaliseren van het aantal bezoekers dat inkomsten genereert, in plaats van de waarde van de inkomsten zelf.
+Het optimalisatiecriterium &quot;Unieke bezoekerconversiesnelheid maximaliseren&quot; verwijst naar het aantal bezoekers voor wie de metrische waarde positief is. Als de conversiekoers bijvoorbeeld als inkomsten wordt gedefinieerd, zou het criterium &quot;Unieke bezoekersconversiesnelheid maximaliseren&quot; optimaliseren voor het aantal unieke bezoekers voor wie de inkomsten groter waren dan 0. Met andere woorden, dit criterium zou het maximaliseren van het aantal bezoekers dat inkomsten genereert, in plaats van de waarde van de inkomsten zelf.
 
 >[!NOTE]
 >
