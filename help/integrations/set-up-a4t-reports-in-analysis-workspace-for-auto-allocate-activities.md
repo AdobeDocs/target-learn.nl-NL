@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: ef9e4667ab6e264f0dd324bfd8a7a14783952078
+source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1201'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,6 @@ Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!DNL Au
 
 Een A4T-deelvenster maken voor een [!DNL Auto-Allocate] rapport begint met **[!UICONTROL Analytics for Target]** deelvenster in [!DNL Analysis Workspace], zoals hieronder weergegeven. Maak vervolgens de volgende selecties:
 
-1. Voeg de activiteit toe.
 1. **[!UICONTROL Control Experience]**: U kunt elke gewenste ervaring kiezen.
 1. **[!UICONTROL Normalizing Metric]**: Selecteer Bezoekers (Bezoekers worden standaard in het deelvenster A4T opgenomen). [!DNL Auto-Allocate] normaliseert altijd de omrekeningskoersen door unieke bezoekers.
 1. **[!UICONTROL Success Metrics]**: Selecteer dezelfde metrische waarde die u tijdens het maken van activiteiten hebt gebruikt. Als dit een [!DNL Target] gedefinieerde metrische conversie, selecteert u **Activiteitenconversie**. Anders selecteert u de [!DNL Adobe Analytics] metrisch die u gebruikte.
