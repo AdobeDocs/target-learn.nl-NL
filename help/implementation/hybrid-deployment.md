@@ -1,6 +1,6 @@
 ---
 title: Opties voor hybride implementatie
-description: 'Bekijk deze video voor meer informatie over het unieke hybride implementatiemodel van Adobe Target voor personalisatie: het overvloeien van client-side en server-side implementaties.'
+description: Bekijk deze video voor meer informatie over het unieke hybride implementatiemodel van Adobe Target voor personalisatie, waarbij client-side en server-side implementaties worden gecombineerd.
 role: Developer, Architect
 level: Beginner
 topic: Personalization, Architecture, Development
@@ -9,7 +9,7 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # Hybride Adobe Target-implementatie
 
-Adobe Target biedt een uniek, hybride implementatiemodel voor personalisatie: het overvloeien van client-side en server-side implementaties. Dit hybride model staat niet-technische gebruikers toe om een experiment of verpersoonlijkingsactiviteit te schrijven gebruikend de Composer van de Visuele Ervaring WYSIWYG en de ervaring te hebben worden uitgevoerd, worden geleverd, en door server-kant voor een hoogst presterende levering teruggegeven. 
+Adobe Target biedt een uniek, hybride implementatiemodel voor personalisatie: het overvloeien van client-side en server-side implementaties. Dit hybride model staat niet-technische gebruikers toe om een experiment of verpersoonlijkingsactiviteit te schrijven gebruikend de Composer van de Visuele Ervaring WYSIWYG en de ervaring te hebben worden uitgevoerd, worden geleverd, en door server-kant voor een hoogst presterende levering teruggegeven.
 
 ## Doelstellingen
 
-Aan het einde van deze video gaat u als volgt te werk:
+Aan het einde van deze video zult u:
 
 * Begrijp wat een hybride uitrol van Adobe Target met zich meebrengt
 * Begrijp de voordelen van een hybride plaatsing
