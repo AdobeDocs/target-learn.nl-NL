@@ -1,6 +1,6 @@
 ---
 title: A4T-rapporten instellen in [!DNL Analysis Workspace] for [!UICONTROL Auto-Allocate] Activiteiten
-description: Hoe kan ik A4T-rapporten configureren in [!DNL Analysis Workspace] om de verwachte resultaten op te halen wanneer de toepassing wordt uitgevoerd [!UICONTROL Auto-Allocate] activiteiten.
+description: Hoe kan ik configureren [!UICONTROL Analytics for Target] (A4T) rapporten in [!DNL Adobe] [!DNL Analysis Workspace] bij uitvoering [!UICONTROL Auto-Allocate] activiteiten.
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -8,122 +8,179 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
+source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
 
 # A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activiteiten
 
-An [!DNL Auto-Allocate] activiteit identificeert een winnaar onder twee of meer ervaringen en wijst automatisch uw verkeer aan de winnaar toe terwijl de test blijft lopen en leren. De [!UICONTROL Analytics for Target] (A4T) integratie voor [!UICONTROL Auto-Allocate] stelt u in staat om uw rapportgegevens te bekijken in [!DNL Adobe Analytics]en u kunt zelfs optimaliseren voor aangepaste gebeurtenissen of maateenheden die zijn gedefinieerd in [!DNL Analytics].
+An [!UICONTROL Auto-Allocate] activiteit in [!DNL Adobe Target] identificeert een winnaar onder twee of meer ervaringen en wijst automatisch bezoekersverkeer aan de winnaar toe terwijl de test blijft lopen en leren. De [!UICONTROL Analytics for Target] (A4T) integratie voor [!UICONTROL Auto-Allocate] Hiermee kunt u rapportgegevens weergeven in [!DNL Adobe Analytics]en kunt u optimaliseren voor aangepaste gebeurtenissen of maateenheden die zijn gedefinieerd in [!DNL Analytics].
 
-Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!DNL Analysis Workspace], enkele wijzigingen in de standaardwaarde **[!UICONTROL Analytics for Target]** deelvenster kan nodig zijn voor een juiste interpretatie [!DNL Auto-Allocate] activiteiten, vanwege nuances in [optimalisatiemetrische criteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!DNL Analysis Workspace], enkele wijzigingen in de standaardwaarde [!UICONTROL Analytics for Target] deelvenster kan nodig zijn voor een juiste interpretatie [!UICONTROL Auto-Allocate] activiteiten. Deze wijzigingen zijn nodig vanwege de nuances in [optimalisatiemetrische criteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
-Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!DNL Auto-Allocate] activiteiten in [!DNL Analysis Workspace]. De belangrijkste concepten zijn:
+Elk type van optimalisatiemetrisch vereist een verschillende rapportconfiguratie in A4T, als volgt:
 
-* [!UICONTROL Visitors] moet altijd worden gebruikt als de normaliserende metrische waarde in [!DNL Auto-Allocate] activiteiten.
-* Wanneer metrisch een [!DNL Adobe Analytics] De berekening van de conversiesnelheid varieert, afhankelijk van het type optimalisatiecriteria dat tijdens het instellen van de activiteit is gedefinieerd.
-   * De &quot;maximale metrische waarde per bezoeker&quot;: de teller van de conversiesnelheid is de normale metrische waarde in [!DNL Adobe Analytics] (dit wordt standaard opgegeven in het dialoogvenster [!UICONTROL Analytics for Target] deelvenster in A[!DNL nalysis Workspace]).
-      * Dit betekent: maximaliseert het aantal conversies per bezoeker (&quot;tel elke bezoeker&quot;).
-      * Voor deze methode is geen extra segment vereist om overeen te stemmen met de in het dialoogvenster [!DNL Target] UI.
-   * De &quot;unieke bezoekersconversiesnelheid maximaliseren&quot;: de teller van de conversiesnelheid is een telling van de unieke bezoekers met een positieve waarde van de metrische waarde.
-      * Dit betekent: maximaliseert het aantal bezoekers dat zich omzet (&quot;aantal eenmaal per bezoeker&quot;).
-      * Deze methode *DOES* vereisen dat bij de rapportage een extra segment wordt gemaakt dat overeenkomt met de in de [!DNL Target] UI.
+* Een [!DNL Analytics] metrisch
 
-* Wanneer uw optimalisatiemetrische waarde een [!DNL Target] gedefinieerde metrische conversie, standaard **[!UICONTROL Analytics for Target]** deelvenster in [!DNL Analysis Workspace] handgrepen voor het configureren van het deelvenster.
-* Voor alles [!UICONTROL Auto-Allocate] activiteiten die vóór de [!DNL Target Standard/Premium] Release van 23.3.1 (30 maart 2023) [!DNL Analytics Workspace] en [!DNL Target] dezelfde waarde weergeven voor [!UICONTROL Confidence].
+   * [!UICONTROL Maximize metric value per visitor]
+   * [!UICONTROL Maximize unique visitor conversion rate]
 
-  Voor alles [!UICONTROL Auto-Allocate] activiteiten die na 30 maart 2023 zijn gecreëerd, de betrouwbaarheidsintervalwaarden die zijn vastgesteld in [!DNL Analysis Workspace] niet de [conservatievere statistieken gebruikt door [!UICONTROL Auto-Allocate]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} indien deze activiteiten *beide* van de volgende voorwaarden:
+* Een [!DNL Target]-gedefinieerde metrische omzetting
 
-   * [!DNL Analytics] als rapportagebron (A4T)
-   * [!DNL Analytics] optimalisatiewaarden
+Dit leerprogramma behandelt algemene begeleiding A4T, en criteria-specifieke stappen van de rapportconfiguratie.
 
-  De betrouwbaarheidswaarden moeten uit het A4T-deelvenster worden verwijderd. Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage.
+## Algemene richtsnoeren voor [!UICONTROL Analytics for Target] (A4T) {#guidance}
 
-## A4T maken voor [!DNL Auto-Allocate] deelvenster in [!DNL Analysis Workspace]
+U kunt naar een vooraf ontworpen [!UICONTROL Analytics for Target] door in het rapportscherm op de koppeling te klikken [!UICONTROL Adobe Target] (dit wordt later in deze handleiding aangeduid als &quot;[!DNL Target]-triggerrapport&quot;). U kunt ook het A4T-deelvenster maken in [!DNL Analytics] (details verderop in deze sectie).
 
-Een A4T-deelvenster maken voor een [!DNL Auto-Allocate] rapport begint met **[!UICONTROL Analytics for Target]** deelvenster in [!DNL Analysis Workspace], zoals hieronder weergegeven. Maak vervolgens de volgende selecties:
+In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhankelijk van de door u gekozen methode:
 
-1. **[!UICONTROL Control Experience]**: U kunt elke gewenste ervaring kiezen.
-1. **[!UICONTROL Normalizing Metric]**: Selecteer Bezoekers (bezoekers worden standaard opgenomen in het deelvenster A4T). [!DNL Auto-Allocate] normaliseert altijd de omrekeningskoersen door unieke bezoekers.
-1. **[!UICONTROL Success Metrics]**: Selecteer dezelfde metrische waarde die u tijdens het maken van activiteiten hebt gebruikt. Als dit een [!DNL Target] gedefinieerde metrische conversie, selecteert u **Activiteitenconversie**. Anders selecteert u de [!DNL Adobe Analytics] metrisch die u gebruikte.
+* De betrouwbaarheidswaarden moeten uit het deelvenster A4T worden verwijderd, ongeacht de methode voor het maken van het deelvenster (beide worden hieronder beschreven). Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage. Bovendien kunnen winnaars van activiteiten worden geïdentificeerd in [!DNL Target] rapportage. Gegevens over de identificatie van de winnaars zijn te vinden in de [Identificeer de Winner van de Activiteit](#winner) hieronder.
+>>
+* Schakel de optie &quot;[!UICONTROL Percent]&quot; presentatie van de [!UICONTROL Conversion Rate] metrisch. Zie voor meer informatie [Het percentage verbergen in het pop-upmenu [!UICONTROL Conversion Rate] kolom](#hide-percentage) hieronder.
+>>
+* Als u een A4T paneel bouwt, zorg ervoor dat de datum en de tijdwaaiers dat aanpassen van uw [!DNL Target] verslag. Zie voor meer informatie [De datum en tijd uitlijnen in het deelvenster A4T](#aligning-date-and-time) hieronder.
 
-![[!UICONTROL Analytics for Target] deelvenster instellen voor [!DNL Auto-Allocate] activiteiten.](assets/AAFigure1.png)
+### Het percentage verbergen in het pop-upmenu [!UICONTROL Conversion Rate] kolom {#hide-percentage}
 
-*Afbeelding 1: [!UICONTROL Analytics for Target] deelvenster instellen voor [!DNL Auto-Allocate] activiteiten.*
+1. Klik op de knop **tandwiel** pictogram naast de titel van het pictogram [!UICONTROL Conversion Rate] kolom.
 
-U kunt ook een vooraf gebouwde **[!UICONTROL Analytics for Target]** als u in het rapportscherm op de koppeling klikt [!DNL Adobe Target].
+   ![Pictogram vistuig in de kolom Conversiesnelheid](/help/integrations/assets/coversion-rate-gear-icon.png)
 
-## [!DNL Target] [!UICONTROL Conversion] metriek of [!DNL Analytics] maatstaven met de optimalisatiecriteria voor &quot;Metrische waarde maximaliseren per bezoeker&quot;
+   De [!UICONTROL Column] dialoogvenster met instellingen wordt weergegeven:
 
-Wanneer het doel metrisch of is:
+   ![Kolominstellingen, dialoogvenster](/help/integrations/assets/column-settings-dialog-box.png)
 
-* Metrisch voor doelconversie
-* Analysemetrisch met het optimalisatiecriterium &quot;Maximize Metric Value per Visitor&quot;
+1. Hef de selectie van **[!UICONTROL Percent]** selectievakje.
 
-Het standaardA4T paneel vormt automatisch het rapport.
+Het deelvenster A4T bevat nu geen percentages als de conversiesnelheid en overeenkomsten [!DNL Target], zoals hieronder weergegeven:
 
-Er wordt één voorbeeld van dit deelvenster weergegeven voor de [!UICONTROL Revenue] metrisch, waarbij &quot;Metrische waarde maximaliseren per bezoeker&quot;als optimalisatiecriteria op het tijdstip van de activiteitenverwezenlijking werd geselecteerd. Zoals eerder vermeld, [!DNL Auto-Allocate] gebruikt conservatievere betrouwbaarheidsberekeningen in vergelijking met de berekeningen in de **[!UICONTROL Analytics for Target]** deelvenster. Adobe raadt u aan om de betrouwbaarheidsmetrische gegevens uit het A4T-deelvenster te verwijderen en de bijbehorende meetgegevens voor de lagere en bovenste lift. Verwijs in plaats daarvan naar de betrouwbaarheidswaarden in [!DNL Target] rapportage.
+![Kolom Conversiesnelheid die geen percentages toont](/help/integrations/assets/no-percentages.png)
 
->[!NOTE]
->
->Vertrouwenswaarden in A4T-rapportage zijn minder conservatief dan [!DNL Target] melden en voortijdig een winnaar aangeven voor een [!UICONTROL Auto-Allocate] activiteit.
+### De datum en tijd uitlijnen in het deelvenster A4T {#aligning-date-and-time}
 
+1. Controleer boven elk deelvenster het datumbereik waarnaar het deelvenster verwijst om te controleren of het datumbereik overeenkomt met dat van het dialoogvenster [!DNL Target] verslag.
 
-![[!UICONTROL Analytics for Target - AutoAllocate Report] deelvenster](assets/AAFigure2.png)
+   ![Datumbereik in het deelvenster A4T](/help/integrations/assets/date-range.png)
 
-*Afbeelding 2: Het aanbevolen rapport voor [!DNL Auto-Allocate] activiteiten met [!DNL Analytics] de metrische optimalisatiecriteria &quot;Maximize Metric Value Per Visitor&quot;. Voor deze typen metriek, en [!DNL Target] gedefinieerde conversiemetriek, standaard **[!UICONTROL Analytics for Target]**deelvenster in [!DNL Analysis Workspace] kan worden gebruikt.*
+1. In [!DNL Analytics]stelt u het tijdbereik in op 12.00 - 11.59 uur.
 
-## [!DNL Analytics] maatstaven met de optimalisatiecriteria voor de optimalisatiegraad van &quot;Unieke bezoekersconversie maximaliseren&quot;
+### De winnaar van de activiteit identificeren {#winner}
 
-Het optimalisatiecriterium &quot;Unieke bezoekerconversiesnelheid maximaliseren&quot; verwijst naar het aantal bezoekers voor wie de metrische waarde positief is. Als de conversiekoers bijvoorbeeld als inkomsten wordt gedefinieerd, zou het criterium &quot;Unieke bezoekersconversiesnelheid maximaliseren&quot; optimaliseren voor het aantal unieke bezoekers voor wie de inkomsten groter waren dan 0. Met andere woorden, dit criterium zou het maximaliseren van het aantal bezoekers dat inkomsten genereert, in plaats van de waarde van de inkomsten zelf.
+[!DNL Auto-Allocate] winnaars van de activiteit worden geselecteerd wanneer er een winnende omrekeningskoers is met betrouwbaarheidswaarden groter dan of gelijk aan 95%. Naar deze waarden moet worden verwezen in het dialoogvenster [!DNL Target] rapporten, aangezien betrouwbaarheidsberekeningen de conservatievere methodes weerspiegelen [!DNL Target] aanbevolen voor [!UICONTROL Auto-Allocate] activiteiten. Zie voor meer informatie [Statistische garanties voor automatische toewijzing](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in de *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 >[!NOTE]
 >
->Conversiesnelheid waarnaar hier wordt verwezen, kan verwijzen naar handelingen buiten bestellingen, zoals klikken, afbeeldingen enzovoort. In deze gevallen zou het criterium nog steeds het maximaliseren zijn van het aantal bezoekers dat klikt of de pagina bekijkt.
+De badges &quot;No Winner yet&quot; en &quot;Winner&quot; zijn niet beschikbaar in het deelvenster A4T in [!DNL Analysis Workspace] en ook niet beschikbaar in de [!DNL Target] verslag. Zie voor meer informatie [Automatisch toewijzen](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten* in de *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
-De [!DNL Analytics for Target] deelvenster in [!DNL Analysis Workspace] moet worden gewijzigd als dit optimalisatiecriterium wordt gebruikt met een [!DNL Adobe Analytics] metrisch.
+## A4T maken voor [!UICONTROL Auto-Allocate] deelvenster in [!DNL Analysis Workspace]
 
-Wanneer dit optimalisatiecriterium wordt gebruikt, is succesmetrisch een telling van unieke bezoekers voor wie omzettings metrisch positief was. Daarom moet om deze waarde te bekijken, een nieuw segment worden gecreeerd dat filters om met een positieve waarde voor metrisch te raken.
+1. Een A4T-deelvenster maken voor een [!UICONTROL Auto-Allocate] activiteitenverslag, beginnen met de [!UICONTROL Analytics for Target] deelvenster in [!DNL Analysis Workspace], zoals hieronder weergegeven.
 
-Maak dit segment als volgt:
+   ![Analyses voor doel - rapport Automatisch toewijzen](/help/integrations/assets/a4t-auto-allocate-report.png)
 
-1. Selecteer de **[!UICONTROL Components]** > **[!UICONTROL Create Segment]** in de [!DNL Analysis Workspace] werkbalk.
-1. Sleep de metrische waarde die tijdens het maken van de activiteit wordt gebruikt van het linkerdeelvenster naar het deelvenster **[!UICONTROL Definition]** van het segment.
-1. Waarden van de metrische waarde selecteren die **groter dan** een numerieke waarde van 0.
-1. Van de **[!UICONTROL Include]** vervolgkeuzelijst, selecteert u **[!UICONTROL Visitors]**.
-1. Geef uw segment een geschikte naam.
+1. Maak de volgende selecties:
 
-Een voorbeeld van de segmentverwezenlijking wordt getoond in het hieronder cijfer, waar succesmetrisch is [!UICONTROL Visitors With Positive Revenue].
+   * **[!UICONTROL Control Experience]**: Kies een ervaring.
+   * **[!UICONTROL Normalizing Metric]**: Select **[!UICONTROL Visitors]** (Wordt standaard opgenomen in het deelvenster A4T). [!UICONTROL Auto-Allocate] normaliseert altijd de omrekeningskoersen door unieke bezoekers.
+   * **Succeswaarden**: Selecteer dezelfde metrische waarde (optimalisatie) die u tijdens het maken van activiteiten hebt gebruikt. Als dit een [!DNL Target]-gedefinieerde metrische conversie, selecteer **[!UICONTROL Activity Conversion]**. Anders selecteert u de [!DNL Adobe Analytics] metrisch die u gebruikte.
 
-![[!UICONTROL Visitors with Positive Revenue] segment in [!DNL Analysis Workspace]](assets/AAFigure3.png)
+## Metrische gegevens voor analyse met &quot;[!UICONTROL Maximize Metric Value Per Visitor]&quot; optimalisatiecriteria
 
-*Afbeelding 3: Segment maken voor [!DNL Adobe Analytics] maatstaven met optimalisatiecriteria die gelijk zijn aan &quot;[!UICONTROL Maximize Unique Visitor Conversion Rate].&quot; In dit voorbeeld is de metrische waarde [!UICONTROL Revenue], en het optimalisatiedoel is het maximaliseren van het aantal bezoekers met positieve inkomsten.*
+**Definitie**: (Totale metrische waarde) / (# bezoekers)
 
-Nadat het aangewezen segment is gecreeerd, kunt u het gebrek wijzigen  **[!UICONTROL Analytics for Target]** deelvenster in [!DNL Analysis Workspace] om de waarden voor het optimalisatiecriterium weer te geven. Dit wordt bereikt door het volgende te doen:
+Om het rapport te vormen, breng de volgende veranderingen in het rapport A4T aan:
 
-1. Een seconde toevoegen **Unieke bezoekers** metrisch naast de bestaande [!UICONTROL Visitors] metrische kolom.
-2. Sleep het nieuwe segment onder de eerste kolom om een deelvenster te maken dat lijkt op Figuur 4. Let op het verschil in waarden van de kolommen: het aantal unieke bezoekers met positieve inkomsten moet een fractie zijn van het totale aantal unieke bezoekers dat aan elke ervaring is toegewezen (zoals hieronder wordt getoond).
+![Maximaliseer metrische waarde voor opbrengst](/help/integrations/assets/maximize-metric-value-revenue.png)
 
-   ![Figuur4.png](assets/AAFigure4.png)
+| Vereiste wijzigingen | [!DNL Target]-triggerrapport | A4T-deelvensterrapport |
+| --- | --- | --- |
+| Metrische waarde maximaliseren voor een [!DNL Analytics] metrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De omzettingssnelheid moet worden gewijzigd in &quot;Metrisch / Bezoeker&quot;.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De omzettingssnelheid moet worden gewijzigd in &quot;Metrisch / Bezoeker&quot;.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> |
 
-   *Figuur 4: Filteren [!UICONTROL Unique Visitors] door het nieuwe segment*
+## [!DNL Analytics] metriek met &quot;[!UICONTROL Unique Visitor Conversion Rate]&quot; optimalisatiecriteria
 
-3. Een omrekeningskoers kan [snel berekend](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) door zowel de eerste als de tweede kolom te markeren, klikt u met de rechtermuisknop en selecteert u **[!UICONTROL Create Metric from selection]** > **[!UICONTROL Divide]**.
+**Definitie**: (# van unieke bezoekers met een positieve waarde van de norm) / (totaal aantal unieke bezoekers)
 
-   De standaardconversiesnelheid moet worden verwijderd en vervangen door deze nieuwe berekende maatstaf, zoals in de onderstaande afbeelding wordt getoond. Mogelijk moet u de nieuwe berekende metrische waarde bewerken om als een **[!UICONTROL Format]** > **[!UICONTROL Percent]** tot twee decimalen zoals getoond.
+Voorbeeld: stel dat de optimalisatiemethode [!UICONTROL Revenue]. Er zijn vijf unieke bezoekers in de activiteit en drie van deze unieke bezoekers kopen een aankoop. In dit voorbeeld is deze waarde = (3 bezoekers voor wie [!UICONTROL Revenue] is positief) / (5 totaal unieke bezoekers) = 0,6 = 60%.
 
-   ![Figuur5.png](assets/AAFigure5.png)
+>[!NOTE]
+>
+Conversiesnelheid waarnaar hier wordt verwezen, kan verwijzen naar handelingen buiten bestellingen, zoals klikken, afbeeldingen enzovoort. In deze gevallen zou het criterium nog steeds het maximaliseren zijn van het aantal bezoekers dat klikt of de pagina bekijkt.
 
-   *Figuur 5: De definitieve [!UICONTROL Auto-Allocate] deelvenster met de conversiekoersen voor een metrisch getal met binaire inkomsten*
+Om het rapport te vormen, breng de volgende veranderingen in het rapport A4T aan:
 
-## Samenvatting
+| Vereiste wijzigingen | Doel-teweeggebracht rapport | A4T-deelvensterrapport |
+| --- | --- | --- |
+| Omzettingen maximaliseren voor een [!DNL Analytics] metrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>Alles [!UICONTROL Lift] metriek moet worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. (Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>Alles [!UICONTROL Lift] metriek moet worden verwijderd.</li><li>Maak een segment om bezoekers met een positieve metrische waarde te filteren die de geanalyseerde activiteit hebben bekeken. Zie voor meer informatie [Een segment maken](#segment) hieronder.</li><li>De automatisch gevulde gegevens vervangen [!UICONTROL Conversion Rate] metrisch, dus dat is de scheiding tussen [!UICONTROL Unique visitors] met een positieve metrische waarde en unieke bezoekers. Zie voor meer informatie [De metrische conversiesnelheid bijwerken](#update-conversion-metric) hieronder.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> |
 
-De stappen in deze zelfstudie toonden aan hoe u de configuratie op de juiste manier kunt configureren [!DNL Analysis Workspace] op weergave [!UICONTROL Auto-Allocate] rapportage van gegevens.
+### Standaardrapport van A4T-panel - aanvullende richtlijnen
 
-Samenvatten:
+De volgende secties bevatten meer informatie over extra begeleiding aangezien u opstelling uw standaardA4T paneelrapport.
 
-* Wanneer de metrische waarde een [!DNL Target] gedefinieerde metrische of [!DNL Adobe Analytics] Met het optimalisatiecriterium &#39;Metrische waarde maximaliseren per bezoeker&#39; moet het standaardwerkruimtenet worden gebruikt dat met bezoekers is geconfigureerd als een normalisatiemethode.
-* Wanneer metrisch een [!DNL Adobe Analytics] Metrisch met optimalisatiecriterium &quot;Maximize Unique Visitor Conversion Rate,&quot;u moet de fractie van bezoekers met positieve metrische waarde over totale bezoekers bepalen. Dit doet u door een overeenkomstig segment te maken dat de [!UICONTROL Unique Visitor] op die metrische waarde.
+#### Een segment maken {#segment}
+
+1. Klik op de knop **&quot;+&quot;-teken** naast **[!UICONTROL Segments]** in het linkerspoor.
+
+   ![Het plusteken naast segmenten in de linkerrails.](/help/integrations/assets/plus-sign.png)
+
+1. Titel het segment &quot;Bezoekers met positieve metrische waarde&quot;.
+1. Onder **[!UICONTROL Definition]**, naast **[!UICONTROL Include]**, selecteert u **[!UICONTROL Visitor]**.
+1. Onder **[!UICONTROL Definition]** selecteert u de optimalisatiemetrische waarde in uw activiteit.
+
+   In dit voorbeeld, veronderstel [!UICONTROL Revenue] als optimalisatiemetrisch.
+
+1. Selecteer &quot;[!UICONTROL is greater than]&quot;, geeft u vervolgens &quot;0&quot; op.
+
+   Deze instellingen filteren voor alle bezoekers met een positieve metrische waarde.
+
+1. Klik op **[!UICONTROL Save]**.
+
+   ![Positieve metrische waarde](/help/integrations/assets/positive-metric-value.png)
+
+1. Voeg het nieuwe segment met de naam &quot;Bezoekers met positieve metrische waarde&quot; toe aan het deelvenster A4T.
+1. Sleep de [!UICONTROL Unique Visitors] metrisch in dezelfde kolom als de &quot;Bezoekers met positieve metrische waarde&quot;.
+
+   Deze configuratie leidt tot een segment van alle unieke bezoekers voor wie de metrische waarde positief is. In dit voorbeeld zijn alle unieke bezoekers met een omzet die groter was dan nul.
+
+#### Werk de [!UICONTROL Conversion Rate] metrisch {#update-conversion-metric}
+
+1. Als u dat nog niet hebt gedaan, verwijdert u de bestaande [!UICONTROL Conversion Rate] in het deelvenster, zoals hierboven uitgelegd.
+1. Voeg metrisch toe door &quot;+&quot;teken naast te klikken **[!UICONTROL Metrics]** in het linkerspoor.
+1. Geef de metrische &quot;Conversiesnelheid&quot; een naam en definieer deze als &quot;(&quot;[!UICONTROL Unique Visitors] met positieve metrische waarde)&quot; gedeeld door &quot;Unieke Bezoekers&quot;, zoals hieronder aangegeven.
+
+   Voeg het zojuist gemaakte segment (stappen hierboven gedefinieerd) van &quot;Bezoekers met positieve metrische waarde&quot;, de operator voor delen, de metrische waarde &quot;Unieke bezoekers&quot; in de teller en &quot;Unieke bezoekers&quot; als noemer toe.
+
+   ![Conversiesnelheid in het deelvenster A4T.](/help/integrations/assets/conversion-rate.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+1. Sleep de nieuwe metrische waarde Conversiesnelheid naar het bestaande deelvenster en zet deze neer.
+1. Klik op het tandwielpictogram en schakel vervolgens de optie **[!UICONTROL Percent]** selectievakje, omdat deze waarde tot verwarring kan leiden.
+
+De correcte configuratie van het rapport zou een resultaat moeten opleveren dat op de volgende illustratie lijkt:
+
+![Unieke conversiekoers bezoek in het rapport van het A4T-deelvenster](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+
+## [!DNL Target]-gedefinieerde omrekeningskoers
+
+Om het rapport te vormen, breng de volgende veranderingen in het rapport A4T aan:
+
+| Vereiste wijzigingen | Doel-teweeggebracht rapport | A4T-deelvensterrapport |
+| --- | --- | --- |
+| [!DNL Analytics] rapporteren met [!DNL Target] omzettingsmetrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> |
+
+De correcte configuratie van het rapport zou een resultaat moeten opleveren dat op de volgende illustratie lijkt:
+
+![Activiteitenomzettingen](/help/integrations/assets/optimized-table.png)
+
+
+
+
+
+
+
+
+
