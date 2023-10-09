@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 0%
@@ -52,13 +52,13 @@ In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhank
 
    De [!UICONTROL Column] dialoogvenster met instellingen wordt weergegeven:
 
-   ![Kolominstellingen, dialoogvenster](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Kolominstellingen, dialoogvenster](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Hef de selectie van **[!UICONTROL Percent]** selectievakje.
 
-Het deelvenster A4T bevat nu geen percentages als de conversiesnelheid en overeenkomsten [!DNL Target], zoals hieronder weergegeven:
+   Het deelvenster A4T bevat nu geen percentages als de conversiesnelheid en overeenkomsten [!DNL Target], zoals hieronder weergegeven:
 
-![Kolom Conversiesnelheid die geen percentages toont](/help/integrations/assets/no-percentages.png)
+   ![Kolom Conversiesnelheid die geen percentages toont](/help/integrations/assets/no-percentages.png)
 
 ### De datum en tijd uitlijnen in het deelvenster A4T {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ De volgende secties bevatten meer informatie over extra begeleiding aangezien u 
 1. Sleep de nieuwe metrische waarde Conversiesnelheid naar het bestaande deelvenster en zet deze neer.
 1. Klik op het tandwielpictogram en schakel vervolgens de optie **[!UICONTROL Percent]** selectievakje, omdat deze waarde tot verwarring kan leiden.
 
-De correcte configuratie van het rapport zou een resultaat moeten opleveren dat op de volgende illustratie lijkt:
+   De correcte configuratie van het rapport zou een resultaat moeten opleveren dat op de volgende illustratie lijkt:
 
-![Unieke conversiekoers bezoek in het rapport van het A4T-deelvenster](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Unieke conversiekoers bezoek in het rapport van het A4T-deelvenster](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]-gedefinieerde omrekeningskoers
 
