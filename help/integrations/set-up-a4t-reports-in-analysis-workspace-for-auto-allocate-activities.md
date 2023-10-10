@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhank
 
 >[!NOTE]
 >
-De badges &quot;No Winner yet&quot; en &quot;Winner&quot; zijn niet beschikbaar in het deelvenster A4T in [!DNL Analysis Workspace] en ook niet beschikbaar in de [!DNL Target] verslag. Zie voor meer informatie [Automatisch toewijzen](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten* in de *[!UICONTROL Adobe Target Business Practitioner Guide]*.
+De badges &quot;No Winner yet&quot; en &quot;Winner&quot; zijn niet beschikbaar in het deelvenster A4T in [!DNL Analysis Workspace]. Ook de winnaar &quot;star&quot;-badge weergegeven in [!DNL Target] rapporten voor [!UICONTROL Auto-Allocate] activiteiten moeten worden genegeerd. Zie voor meer informatie [Automatisch toewijzen](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten* in de *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
 ## A4T maken voor [!UICONTROL Auto-Allocate] deelvenster in [!DNL Analysis Workspace]
 
