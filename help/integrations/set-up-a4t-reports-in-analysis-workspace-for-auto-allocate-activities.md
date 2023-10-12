@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
+source-git-commit: 9761412ba2f60e91152a6fd5ad9e50ec0df0adba
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Dit leerprogramma behandelt algemene begeleiding A4T, en criteria-specifieke sta
 
 U kunt naar een vooraf ontworpen [!UICONTROL Analytics for Target] door in het rapportscherm op de koppeling te klikken [!UICONTROL Adobe Target] (dit wordt later in deze handleiding aangeduid als &quot;[!DNL Target]-triggerrapport&quot;). U kunt ook het A4T-deelvenster maken in [!DNL Analytics] (details verderop in deze sectie).
 
-In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhankelijk van de door u gekozen methode:
+In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhankelijk van welke van deze methoden u kiest. De volgende stappen dienen echter als algemene leidraad:
 
 * De betrouwbaarheidswaarden moeten uit het deelvenster A4T worden verwijderd, ongeacht de methode voor het maken van het deelvenster (beide worden hieronder beschreven). Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage. Bovendien kunnen winnaars van activiteiten worden geïdentificeerd in [!DNL Target] rapportage. Gegevens over de identificatie van de winnaars zijn te vinden in de [Identificeer de Winner van de Activiteit](#winner) hieronder.
 >>
@@ -76,7 +76,7 @@ In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhank
 >
 De badges &quot;No Winner yet&quot; en &quot;Winner&quot; zijn niet beschikbaar in het deelvenster A4T in [!DNL Analysis Workspace]. Ook de winnaar &quot;star&quot;-badge weergegeven in [!DNL Target] rapporten voor [!UICONTROL Auto-Allocate] activiteiten moeten worden genegeerd. Zie voor meer informatie [Automatisch toewijzen](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *A4T-ondersteuning voor activiteiten voor automatisch toewijzen en automatisch richten* in de *[!UICONTROL Adobe Target Business Practitioner Guide]*.
 
-## A4T maken voor [!UICONTROL Auto-Allocate] deelvenster in [!DNL Analysis Workspace]
+### A4T maken voor [!UICONTROL Auto-Allocate] deelvenster in [!DNL Analysis Workspace]
 
 1. Een A4T-deelvenster maken voor een [!UICONTROL Auto-Allocate] activiteitenverslag, beginnen met de [!UICONTROL Analytics for Target] deelvenster in [!DNL Analysis Workspace], zoals hieronder weergegeven.
 
@@ -94,11 +94,11 @@ De badges &quot;No Winner yet&quot; en &quot;Winner&quot; zijn niet beschikbaar 
 
 Om het rapport te vormen, breng de volgende veranderingen in het rapport A4T aan:
 
-![Maximaliseer metrische waarde voor opbrengst](/help/integrations/assets/maximize-metric-value-revenue.png)
-
 | Vereiste wijzigingen | [!DNL Target]-triggerrapport | A4T-deelvensterrapport |
 | --- | --- | --- |
 | Metrische waarde maximaliseren voor een [!DNL Analytics] metrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De omzettingssnelheid moet worden gewijzigd in &quot;Metrisch / Bezoeker&quot;.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De omzettingssnelheid moet worden gewijzigd in &quot;Metrisch / Bezoeker&quot;.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie voor meer informatie [Algemene richtlijnen](#guidance) hierboven.</li></ul> |
+
+![Maximaliseer metrische waarde voor opbrengst](/help/integrations/assets/maximize-metric-value-revenue.png)
 
 ## [!DNL Analytics] metriek met &quot;[!UICONTROL Unique Visitor Conversion Rate]&quot; optimalisatiecriteria
 
