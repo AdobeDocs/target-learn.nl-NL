@@ -8,16 +8,16 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 352f334e2ca8c1d0be3ff0f89482b97500685174
+source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
 
 # A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Allocate] activiteiten
 
-An [!UICONTROL Auto-Allocate] activiteit in [!DNL Adobe Target] identificeert een winnaar onder twee of meer ervaringen en wijst automatisch bezoekersverkeer aan de winnaar toe terwijl de test blijft lopen en leren. De [!UICONTROL Analytics for Target] (A4T) integratie voor [!UICONTROL Auto-Allocate] Hiermee kunt u rapportgegevens weergeven in [!DNL Adobe Analytics]en kunt u optimaliseren voor aangepaste gebeurtenissen of maateenheden die zijn gedefinieerd in [!DNL Analytics].
+An [[!UICONTROL Auto-Allocate] activiteit](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] identificeert een winnaar onder twee of meer ervaringen en wijst automatisch bezoekersverkeer aan de winnaar toe terwijl de test blijft lopen en leren. De [!UICONTROL Analytics for Target] (A4T) integratie voor [!UICONTROL Auto-Allocate] Hiermee kunt u rapportgegevens weergeven in [!DNL Adobe Analytics]en kunt u optimaliseren voor aangepaste gebeurtenissen of maateenheden die zijn gedefinieerd in [!DNL Analytics].
 
 Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!DNL Analysis Workspace], enkele wijzigingen in de standaardwaarde [!UICONTROL Analytics for Target] deelvenster kan nodig zijn voor een juiste interpretatie [!UICONTROL Auto-Allocate] activiteiten. Deze wijzigingen zijn nodig vanwege de nuances in [optimalisatiemetrische criteria](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
@@ -40,7 +40,7 @@ Om het rapport te vormen, breng de volgende veranderingen in het rapport A4T aan
 
 | Vereiste wijzigingen | [!DNL Target]-triggerrapport | A4T-deelvensterrapport |
 | --- | --- | --- |
-| Metrische waarde maximaliseren voor een [!DNL Analytics] metrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtlijnen](#guidance) hieronder.</li><li>De omzettingssnelheid moet worden gewijzigd in &quot;Metrisch / Bezoeker&quot;.</li></ul> | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtlijnen](#guidance) hieronder.</li><li>De omzettingssnelheid moet worden gewijzigd in &quot;Metrisch / Bezoeker&quot;.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie [Algemene richtlijnen](#guidance) hieronder.</li></ul> |
+| Metrische waarde maximaliseren voor een [!DNL Analytics] metrisch | <ul><li>Verwijderen [!UICONTROL Confidence] metriek.</li><li>Verwijderen [!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)].</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li><li>De naam van de [!UICONTROL Conversion] tarief metrisch aan &quot;Metrisch/Bezoeker.&quot;</li></ul> | <ul><li>Verwijderen [!UICONTROL Confidence] metriek.</li><li>Verwijderen [!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)].</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li><li>De naam van de [!UICONTROL Conversion] tarief metrisch aan &quot;Metrisch/Bezoeker.&quot;</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li></ul> |
 
 ![Maximaliseer metrische waarde voor opbrengst](/help/integrations/assets/maximize-metric-value-revenue.png)
 
@@ -58,7 +58,7 @@ Om het rapport te vormen, breng de volgende veranderingen in het rapport A4T aan
 
 | Vereiste wijzigingen | Doel-teweeggebracht rapport | A4T-deelvensterrapport |
 | --- | --- | --- |
-| Omzettingen maximaliseren voor een [!DNL Analytics] metrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>Alles [!UICONTROL Lift] metriek moet worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtlijnen](#guidance) hieronder.</li></ul> | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>Alles [!UICONTROL Lift] metriek moet worden verwijderd.</li><li>Maak een segment om bezoekers met een positieve metrische waarde te filteren die de geanalyseerde activiteit hebben bekeken. Zie [Een segment maken](#segment) hieronder.</li><li>De automatisch gevulde gegevens vervangen [!UICONTROL Conversion Rate] metrisch, dus dat is de scheiding tussen [!UICONTROL Unique visitors] met een positieve metrische waarde en unieke bezoekers. Zie [De metrische conversiesnelheid bijwerken](#update-conversion-metric) hieronder.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtlijnen](#guidance) hieronder.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie [Algemene richtlijnen](#guidance) hieronder.</li></ul> |
+| Omzettingen maximaliseren voor een [!DNL Analytics] metrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>Alles verwijderen [!UICONTROL Lift] metriek.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li></ul> | <ul><li>Verwijderen [!UICONTROL Confidence] metriek.</li><li>Alles verwijderen [!UICONTROL Lift] metriek.</li><li>Maak een segment om bezoekers met een positieve metrische waarde te filteren die de geanalyseerde activiteit hebben bekeken. Zie [Een segment maken](#segment) hieronder.</li><li>De automatisch gevulde gegevens vervangen [!UICONTROL Conversion Rate] metrisch, dus dat is de scheiding tussen [!UICONTROL Unique visitors] met een positieve metrische waarde en unieke bezoekers. Zie [De metrische conversiesnelheid bijwerken](#update-conversion-metric) hieronder.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li></ul> |
 
 ### Standaardrapport van A4T-panel - aanvullende richtlijnen
 
@@ -101,7 +101,7 @@ De volgende secties bevatten meer informatie over extra begeleiding aangezien u 
 
 1. Klik op **[!UICONTROL Save]**.
 
-1. Sleep de nieuwe metrische waarde Conversiesnelheid naar het bestaande deelvenster en zet deze neer.
+1. Sleep de nieuwe metrische waarde voor Conversiesnelheid naar het bestaande deelvenster.
 1. Klik op het tandwielpictogram en schakel vervolgens de optie **[!UICONTROL Percent]** selectievakje, omdat deze waarde tot verwarring kan leiden.
 
    De correcte configuratie van het rapport zou een resultaat moeten opleveren dat op de volgende illustratie lijkt:
@@ -114,19 +114,19 @@ Om het rapport te vormen, breng de volgende veranderingen in het rapport A4T aan
 
 | Vereiste wijzigingen | Doel-teweeggebracht rapport | A4T-deelvensterrapport |
 | --- | --- | --- |
-| [!DNL Analytics] rapporteren met [!DNL Target] omzettingsmetrisch | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtlijnen](#guidance) hieronder.</li></ul> | <ul><li>[!UICONTROL Confidence] metriek moet worden verwijderd.</li><li>[!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)] worden verwijderd.</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtlijnen](#guidance) hieronder.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie [Algemene richtlijnen](#guidance) hieronder.</li></ul> |
+| [!DNL Analytics] rapporteren met [!DNL Target] omzettingsmetrisch | <ul><li>Verwijderen [!UICONTROL Confidence] metriek.</li><li>Verwijderen [!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)].</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li></ul> | <ul><li>Verwijderen [!UICONTROL Confidence] metriek.</li><li>Verwijderen [!UICONTROL Lift (Low)] en [!UICONTROL Lift (High)].</li><li>De percentagepresentatie uitschakelen in het menu [!UICONTROL Conversion Rate] om verwarring te voorkomen. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li><li>Zorg ervoor dat de datum- en tijdbereiken overeenkomen met de waarden die u in het dialoogvenster [!DNL Target] verslag. Zie [Algemene richtsnoeren voor A4T](#guidance) hieronder.</li></ul> |
 
 De correcte configuratie van het rapport zou een resultaat moeten opleveren dat op de volgende illustratie lijkt:
 
 ![Activiteitenomzettingen](/help/integrations/assets/optimized-table.png)
 
-## Algemene richtsnoeren voor [!UICONTROL Analytics for Target] (A4T) {#guidance}
+## Algemene richtsnoeren voor A4T {#guidance}
 
-U kunt naar een vooraf ontworpen [!UICONTROL Analytics for Target] door in het rapportscherm op de koppeling te klikken [!UICONTROL Adobe Target] (dit wordt later in deze handleiding aangeduid als &quot;[!DNL Target]-triggerrapport&quot;). U kunt ook het A4T-deelvenster maken in [!DNL Analytics] (details verderop in deze sectie).
+U kunt naar een vooraf ontworpen [!UICONTROL Analytics for Target] door in het rapportscherm op de koppeling te klikken [!UICONTROL Target] (dit wordt later in deze handleiding aangeduid als &quot;[!DNL Target]-triggerrapport&quot;). U kunt ook het A4T-deelvenster maken in [!DNL Analytics] (details verderop in deze sectie).
 
-In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhankelijk van welke van deze methoden u kiest. De volgende stappen dienen echter als algemene leidraad:
+In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhankelijk van welke van deze methoden u kiest. De volgende stappen dienen echter als algemene leidraad voor A4T:
 
-* De betrouwbaarheidswaarden moeten uit het deelvenster A4T worden verwijderd, ongeacht de methode voor het maken van het deelvenster (beide worden hieronder beschreven). Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage. Bovendien kunnen winnaars van activiteiten worden geïdentificeerd in [!DNL Target] rapportage. Gegevens over de identificatie van de winnaars zijn te vinden in de [Identificeer de Winner van de Activiteit](#winner) hieronder.
+* Verwijder de betrouwbaarheidsmetriek uit het deelvenster A4T, ongeacht de methode voor het maken van het deelvenster (beide worden hieronder beschreven). Verwijs in plaats daarvan naar deze waarden in [!DNL Target] rapportage. Bovendien kunnen winnaars van activiteiten worden geïdentificeerd in [!DNL Target] rapportage. Gegevens over de identificatie van de winnaars zijn te vinden in de [De winnaar van de activiteit identificeren](#winner) hieronder.
 >>
 * Schakel de optie &quot;[!UICONTROL Percent]&quot; presentatie van de [!UICONTROL Conversion Rate] metrisch. Zie [Het percentage verbergen in het pop-upmenu [!UICONTROL Conversion Rate] kolom](#hide-percentage) hieronder.
 >>
@@ -144,7 +144,7 @@ In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhank
 
 1. Hef de selectie van **[!UICONTROL Percent]** selectievakje.
 
-   Het deelvenster A4T bevat nu geen percentages als de conversiesnelheid en overeenkomsten [!DNL Target], zoals hieronder weergegeven:
+   Uw A4T-deelvenster bevat nu geen percentages als de [!UICONTROL Conversion Rate] en overeenkomsten [!DNL Target], zoals hieronder weergegeven:
 
    ![Kolom Conversiesnelheid die geen percentages toont](/help/integrations/assets/no-percentages.png)
 

@@ -1,7 +1,7 @@
 ---
 title: A4T-rapporten instellen in [!DNL Analysis Workspace] for [!DNL Auto-Target] Activiteiten
 description: Hoe kan ik A4T-rapporten configureren in [!DNL Analysis Workspace] om de verwachte resultaten op te halen wanneer de toepassing wordt uitgevoerd [!UICONTROL Auto-Target] activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,9 +10,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 04327a87db4ad4aa821b64d432e7278c3d55842c
+source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2480'
 ht-degree: 0%
 
 ---
@@ -30,16 +30,16 @@ Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytic
 Deze zelfstudie doorloopt de aanbevolen wijzigingen voor het analyseren [!UICONTROL Auto-Target] activiteiten in [!DNL Analysis Workspace], die gebaseerd zijn op de volgende sleutelbegrippen:
 
 * De **[!UICONTROL Control vs Targeted]** dimensie kan worden gebruikt om onderscheid te maken tussen [!UICONTROL Control] ervaringen in vergelijking met die van de [!UICONTROL Auto-Target] ensemble ML algorithm.
-* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Daarnaast [De standaardmethode voor het tellen van gegevens van Adobe Analytics kan bezoeken omvatten waarbij de gebruiker de inhoud van de activiteit niet daadwerkelijk ziet](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, maar dit standaardgedrag kan worden gewijzigd door een segment met het juiste bereik te gebruiken (details verderop).
+* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Daarnaast [De standaardmethode voor tellen van Adobe Analytics kan bezoeken omvatten waarbij de gebruiker geen activiteiteninhoud ziet](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, maar dit standaardgedrag kan worden gewijzigd door een segment met het juiste bereik te gebruiken (details verderop).
 * Visit-lookback scoped attributie, ook gekend als &quot;bezoek lookback window&quot;op het voorgeschreven attribuutmodel, wordt gebruikt door [!DNL Adobe Target] De modellen van ML tijdens hun opleidingsfasen, en het zelfde (niet gebrek) attributiemodel zouden moeten worden gebruikt wanneer het breken van doel metrisch.
 
-## A4T maken voor [!UICONTROL Auto-Target] in [!DNL Analysis Workspace]
+## A4T maken voor [!UICONTROL Auto-Target] deelvenster in [!DNL Analysis Workspace]
 
-Een A4T maken voor [!UICONTROL Auto-Target] rapport, of begin met **[!UICONTROL Analytics for Target]** in [!DNL Analysis Workspace], zoals hieronder wordt getoond, of beginnen met een vrije-vormlijst. Maak vervolgens de volgende selecties:
+Een A4T maken voor [!UICONTROL Auto-Target] rapport, of begin met **[!UICONTROL Analytics for Target]** deelvenster in [!DNL Analysis Workspace], zoals hieronder wordt getoond, of beginnen met een vrije-vormlijst. Maak vervolgens de volgende selecties:
 
-1. **[!UICONTROL Control Experience]**: U kunt elke ervaring kiezen; u zult deze keuze later echter overschrijven. Let op: voor [!UICONTROL Auto-Target] De ervaring met controle is in feite een controlestrategie, die ofwel a) willekeurig dienst doet bij alle ervaringen, ofwel b) één ervaring dient (deze keuze wordt gemaakt op het moment dat de activiteit wordt gecreëerd in [!DNL Adobe Target]). Zelfs als u voor keuze b) hebt gekozen, [!UICONTROL Auto-Target] een specifieke ervaring als controle aangewezen. U moet de in deze zelfstudie beschreven aanpak voor het analyseren van A4T voor [!UICONTROL Auto-Target] activiteiten.
-2. **[!UICONTROL Normalizing Metric]**: Selecteren [!UICONTROL Visits].
-3. **[!UICONTROL Success Metrics]**: Hoewel u om het even welke metriek kunt selecteren waarop te melden, zou u rapporten over het algemeen over het zelfde metrisch moeten bekijken die voor optimalisering tijdens activiteitenverwezenlijking binnen werd gekozen [!DNL Target].
+1. **[!UICONTROL Control Experience]**: U kunt een ervaring kiezen, maar u zult deze keuze later overschrijven. Let op: voor [!UICONTROL Auto-Target] De ervaring met controle is in feite een controlestrategie, die ofwel a) willekeurig dienst doet bij alle ervaringen, ofwel b) één ervaring dient (deze keuze wordt gemaakt op het moment dat de activiteit wordt gecreëerd in [!DNL Adobe Target]). Zelfs als u voor keuze b) hebt gekozen, [!UICONTROL Auto-Target] een specifieke ervaring als controle aangewezen. U moet de in deze zelfstudie beschreven aanpak voor het analyseren van A4T voor [!UICONTROL Auto-Target] activiteiten.
+2. **[!UICONTROL Normalizing Metric]**: Select [!UICONTROL Visits].
+3. **[!UICONTROL Success Metrics]**: Hoewel u om het even welke metriek kunt selecteren waarop te melden, zou u rapporten over het algemeen over zelfde metrisch moeten bekijken die voor optimalisering tijdens activiteitenverwezenlijking binnen werd gekozen [!DNL Target].
 
    ![[!UICONTROL Analytics for Target] deelvenster instellen voor [!UICONTROL Auto-Target] activiteiten.](assets/Figure1.png)
 
@@ -57,9 +57,9 @@ Voor deze vergelijking gebruikt u de opdracht **[!UICONTROL Control vs Targeted 
 
 Deze vervanging maakt de standaardinstelling ongeldig [!UICONTROL Lift and Confidence] berekeningen in het A4T-deelvenster. Om verwarring te voorkomen, kunt u deze metriek uit het standaardpaneel verwijderen, verlatend het volgende rapport:
 
-![[!UICONTROL Experiences by Activity Conversions] in [!DNL Analysis Workspace]](assets/Figure2.png)
+![[!UICONTROL Experiences by Activity Conversions] deelvenster in [!DNL Analysis Workspace]](assets/Figure2.png)
 
-*Afbeelding 2: Het aanbevolen basislijnrapport voor [!DNL Auto-Target] activiteiten. Dit rapport is gevormd om gericht verkeer (gediend door het ensemble model van ML) tegen uw controleverkeer te vergelijken.*
+*Figuur 2: Het geadviseerde basislijnrapport voor [!DNL Auto-Target] activiteiten. Dit rapport is gevormd om gericht verkeer (gediend door het ensemble model van ML) tegen uw controleverkeer te vergelijken.*
 
 >[!NOTE]
 >
@@ -69,13 +69,13 @@ Deze vervanging maakt de standaardinstelling ongeldig [!UICONTROL Lift and Confi
 
 Om meer inzicht te krijgen in hoe het ensemble ML model presteert, kunt u ervaring-vlakke onderverdelingen van onderzoeken **[!UICONTROL Control vs Targeted]** dimensie. In [!DNL Analysis Workspace], sleept u de **[!UICONTROL Target Experiences]** dimensie op uw rapport, dan onderverdeeld elk van de controle en gerichte dimensies afzonderlijk.
 
-![[!UICONTROL Experiences by Activity Conversions] in [!DNL Analysis Workspace]](assets/Figure3.png)
+![[!UICONTROL Experiences by Activity Conversions] deelvenster in [!DNL Analysis Workspace]](assets/Figure3.png)
 
-*Figuur 3: Verdeling van de gerichte dimensie door de Ervaringen van het Doel*
+*Afbeelding 3: De doeldimensie indelen door de ervaring van het doel*
 
 Hier wordt een voorbeeld van het resulterende rapport weergegeven.
 
-![[!UICONTROL Experiences by Activity Conversions] in [!DNL Analysis Workspace]](assets/Figure4.png)
+![[!UICONTROL Experiences by Activity Conversions] deelvenster in [!DNL Analysis Workspace]](assets/Figure4.png)
 
 *Figuur 4: Een norm [!UICONTROL Auto-Target] rapporteren met uitsplitsingen op ervaringsniveau. Merk op dat uw doel metrisch zou kunnen verschillend zijn, en uw controlestrategie één enkele ervaring zou kunnen hebben.*
 
@@ -85,11 +85,11 @@ Hier wordt een voorbeeld van het resulterende rapport weergegeven.
 
 ## Waarom &quot;[!UICONTROL Visits]&quot; is de juiste normalisatie-metrische waarde voor [!UICONTROL Auto-Target] activiteiten
 
-Bij het analyseren van een [!UICONTROL Auto-Target] activiteit, altijd kiezen [!UICONTROL Visits] als standaard normaliserend metrisch. [!UICONTROL Auto-Target] personalisatie kiest een ervaring voor een bezoeker eenmaal per bezoek ( formeel , eenmaal per bezoek ) [!DNL Target] sessie), wat betekent dat de ervaring die een bezoeker wordt getoond, bij elk bezoek kan veranderen. Als u [!UICONTROL Unique Visitors] als het normaliseren metrisch, zou het feit dat één enkele gebruiker veelvoudige ervaringen (over verschillende bezoeken) zou kunnen uiteindelijk tot verwarrende omzettingspercentages leiden.
+Wanneer u een [!UICONTROL Auto-Target] activiteit, altijd kiezen [!UICONTROL Visits] als standaard normaliserend metrisch. [!UICONTROL Auto-Target] personalisatie kiest een ervaring voor een bezoeker eenmaal per bezoek ( formeel , eenmaal per bezoek ) [!DNL Target] sessie), wat betekent dat de ervaring die een bezoeker wordt getoond, bij elk bezoek kan veranderen. Als u [!UICONTROL Unique Visitors] als het normaliseren metrisch, zou het feit dat één enkele gebruiker veelvoudige ervaringen (over verschillende bezoeken) zou kunnen uiteindelijk tot verwarrende omzettingspercentages leiden.
 
-Dit wordt in een eenvoudig voorbeeld geïllustreerd: overwegen een scenario waarin twee bezoekers een campagne aangaan die slechts twee ervaringen heeft. De eerste bezoeker bezoekt tweemaal. Zij worden toegewezen aan Experience A tijdens het eerste bezoek, maar beleven B tijdens het tweede bezoek (vanwege hun profielstatus die veranderde bij dat tweede bezoek). Na het tweede bezoek converteert de bezoeker een bestelling. De conversie wordt toegeschreven aan de ervaring die het laatst is opgedaan (Experience B). De tweede bezoeker bezoekt ook twee keer, en wordt Ervaring B getoond beide keer, maar nooit omzet.
+Een eenvoudig voorbeeld illustreert dit punt: denk aan een scenario waarin twee bezoekers een campagne starten die slechts twee ervaringen heeft. De eerste bezoeker bezoekt tweemaal. Zij worden toegewezen aan Experience A tijdens het eerste bezoek, maar beleven B tijdens het tweede bezoek (vanwege hun profielstatus die veranderde bij dat tweede bezoek). Na het tweede bezoek converteert de bezoeker een bestelling. De conversie wordt toegeschreven aan de ervaring die het laatst is opgedaan (Experience B). De tweede bezoeker bezoekt ook twee keer, en wordt Ervaring B getoond beide keer, maar nooit omzet.
 
-Laten we de verslagen op bezoekersniveau en op bezoekersniveau vergelijken:
+Laten we de bezoekers vergelijken met de bezoekers:
 
 | Ervaring | Unieke bezoekers | Bezoeken | Conversies | Bezoeker-genormaliseerde omzettingssnelheid | Bezoek-genormaliseerde Omzetsnelheid |
 | --- | --- | --- | --- | --- | --- |
@@ -97,22 +97,22 @@ Laten we de verslagen op bezoekersniveau en op bezoekersniveau vergelijken:
 | B | 2 | 3 | 1 | 50% | 33.3% |
 | Totalen | 2 | 4 | 1 | 50% | 25% |
 
-*Tabel 1: Voorbeeld waarin bezoekers-genormaliseerde en bezoek-genormaliseerde rapporten voor een scenario worden vergeleken waarin de besluiten aan een bezoek kleven (en niet bezoeker, zoals met regelmatige tests A/B). De bezoeker-genormaliseerde metriek zijn verwarrend in dit scenario.*
+*Tabel 1: Voorbeeld waarin bezoekers genormaliseerde en op bezoek genormaliseerde rapporten werden vergeleken voor een scenario waarin beslissingen aan een bezoek kleven (en niet aan bezoekers, zoals bij regelmatige A/B-tests). De bezoeker-genormaliseerde metriek zijn verwarrend in dit scenario.*
 
 Zoals uit de tabel blijkt, is er een duidelijke incongruentie van bezoekersaantallen. Ondanks het feit dat er in totaal twee unieke bezoekers zijn, is dit geen som van afzonderlijke unieke bezoekers voor elke ervaring. Hoewel de conversiekoers op bezoekersniveau niet noodzakelijkerwijs verkeerd is, hebben conversietarieven op bezoekniveau bij vergelijking van individuele ervaringen waarschijnlijk veel meer zin. Formeel is de eenheid van analyse (&quot;bezoeken&quot;) dezelfde als de eenheid van beslissingswaanzin, wat betekent dat uitsplitsingen van meetgegevens op ervaringsniveau kunnen worden toegevoegd en vergeleken.
 
 ## Filter voor feitelijke bezoeken aan de activiteit
 
-De [!DNL Adobe Analytics] standaardmethode voor het tellen van bezoeken aan een [!DNL Target] activiteit zou bezoeken kunnen omvatten waarin de gebruiker niet met [!DNL Target] activiteit. Dit is te wijten aan de manier waarop [!DNL Target] activiteitstoewijzingen blijven bestaan in de [!DNL Analytics] context bezoeker. Het aantal bezoeken aan de [!DNL Target] de activiteit kan soms worden opgevoerd , wat leidt tot een verlaging van de omrekeningskoersen .
+De [!DNL Adobe Analytics] standaardtelmethode voor bezoeken aan een [!DNL Target] activiteit zou bezoeken kunnen omvatten waarin de gebruiker niet met [!DNL Target] activiteit. Dit komt door de manier waarop [!DNL Target] activiteitstoewijzingen blijven bestaan in de [!DNL Analytics] context bezoeker. Het aantal bezoeken aan de [!DNL Target] de activiteit kan soms worden opgevoerd , wat leidt tot een verlaging van de omrekeningskoersen .
 
 Als u liever melding wilt maken van bezoeken waarbij de gebruiker daadwerkelijk met de [!UICONTROL Auto-Target] activiteit (via toegang tot de activiteit, een weergave- of bezoekgebeurtenis of een conversie), kunt u:
 
 1. Maak een specifiek segment dat resultaten van het [!DNL Target] de betrokken activiteit, en vervolgens
-1. Filter de [!UICONTROL Visits] metrisch gebruikend dit segment.
+1. Filteren op [!UICONTROL Visits] metrisch gebruikend dit segment.
 
 **Het segment maken:**
 
-1. Selecteer **[!UICONTROL Components > Create Segment]** in de [!DNL Analysis Workspace] werkbalk.
+1. Selecteer de **[!UICONTROL Components > Create Segment]** in de [!DNL Analysis Workspace] werkbalk.
 2. Geef een **[!UICONTROL Title]** voor uw segment. In het onderstaande voorbeeld krijgt het segment de naam [!DNL "Hit with specific Auto-Target activity"].
 3. Sleep de **[!UICONTROL Target Activities]** dimensie van het segment **[!UICONTROL Definition]** sectie.
 4. Gebruik de **[!UICONTROL equals]** operator.
@@ -122,20 +122,20 @@ Als u liever melding wilt maken van bezoeken waarbij de gebruiker daadwerkelijk 
 
 ![Segment in [!DNL Analysis Workspace]](assets/Figure5.png)
 
-*Figuur 5: Gebruik een segment zoals dat hier wordt getoond om het [!UICONTROL Visits] Metrisch in uw A4T voor [!UICONTROL Auto-Target] verslag*
+*Figuur 5: Gebruik een segment zoals hier getoond om te filtreren [!UICONTROL Visits] Metrisch in uw A4T voor [!UICONTROL Auto-Target] verslag*
 
 Nadat het segment is gemaakt, filtert u het [!UICONTROL Visits] metrisch, dus [!UICONTROL Visits] metrisch omvat alleen bezoeken waar de gebruiker interactie had met de [!DNL Target] activiteit.
 
 **Naar filter [!UICONTROL Visits] dit segment gebruiken:**
 
-1. Sleep het nieuwe segment van de componentenwerkbalk en houd de muisaanwijzer boven de basis van het segment **[!UICONTROL Visits]** metrisch label tot een blauw **[!UICONTROL Filter by]** wordt weergegeven.
+1. Sleep het nieuwe segment van de componententoolbar, en houd over de basis van **[!UICONTROL Visits]** metrisch label tot een blauw **[!UICONTROL Filter by]** wordt weergegeven.
 2. Laat het segment los. Het filter wordt toegepast op die metrische waarde.
 
 Het uiteindelijke venster ziet er als volgt uit:
 
-![[!UICONTROL Experiences by Activity Conversions] in [!DNL Analysis Workspace]](assets/Figure6.png)
+![[!UICONTROL Experiences by Activity Conversions] deelvenster in [!DNL Analysis Workspace]](assets/Figure6.png)
 
-*Figuur 6: Rapportpaneel met het segment Activiteit voor automatisch aanwijzen toegepast op het segment [!UICONTROL Visits] metrisch. Dit segment zorgt ervoor dat alleen bezoeken waarbij een gebruiker daadwerkelijk met het [!DNL Target] de betrokken activiteit is in het verslag opgenomen .*
+*Afbeelding 6: Rapportagevenster met het segment &quot;Activiteit aanpassen met specifieke automatische doelactiviteit&quot; toegepast op het [!UICONTROL Visits] metrisch. Dit segment zorgt ervoor dat alleen bezoeken waarbij een gebruiker daadwerkelijk met het [!DNL Target] de betrokken activiteit is in het verslag opgenomen .*
 
 ## Zorg ervoor dat de maatstaf van het doel en de kenmerk zijn uitgelijnd op het optimalisatiecriterium
 
@@ -207,15 +207,15 @@ Dit segment kan nu worden gebruikt om te filteren op bezoeken met een positief a
 
 ![Figuur8.png](assets/Figure8.png)
 
-*Figuur 8: Het rapportpaneel met de correcte metrisch van de uniek-bezoek omzetting: het aantal bezoeken waar een hit uit de activiteit werd geregistreerd en waar de omrekeningsfactor (in dit voorbeeld bestellingen) niet gelijk was aan nul.*
+*Figuur 8: Het rapportpaneel met de correcte metrische uniek-bezoek conversie: het aantal bezoeken waar een slag van de activiteit werd geregistreerd, en waar omzettingsmetrisch (orden in dit voorbeeld) niet-nul was.*
 
-## Laatste stap: Een conversiesnelheid maken waarmee de bovenstaande magie wordt vastgelegd
+## Eindstap: een conversiesnelheid maken waarmee de bovenstaande magie wordt vastgelegd
 
 Met de wijzigingen van de [!UICONTROL Visit] en doelmetriek in de voorafgaande secties, de definitieve wijziging u aan uw gebrek A4T zou moeten maken voor [!DNL Auto-Target] het melden paneel moet omzettingspercentages tot stand brengen die de correcte verhouding-dat van het gecorrigeerde doel metrisch, aan correct gefiltreerde metrische &quot;Bebezoeken&quot;zijn.
 
-Doe dit door een [!UICONTROL Calculated Metric] met behulp van de volgende stappen:
+Dit doet u door een [!UICONTROL Calculated Metric] met behulp van de volgende stappen:
 
-1. Selecteer **[!UICONTROL Components > Create Metric]** in de [!DNL Analysis Workspace] werkbalk.
+1. Selecteer de **[!UICONTROL Components > Create Metric]** in de [!DNL Analysis Workspace] werkbalk.
 1. Geef een **[!UICONTROL Title]** voor uw metrische waarde. Bijvoorbeeld &quot;Bezoek-gecorrigeerde Omzetsnelheid voor Activiteit XXX.&quot;
 1. Selecteren **[!UICONTROL Format]** = Percentage en **[!UICONTROL Decimal Places]** = 2.
 1. Sleep het relevante doel metrisch voor uw activiteit (bijvoorbeeld, [!UICONTROL Activity Conversions]) in de definitie en gebruik het tandwielpictogram op dit doel-metrisch om het attributiemodel aan te passen (Deelname|Bezoek), zoals eerder beschreven.
@@ -233,15 +233,15 @@ De volledige berekende metrische definitie wordt hier getoond.
 
 ![Figuur9.png](assets/Figure9.png)
 
-*Figuur 7: De voor het bezoek gecorrigeerde en attributie-gecorrigeerde definitie van de modelomrekeningskoers. (Merk op dit metrisch is afhankelijk van uw doel metrisch en activiteit. Met andere woorden, deze metrische definitie is niet herbruikbaar over activiteiten.)*
+*Afbeelding 7: De voor het bezoek gecorrigeerde en voor kenmerk gecorrigeerde definitie van de omrekeningskoers van het model. (Merk op dit metrisch is afhankelijk van uw doel metrisch en activiteit. Met andere woorden, deze metrische definitie is niet herbruikbaar over activiteiten.)*
 
 >[!IMPORTANT]
 >
 >De [!UICONTROL Conversion] De metrische snelheid van het deelvenster A4T is niet gekoppeld aan de conversiegebeurtenis of de normaliserende metrische waarde in de tabel. Wanneer u de wijzigingen aanbrengt die in deze zelfstudie worden voorgesteld, worden de [!UICONTROL Conversion] wordt niet automatisch aangepast aan de wijzigingen. Daarom als u de wijziging in de attributie van de omzettingsgebeurtenis of normaliserend metrisch (of allebei) maakt, moet u als definitieve stap herinneren ook om te wijzigen [!UICONTROL Conversion] tarief, zoals hierboven getoond.
 
-## Overzicht: Eindmonster [!DNL Analysis Workspace] deelvenster voor [!UICONTROL Auto-Target] rapporten
+## Samenvatting: eindmonster [!DNL Analysis Workspace] deelvenster voor [!UICONTROL Auto-Target] rapporten
 
-Als u alle bovenstaande stappen in één venster combineert, wordt in de onderstaande afbeelding een volledige weergave getoond van het aanbevolen rapport voor [!UICONTROL Auto-Target] A4T-activiteiten. Dit verslag is hetzelfde als het verslag van de [!DNL Target] ML modellen om uw doel metrisch te optimaliseren. Het verslag bevat alle nuances en aanbevelingen die in deze zelfstudie worden besproken. Dit verslag ligt ook het dichtst bij de in de traditionele [!DNL Target]-rapporteringsgestuurd [!UICONTROL Auto-Target] activiteiten.
+In de onderstaande afbeelding ziet u een volledige weergave van het aanbevolen rapport voor het combineren van alle bovenstaande stappen in één venster [!UICONTROL Auto-Target] A4T-activiteiten. Dit verslag is hetzelfde als het verslag van de [!DNL Target] ML modellen om uw doel metrisch te optimaliseren. Het verslag bevat alle nuances en aanbevelingen die in deze zelfstudie worden besproken. Dit verslag ligt ook het dichtst bij de in de traditionele [!DNL Target]-rapporteringsgestuurd [!UICONTROL Auto-Target] activiteiten.
 
 Klik om de afbeelding uit te vouwen.
 
