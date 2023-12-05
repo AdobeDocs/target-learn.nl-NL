@@ -8,9 +8,9 @@ feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 752f77db-d17b-4255-ae71-cb7b4a215922
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: c4182249f5063bd83c0c6c44c1628ed76bb45385
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,7 @@ In deze video leert u hoe u:
 * Zakelijke praktiserer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
+
+## Overige middelen
+
+Zie voor stapsgewijze instructies [Een A/B-test maken](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} in de *Adobe Target Business Practice Guide*.
