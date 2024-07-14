@@ -30,4 +30,4 @@ In deze video leert u hoe u:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35151/?quality=12)
 
-Ga voor meer informatie naar de [documentatie](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en).
+Voor meer informatie, bezoek de [ documentatie ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en).

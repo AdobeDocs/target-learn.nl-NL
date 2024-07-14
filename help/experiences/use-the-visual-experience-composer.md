@@ -17,7 +17,7 @@ ht-degree: 39%
 
 ---
 
-# Gebruik de [!UICONTROL Visual Experience Composer] in Adobe Target
+# De [!UICONTROL Visual Experience Composer] gebruiken in Adobe Target
 
 ## Beschrijving
 

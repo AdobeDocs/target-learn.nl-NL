@@ -10,7 +10,7 @@ kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -37,4 +37,4 @@ In deze video leert u hoe u:
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [Recommendations-documentatie](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [ Documentatie van Recommendations ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

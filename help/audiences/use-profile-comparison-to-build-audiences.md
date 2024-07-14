@@ -11,14 +11,14 @@ author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
 source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
 # Profielvergelijking gebruiken om soorten publiek op te bouwen in Adobe Target
 
-De [!UICONTROL Profile Comparison] in Adobe Target kunt u twee numerieke profielwaarden vergelijken met elkaar wanneer u een publiek maakt. Dit is bijzonder nuttig als u, bijvoorbeeld, aangepaste-gebouwde aandrijvingsscores in overgaat [!DNL Target] en wil inhoud personaliseren op basis van het product met de hoogst mogelijke score.
+Met de functie [!UICONTROL Profile Comparison] in Adobe Target kunt u twee numerieke profielwaarden vergelijken met elkaar wanneer u een publiek maakt. Dit is bijzonder handig als u bijvoorbeeld aangepaste scores voor eigenschappen doorgeeft in [!DNL Target] en inhoud wilt aanpassen op basis van het product met de hoogst haalbare score.
 
 ## Beschrijving
 
@@ -35,6 +35,6 @@ In deze video leert u hoe u:
 
 ## Aanvullende bronnen
 
-* [Het creëren van een publiek van de Vergelijking van de Attributen van het Profiel](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Stimulerend publiek](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [ Creërend een publiek van de Vergelijking van de Attributen van het Profiel ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [ Soorten publiek van de Bouw ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video over doelgerichte activiteiten maken](../activities/create-experience-targeting-activities.md)

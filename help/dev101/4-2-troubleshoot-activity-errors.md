@@ -33,4 +33,4 @@ In deze video leert u hoe u:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35154/?quality=12)
 
-Ga voor meer informatie naar de [documentatie](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).
+Voor meer informatie, bezoek de [ documentatie ](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en).

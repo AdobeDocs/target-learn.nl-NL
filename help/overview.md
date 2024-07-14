@@ -1,6 +1,6 @@
 ---
 title: Meer informatie over het gebruik van Adobe Target
-description: Leren gebruiken [!DNL Adobe Target] met deze verzameling zelfstudies en video's die alle componenten omvatten.
+description: Leer hoe te om  [!DNL Adobe Target]  met deze inzameling van leerprogramma's en video's te gebruiken die al zijn componenten behandelen.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
@@ -8,22 +8,22 @@ topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '186'
+ht-degree: 0%
 
 ---
 
 # Adobe Target-zelfstudies
 
-[!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen. [!DNL Target] helpt u uw omzet te maximaliseren op uw web en mobiele sites, apps, sociale media en andere digitale kanalen. Gebruik deze video&#39;s en zelfstudies om de vele componenten van [!DNL Adobe Target].
+[!DNL Adobe Target] is de [!DNL Adobe Experience Cloud] -oplossing die alles biedt wat u nodig hebt om de ervaring van uw klanten op maat te maken en aan te passen. Met [!DNL Target] kunt u uw omzet maximaliseren op uw websites en mobiele sites, apps, sociale media en andere digitale kanalen. Gebruik deze video&#39;s en zelfstudies om de vele componenten van [!DNL Adobe Target] te leren.
 
 >[!NOTE]
 >
->Naast deze handleiding wordt het volgende [!DNL Adobe Target] hulplijnen zijn ook beschikbaar :
+>Naast deze handleiding zijn ook de volgende [!DNL Adobe Target] hulplijnen beschikbaar:
 >
->* *[Handleiding Adobe Target Business Practitioner](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank}*
+>* ](https://experienceleague.adobe.com/docs/target/using/target-home.html) {target=_blank}*van de Bedrijfs Adobe Target Gids van de Praktijk*[
 >
->* *[Adobe Target Developer Guide](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+>* *[de Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -38,15 +38,15 @@ ht-degree: 2%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
-      <img alt="Doel migreren van at.js naar Web SDK van Platform" src="./assets/thumb_websdk.jpg" />
+      <img alt="Doel migreren van at.js naar Platform Web SDK" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
-    <strong>Doel migreren van at.js naar Web SDK van Platform</strong>
+    <strong> Migreer Doel van at.js aan het Web SDK van het Platform </strong>
     </a>
     </div>
     <p>
-    <em>Leer hoe u uw at.js-implementatie kunt migreren naar Adobe Experience Platform Web SDK.</em>
+    <em> Leer hoe te om uw implementatie at.js aan het Web SDK van Adobe Experience Platform te migreren.</em>
     <p>
   </td>
   <td>
@@ -55,11 +55,11 @@ ht-degree: 2%
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
-    <strong>Doel implementeren met Adobe Experience Platform-tags</strong>
+    <strong> voer Doel met de Markeringen van Adobe Experience Platform uit </strong>
     </a>
     </div>
     <p>
-    <em>Leer hoe u de Adobe Target-extensie implementeert met een aanvraag voor het laden van een pagina en aangepaste parameters.</em>
+    <em> leer hoe te om de uitbreiding van Adobe Target met een verzoek van de paginading en douaneparameters uit te voeren.</em>
     <p>
   </td>
    <td>
@@ -68,11 +68,11 @@ ht-degree: 2%
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>Implementeren om 0,00 in een SPA</strong>
+    <strong> voer bij.js 2.0 in een SPA uit </strong>
     </a>
     </div>
     <p>
-    <em> Leer hoe u Adobe Target op 2.js 2.0 (en hoger) in toepassingen voor één pagina (SPA).</em>
+    <em> Leer hoe u Adobe Target-toepassingen in.js 2.0 (en hoger) implementeert in toepassingen voor één pagina (SPA). </em>
     <p>
   </td>
 </tr>

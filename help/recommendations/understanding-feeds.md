@@ -10,7 +10,7 @@ kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
@@ -36,4 +36,4 @@ In deze video leert u hoe u:
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
 * [Een Recommendations-activiteit maken](create-a-recommendations-activity.md)
-* [Recommendations-documentatie](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [ Documentatie van Recommendations ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

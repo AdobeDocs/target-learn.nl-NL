@@ -11,7 +11,7 @@ kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
 source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 Met Adobe Target on-device-besluitvorming is het mogelijk inhoud met bijna-nullatentie te leveren. Deze video van 7 minuten:
 
-* Beschrijft op apparaat het besluit, met inbegrip van hoe het met andere methodes van de implementatie van het Doel vergelijkt
+* Beschrijft op apparaat besluit, die omvatten hoe het met andere methodes van de implementatie van het Doel vergelijkt
 * Toont aan hoe te om op-apparatenbesluit in Doel toe te laten
 * Hiermee wordt een op een formulier gebaseerde componentactiviteit onderzocht die is geconfigureerd met JSON-inhoud
-* Toont de code van steekproefNode.JS SDK die zeer belangrijke die configuratie bevat voor op-apparatenbesluit wordt vereist
+* Toont de code van steekproefNode.JS SDK die zeer belangrijke die configuratie bevat voor op apparaat wordt vereist besluit
 * Toont resultaten in browser aan
 
 ## Doelstellingen
@@ -35,7 +35,7 @@ Aan het einde van deze video kunt u het volgende doen:
 * Beschrijf de beslissing op het apparaat en zijn voordelen
 * Apparaatbeslissingen binnen doel inschakelen
 * Een op formulieren gebaseerde composer-activiteit maken die is bedoeld voor gebruik met apparaatbeslissingen
-* Meer informatie over de SDK-configuratie die vereist is voor apparaatbeslissingen kunt u vinden in de [Adobe Target SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Leer meer over de configuratie van SDK die voor op-apparatenbesluit wordt vereist door de [ documentatie van SDK van Adobe Target ](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) te bezoeken
 * Begrijp wat de eindgebruikers voor geleverde inhoud gebruikend op apparaat besluitvorming zullen ervaren
 
 ## Beoogd publiek
@@ -44,4 +44,4 @@ Aan het einde van deze video kunt u het volgende doen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Zie voor meer informatie [Overzicht van apparaatbeslissingen](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} in de *Adobe Target Developer Guide*.
+Voor meer informatie, zie [ Op apparaat beslissingsoverzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html) {target=_blank} in de *gids van de Ontwikkelaar van Adobe Target*.

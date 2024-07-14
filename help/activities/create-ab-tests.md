@@ -31,4 +31,4 @@ In deze video leert u hoe u:
 
 ## Overige middelen
 
-Zie voor stapsgewijze instructies [Een A/B-test maken](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} in de *Adobe Target Business Practice Guide*.
+Voor geleidelijke instructies, zie [ tot een Test A/B ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html) {target=_blank} in de *Gids Van Bedrijfs Adobe Target van de Praktijk* leiden.

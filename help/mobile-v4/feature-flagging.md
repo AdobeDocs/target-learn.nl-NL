@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ In deze les maken we een &quot;feature flag&quot;-aanbieding die kan worden gebr
 Aan het eind van deze les, zult u kunnen:
 
 * Een nieuwe locatie toevoegen aan de aanvraag voor de batchprefetch
-* Maak een [!DNL Target] activiteit met een aanbieding die als eigenschapvlag zal worden gebruikt
+* Een [!DNL Target] -activiteit maken met een aanbieding die wordt gebruikt als een functiemarkering
 * De functiemarkering in uw app laden en valideren
 
 ## Een nieuwe locatie toevoegen aan de Prefetch-aanvraag aan de thuisactiviteit
@@ -39,7 +39,7 @@ In de demo-app uit onze vorige lessen voegen we een nieuwe locatie met de naam &
 
 Controleer eerst of de constante wetravel_feature_flag_recs is toegevoegd aan het bestand Constant.java:
 
-![Functiemarkering-constante toevoegen](assets/feature_flag_constant.jpg)
+![ voegt de constante van de eigenschapvlag ](assets/feature_flag_constant.jpg) toe
 
 Hier volgt de code:
 
@@ -47,9 +47,9 @@ Hier volgt de code:
 public static final String wetravel_feature_flag_recs = "wetravel_feature_flag_recs";
 ```
 
-Voeg nu de locatie toe aan de prefetch-aanvraag en laad een nieuwe functie met de naam `processFeatureFlags()`:
+Voeg nu de locatie toe aan de prefetch-aanvraag en laad een nieuwe functie met de naam `processFeatureFlags()` :
 
-![Code kenmerkmarkering](assets/feature_flag_code.jpg)
+![ Code van de Vlag van de Eigenschap ](assets/feature_flag_code.jpg)
 
 Hier volgt de volledige bijgewerkte code:
 
@@ -102,21 +102,21 @@ public void processFeatureFlags() {
 }
 ```
 
-### Valideer de aanvraag voor een kenmerkmarkering
+### Valideer de aanvraag voor een functiemarkering
 
 Zodra de code wordt toegevoegd, stel de Mededinger op de Activiteit van het Huis in werking en bekijk Logcat voor de bijgewerkte reactie:
 
-![Locatie functiemarkering valideren](assets/feature_flag_code_logcat.jpg)
+![ bevestigt de plaats van de eigenschapmarkering ](assets/feature_flag_code_logcat.jpg)
 
 ## Een JSON-aanbieding met functiemarkering maken
 
-We gaan nu een eenvoudige JSON-aanbieding maken die fungeert als vlag of trigger voor een specifiek publiek, het publiek dat de functie-uitrol in zijn app zou ontvangen. In de [!DNL Target] interface, creeer een nieuwe aanbieding:
+We gaan nu een eenvoudige JSON-aanbieding maken die fungeert als vlag of trigger voor een specifiek publiek, het publiek dat de functie-uitrol in zijn app zou ontvangen. Maak een nieuwe aanbieding in de interface van [!DNL Target] :
 
-![JSON-aanbieding met kenmerkmarkering maken](assets/feature_flag_json_offer.jpg)
+![ creeer de Vlag JSON van de Eigenschap ](assets/feature_flag_json_offer.jpg)
 
-Noem het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaat&quot;:1
+Laten wij het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaten&quot;:1}
 
-![feature_flag_v1 JSON-aanbieding](assets/feature_flag_json_name.jpg)
+![ feature_flag_v1 JSON-aanbieding ](assets/feature_flag_json_name.jpg)
 
 ## Een activiteit maken
 
@@ -124,36 +124,36 @@ Laten we nu een A/B-testactiviteit maken met die aanbieding. Zie de vorige les v
 
 1. Geef de activiteit de naam &quot;Feature Flag&quot;
 1. Selecteer de locatie &quot;wetravel_feature_flag_recs&quot;
-1. Wijzig de inhoud in de JSON-aanbieding met de &quot;Feature Flag v1&quot;
+1. Wijzig de inhoud in de JSON-aanbieding met de functie Vlag 1
 
-   ![Configuratie van kenmerkvlagactiviteit](assets/feature_flag_activity.jpg)
+   ![ Config van de Activiteit van de Vlag van de Eigenschap van de Eigenschap ](assets/feature_flag_activity.jpg)
 
-1. Klik **[!UICONTROL Add Experience]** om ervaring B toe te voegen.
+1. Klik op **[!UICONTROL Add Experience]** om ervaring B toe te voegen.
 1. De locatie &quot;wetravel_feature_flag_recs&quot; behouden
-1. **[!UICONTROL Default Content]** laten staan voor de inhoud
-1. Klik **[!UICONTROL Next]** om naar het [!UICONTROL Targeting] scherm te gaan
+1. **[!UICONTROL Default Content]** behouden voor de inhoud
+1. Klik op **[!UICONTROL Next]** om naar het [!UICONTROL Targeting] -scherm te gaan
 
-   ![Configuratie van kenmerkvlagactiviteit](assets/feature_flag_activity_2.jpg)
+   ![ Config van de Activiteit van de Vlag van de Eigenschap van de Eigenschap ](assets/feature_flag_activity_2.jpg)
 
 1. Controleer in het scherm [!UICONTROL Targeting] of de methode [!UICONTROL Traffic Allocation] is ingesteld op de standaardinstelling (Handmatig) en of elke ervaring de standaardtoewijzing van 50% heeft. Selecteer **[!UICONTROL Next]** om naar **[!UICONTROL Goals & Settings]** te gaan.
 
-   ![Configuratie van kenmerkvlagactiviteit](assets/feature_flag_activity_3.jpg)
+   ![ Config van de Activiteit van de Vlag van de Eigenschap van de Eigenschap ](assets/feature_flag_activity_3.jpg)
 
-1. Stel **[!UICONTROL Primary Goal]** in op **[!UICONTROL Conversion]**.
-1. Stel de handeling in op **[!UICONTROL Viewed an Mbox]**. We gebruiken de locatie &quot;wetravel_context_dest&quot; (aangezien deze locatie zich op het bevestigingsscherm bevindt, kunnen we deze gebruiken om te zien of de nieuwe functie tot meer conversies leidt).
+1. Stel de waarde **[!UICONTROL Primary Goal]** in op **[!UICONTROL Conversion]** .
+1. Stel de handeling in op **[!UICONTROL Viewed an Mbox]** . We gebruiken de locatie &quot;wetravel_context_dest&quot; (aangezien deze locatie zich op het bevestigingsscherm bevindt, kunnen we deze gebruiken om te zien of de nieuwe functie tot meer conversies leidt).
 1. Klik op **[!UICONTROL Save & Close]**.
 
-   ![Configuratie van kenmerkvlagactiviteit](assets/feature_flag_activity_4.jpg)
+   ![ Config van de Activiteit van de Vlag van de Eigenschap van de Eigenschap ](assets/feature_flag_activity_4.jpg)
 
 Activeer de activiteit.
 
-## Valideer de activiteit van de vlaggen van de Eigenschap
+## Valideer de kenmerkvlagactiviteit
 
-Gebruik nu de emulator om te controleren op de aanvraag. Aangezien wij het richten aan 50% van gebruikers plaatsen, zult u 50% zien u de reactie van de eigenschapvlag de `{enable:1}` waarde bevat.
+Gebruik nu de emulator om te controleren op de aanvraag. Aangezien we de focus hebben ingesteld op 50% van de gebruikers, wordt een percentage van 50% weergegeven waarin de markering van de functie de waarde `{enable:1}` bevat.
 
-![Validatie van kenmerkvlaggen](assets/feature_flag_validation.jpg)
+![ Bevestiging van de Vlag van de Eigenschap ](assets/feature_flag_validation.jpg)
 
-Als u de `{enable:1}` waarde niet ziet, betekent dat u niet voor de ervaring werd gericht. Als tijdelijke test kunt u het voorstel afdwingen om te tonen:
+Als u de waarde `{enable:1}` niet ziet, betekent dat dat u niet voor de ervaring bent aangewezen. Als tijdelijke test kunt u het voorstel afdwingen om te tonen:
 
 1. Deactiveer de activiteit.
 1. Verander de verkeerstoewijzing in 100% op de nieuwe eigenschapervaring.
@@ -161,7 +161,7 @@ Als u de `{enable:1}` waarde niet ziet, betekent dat u niet voor de ervaring wer
 1. Veeg de gegevens over de emulator en start de app opnieuw.
 1. De aanbieding moet nu de waarde `{enable:1}` retourneren.
 
-In een levend scenario, kan de `{enable:1}` reactie worden gebruikt om meer douanelogica in uw app toe te laten om de specifieke eigenschapreeks te tonen u uw doelpubliek wilt tonen.
+In een live scenario kan de reactie van `{enable:1}` worden gebruikt om meer aangepaste logica in uw app in te schakelen voor het weergeven van de specifieke functieset die u voor het doelpubliek wilt weergeven.
 
 ## Conclusie
 

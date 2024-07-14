@@ -11,7 +11,7 @@ team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
 source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
@@ -37,5 +37,5 @@ Aan het einde van deze video zult u:
 
 ## Aanvullende bronnen
 
-* [Overzicht van beslissingen op het apparaat](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
-* [Adobe Target SDK-documentatie](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* [ het Beslissende Overzicht van het Apparaat ](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [ de documentatie van SDK van Adobe Target ](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)

@@ -10,7 +10,7 @@ kt: null
 exl-id: 19be02da-f5b8-4950-9bb5-7a0effec419c
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
@@ -36,4 +36,4 @@ In deze video leert u hoe u:
 * [feeds begrijpen](understanding-feeds.md)
 * [Een feed maken](create-a-feed.md)
 * [Criteria maken](create-criteria.md)
-* [Recommendations-documentatie](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [ Documentatie van Recommendations ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

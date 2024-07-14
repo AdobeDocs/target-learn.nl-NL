@@ -1,5 +1,5 @@
 ---
-title: Doel integreren met Adobe Developer Console
+title: Hoe te om Doel met Adobe Developer Console te integreren
 description: Leer hoe u Adobe Target en Adobe Developer Console kunt integreren.
 role: Developer
 level: Intermediate
@@ -30,6 +30,6 @@ In deze video leert u hoe u:
 
 ## Opmerking
 
-In deze video ziet u concepten van integratie met behulp van de [Adobe Developer Console](https://developer.adobe.com/developer-console/). Voor praktische stappen die aantonen hoe u de Adobe Developer Console kunt gebruiken om met Adobe Target te integreren, gaat u naar [handleiding voor het configureren van verificatie van Adoben](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"} in de *Adobe Target Developer Guide*.
+Deze video toont concepten van integratie gebruikend [ Adobe Developer Console ](https://developer.adobe.com/developer-console/) aan. Voor hands-on stappen die aantonen hoe te om Adobe Developer Console te gebruiken om met Adobe Target te integreren, bezoek deze [ gids bij het vormen van de authentificatie van de Adobe ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html) {target="_blank"} in de *Gids van de Ontwikkelaar van Adobe Target*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

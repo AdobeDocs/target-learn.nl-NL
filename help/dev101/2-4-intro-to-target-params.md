@@ -1,6 +1,6 @@
 ---
 title: Parameters beheren en implementeren
-description: In deze video ziet u hoe Adobe Target-architecten en -ontwikkelaars onderscheid kunnen maken tussen aanvraagparameters en profielparameters, aanvragen kunnen configureren en activeren met behulp van JavaScript en tagbeheersystemen en de implementatievereisten voor mobiele apparaten, het aanwijzen van e-mail en API's begrijpen.
+description: In deze video ziet u hoe Adobe Target-architecten en -ontwikkelaars onderscheid kunnen maken tussen aanvraagparameters en profielparameters, aanvragen kunnen configureren en activeren met JavaScript en tagbeheersystemen en de implementatievereisten voor mobiele apparaten, e-mailgebruikers en API's kunnen begrijpen.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -23,7 +23,7 @@ ht-degree: 0%
 In deze video leert u hoe u:
 
 * Verschil tussen aanvraagparameters en profielparameters
-* Aanvragen configureren en activeren met behulp van JavaScript- en tagbeheersystemen
+* Aanvragen configureren en activeren met JavaScript en tagbeheersystemen
 * Geef een overzicht van de implementatievereisten voor mobiele apparaten, toepassingen voor e-mail en API&#39;s
 
 ## Beoogd publiek
@@ -33,4 +33,4 @@ In deze video leert u hoe u:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
 
-Ga voor meer informatie naar de [documentatie](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).
+Voor meer informatie, bezoek de [ documentatie ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

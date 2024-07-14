@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Real-Time CDP-profielkenmerken gebruiken in Adobe Target
 
-Leer hoe u Adobe Real-time Customer Data Platform-profielkenmerken in Adobe Target kunt gebruiken voor persoonlijke ervaringen op uw website en mobiele apps. Zie voor meer informatie [de documentatie](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
+Leer hoe u Adobe Real-time Customer Data Platform-profielkenmerken in Adobe Target kunt gebruiken voor persoonlijke ervaringen op uw website en mobiele apps. Voor meer informatie, zie [ de documentatie ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)

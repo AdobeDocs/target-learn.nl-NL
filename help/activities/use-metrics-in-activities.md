@@ -22,9 +22,9 @@ ht-degree: 0%
 In deze video leert u hoe u:
 
 * Beschrijf wat een metrische &quot;Goal&quot; is
-* Beschrijf de verschillen tussen de metriek van de Omzetting, van de Opbrengst, en van de Betrokkenheid
+* Beschrijf de verschillen tussen de metriek van de Omzetting, van de Opbrengst, en van de Overeenkomst
 * Conversie-, omzet- en betrokkenheidsgegevens samenstellen
-* Bouw metrisch klikken-volgend
+* Een metrisch object voor klikken bijhouden maken
 
 ## Beoogd publiek
 
