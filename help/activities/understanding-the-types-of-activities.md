@@ -1,6 +1,6 @@
 ---
 title: Wat zijn de verschillende soorten activiteiten?
-description: Leer meer over de verschillende soorten activiteiten in Adobe Target en hoe ze kunnen helpen uw doelen te bereiken. Bekijk deze video om de grondbeginselen van A/B-activiteiten, MVT's (Multivariate Tests), XT-activiteiten (Experience Targeting), Recommendations en Automated Personalization-activiteiten (AP) te leren kennen.
+description: Leer meer over de verschillende soorten activiteiten die in Adobe Target zijn opgenomen en hoe ze kunnen helpen uw doelen te bereiken.
 landing-page-description: Leer de grondbeginselen van A/B-activiteiten, Multivariate Tests, Experience Targeting-activiteiten, Recommendations en Automated Personalization-activiteiten.
 short-description: Leer de grondbeginselen van A/B-activiteiten, Multivariate Tests, Experience Targeting-activiteiten, Recommendations en Automated Personalization-activiteiten.
 role: User
@@ -10,20 +10,18 @@ feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recomm
 doc-type: feature video
 kt: null
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
-source-git-commit: 72f7cfcc95bbfbe1bb054f98246305f25ce5cc0f
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 55%
+source-wordcount: '114'
+ht-degree: 29%
 
 ---
 
 # Adobe Target-activiteitstypen begrijpen
 
-## Beschrijving
-
 In deze video leert u hoe u:
 
-* Beschrijf A/B-activiteiten, Multivariate Tests (MVTs), Experience Targeting (XT)-activiteiten, Recommendations en Automated Personalization (AP)-activiteiten in Adobe Target
+* Beschrijf A/B-activiteiten, Multivariate Tests (MVTs), Experience Targeting (XT)-activiteiten, Recommendations, en Automated Personalization (AP)-activiteiten in Adobe Target
 * Kies het beste activiteitstype om uw bedrijfsdoelstellingen te verwezenlijken
 * Beschrijf het basiswerkschema gemeenschappelijk voor alle activiteitentypes
 

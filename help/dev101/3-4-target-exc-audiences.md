@@ -1,6 +1,6 @@
 ---
 title: Doel integreren met publiek Experience Cloud
-description: Deze video voor Adobe Target-ontwikkelaars laat zien hoe het publiek is gemaakt met Analytics en Audience Manager. Ontwikkelaars die deze video bekijken, kunnen soorten publiek importeren uit andere producten van de Adobe, vertrouwd raken met het beheerdeelvenster van Adobe Experience Cloud (AEC) en de vereisten voor de Experience Cloud-id (ECID) vermelden.
+description: Leer hoe u soorten publiek importeert uit andere Adobe-producten. Ga vertrouwd met Experience Cloud Admin Console en de vereisten voor de Experience Cloud ID (ECID).
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5392
 thumbnail: 35152.jpg
 exl-id: 00e50e90-29cf-4dc5-8bfc-e938f1d596a4
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
-# Doel integreren met publiek Experience Cloud
-
-## Beschrijving
+# [!DNL Target] integreren met Experience Cloud-soorten publiek
 
 In deze video leert u hoe u:
 
-* Beschrijf publiekscreatie en gebruik met Analytics en Audience Manager
-* Beschrijven hoe u soorten publiek importeert uit andere Adobe producten
-* Het beheerpaneel van Adobe Experience Cloud (AEC) bekijken
+* Beschrijf de creatie en het gebruik van het publiek met Analytics en Audience Manager
+* Beschrijven hoe publiek uit andere Adobe-producten kan worden geïmporteerd
+* Ontdek de Experience Cloud Admin Console
 * Vereisten voor Experience Cloud-id (ECID) weergeven
 
 ## Beoogd publiek

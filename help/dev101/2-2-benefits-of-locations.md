@@ -1,6 +1,6 @@
 ---
 title: Wat zijn de voordelen van Locaties gebruiken
-description: In deze video worden de voordelen beschreven van het gebruik van locaties in Adobe Target-implementaties. Bekijk deze video om te leren hoe u het beste implementatietype voor een bepaald scenario kunt selecteren.
+description: Leer hoe u het beste Adobe Target-implementatietype voor een bepaald scenario kunt selecteren.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5380
 thumbnail: 35140.jpg
 exl-id: 5b20a321-058c-4ef6-8c2e-3ac28cba6cde
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
 
 # Voordelen van het gebruik van locaties
-
-## Beschrijving
 
 In deze video leert u hoe u:
 

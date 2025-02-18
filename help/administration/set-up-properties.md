@@ -1,6 +1,6 @@
 ---
 title: Eigenschappen instellen
-description: In deze video ziet u hoe beheerders eigenschappen in Adobe Target kunnen maken.
+description: Leer hoe u eigenschappen maakt in Adobe Target.
 role: Admin
 level: Beginner
 topic: Administration
@@ -9,16 +9,14 @@ doc-type: feature video
 kt: null
 badge: premie
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
 # Eigenschappen instellen in [!DNL Adobe Target]
-
-## Beschrijving
 
 In deze video leert u hoe u:
 

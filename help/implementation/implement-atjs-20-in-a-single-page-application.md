@@ -1,6 +1,6 @@
 ---
-title: Hoe te om bij.js 2.0 in een Enige Toepassing van de Pagina uit te voeren (SPA)
-description: Adobe Target at.js 2.0 biedt rijke functiesets die uw bedrijf uitrusten om personalisatie uit te voeren op client-side technologieën van de volgende generatie. Voer de volgende stappen uit om 0.js 2.0 te implementeren in een toepassing voor één pagina (SPA).
+title: Hoe te om at.js 2.0 in Één enkele Toepassing van de Pagina (SPA) uit te voeren
+description: Adobe Target at.js 2.0 biedt rijke functiesets die uw bedrijf uitrusten om personalisatie uit te voeren op client-side technologieën van de volgende generatie. Voer de volgende stappen uit om at.js 2.0 te implementeren in een toepassing voor één pagina (SPA).
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,25 +9,25 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
+# Adobe Target-code in.js 2.0 implementeren in een toepassing voor één pagina (SPA)
 
-Adobe Target `at.js` 2.0 biedt rijke functiesets die uw bedrijf de mogelijkheid bieden om personalisatie uit te voeren op de volgende generatie clienttechnologieën. Deze versie is gericht op het upgraden van `at.js` voor harmonieuze interacties met toepassingen van één pagina (SPA).
+Adobe Target `at.js` 2.0 biedt rijke functiesets die uw bedrijf de mogelijkheid bieden om personalisatie uit te voeren op de volgende generatie clienttechnologieën. Deze versie is gericht op het upgraden van `at.js` voor harmonieuze interacties met toepassingen van één pagina (SPAs).
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
-## Hoe te om bij.js 2.0 in een SPA uitvoeren
+## Hoe te om at.js 2.0 in een SPA uit te voeren
 
 * Implementeer `at.js` 2.0 in de &lt;head> van de toepassing Eén pagina.
-* Implementeer de functie `adobe.target.triggerView()` wanneer de weergave verandert in de SPA. Hiervoor kunnen verschillende technieken worden gebruikt, zoals het luisteren naar wijzigingen in URL-hashes, het luisteren naar aangepaste gebeurtenissen die door uw SPA worden geactiveerd of het rechtstreeks insluiten van de `triggerView()` -code in uw toepassing. Kies de optie die het beste werkt voor uw specifieke toepassing met één pagina.
+* Voer de `adobe.target.triggerView()` functie uit wanneer de meningsveranderingen in uw SPA. Hiervoor kunnen diverse technieken worden gebruikt, zoals het luisteren naar wijzigingen in URL-hashes, het luisteren naar aangepaste gebeurtenissen die door uw SPA zijn geactiveerd of het rechtstreeks insluiten van de `triggerView()` -code in uw toepassing. Kies de optie die het beste werkt voor uw specifieke toepassing met één pagina.
 * De weergavenaam is de eerste parameter van de functie `triggerView()` . Gebruik eenvoudige, duidelijke en unieke namen, zodat u ze gemakkelijk kunt selecteren in de visuele ervaringscomposer van Target.
-* U kunt weergaven activeren in kleine weergavewijzigingen en in niet-SPA contexten, zoals een pagina waarop oneindig wordt geschoven.
+* U kunt meningen in kleine meningsveranderingen, evenals in niet-SPA contexten zoals half-onderaan een oneindige het scrollen pagina teweegbrengen.
 * `at.js` 2.0 en `triggerView()` kunnen worden geïmplementeerd via een oplossing voor tagbeheer, zoals Adobe Experience Platform Launch.
 
 ## at.js 2.0 Beperkingen
@@ -40,7 +40,7 @@ Houd rekening met de volgende beperkingen van `at.js` 2.0 voordat u een upgrade 
 
 ## Bibliotheekvoettekstcode die in de video wordt gebruikt
 
-De onderstaande code is tijdens de video toegevoegd aan het gedeelte Bibliotheekvoettekst van de `at.js` -bibliotheek. Deze gebeurtenis wordt geactiveerd wanneer de app voor het eerst wordt geladen en vervolgens bij eventuele hash-wijzigingen in de app. Het gebruikt een schoongemaakte versie van de knoeiboel als meningsnaam, en &quot;huis&quot;wanneer de knoeiboel leeg is. Om de SPA te identificeren, zoekt de code naar de tekst &quot;reactie/&quot; in de URL, die waarschijnlijk op uw site moet worden bijgewerkt. Houd er ook rekening mee dat het geschikter is als uw SPA `triggerView()` afsluit van aangepaste gebeurtenissen of als u de code rechtstreeks in uw app insluit.
+De onderstaande code is tijdens de video toegevoegd aan het gedeelte Bibliotheekvoettekst van de `at.js` -bibliotheek. Deze gebeurtenis wordt geactiveerd wanneer de app voor het eerst wordt geladen en vervolgens bij eventuele hash-wijzigingen in de app. Het gebruikt een schoongemaakte versie van de knoeiboel als meningsnaam, en &quot;huis&quot;wanneer de knoeiboel leeg is. Merk op dat om het KUUROORD te identificeren, de code de tekst &quot;reacties/&quot;in URL zoekt, die zeer waarschijnlijk op uw plaats zal moeten worden bijgewerkt. Houd er ook rekening mee dat het voor uw SPA geschikter kan zijn om `triggerView()` af te vuren van aangepaste gebeurtenissen of door de code rechtstreeks in uw app in te sluiten.
 
 ```javascript
 function sanitizeViewName(viewName) {

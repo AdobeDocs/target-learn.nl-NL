@@ -1,6 +1,6 @@
 ---
 title: Hoe te om de Toestemmingen van de Gebruiker van de Onderneming te vormen
-description: Deze video toont beheerders en architecten hoe te om admin gebruikersvlakke toestemmingen te onderscheiden, de toestemmingen van het Doel te vormen, en werkruimten te creëren en toegang te regelen.
+description: Leer hoe u beheerdersrechten kunt onderscheiden, Adobe Target-machtigingen kunt configureren, werkruimten kunt maken en toegang kunt regelen.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5064
 thumbnail: 33754.jpg
 exl-id: ce159244-c541-4d7a-880d-cff7bf6f9fe9
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '60'
 ht-degree: 0%
 
 ---
 
-# Machtigingen voor Enterprise-gebruikers configureren
-
-## Beschrijving
+# Gebruikersmachtigingen voor ondernemingen configureren
 
 In deze video leert u hoe u:
 

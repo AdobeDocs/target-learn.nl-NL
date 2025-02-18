@@ -1,6 +1,6 @@
 ---
 title: Hoe te om de Vergelijking van het Profiel te gebruiken om publiek te bouwen
-description: In deze video ziet u hoe Adobe Target-gebruikers de functie Profielvergelijking kunnen gebruiken om twee numerieke profielwaarden met elkaar te vergelijken bij het samenstellen van een publiek.
+description: Leer hoe u bij het samenstellen van een publiek gebruik kunt maken van Profielvergelijking om twee numerieke profielwaarden met elkaar te vergelijken.
 role: User
 level: Experienced
 topic: Personalization
@@ -9,9 +9,9 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Met de functie [!UICONTROL Profile Comparison] in Adobe Target kunt u twee numerieke profielwaarden vergelijken met elkaar wanneer u een publiek maakt. Dit is bijzonder handig als u bijvoorbeeld aangepaste scores voor eigenschappen doorgeeft in [!DNL Target] en inhoud wilt aanpassen op basis van het product met de hoogst haalbare score.
 
-## Beschrijving
+## Wat u gaat leren
 
 In deze video leert u hoe u:
 

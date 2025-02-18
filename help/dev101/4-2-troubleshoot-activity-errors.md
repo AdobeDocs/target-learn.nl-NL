@@ -1,6 +1,6 @@
 ---
 title: Activiteitsfouten oplossen
-description: In deze video ziet u hoe Adobe Target-ontwikkelaars een activiteit kunnen verfijnen, problemen met het publiek en de activiteit kunnen oplossen, problemen met het laden van doelervaringen en activiteiteninhoud kunnen oplossen en conflicten, hosts en eigenschappen kunnen oplossen.
+description: Leer hoe te om een activiteit te verfijnen, publiek en activiteitenkwalificatiekwesties problemen op te lossen, de ervaringen van het Doel en activiteiteninhoud ladende kwesties, en conflicten, gastheren, en eigenschappen problemen op te lossen.
 role: Developer
 level: Intermediate
 topic: Performance
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5394
 thumbnail: 35154.jpg
 exl-id: 146c91b7-f235-4daf-9129-bb7cb884b538
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
 # Activiteitsfouten oplossen
-
-## Beschrijving
 
 In deze video leert u hoe u:
 

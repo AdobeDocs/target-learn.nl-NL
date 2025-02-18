@@ -1,6 +1,6 @@
 ---
 title: Hoe werken doelverzoeken?
-description: In deze video wordt de vervalfactor voor doelcookies en doelprofielen beschreven. Leer hoe te om het aantal en de soorten verzoeken van het Doel te bepalen, tussen synchrone en asynchrone plaatsing te onderscheiden, en flikkerbeheer te verklaren.
+description: Leer hoe te om het aantal en de soorten verzoeken van Adobe Target te bepalen, tussen synchrone en asynchrone plaatsing te onderscheiden, en flikkerbeheer te verklaren.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-# Inleiding aan de verzoeken van het Doel
-
-## Beschrijving
+# Inleiding tot [!DNL Target] -aanvragen
 
 In deze video leert u hoe u:
 

@@ -9,23 +9,21 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: 134db9531c4a279f9d1f27eeb6fcc03bd798660c
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
 # Overzicht van beslissingen op het apparaat
 
-## Beschrijving
-
 Met Adobe Target on-device-besluitvorming is het mogelijk inhoud met bijna-nullatentie te leveren. Deze video van 7 minuten:
 
 * Beschrijft op apparaat besluit, die omvatten hoe het met andere methodes van de implementatie van het Doel vergelijkt
 * Toont aan hoe te om op-apparatenbesluit in Doel toe te laten
 * Hiermee wordt een op een formulier gebaseerde componentactiviteit onderzocht die is geconfigureerd met JSON-inhoud
-* Toont de code van steekproefNode.JS SDK die zeer belangrijke die configuratie bevat voor op apparaat wordt vereist besluit
+* Toont de code van de steekproefNode.JS SDK die zeer belangrijke configuratie vereist voor het op apparaat besluiten bevat
 * Toont resultaten in browser aan
 
 ## Doelstellingen

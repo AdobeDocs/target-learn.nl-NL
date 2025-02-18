@@ -1,6 +1,6 @@
 ---
 title: Ervaring maken voor gerichte activiteiten
-description: Met de Experience Targeting-activiteiten (XT) kunnen marketers specifieke inhoud voor een bepaald publiek afstemmen. Leer de voordelen van XT-activiteiten en hoe u deze kunt maken en gebruiken.
+description: Leer de voordelen van XT-activiteiten en hoe u deze kunt maken en gebruiken. Met de Experience Targeting-activiteiten (XT) kunnen marketers specifieke inhoud voor een bepaald publiek afstemmen.
 role: User
 level: Beginner
 topic: Personalization
@@ -8,18 +8,18 @@ feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-# Gericht op ervaring maken
+# Ervaring maken voor doelactiviteiten
 
 De ervaring richt is een eerste stap in de wereld van personalisatie en begint vaak met het testen A/B. Een markeerteken voert een A/B-test uit en door het gebruik van verslaggevingsdoelgroepen wordt ontdekt dat verschillende ervaringen op verschillende doelgroepen reageren. De ervaring richt (of XT) staat de prijsmeter toe om die ontdekking gemakkelijk te hefboomwerking en op lange termijn het richten van inhoud op die verschillende gebruikerssegmenten over te schakelen.
 
-## Beschrijving
+## Wat u gaat leren
 
 In deze video leert u hoe u:
 

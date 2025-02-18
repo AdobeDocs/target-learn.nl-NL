@@ -1,6 +1,6 @@
 ---
 title: Hoe wordt Doel toegediend
-description: In deze video ziet u hoe Adobe Target-beheerders accountvoorkeuren kunnen instellen, eigenschappen kunnen maken en hosts en omgevingen kunnen maken. Leer hoe te om de montages van de de implementatieconfiguratie van Doel UI uit te leggen.
+description: Leer hoe u accountvoorkeuren instelt, eigenschappen maakt en hosts en omgevingen maakt. Leer hoe te om de montages van de de implementatieconfiguratie van Doel UI uit te leggen.
 role: Admin, Developer, Architect
 level: Intermediate
 topic: Personalization, Administration
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5062
 thumbnail: 33751.jpg
 exl-id: ab9e6c12-1941-49fc-9516-184f1005dc11
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
-# Inleiding aan de Opstelling van het Beleid
-
-## Beschrijving
+# Inleiding tot beheerinstellingen
 
 In deze video leert u hoe u:
 

@@ -1,6 +1,6 @@
 ---
-title: Een feed maken in Recommendations
-description: Leer hoe u een gegevensfeed maakt in Adobe Target Recommendations
+title: Een feed maken in aanbevelingen
+description: Meer informatie over het maken van een gegevensfeed in Adobe Target Recommendations
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,20 +8,20 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---
 
-# Een feed maken in Adobe Target Recommendations
+# Een feed maken in Adobe Target-aanbevelingen
 
-## Beschrijving
+## Wat u gaat leren
 
 In deze video leert u hoe u:
 
-* Een gegevensfeed maken in Adobe Target Recommendations
+* Een gegevensfeed maken in Adobe Target-aanbevelingen
 
 ## Beoogd publiek
 
@@ -32,8 +32,8 @@ In deze video leert u hoe u:
 ## Aanvullende bronnen
 
 * [feeds begrijpen](understanding-feeds.md)
-* [Een Recommendations-activiteit maken](create-a-recommendations-activity.md)
+* [Een activiteit voor aanbevelingen maken](create-a-recommendations-activity.md)
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [ Documentatie van Recommendations ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [ Documentatie van Aanbevelingen ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -1,6 +1,6 @@
 ---
-title: Een Recommendations-activiteit maken
-description: Leer hoe u een Adobe Target Recommendations-activiteit maakt.
+title: Hoe te om een Activiteit van Aanbevelingen te creëren
+description: Leer hoe u een Adobe Target Recommendations-activiteit kunt maken.
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,22 +8,22 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 40014bac-e206-47f7-811e-bfd16fb761d3
-source-git-commit: 39a8a9807b2910f12d07a56f0df06cacf2145ba7
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 
 # Een Adobe Target Recommendations-activiteit maken
 
-Leer hoe u een Adobe Target Recommendations-activiteit maakt.
+Leer hoe u een Adobe Target Recommendations-activiteit kunt maken.
 
-## Beschrijving
+## Wat u gaat leren
 
 In deze video leert u hoe u:
 
-* Een Recommendations-activiteit maken
+* Een handeling Aanbevelingen maken
 
 ## Beoogd publiek
 
@@ -33,10 +33,10 @@ In deze video leert u hoe u:
 
 ## Aanvullende bronnen
 
-* [Recommendations-aanbiedingen gebruiken bij gerichte A/B-test- en ervaringsactiviteiten](use-recommendations-offers.md)
+* [Aanbevelingen gebruiken in A/B-test- en ervaringsgerichte activiteiten](use-recommendations-offers.md)
 * [feeds begrijpen](understanding-feeds.md)
 * [Een feed maken](create-a-feed.md)
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [ Documentatie van Recommendations ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [ Documentatie van Aanbevelingen ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

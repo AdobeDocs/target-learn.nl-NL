@@ -1,6 +1,6 @@
 ---
 title: Buiten de basisbeginselen, wat zijn de volgende stappen om een doelimplementatie te ontwerpen
-description: In deze video ziet u hoe ontwikkelaars en architecten van Adobe Target Target implementeren met tagbeheerbibliotheken, de relevantie van profielscripts voor het gebruikersmodel uitleggen en onderscheid maken tussen het gebruik en de toepassing van een aanvraagparameter en een profielparameter.
+description: Leer hoe u Target kunt implementeren met tagbeheerbibliotheken. Leer de relevantie van profielmanuscripten aan het gebruikersmodel, en hoe te om het gebruik en de toepassing van een verzoekparameter en een profielparameter te onderscheiden.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5384
 thumbnail: 35144.jpg
 exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-# Volgende stappen om een doelimplementatie te ontwerpen
-
-## Beschrijving
+# De volgende stappen voor het ontwerpen van een [!DNL Target] -implementatie
 
 In deze video leert u hoe u:
 
