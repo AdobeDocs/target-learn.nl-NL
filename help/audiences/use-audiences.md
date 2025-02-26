@@ -1,6 +1,6 @@
 ---
 title: Wat zijn soorten publiek en hoe gebruik ik deze?
-description: Leer hoe u het publiek kunt gebruiken om activiteiten te richten en rapporten te filteren.
+description: Leer hoe u doelgroepen kunt gebruiken om activiteiten te targeten en rapporten te filteren.
 landing-page-description: Leer doelgroepen te definiëren en te zoeken, activiteiten te targeten en rapportages te filteren.
 short-description: Leer doelgroepen te definiëren en te zoeken, activiteiten te targeten en rapportages te filteren.
 role: User
@@ -14,7 +14,7 @@ exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 39%
+ht-degree: 50%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Wat zijn de verschillende soorten activiteiten?
-description: Leer meer over de verschillende soorten activiteiten die in Adobe Target zijn opgenomen en hoe ze kunnen helpen uw doelen te bereiken.
+description: Meer informatie over de verschillende soorten activiteiten in Adobe Target en hoe ze kunnen helpen uw doelen te bereiken.
 landing-page-description: Leer de grondbeginselen van A/B-activiteiten, Multivariate Tests, Experience Targeting-activiteiten, Recommendations en Automated Personalization-activiteiten.
 short-description: Leer de grondbeginselen van A/B-activiteiten, Multivariate Tests, Experience Targeting-activiteiten, Recommendations en Automated Personalization-activiteiten.
 role: User
@@ -13,7 +13,7 @@ exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 29%
+ht-degree: 46%
 
 ---
 

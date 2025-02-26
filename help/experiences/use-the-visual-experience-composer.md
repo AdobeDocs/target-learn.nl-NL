@@ -1,6 +1,6 @@
 ---
 title: Hoe wordt de Visual Experience Composer (VEC) gebruikt
-description: Leer hoe te om activiteiten tot stand te brengen gebruikend VEC.
+description: Leer hoe u activiteiten tot stand kunt brengen met VEC.
 landing-page-description: Bekijk deze video's om te leren hoe u activiteiten kunt maken met de Visual Experience Composer (VEC).
 short-description: Bekijk deze video's om te leren hoe u activiteiten kunt maken met de Visual Experience Composer (VEC).
 role: User
@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 
