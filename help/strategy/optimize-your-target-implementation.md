@@ -42,7 +42,7 @@ Er zijn drie fundamentele types van Doelactiviteit:
 * Een methode om de resulterende unieke ervaring tegen een specifiek doel te testen.
 * Inzicht in welke elementen de grootste negatieve of positieve invloed hebben op de interactie tussen bezoekers.
 
-**het testen van de Ervaring van 0} (Ervaren het richten) levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.** Deze methode biedt een manier om specifieke inhoud te richten op een specifiek publiek op basis van een set gedefinieerde toewijzingsregels.
+**het testen van de Ervaring van 0&rbrace; (Ervaren het richten) levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.** Deze methode biedt een manier om specifieke inhoud te richten op een specifiek publiek op basis van een set gedefinieerde toewijzingsregels.
 
 Hoe werkt Target?
 

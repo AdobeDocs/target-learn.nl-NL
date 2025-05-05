@@ -42,4 +42,4 @@ Aan het einde van deze video kunt u het volgende doen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Voor meer informatie, zie [ Op apparaat beslissingsoverzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html) {target=_blank} in de *gids van de Ontwikkelaar van Adobe Target*.
+Voor meer informatie, zie [ Op apparaat beslissingsoverzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank}  in de *gids van de Ontwikkelaar van Adobe Target*.

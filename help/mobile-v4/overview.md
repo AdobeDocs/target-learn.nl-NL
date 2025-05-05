@@ -43,7 +43,7 @@ In deze lessen wordt aangenomen dat u:
 * Een Adobe-id en op fiatteur gebaseerde toegang tot de Adobe Target-interface hebben (zie de verificatiestappen hieronder)
 * Ken uw Adobe Target-clientcode zodat u aanvragen kunt indienen bij uw eigen account. De clientcode wordt weergegeven in de Adobe Target-interface op het tabblad   Setup > Implementation > Edit at.js settings screen
 * Heb toegang tot en ben vertrouwd met het [ Mobiele gebruikersinterface van de Diensten ](https://mobilemarketing.adobe.com/)
-* Hebt u een IDE voor de ontwikkeling van mobiele apps voor Android. Dit leerprogramma kenmerkt {de Studio van 0} Android ](https://developer.android.com/studio/install) in diverse stappen en screenshots[
+* Hebt u een IDE voor de ontwikkeling van mobiele apps voor Android. Dit leerprogramma kenmerkt {de Studio van 0} Android [&#128279;](https://developer.android.com/studio/install) in diverse stappen en screenshots
 
 Als u niet de vereiste toegang tot de Oplossingen van het Experience Cloud hebt, neem contact op met uw Beheerder van het Experience Cloud.
 
