@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Naast deze handleiding zijn ook de volgende [!DNL Adobe Target] hulplijnen beschikbaar:
 >
->* [&#128279;](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank} *van de Bedrijfs Adobe Target Gids van de Praktijk*
+>* [&#128279;](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=nl-NL){target=_blank} *van de Bedrijfs Adobe Target Gids van de Praktijk*
 >
->* *[de Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+>* *[de Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank}*
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
@@ -37,11 +37,11 @@ ht-degree: 0%
 <table style="margin-top: 0 !important">
 <tr>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=nl-NL">
       <img alt="Doel migreren van at.js naar Platform Web SDK" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=nl-NL">
     <strong> Migreer Doel van at.js aan het Web SDK van het Platform </strong>
     </a>
     </div>
@@ -50,11 +50,11 @@ ht-degree: 0%
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=nl-NL"> 
       <img alt="Doel implementeren met Adobe Experience Platform-tags" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=nl-NL">
     <strong> voer Doel met de Markeringen van Adobe Experience Platform uit </strong>
     </a>
     </div>
@@ -63,11 +63,11 @@ ht-degree: 0%
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=nl-NL">
       <img alt="Adobe Target- in.js 2.0 implementeren in een toepassing voor één pagina (SPA)" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=nl-NL">
     <strong> voer bij.js 2.0 in een SPA uit </strong>
     </a>
     </div>

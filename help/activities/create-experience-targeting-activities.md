@@ -34,10 +34,10 @@ In deze video leert u hoe u:
 ## Aanvullende bronnen
 
 * [ Download Playbook voor Ervaring Personalization ](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [ Ervaring richtend documentatie ](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [ Ervaring richtend documentatie ](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=nl-NL)
 
 ## Andere functies die in deze video worden gebruikt
 
-* [ Soorten publiek voor het Melden van documentatie ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [ Creërend de documentatie van het publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [ Ervaringen van de Bouw met de Visuele documentatie van Composer van de Ervaring ](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [ Soorten publiek voor het Melden van documentatie ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=nl-NL)
+* [ Creërend de documentatie van het publiek ](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=nl-NL)
+* [ Ervaringen van de Bouw met de Visuele documentatie van Composer van de Ervaring ](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=nl-NL)

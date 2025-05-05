@@ -39,4 +39,4 @@ Het KUUROORD VEC laat marketers toe om tests tot stand te brengen en inhoud in S
 
 * [At.js 2.0 implementeren in een toepassing voor één pagina](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Begrijpen hoe at.js 2.0 werkt (architectuurdiagrammen)](../implementation/understanding-how-atjs-20-works.md)
-* [ Enige Documentatie van de Composer van de Ervaring App van de Pagina (SPA) ](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)
+* [ Enige Documentatie van de Composer van de Ervaring App van de Pagina (SPA) ](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=nl-NL)

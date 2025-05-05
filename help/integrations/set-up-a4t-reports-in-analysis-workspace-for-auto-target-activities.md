@@ -1,7 +1,7 @@
 ---
 title: Hoe te opstelling A4T Rapporten in  [!DNL Analysis Workspace]  voor  [!DNL Auto-Target]  Activiteiten
 description: Hoe vorm ik A4T rapporten in  [!DNL Analysis Workspace]  om de verwachte resultaten te krijgen wanneer het runnen van [!UICONTROL Auto-Target] activiteiten?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL#premium newtab=true" tooltip="Zie wat er in Target Premium is opgenomen."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -30,7 +30,7 @@ Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytic
 In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Target] -activiteiten in [!DNL Analysis Workspace] besproken. Deze zijn gebaseerd op de volgende sleutelconcepten:
 
 * De **[!UICONTROL Control vs Targeted]** -dimensie kan worden gebruikt om een onderscheid te maken tussen [!UICONTROL Control] -ervaringen en [!UICONTROL Auto-Target] -ervaringen die door het algoritme ensemble ML worden aangeboden.
-* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Bovendien [ Adobe Analytics&#39; standaard tellende methodologie zou bezoeken kunnen omvatten waar de gebruiker niet eigenlijk activiteiteninhoud ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}  ziet, maar dit standaardgedrag kan worden gewijzigd door een geschikt bereiksegment (details hieronder) te gebruiken.
+* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Bovendien [ Adobe Analytics&#39; standaard tellende methodologie zou bezoeken kunnen omvatten waar de gebruiker niet eigenlijk activiteiteninhoud ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=nl-NL#metrics){target=_blank}  ziet, maar dit standaardgedrag kan worden gewijzigd door een geschikt bereiksegment (details hieronder) te gebruiken.
 * Visit-lookback scoped attributie, ook gekend als &quot;bezoek lookback venster&quot;op het voorgeschreven attributiemodel, wordt gebruikt door de modellen van [!DNL Adobe Target] ML tijdens hun opleidingsfasen, en het zelfde (niet gebrek) attributiemodel zou moeten worden gebruikt wanneer het breken van doel metrisch.
 
 ## Het deelvenster A4T voor [!UICONTROL Auto-Target] maken in [!DNL Analysis Workspace]
@@ -63,7 +63,7 @@ Deze vervanging maakt de standaard [!UICONTROL Lift and Confidence] -berekeninge
 
 >[!NOTE]
 >
->Momenteel zijn [!UICONTROL Lift and Confidence] getallen niet beschikbaar voor [!UICONTROL Control vs Targeted] afmetingen voor A4T-rapporten voor [!UICONTROL Auto-Target] . Tot de steun wordt toegevoegd, [!UICONTROL Lift and Confidence] kan manueel worden gegevens verwerkt door de [ betrouwbaarheidscalculator ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) te downloaden.
+>Momenteel zijn [!UICONTROL Lift and Confidence] getallen niet beschikbaar voor [!UICONTROL Control vs Targeted] afmetingen voor A4T-rapporten voor [!UICONTROL Auto-Target] . Tot de steun wordt toegevoegd, [!UICONTROL Lift and Confidence] kan manueel worden gegevens verwerkt door de [ betrouwbaarheidscalculator ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=nl-NL) te downloaden.
 
 ## Onderverdelingen op ervaringsniveau toevoegen voor metriek
 
@@ -149,7 +149,7 @@ Het verschil tussen de attributie die wordt gebruikt door de [!DNL Target] -mode
 >
 >Als de modellen van XML voor metrisch optimaliseren die verschillend van dat van de metriek wordt toegeschreven u in een rapport bekijkt, zouden de modellen niet kunnen uitvoeren zoals verwacht. Om dit te vermijden, zorg ervoor dat de doelmetriek op uw rapport de zelfde metrische definitie en attributie gebruiken die door de [!DNL Target] modellen van ML wordt gebruikt.
 
-De nauwkeurige metrische definitie, en attributie montages hangen van het [ optimalisatiecriterium ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} af  u tijdens activiteitenverwezenlijking specificeerde.
+De nauwkeurige metrische definitie, en attributie montages hangen van het [ optimalisatiecriterium ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=nl-NL#supported){target=_blank} af  u tijdens activiteitenverwezenlijking specificeerde.
 
 ### Het doel bepaalde omzettingen, of [!DNL Analytics] metriek met *maximaliseert Metrische Waarde per Bezoek*
 
@@ -227,7 +227,7 @@ Doe dit door een [!UICONTROL Calculated Metric] te maken met behulp van de volge
 
 >[!TIP]
 >
-> U kunt metrisch ook tot stand brengen gebruikend [ snel berekende metrische functionaliteit ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+> U kunt metrisch ook tot stand brengen gebruikend [ snel berekende metrische functionaliteit ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=nl-NL).
 
 De volledige berekende metrische definitie wordt hier getoond.
 

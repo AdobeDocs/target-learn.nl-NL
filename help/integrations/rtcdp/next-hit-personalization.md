@@ -18,6 +18,6 @@ ht-degree: 0%
 
 # Volgend-klare personalisatie met Real-Time CDP en Adobe Target
 
-Leer hoe je je kunt aanpassen bij de volgende hit met Real-time Customer Data Platform en Adobe Target. Met de Adobe Target-bestemming in Real-Time CDP kunt u Experience Platform-segmenten in Adobe Target gebruiken voor dezelfde pagina en paginagrootte op de volgende pagina met ondersteuning voor beheer en privacy. Voor meer informatie, zie [ verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijkingsdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html) vormen
+Leer hoe je je kunt aanpassen bij de volgende hit met Real-time Customer Data Platform en Adobe Target. Met de Adobe Target-bestemming in Real-Time CDP kunt u Experience Platform-segmenten in Adobe Target gebruiken voor dezelfde pagina en paginagrootte op de volgende pagina met ondersteuning voor beheer en privacy. Voor meer informatie, zie [ verpersoonlijkingsbestemmingen voor zelfde-pagina en volgende-pagina verpersoonlijkingsdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=nl-NL) vormen
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)

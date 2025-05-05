@@ -18,6 +18,6 @@ ht-degree: 0%
 
 # Segmenten en profielkenmerken activeren
 
-Leer hoe u segmenten en profielkenmerken van Adobe Real-time Customer Data Platform naar Adobe Target activeert om realtime gepersonaliseerde inhoud weer te geven op uw websites, mobiele apps en andere digitale eigenschappen. Voor meer informatie, zie [ publieksgegevens aan de documentatie van de profielverzoekbestemmingen activeren ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html).
+Leer hoe u segmenten en profielkenmerken van Adobe Real-time Customer Data Platform naar Adobe Target activeert om realtime gepersonaliseerde inhoud weer te geven op uw websites, mobiele apps en andere digitale eigenschappen. Voor meer informatie, zie [ publieksgegevens aan de documentatie van de profielverzoekbestemmingen activeren ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=nl-NL).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)

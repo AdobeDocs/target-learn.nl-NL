@@ -36,4 +36,4 @@ In deze video leert u hoe u:
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
 * [Een activiteit voor aanbevelingen maken](create-a-recommendations-activity.md)
-* [ Documentatie van Aanbevelingen ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [ Documentatie van Aanbevelingen ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=nl-NL)

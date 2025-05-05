@@ -27,7 +27,7 @@ ht-degree: 1%
 + Implementatie {#implementation}
    + [Inleiding tot doelimplementatie](../dev101/2-1-intro-to-target-implementation.md)
    + [Doel integreren met starten](../dev101/3-1-target-launch.md)
-   + [ voert in Websites met Lancering uit ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [ voert in Websites met Lancering uit ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=nl-NL)
    + [Voordelen van het gebruik van locaties](../dev101/2-2-benefits-of-locations.md)
    + [Inleiding tot doelverzoeken](../dev101/2-3-intro-to-target-requests.md)
    + [Inleiding tot doelparameters](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +35,7 @@ ht-degree: 1%
    + [Implementeren om.js 2.0 in een toepassing voor één pagina (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Een doelimplementatie ontwerpen](../dev101/2-5-design-target-implementation.md)
    + [Volgende stappen om een doelimplementatie te ontwerpen](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [ Opt-binnen van het Gebruik aan de Oplossingen van het Experience Cloud van de Controle die op de Toestemming van de Gebruiker worden gebaseerd ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [ Opt-binnen van het Gebruik aan de Oplossingen van het Experience Cloud van de Controle die op de Toestemming van de Gebruiker worden gebaseerd ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=nl-NL)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
    + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
    + [Implementatiepatronen voor Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)

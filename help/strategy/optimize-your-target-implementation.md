@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Als u nog niet vertrouwd bent met uw organisatie en vertrouwd wilt raken met de functies van een test- en optimalisatiepraktijk, kunt u met dit artikel aan de slag. We beginnen met een overzicht van Adobe Target-implementatie en -structuur. U zult leren hoe te om de opstelling van uw organisatie te begrijpen en te controleren. Tot slot zullen wij gemeenschappelijke het oplossen van problementechnieken en uiteinden bij het creëren van een kennisbewaarplaats voor uw team bespreken.
 
-Adobe Target is een hulpprogramma waarmee u unieke inhoud kunt testen en toewijzen aan verschillende bezoekers. Voor een overzicht van de beschikbare eigenschappen, [ bezoek deze gids ](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
+Adobe Target is een hulpprogramma waarmee u unieke inhoud kunt testen en toewijzen aan verschillende bezoekers. Voor een overzicht van de beschikbare eigenschappen, [ bezoek deze gids ](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL).
 
 ## Doelimplementatie en -structuur
 
@@ -166,4 +166,4 @@ De typische documenten in een Bewaarplaats van de Kennis omvatten:
 
 Voor meer informatie, herzie ons [ webinar ](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) met senior Consultant, Wilder Freed.
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).

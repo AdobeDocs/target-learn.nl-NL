@@ -150,7 +150,7 @@ Voer de emulator uit en open Logcat. Filter voor een van de parameters om te con
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target] . Hierdoor kunnen alle metriek/dimensies die door de Doel-SDK worden verzameld, in Adobe Analytics worden weergegeven. Zie het [ Overzicht A4T ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) voor meer details.
+>Analytics for Target (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target] . Hierdoor kunnen alle metriek/dimensies die door de Doel-SDK worden verzameld, in Adobe Analytics worden weergegeven. Zie het [ Overzicht A4T ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=nl-NL) voor meer details.
 
 Mooi werk! Nu er parameters zijn, zijn we klaar om die parameters te gebruiken om publiek en aanbiedingen te maken in Adobe Target.
 
