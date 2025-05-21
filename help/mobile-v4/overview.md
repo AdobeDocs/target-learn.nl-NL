@@ -23,7 +23,7 @@ Er is een demo Android-app beschikbaar waarmee u de lessen kunt voltooien. Nadat
 
 Na het voltooien van deze zelfstudie kunt u het volgende doen:
 
-* Bevestig de [ Adobe Mobiele Opstelling van SDK van de Diensten ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
+* Bevestig de [ Adobe Mobiele Opstelling van SDK van de Diensten ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=nl-NL)
 * Voer de volgende typen [!DNL Target] -aanvragen uit:
    * Voorvertoning van [!DNL Target] -inhoud
    * Meerdere [!DNL Target] locaties (mboxes) in één aanvraag in batch plaatsen
