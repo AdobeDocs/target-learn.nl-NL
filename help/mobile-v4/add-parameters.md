@@ -57,7 +57,7 @@ U kunt de waarde at_property ophalen in de interface [!DNL Target] onder [!UICON
 
 Voeg het als parameter voor elke plaats in het prefetch verzoek als dit toe:
 ![ voegt parameter at_property ](assets/params_at_property.jpg) toe
-Hier is de bijgewerkte code voor de functie `targetPrefetchContent()` (werk de tekst van de tijdelijke aanduiding _[!UICONTROL your at_property value goes here]_bij!):
+Hier is de bijgewerkte code voor de functie `targetPrefetchContent()` (werk de tekst van de tijdelijke aanduiding _[!UICONTROL your at_property value goes here]_&#x200B;bij!):
 
 ```java
 public void targetPrefetchContent() {

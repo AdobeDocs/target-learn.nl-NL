@@ -127,9 +127,9 @@ U kunt naar een vooraf gebouwd [!UICONTROL Analytics for Target] paneel navigere
 In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhankelijk van welke van deze methoden u kiest. De volgende stappen dienen echter als algemene leidraad voor A4T:
 
 * Verwijder de betrouwbaarheidsmetriek uit het deelvenster A4T, ongeacht de methode voor het maken van het deelvenster (beide worden hieronder beschreven). Verwijs in plaats daarvan naar deze waarden in [!DNL Target] -rapporten. Bovendien kunnen winnaars van activiteiten worden geïdentificeerd in [!DNL Target] -rapporten. De details op de identificatie van de activiteitenwinnaar kunnen in [ worden gevonden identificeren de activiteit winnaar ](#winner) hieronder sectie.
->>
+&#x200B;>>
 * Om verwarring te voorkomen, uncheck de &quot;[!UICONTROL Percent]&quot;presentatie van [!UICONTROL Conversion Rate] metrisch. Zie [ het percentage van de [!UICONTROL Conversion Rate] kolom ](#hide-percentage) hieronder verbergen.
->>
+&#x200B;>>
 * Als u een A4T-deelvenster maakt, moet u ervoor zorgen dat de datum- en tijdbereiken overeenkomen met die van uw [!DNL Target] -rapport. Zie [ de datum en de tijd in het paneel A4T ](#aligning-date-and-time) hieronder richten.
 
 ### Het percentage verbergen in de kolom [!UICONTROL Conversion Rate] {#hide-percentage}
