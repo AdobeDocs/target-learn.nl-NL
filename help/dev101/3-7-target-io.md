@@ -28,6 +28,6 @@ In deze video leert u hoe u:
 
 ## Opmerking
 
-Deze video toont concepten van integratie gebruikend [ Adobe Developer Console ](https://developer.adobe.com/developer-console/) aan. Voor hands-on stappen die aantonen hoe te om Adobe Developer Console te gebruiken om met Adobe Target te integreren, bezoek deze [ gids bij het vormen van de authentificatie van Adobe ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target="_blank"} in de *Gids van de Ontwikkelaar van Adobe Target*.
+Deze video toont concepten van integratie gebruikend [ Adobe Developer Console ](https://developer.adobe.com/developer-console/) aan. Voor hands-on stappen die aantonen hoe te om Adobe Developer Console te gebruiken om met Adobe Target te integreren, bezoek deze [ gids bij het vormen van de authentificatie van Adobe ](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html?lang=nl-NL){target="_blank"} in de *Gids van de Ontwikkelaar van Adobe Target*.
 
 >[!VIDEO](https://video.tv.adobe.com/v/35150/?quality=12)

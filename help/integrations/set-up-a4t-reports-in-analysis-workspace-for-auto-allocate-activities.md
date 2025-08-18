@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # A4T-rapporten instellen in [!DNL Analysis Workspace] voor [!DNL Auto-Allocate] -activiteiten
 
-Een [[!UICONTROL Auto-Allocate] activiteit ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html){target=_blank} in [!DNL Adobe Target] identificeert een winnaar onder twee of meer ervaringen en wijst automatisch bezoekersverkeer aan de winnaar toe terwijl de test blijft lopen en leren. Met de integratie [!UICONTROL Analytics for Target] (A4T) voor [!UICONTROL Auto-Allocate] kunt u rapportgegevens weergeven in [!DNL Adobe Analytics] en kunt u optimaliseren voor aangepaste gebeurtenissen of metriek die zijn gedefinieerd in [!DNL Analytics] .
+Een [[!UICONTROL Auto-Allocate] activiteit ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=nl-NL){target=_blank} in [!DNL Adobe Target] identificeert een winnaar onder twee of meer ervaringen en wijst automatisch bezoekersverkeer aan de winnaar toe terwijl de test blijft lopen en leren. Met de integratie [!UICONTROL Analytics for Target] (A4T) voor [!UICONTROL Auto-Allocate] kunt u rapportgegevens weergeven in [!DNL Adobe Analytics] en kunt u optimaliseren voor aangepaste gebeurtenissen of metriek die zijn gedefinieerd in [!DNL Analytics] .
 
-Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!DNL Analysis Workspace] , kunnen enkele wijzigingen in het standaard [!UICONTROL Analytics for Target] -deelvenster nodig zijn om [!UICONTROL Auto-Allocate] -activiteiten correct te interpreteren. Deze aanpassingen zijn nodig toe te schrijven aan de nuances in [ metrische criteria van optimalisering ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
+Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytics] [!DNL Analysis Workspace] , kunnen enkele wijzigingen in het standaard [!UICONTROL Analytics for Target] -deelvenster nodig zijn om [!UICONTROL Auto-Allocate] -activiteiten correct te interpreteren. Deze aanpassingen zijn nodig toe te schrijven aan de nuances in [ metrische criteria van optimalisering ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=nl-NL#supported){target=_blank}.
 
 Elk type van optimalisatiemetrisch vereist een verschillende rapportconfiguratie in A4T, als volgt:
 
@@ -158,11 +158,11 @@ In de volgende secties wordt aangegeven welke configuraties vereist zijn, afhank
 
 ### De winnaar van de activiteit identificeren {#winner}
 
-[!DNL Auto-Allocate] winnaars van activiteit worden geselecteerd wanneer er een winnende omzettingspercentage met betrouwbaarheidswaarden groter dan of gelijk aan 95% is. Naar deze waarden moet worden verwezen in de [!DNL Target] -rapporten, aangezien betrouwbaarheidsberekeningen de conservatievere methoden weergeven die [!DNL Target] aanbeveelt voor [!UICONTROL Auto-Allocate] -activiteiten. Zie [ Statistische garanties van auto-Wijs ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in *[!UICONTROL Adobe Target Business Practitioner Guide]* toe.
+[!DNL Auto-Allocate] winnaars van activiteit worden geselecteerd wanneer er een winnende omzettingspercentage met betrouwbaarheidswaarden groter dan of gelijk aan 95% is. Naar deze waarden moet worden verwezen in de [!DNL Target] -rapporten, aangezien betrouwbaarheidsberekeningen de conservatievere methoden weergeven die [!DNL Target] aanbeveelt voor [!UICONTROL Auto-Allocate] -activiteiten. Zie [ Statistische garanties van auto-Wijs ](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/determine-winner.html?lang=nl-NL#section_7AF3B93E90BA4B80BC9FC4783B6A389C){target=_blank} in *[!UICONTROL Adobe Target Business Practitioner Guide]* toe.
 
 >[!NOTE]
 >
->De badges &quot;Geen Winner nog&quot; en &quot;Winner&quot; zijn niet beschikbaar in het deelvenster A4T in [!DNL Analysis Workspace] . De winnaar die in [!DNL Target] -rapporten voor [!UICONTROL Auto-Allocate] -activiteiten wordt weergegeven, moet ook worden genegeerd. Zie [ auto-Wijs ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *steun A4T voor auto-Wijs en Auto-Doel activiteiten* in *[!UICONTROL Adobe Target Business Practitioner Guide]* toe.
+>De badges &quot;Geen Winner nog&quot; en &quot;Winner&quot; zijn niet beschikbaar in het deelvenster A4T in [!DNL Analysis Workspace] . De winnaar die in [!DNL Target] -rapporten voor [!UICONTROL Auto-Allocate] -activiteiten wordt weergegeven, moet ook worden genegeerd. Zie [ auto-Wijs ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=nl-NL#aa){target=_blank} in *steun A4T voor auto-Wijs en Auto-Doel activiteiten* in *[!UICONTROL Adobe Target Business Practitioner Guide]* toe.
 
 ### Het deelvenster A4T voor [!UICONTROL Auto-Allocate] maken in [!DNL Analysis Workspace]
 

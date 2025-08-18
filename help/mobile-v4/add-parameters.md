@@ -30,7 +30,7 @@ Aan het eind van deze les, zult u kunnen:
 
 ## De levenscyclusparameters toevoegen
 
-Laat [ mobiele de levenscyclusmetriek van Adobe ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en) toe. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
+Laat [ mobiele de levenscyclusmetriek van Adobe ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=nl-NL) toe. Hierdoor worden parameters toegevoegd aan locatieaanvragen die uitgebreide informatie bevatten over het apparaat van de gebruiker en de betrokkenheid bij de app. In de volgende les maken we een publiek met behulp van gegevens die de levenscyclusaanvraag bevat.
 
 Als u levenscyclusmetriek wilt inschakelen, opent u de HomeActivity-controller opnieuw en voegt u `Config.collectLifecycleData(this);` toe aan de functie onResume():
 
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Opmerking over parameters
 
-Voor toekomstige projecten, kunt u extra parameters willen uitvoeren. De methode `createTargetPrefetchObject()` staat drie typen parameters toe: `locationParams` , `orderParams` en `productParams` . Zie de documentatie voor [ meer details bij het toevoegen van deze parameters aan het prefetch verzoek ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
+Voor toekomstige projecten, kunt u extra parameters willen uitvoeren. De methode `createTargetPrefetchObject()` staat drie typen parameters toe: `locationParams` , `orderParams` en `productParams` . Zie de documentatie voor [ meer details bij het toevoegen van deze parameters aan het prefetch verzoek ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=nl-NL).
 
 U kunt ook verschillende locatieparameters toevoegen aan elke locatie in de prefetch-aanvraag. Bijvoorbeeld, kon u een andere Kaart creëren genoemd param2, een nieuwe parameter in het zetten, dan plaats param2 in één plaats en param1 met de andere plaats. Hier volgt een voorbeeld:
 
@@ -146,11 +146,11 @@ Voer de emulator uit en open Logcat. Filter voor een van de parameters om te con
 
 >[!NOTE]
 >
->Bevestigingsverzoeken en parameters voor bestellingen: hoewel niet gebruikt in dit demoproject, worden orderdetails meestal vastgelegd in een echte implementatie, zodat in [!DNL Target] orderdetails kunnen worden gebruikt als metriek/afmetingen. Gelieve te verwijzen naar de documentatie voor instructies op hoe te [ het verzoek en de parameters van de ordesbevestiging uitvoeren ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
+>Bevestigingsverzoeken en parameters voor bestellingen: hoewel niet gebruikt in dit demoproject, worden orderdetails meestal vastgelegd in een echte implementatie, zodat in [!DNL Target] orderdetails kunnen worden gebruikt als metriek/afmetingen. Gelieve te verwijzen naar de documentatie voor instructies op hoe te [ het verzoek en de parameters van de ordesbevestiging uitvoeren ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=nl-NL).
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target] . Hierdoor kunnen alle metriek/afmetingen die door de Target SDK zijn verzameld, in Adobe Analytics worden weergegeven. Zie het [ Overzicht A4T ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) voor meer details.
+>Analytics for Target (A4T): Adobe Analytics kan worden geconfigureerd als rapportagebron voor [!DNL Target] . Hierdoor kunnen alle metriek/afmetingen die door de Target SDK zijn verzameld, in Adobe Analytics worden weergegeven. Zie het [ Overzicht A4T ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=nl-NL) voor meer details.
 
 Mooi werk! Nu er parameters zijn, zijn we klaar om die parameters te gebruiken om publiek en aanbiedingen te maken in Adobe Target.
 

@@ -90,4 +90,4 @@ Zodra uw verpersoonlijkingsactiviteit een representatieve steekproef van bezoeke
 
 Wij adviseren dat u deze video kijkt die elk van deze stappen bespreekt: [ https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/ ](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).

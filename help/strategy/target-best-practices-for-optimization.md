@@ -120,4 +120,4 @@ In het licht van het bovenstaande raadt Adobe u aan te optimaliseren voordat u d
 
 Voor meer informatie, te luisteren gelieve aan [ webinar over het begrijpen van en het optimaliseren van uw implementatie van Adobe Target ](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), met Bedrijfs Consultant, Katie Cozby.
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).

@@ -37,4 +37,4 @@ In deze video leert u hoe u:
 * [Een feed maken](create-a-feed.md)
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
-* [ Documentatie van Aanbevelingen ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [ Documentatie van Aanbevelingen ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=nl-NL)

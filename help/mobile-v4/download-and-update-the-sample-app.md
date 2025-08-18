@@ -38,7 +38,7 @@ Aan het eind van deze les, zult u kunnen:
 
 ## De SDK-instellingen voor mobiele services controleren en bijwerken voor [!DNL Target]
 
-Adobe Mobile Services SDK is vooraf geïnstalleerd binnen de We.Travel app [ volgens de documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Nu gaat u de installatie bijwerken zodat deze naar uw eigen [!DNL Target] -account verwijst.
+Adobe Mobile Services SDK is vooraf geïnstalleerd binnen de We.Travel app [ volgens de documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=nl-NL). Nu gaat u de installatie bijwerken zodat deze naar uw eigen [!DNL Target] -account verwijst.
 
 Maak eerst een nieuwe toepassing in de gebruikersinterface voor mobiele services:
 

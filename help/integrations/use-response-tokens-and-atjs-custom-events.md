@@ -34,5 +34,5 @@ Met respontokens en `at.js` Aangepaste gebeurtenissen kunt u profielgegevens van
 ## Aanvullende bronnen
 
 * [Use the Experience Cloud Debugger with Adobe Target](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-* [ Symbolische Documentatie van de Token van de Reactie ](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=en)
+* [ Symbolische Documentatie van de Token van de Reactie ](https://experienceleague.adobe.com/docs/target/using/administer/response-tokens.html?lang=nl-NL)
 * [Gegevensleveranciers gebruiken in Adobe Target](use-data-providers-to-integrate-third-party-data.md)

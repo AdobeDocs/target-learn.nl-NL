@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Real-Time CDP-segmenten in doel gebruiken
 
-Leer hoe u met Real-Time Customer Data Platform-segmenten in Adobe Target persoonlijke ervaringen kunt opdoen op uw website en mobiele apps. Voor meer informatie, zie [ de documentatie ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
+Leer hoe u met Real-Time Customer Data Platform-segmenten in Adobe Target persoonlijke ervaringen kunt opdoen op uw website en mobiele apps. Voor meer informatie, zie [ de documentatie ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=nl-NL).
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
