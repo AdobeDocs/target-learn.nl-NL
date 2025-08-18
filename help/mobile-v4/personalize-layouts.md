@@ -75,7 +75,7 @@ Ga als volgt te werk in de interface [!DNL Target] :
    ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_7.jpg)
 
 1. Selecteer de _wetravel_commit_search_ plaats.
-1. Wijzig de HTML-aanbieding.
+1. Wijzig het HTML-voorstel.
 
    ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_8.jpg)
 
@@ -193,7 +193,7 @@ Selecteer nu **[!UICONTROL Done]** en probeer een andere boeking uit te voeren m
 
 ## Conclusie
 
-Gefeliciteerd! Hiermee wordt het hoofdgedeelte van de Adobe Target SDK 4.x voor zelfstudie voor Android afgesloten. U hebt nu de vaardigheden om personalisatie te implementeren in Android apps! U kunt deze documentatie en de demo-app gebruiken als referentie voor uw toekomstige projecten.
+Gefeliciteerd! Hiermee wordt het belangrijkste gedeelte van de Adobe Target SDK 4.x voor de zelfstudie van Android afgesloten. U hebt nu de vaardigheden om personalisatie te implementeren in Android apps! U kunt deze documentatie en de demo-app gebruiken als referentie voor uw toekomstige projecten.
 
 Volgende: Functiemarkering is een andere functie die kan worden geïmplementeerd met Adobe Target in Android. Als u meer wilt weten over het markeren van functies, checkt u de volgende les uit.
 

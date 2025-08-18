@@ -35,6 +35,6 @@ In deze video leert u hoe u:
 
 ## Aanvullende bronnen
 
-* [ Creërend een publiek van de Vergelijking van de Attributen van het Profiel ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=nl-NL)
-* [ Soorten publiek van de Bouw ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=nl-NL)
+* [ Creërend een publiek van de Vergelijking van de Attributen van het Profiel ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [ Soorten publiek van de Bouw ](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Video over doelgerichte activiteiten maken](../activities/create-experience-targeting-activities.md)

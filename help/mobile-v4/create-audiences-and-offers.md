@@ -78,7 +78,7 @@ Volg dezelfde stappen als hierboven beschreven om een publiek te maken voor teru
 
 >[!NOTE]
 >
->Alle levenscyclusmetriek en afmetingen die in de [!DNL Target] mobiele SDK worden verzameld, worden voorafgegaan door &quot;a&quot; (bijvoorbeeld a.Launches) en zijn beschikbaar in de optie &quot;Aangepast&quot; van het keuzemenu en kunnen worden gebruikt om een publiek te maken.
+>Alle levenscyclusmetriek en afmetingen die in de mobiele SDK van [!DNL Target] worden verzameld, worden voorafgegaan door &quot;a&quot; (bijvoorbeeld a.Launches) en zijn beschikbaar in de optie &quot;Aangepast&quot; van het keuzemenu en kunnen worden gebruikt om een publiek te maken.
 
 ### Creeer een Publiek voor Gebruikers die een Trip aan San Diego boeken
 
@@ -104,7 +104,7 @@ Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aan
 
 ## Aanbiedingen maken
 
-Laten we nu aanbiedingen maken om deze berichten weer te geven. Ter herinnering, aanbiedingen zijn fragmenten met code/inhoud, die worden geleverd in het antwoord [!DNL Target] . Deze worden meestal gemaakt in de gebruikersinterface van [!DNL Target] , maar kunnen ook worden gemaakt via API of via de Experience Fragments-integratie met Adobe Experience Manager. In mobiele apps zijn JSON-aanbiedingen gebruikelijk. In deze zelfstudie gebruiken we HTML-aanbiedingen die kunnen worden gebruikt om inhoud in de vorm van gewone tekst (inclusief JSON) in de app te leveren.
+Laten we nu aanbiedingen maken om deze berichten weer te geven. Ter herinnering, aanbiedingen zijn fragmenten met code/inhoud, die worden geleverd in het antwoord [!DNL Target] . Deze worden meestal gemaakt in de gebruikersinterface van [!DNL Target] , maar kunnen ook worden gemaakt via API of via de Experience Fragments-integratie met Adobe Experience Manager. In mobiele apps zijn JSON-aanbiedingen gebruikelijk. In deze zelfstudie gebruiken we HTML-aanbiedingen die kunnen worden gebruikt om inhoud in de standaardtekst (inclusief JSON) in de app te leveren.
 
 ### De aanbieding voor nieuwe gebruikers maken
 
@@ -120,7 +120,7 @@ Laten we eerst aanbiedingen voor de berichten aan Nieuwe gebruikers maken:
 1. Ga _Uitgezochte Source en Bestemming in om naar beschikbare bussen_ als code te zoeken.
 1. Sla het nieuwe voorstel op.
 
-   ![ creeer de Aanbieding van de HTML van het Huis ](assets/offer_home_2.jpg)
+   ![ creeer de Aanbieding van HTML van het Huis ](assets/offer_home_2.jpg)
 
 ### De aanbieding voor terugkerende gebruikers maken
 
@@ -130,14 +130,14 @@ Laten we nu de ene aanbieding voor terugkerende gebruikers maken (de tweede aanb
 1. Ga _Welkom terug! Gebruik de Bodemcode BACK30 tijdens het afrekenen om een korting van 10% te krijgen._ als de HTML-code.
 1. Sla het nieuwe voorstel op.
 
-   ![ creeer de Aanbieding van de HTML van het Huis ](assets/offer_home_returning_users.jpg)
+   ![ creeer de Aanbieding van HTML van het Huis ](assets/offer_home_returning_users.jpg)
 
 ### De San Diego-aanbieding maken
 
 Wanneer &quot;DJ&quot; wordt geretourneerd aan de activiteit Dankuwel, geeft logica in de functie filterRecommendationBasedOnOffer() een banner weer voor &quot;Rock Night with DJ SAM&quot;:
 
 1. Noem de aanbieding _Bevordering voor San Diego_.
-1. Ga _DJ_ als code van de HTML in.
+1. Ga _DJ_ als code van HTML in.
 1. Sla het nieuwe voorstel op.
 
 ![ creeer &quot;San Diego&quot;Aanbieding ](assets/offer_san_diego.jpg)
@@ -147,7 +147,7 @@ Wanneer &quot;DJ&quot; wordt geretourneerd aan de activiteit Dankuwel, geeft log
 Wanneer &quot;Universal&quot; wordt geretourneerd naar de activiteit Dankuwel, wordt voor logica in de functie filterRecommendationBasedOnOffer() een banner voor &quot;Universal Studios&quot; weergegeven:
 
 1. Noem de aanbieding _Bevordering voor Los Angeles_.
-1. Ga _Universeel_ als code van de HTML in.
+1. Ga _Universeel_ als code van HTML in.
 1. Sla het nieuwe voorstel op.
 
 ![ creeer &quot;Los Angeles&quot;Aanbieding ](assets/offer_los_angeles.jpg)

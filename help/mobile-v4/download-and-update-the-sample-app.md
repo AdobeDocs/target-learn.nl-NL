@@ -1,6 +1,6 @@
 ---
 title: Download en werk de voorbeeldtoepassing Web.Travel bij
-description: De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.
+description: De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U hoeft deze alleen bij te werken, zodat deze naar uw eigen Experience Cloud Org- en Solution-accounts verwijst.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Download en werk de voorbeeldtoepassing Web.Travel bij
 
-De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U moet het enkel bijwerken, zodat het aan uw eigen Experience Cloud Org en oplossingsrekeningen richt.
+De voorbeeldtoepassing We.Travel wordt vooraf geïmplementeerd met de Adobe Mobile Services SDK v4. U hoeft deze alleen bij te werken, zodat deze naar uw eigen Experience Cloud Org- en Solution-accounts verwijst.
 
 ## Leerdoelen
 
@@ -38,18 +38,18 @@ Aan het eind van deze les, zult u kunnen:
 
 ## De SDK-instellingen voor mobiele services controleren en bijwerken voor [!DNL Target]
 
-De Adobe Mobiele Diensten SDK is vooraf geïnstalleerd binnen Wij.Travel app [ volgens de documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=nl-NL). Nu gaat u de installatie bijwerken zodat deze naar uw eigen [!DNL Target] -account verwijst.
+Adobe Mobile Services SDK is vooraf geïnstalleerd binnen de We.Travel app [ volgens de documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Nu gaat u de installatie bijwerken zodat deze naar uw eigen [!DNL Target] -account verwijst.
 
 Maak eerst een nieuwe toepassing in de gebruikersinterface voor mobiele services:
 
-1. Login aan de [ interface van de Diensten van de Adobe Mobiele ](https://mobilemarketing.adobe.com/).
+1. Login aan de [ interface van de Diensten van Adobe Mobiele ](https://mobilemarketing.adobe.com/).
 1. Ga naar [!UICONTROL Manage Apps] en klik vervolgens op **[!UICONTROL Add]** om een nieuwe toepassing toe te voegen die u in deze zelfstudie wilt gebruiken ( **[!UICONTROL Manage Apps]** > **[!UICONTROL Add]** ).
 1. Kies een Analytics-rapportsuite met niet-productiegegevens, geef de app een naam, selecteer het **[!UICONTROL Standard]** -type en klik op **[!UICONTROL Save]** .
 1. Nadat de app is toegevoegd, voegt u uw [!DNL Target] clientcode toe aan het volgende scherm in de [!UICONTROL SDK Target Options] -sectie (u vindt de clientcode in de [!DNL Target] -interface onder **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** naast de knop Downloaden `at.js` ).
 1. De instelling [!UICONTROL Request Timeout] bepaalt hoe lang de toepassing wacht op de reactie van de [!DNL Target] -server voordat de time-outinstructies worden uitgevoerd. Laat de standaardinstelling ongewijzigd.
 1. Schakel de optie [!UICONTROL Visitor ID Service] in en zorg dat de optie [!UICONTROL Organization] is geselecteerd in de vervolgkeuzelijst.
 1. Sla uw wijzigingen op door op **[!UICONTROL Save]** rechtsboven in het venster te klikken (niet op de knop in de sectie [!UICONTROL Universal Links] , [!UICONTROL App Links] of [!UICONTROL Push Services] ).
-1. Blader naar het gedeelte Downloads App SDK onder aan de pagina en download het configuratiebestand:
+1. Blader naar de sectie SDK-downloads voor de app onder aan de pagina en download het configuratiebestand:
 
    ![ Download het Dossier Config ](assets/config_file.jpg)
 

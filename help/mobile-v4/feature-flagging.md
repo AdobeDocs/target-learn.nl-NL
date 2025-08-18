@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ We gaan nu een eenvoudige JSON-aanbieding maken die fungeert als vlag of trigger
 
 ![ creeer de Vlag JSON van de Eigenschap ](assets/feature_flag_json_offer.jpg)
 
-Laten wij het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaten&quot;:1}
+Laten wij het &quot;Vlag van de Eigenschap v1&quot;met de waarde {&quot;toelaten&quot;:1 noemen
 
 ![ feature_flag_v1 JSON-aanbieding ](assets/feature_flag_json_name.jpg)
 

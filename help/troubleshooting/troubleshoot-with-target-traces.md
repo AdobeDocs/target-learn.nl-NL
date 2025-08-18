@@ -1,6 +1,6 @@
 ---
 title: Hoe te om met de Traces van het Doel problemen op te lossen
-description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. Leer hoe u zich in het Experience Cloud kunt verifiëren en het krachtige gereedschap Doelsporen gebruiken om uw activiteit en publiekskwalificaties en uw bezoekersprofiel te inspecteren.
+description: Met de Adobe Experience Cloud Debugger kunt u snel en gemakkelijk uw doelimplementatie begrijpen. Leer hoe u zich in de Experience Cloud kunt verifiëren en met het krachtige gereedschap Doelsporen uw activiteit en publiekskwalificaties en uw bezoekersprofiel kunt inspecteren.
 role: User
 level: Intermediate
 topic: Personalization, Performance

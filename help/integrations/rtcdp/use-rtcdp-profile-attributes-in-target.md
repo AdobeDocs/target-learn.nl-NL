@@ -1,6 +1,6 @@
 ---
 title: Hoe gebruik ik Real-Time CDP-profielkenmerken in Adobe Target?
-description: Leer hoe u Real-time Customer Data Platform-profielkenmerken in Adobe Target kunt gebruiken voor persoonlijke ervaringen op uw website en mobiele apps.
+description: Leer hoe u Real-Time Customer Data Platform-profielkenmerken in Adobe Target kunt gebruiken voor persoonlijke ervaringen op uw website en mobiele apps.
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 solution: Experience Platform, Target
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # Real-Time CDP-profielkenmerken gebruiken in Adobe Target
 
-Leer hoe u Adobe Real-time Customer Data Platform-profielkenmerken in Adobe Target kunt gebruiken voor persoonlijke ervaringen op uw website en mobiele apps. Voor meer informatie, zie [ de documentatie ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=nl-NL).
+Leer hoe u Adobe Real-Time Customer Data Platform-profielkenmerken in Adobe Target kunt gebruiken voor persoonlijke ervaringen op uw website en mobiele apps. Voor meer informatie, zie [ de documentatie ](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
 
->[!VIDEO](https://video.tv.adobe.com/v/3451899/?learn=on&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 >[!CAUTION]
 >
->Profielkenmerken van het platform kunnen in Recommendations-ontwerpen worden gebruikt om kenmerkwaarden uit te voeren, maar kunnen niet worden gebruikt in snelheidslogica of -bewerkingen.
+>De profielattributen van het platform kunnen in de ontwerpen van Aanbevelingen worden gebruikt om attributenwaarden uit te voeren, maar kunnen niet in de logica of de verrichtingen van de Snelheid worden gebruikt.

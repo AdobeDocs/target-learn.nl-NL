@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Als u nog niet vertrouwd bent met uw organisatie en vertrouwd wilt raken met de functies van een test- en optimalisatiepraktijk, kunt u met dit artikel aan de slag. We beginnen met een overzicht van Adobe Target-implementatie en -structuur. U zult leren hoe te om de opstelling van uw organisatie te begrijpen en te controleren. Tot slot zullen wij gemeenschappelijke het oplossen van problementechnieken en uiteinden bij het creëren van een kennisbewaarplaats voor uw team bespreken.
 
-Adobe Target is een hulpprogramma waarmee u unieke inhoud kunt testen en toewijzen aan verschillende bezoekers. Voor een overzicht van de beschikbare eigenschappen, [ bezoek deze gids ](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL).
+Adobe Target is een hulpprogramma waarmee u unieke inhoud kunt testen en toewijzen aan verschillende bezoekers. Voor een overzicht van de beschikbare eigenschappen, [ bezoek deze gids ](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Doelimplementatie en -structuur
 
@@ -40,9 +40,9 @@ Er zijn drie fundamentele types van Doelactiviteit:
 
 * Een manier om meerdere aanbiedingen in meerdere elementen weer te geven.
 * Een methode om de resulterende unieke ervaring tegen een specifiek doel te testen.
-* Inzicht in welke elementen de grootste negatieve of positieve invloed hebben op de interactie tussen bezoekers.
+* Insight over welke elementen de grootste negatieve of positieve invloed hebben op de interactie tussen bezoekers.
 
-**het testen van de Ervaring van 0&rbrace; (Ervaren het richten) levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.** Deze methode biedt een manier om specifieke inhoud te richten op een specifiek publiek op basis van een set gedefinieerde toewijzingsregels.
+**het testen van de Ervaring van 0} (Ervaren het richten) levert inhoud aan een specifiek publiek dat op een reeks van tellers-bepaalde regels en criteria wordt gebaseerd.** Deze methode biedt een manier om specifieke inhoud te richten op een specifiek publiek op basis van een set gedefinieerde toewijzingsregels.
 
 Hoe werkt Target?
 
@@ -54,11 +54,11 @@ Hier is een voorbeeld op hoog niveau van hoe het Doel werkt:
 1. De inhoud wordt weergegeven op basis van de regels van de activiteit van de gebruiker.
 1. Adobe Target legt specifieke metriek vast zoals die in de activiteitenconfiguratie wordt bepaald om de impact van de testervaringen te meten.
 
-Het doel is gebaseerd op een &#39;global Mbox&#39; die de mogelijkheid biedt alles op de pagina te beïnvloeden. Deze functie wordt bij het laden van de pagina geïmplementeerd als een hardcoded koppeling naar het bestand at.js of wordt als Adobe Launch geleverd met een tagbeheer.
+Het doel is gebaseerd op een &#39;global Mbox&#39; die de mogelijkheid biedt alles op de pagina te beïnvloeden. Deze functie wordt bij het laden van de pagina geïmplementeerd als een hardcoded koppeling naar het bestand at.js of wordt geleverd met een tagbeheer zoals Adobe Launch.
 
 ## Begrijp uw huidige implementatie
 
-Om inzicht te krijgen in uw huidige implementatie, raadt de Adobe u aan om de implementatie van uw doelgebruikersinterface samen met het tagbeheer en de implementatie van het laden van pagina&#39;s te bekijken.
+Voor een goed begrip van uw huidige implementatie raadt Adobe u aan om uw doelgebruikersinterface-implementatie samen met het tagbeheer en de implementatie van het laden van pagina&#39;s te bekijken.
 
 **om uw [!DNL Target] gebruikersinterface te herzien:**
 
@@ -102,14 +102,14 @@ U kunt als volgt het tagbeheer en het laden van de pagina controleren:
 
 ## [!DNL Target] controleactiviteiten
 
-Als u wilt voorkomen dat elke pagina handmatig wordt doorlopen om [!DNL Target] -activiteiten te controleren, gebruikt u de Adobe Auditor om inzicht te krijgen in de huidige technische status van uw implementatie. De Auditor van de Adobe wordt aangedreven door ObservePoint en kan opstelling zijn om op een manueel niveau in werking te stellen, om de kwesties op hoog niveau van de implementatie op uw plaats te identificeren.
+Als u wilt voorkomen dat elke pagina handmatig wordt doorlopen om [!DNL Target] -activiteiten te controleren, gebruikt u de Adobe Auditor om inzicht te krijgen in de huidige technische status van uw implementatie. De Adobe Auditor wordt aangedreven door ObservePoint en kan worden ingesteld om handmatig te worden uitgevoerd en implementatiekwesties op hoog niveau op uw site te identificeren.
 
-De Adobe controleur verstrekt:
+De Adobe Auditor verstrekt:
 
 * Een hoge gezondheid op de site
 * Snelle uitnodigingen voor implementatieproblemen
 
-Adobe beveelt aan maandelijks handmatig audits uit te voeren om:
+Adobe raadt aan maandelijkse handmatige controles uit te voeren naar:
 
 * Niet-gecodeerde pagina&#39;s identificeren
 * Inconsistente versies identificeren
@@ -120,7 +120,7 @@ Adobe beveelt aan maandelijks handmatig audits uit te voeren om:
 
 >[!NOTE]
 >
->Adobe raadt u aan het Adobe Experience Platform Debugger te installeren.
+>Adobe raadt u aan de Adobe Experience Platform Debugger te installeren.
 
 Hier volgen algemene tips voor het oplossen van problemen wanneer u de Experience invoert:
 
@@ -166,4 +166,4 @@ De typische documenten in een Bewaarplaats van de Kennis omvatten:
 
 Voor meer informatie, herzie ons [ webinar ](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) met senior Consultant, Wilder Freed.
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).
+Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

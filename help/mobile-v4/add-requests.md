@@ -45,14 +45,14 @@ Hieronder vindt u een aantal belangrijke doelterminologie die we in de rest van 
 * **Verzoek van de Partij:** één enkel verzoek dat veelvoudige plaatsen omvat
 * **Prefetch Verzoek:** één enkel verzoek dat aanbiedingen terugwint en hen in geheugen voor toekomstig gebruik in app in cache plaatst
 * **Verzoek van de Prefetch van de Partij:** één enkel verzoek dat aanbiedingen voor veelvoudige plaatsen vooraf instelt
-* **Publiek:** een groep bezoekers die in de [!DNL Target] interface wordt bepaald of aan [!DNL Target] van andere toepassingen van de Adobe wordt gedeeld (b.v. &quot;bezoekers iPhone X&quot;, &quot;bezoekers in Californië&quot;, &quot;Eerste Open Toepassing&quot;)
+* **Publiek:** een groep bezoekers die in de [!DNL Target] interface worden bepaald of aan [!DNL Target] van andere toepassingen van Adobe worden gedeeld (b.v. &quot;bezoekers iPhone X&quot;, &quot;bezoekers in Californië&quot;, &quot;Eerste Open App&quot;)
 * **Activiteit:** a [!DNL Target] constructie, die in het [!DNL Target] gebruikersinterface (of met API) wordt bepaald die plaatsen, aanbiedingen en Soorten van het publiek verbindt om een gepersonaliseerde ervaring tot stand te brengen
 
 ## Een aanvraag voor een batchvoorvertoning toevoegen
 
 Het eerste verzoek dat we in We.Travel implementeren, is een batchvoorkeursaanvraag met twee [!DNL Target] -locaties op het Basisscherm. In een recentere les, zullen wij aanbiedingen voor deze plaatsen vormen die berichten tonen helpen nieuwe gebruikers door het boekingsproces begeleiden.
 
-Met een Prefetch-aanvraag wordt [!DNL Target] -inhoud zo min mogelijk opgehaald door de Adobe Target-serverreactie (aanbieding) in cache te plaatsen. Een batch-prefetch-aanvraag haalt meerdere aanbiedingen op en plaatst deze in het cachegeheugen, elk gekoppeld aan een andere locatie. Alle vooraf ingestelde locaties worden in het cachegeheugen opgeslagen op het apparaat voor toekomstig gebruik in de gebruikerssessie. Door meerdere locaties vooraf in te stellen op het Homescherm, kunnen we aanbiedingen ophalen die later kunnen worden gebruikt wanneer de bezoeker door de app navigeert. Verwijs naar de [ prefetch documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=nl-NL) voor meer details op prefetch methodes.
+Met een Prefetch-aanvraag wordt [!DNL Target] -inhoud zo min mogelijk opgehaald door de Adobe Target-serverreactie (aanbieding) in cache te plaatsen. Een batch-prefetch-aanvraag haalt meerdere aanbiedingen op en plaatst deze in het cachegeheugen, elk gekoppeld aan een andere locatie. Alle vooraf ingestelde locaties worden in het cachegeheugen opgeslagen op het apparaat voor toekomstig gebruik in de gebruikerssessie. Door meerdere locaties vooraf in te stellen op het Homescherm, kunnen we aanbiedingen ophalen die later kunnen worden gebruikt wanneer de bezoeker door de app navigeert. Verwijs naar de [ prefetch documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) voor meer details op prefetch methodes.
 
 ### De aanvraag Batch Prefetch toevoegen
 
@@ -284,8 +284,8 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | Code | Beschrijving |
 |--- |--- |
-| `targetLoadRequest()` | Een door de gebruiker gedefinieerde functie (die geen deel uitmaakt van de SDK) die `Target.loadRequest()` activeert en weergeeft, waarmee de locatie wetravel_context_dest wordt geladen en weergegeven |
-| `Target.loadRequest()` | De methode van SDK die het verzoek aan de server van het Doel doet |
+| `targetLoadRequest()` | Een door de gebruiker gedefinieerde functie (geen onderdeel van de SDK) die `Target.loadRequest()` activeert en weergeeft, die de locatie wetravel_context_dest laadt en weergeeft |
+| `Target.loadRequest()` | De methode SDK die de aanvraag bij de doelserver indient |
 | Constant.wetravel_context_dest | De locatienaam die is toegewezen aan het verzoek waarop we later de activiteit in de interface [!DNL Target] gaan gebruiken |
 | `filterRecommendationBasedOnOffer()` | Een door de gebruiker gedefinieerde functie in de app die de aanbieding van de locatie overneemt vanuit het doelantwoord en die bepaalt hoe de app moet worden gewijzigd op basis van de inhoud van de aanbieding |
 | `recommandations.addAll()` | Een door de gebruiker gedefinieerde functie in de app die standaard werd uitgevoerd wanneer het scherm Dankuwel werd geladen, maar die nu wordt uitgevoerd nadat het antwoord Doel is ontvangen en geparseerd door `filterRecommendationBasedOnOffer()` |

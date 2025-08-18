@@ -1,6 +1,6 @@
 ---
 title: Aanbevolen werkwijzen voor optimalisatie
-description: Leer de zes basisprincipes van de Adobe van optimalisering en hoe u ze toepast.
+description: Leer Adobe zes essentiële onderdelen van optimalisatie en hoe u deze toepast.
 solution: Target
 role: Leader, Architect, Developer, Admin
 feature: Overview
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Aanbevolen procedures voor optimalisatie met Adobe Target
 
-Leer de zes basisprincipes van de Adobe van optimalisering en hoe u ze toepast.
+Leer Adobe zes essentiële onderdelen van optimalisatie en hoe u deze toepast.
 
 Als het gaat om het opbouwen van een sterke digitale aanwezigheid, zijn er een aantal uitdagingen waarvoor uw team zal staan. Niet alleen bent u belast met het in dienst nemen van honderden, zelfs duizenden klanten, bovenop dat, tonen uw klanten een verscheidenheid van uniek gedrag en voorkeur die in tijd zullen veranderen en het is aan u om niet alleen die veranderingen bij te houden, maar hen te voorzien en uw strategieën efficiënt en nauwkeurig uit te voeren. Het is een race tegen concurrenten in een onbepaalde inhoudsmarathon, die constante herhaling en best-in-class technologie vereist.
 
@@ -65,7 +65,7 @@ Een volledige hypothese bestaat uit drie delen:
 * **Meldend Soorten publiek:** Lijst van beschrijvingen van bezoekersondergroepen die voor analyse moeten worden gebruikt.
 * **Begeleidingen van de Ervaring:** Mockups, voorbeelden draadframes, en beschrijvingen.
 
-**Algemene Nota:** Om het even welk element van een webpage die bedrijfswaarde kan drijven of waardevol inzicht in bezoekersgedrag kan worden getest. Enkele gangbare soorten testactiviteiten zijn:
+**Algemene Nota:** Om het even welk element van een webpage die bedrijfswaarde kan drijven of waardevolle insight in bezoekersgedrag kan geven worden getest. Enkele gangbare soorten testactiviteiten zijn:
 
 * Koptekst
 * Inhoudstekst
@@ -104,7 +104,7 @@ Op hoog niveau:
 
 Wanneer u de nadruk legt op optimalisatie, zijn de meest voorkomende testactiviteiten:
 
-* **het testen A/B:** Echt - tijd het testen van twee of meer pagina&#39;s of paginaelementen tegen elkaar om kwantitatief inzicht in klantenvoorkeur te verkrijgen.
+* **het testen A/B:** Echt - tijd het testen van twee of meer pagina&#39;s of paginaelementen tegen elkaar om kwantitatieve insight in klantenvoorkeur te bereiken.
 * **Multivariate het testen:** Vergelijkend combinaties aanbiedingen onder elementen op een pagina om te zien welke combinatie het beste presteert. Bovendien zal de multivariate test identificeren welk element van de pagina beste omzettingen verbetert.
 
 Wanneer u zich richt op Personalization, zult u waarschijnlijk dezelfde testactiviteiten zien als in Optimalisatie, maar ze zijn gericht op een meer specifiek publiek. Als u bijvoorbeeld een A/B-test uitvoert, kunt u waarschijnlijk pagina&#39;s en publiek toevoegen binnen de ervaringen om uw Personalization te bevorderen.
@@ -116,8 +116,8 @@ Personalization bevat ook het type Experience Targeting-testactiviteit, dat inho
 
 ## Optimalisatie vóór personalisatie
 
-Op basis van het bovenstaande raadt de Adobe u aan te optimaliseren voordat u de afbeelding personaliseert en Personalization van breed naar korrelig te verplaatsen. Om de Activiteiten van Personalization van brein tot korrelig te rijpen, zult u beginnen een één-aan-vele (brede) verpersoonlijkings (het gebruiken van A/B het testen), dan beweging in één-aan-één verpersoonlijkings (korrelige) stijl (het gebruiken van de Geautomatiseerde verpersoonlijkingsactiviteiten).
+In het licht van het bovenstaande raadt Adobe u aan te optimaliseren voordat u de Personalization personaliseert en van breed naar korrelig gaat. Om de Activiteiten van Personalization van brein tot korrelig te rijpen, zult u beginnen een één-aan-vele (brede) verpersoonlijkings (het gebruiken van A/B het testen), dan beweging in één-aan-één verpersoonlijkings (korrelige) stijl (het gebruiken van de Geautomatiseerde verpersoonlijkingsactiviteiten).
 
 Voor meer informatie, te luisteren gelieve aan [ webinar over het begrijpen van en het optimaliseren van uw implementatie van Adobe Target ](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), met Bedrijfs Consultant, Katie Cozby.
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).
+Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

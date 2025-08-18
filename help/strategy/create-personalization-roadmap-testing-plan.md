@@ -18,7 +18,7 @@ Personalization kan krachtig zijn, maar moet worden gevalideerd door te testen o
 
 In het tweede decennium van de 21ste eeuw beginnen organisaties als u met verouderde consumentengerichte strategieën en onjuiste gegevensanalyse. Dit is het tijdperk van personalisering, een tijdperk waarin de consumenten niets minder dan een aangepaste ervaring hebben verwacht. Personalization op bedrijfsniveau is een complex en voortdurend veranderend proces, maar wanneer het effectief wordt gedaan zal het klantentevredenheid maximaliseren en beduidend ROI verhogen.
 
-Het volgende artikel biedt een framework dat u kunt gebruiken voor het valideren van verpersoonlijkingsactiviteiten en het maken van een routekaart voor verpersoonlijking die via Adobe Target en Adobe Analytics kan worden uitgevoerd. Het QuickStart-framework van Adobe omvat:
+Het volgende artikel biedt een framework dat u kunt gebruiken voor het valideren van verpersoonlijkingsactiviteiten en het maken van een routekaart voor verpersoonlijking die via Adobe Target en Adobe Analytics kan worden uitgevoerd. Het Adobe QuickStart-framework omvat:
 
 1. **identificeer verpersoonlijkingskansen** - de analyse van hefboomgegevens om kansen te identificeren om zeer belangrijke prestatiesindicatoren op uw plaats, gebonden aan de bedrijfsdoelstellingen van uw organisatie te beïnvloeden.
 
@@ -32,7 +32,7 @@ Het volgende artikel biedt een framework dat u kunt gebruiken voor het valideren
 
 ## Stap 1: Identificeer verpersoonlijkingsmogelijkheden{#personalization}
 
-Dit is het beginpunt waar u begint met het vormen van de Personalization-routekaart. Wanneer het runnen van een succesvol verpersoonlijkingsprogramma, is het essentieel om zich op uw belangrijkste bedrijfsdoelstellingen en belangrijkste prestatiesindicatoren te concentreren. De inspanningen van Personalization moeten dienovereenkomstig worden afgestemd om waarde te bieden. Paul Morris, Adobe bedrijfsadviseur, zegt: &quot;Als alles wat u doet in deze doelstellingen past, zal uw programma zeer waarschijnlijk significante waarde drijven. Als u echter een verstrooide aanpak voor het testen hebt, zult u waarschijnlijk wat wins vinden, maar uw algemene programma zal bijna niet zo succesvol zijn.&quot;
+Dit is het beginpunt waar u begint met het vormen van de Personalization-routekaart. Wanneer het runnen van een succesvol verpersoonlijkingsprogramma, is het essentieel om zich op uw belangrijkste bedrijfsdoelstellingen en belangrijkste prestatiesindicatoren te concentreren. De inspanningen van Personalization moeten dienovereenkomstig worden afgestemd om waarde te bieden. Paul Morris, Adobe Business Consultant, zegt: &quot;Als alles wat je doet deze doelen bereikt, is het zeer waarschijnlijk dat jouw programma een belangrijke rol zal spelen. Als u echter een verstrooide aanpak voor het testen hebt, zult u waarschijnlijk wat wins vinden, maar uw algemene programma zal bijna niet zo succesvol zijn.&quot;
 
 >[!NOTE]
 >
@@ -47,14 +47,14 @@ Dit is het beginpunt waar u begint met het vormen van de Personalization-routeka
 
 Soms heb je doelen die aanvankelijk ook ontastbaar lijken, zoals merkwaarde of loyaliteit. Het is van cruciaal belang dat je deze kunt meten om ze te gebruiken als doelmaatstaf voor Personalization-activiteiten. Typisch, kunnen deze types van doelstellingen nog worden gericht aan opbrengsteffect zoals levenswaarde van de levensklant of acquisitiekosten.Aangezien u vooruitgaat, zeker ben om programmaprestaties tegen uw belangrijkste bedrijfsdoelstellingen periodiek te herzien in het verzekeren van waarde van uw programma van Personalization wordt gedreven.
 
-Focus gegevensanalyse om specifieke gebieden van uw website te identificeren die kunnen worden verbeterd. Adobe raadt aan om te beginnen met Adobe Analytics om gevallen van doelgericht gebruik te genereren. Als u een Analyseteam op zijn plaats hebt, vraag hen om het volgende te bekijken:
+Focus gegevensanalyse om specifieke gebieden van uw website te identificeren die kunnen worden verbeterd. Adobe raadt aan om Adobe Analytics te starten om gevallen van doelgericht gebruik te genereren. Als u een Analyseteam op zijn plaats hebt, vraag hen om het volgende te bekijken:
 
 1. Persoonlijke preform lijsten - een ideatieeigenschap die onbeperkte onderbrekingen verstrekt en u kan helpen om het even welke vragen of veronderstellingen beantwoorden die u kunt hebben.
 1. Geavanceerde segmentatie - Met IQ voor segmentatie kunt u bezoekers in verschillende gedeelten van uw site vergelijken.
 1. Juristische revisies - Bepaal welke delen van uw site het meest profiteren van Personalization. Met deze revisies kunt u een stap terug doen en door uw site lopen zoals een klant zou doen.
 1. De analyse van de concurrent - de Kansen zijn, andere ondernemingen staan voor de zelfde uitdagingen die u doet. Deze analyse is niet beperkt tot ondernemingen in dezelfde bedrijfstak.
 
-Het doel van deze stap is om een tastbaar inzicht te creëren in de vorm van een hypothese. Een hypothese is een voorspelling die u maakt voordat u een experiment uitvoert. Het geeft duidelijk aan wat er wordt veranderd, wat je denkt dat het resultaat zal zijn en waarom je denkt dat dat het geval is. Door het experiment uit te voeren zal je hypothese blijken of verwerpen. Aan het eind van deze stap, zou u een reeks hypothesen voor verpersoonlijkingskansen moeten hebben die uw website en bezoekerstevredenheid zullen verbeteren.
+Het doel van deze stap is een actioneerbare insight te genereren in de vorm van een hypothese. Een hypothese is een voorspelling die u maakt voordat u een experiment uitvoert. Het geeft duidelijk aan wat er wordt veranderd, wat je denkt dat het resultaat zal zijn en waarom je denkt dat dat het geval is. Door het experiment uit te voeren zal je hypothese blijken of verwerpen. Aan het eind van deze stap, zou u een reeks hypothesen voor verpersoonlijkingskansen moeten hebben die uw website en bezoekerstevredenheid zullen verbeteren.
 
 ## Stap 2: Gebruiksscenario&#39;s ontwikkelen{#use-cases}
 
@@ -76,7 +76,7 @@ De Prioritiseringsstap wordt opgesplitst in twee factoren:
 
 * Kosten - Er zijn natuurlijke kosten verbonden aan het opbouwen van uw ontwerpvarianten binnen Doel en dan de potentiële uitrol. Nu zult u de kosten moeten schatten verbonden aan elk gebruiksgeval. De kosten omvatten, de tijd en de middelen die worden vereist om testervaringen, het plannen, en post testanalyse te bouwen.
 
-Adobe raadt u aan elk van uw gebruiksgevallen op een schaal van 1-5 te rangschikken, waarbij 1 eenvoudig en 5 complex is. U hebt nu een reeks prioritaire activiteiten die u in Adobe Target kunt testen. Deze activiteiten zullen de basis van uw jaarlijkse personaliseringsactiviteiten vormen. De Adobe beveelt aan de routekaart van Personalization regelmatig opnieuw te evalueren. De lessen uit elke activiteit zouden uw toekomstgerichte roadmapprioriteiten moeten beïnvloeden. Leerlingen en aanbevelingen zullen doeltreffender zijn als ze tijdig worden opgevolgd. De prioriteiten van het hele jaar kunnen veranderen maar het uitvoeren van een iteratieve methodologie zorgt ervoor dat u altijd strategisch actieplan op zijn plaats hebt en dat u tegen uw team en bedrijfsdoelstellingen kunt volgen.
+Adobe raadt u aan elk van uw gebruiksgevallen op een schaal van 1 tot 5 te plaatsen, waarbij 1 eenvoudig en 5 complex is. U hebt nu een reeks prioritaire activiteiten die u in Adobe Target kunt testen. Deze activiteiten zullen de basis van uw jaarlijkse personaliseringsactiviteiten vormen. Adobe beveelt aan de routekaart van Personalization regelmatig opnieuw te evalueren. De lessen uit elke activiteit zouden uw toekomstgerichte roadmapprioriteiten moeten beïnvloeden. Leerlingen en aanbevelingen zullen doeltreffender zijn als ze tijdig worden opgevolgd. De prioriteiten van het hele jaar kunnen veranderen maar het uitvoeren van een iteratieve methodologie zorgt ervoor dat u altijd strategisch actieplan op zijn plaats hebt en dat u tegen uw team en bedrijfsdoelstellingen kunt volgen.
 
 ## Stap 4: Ontwerpen en uitvoeren
 
@@ -90,4 +90,4 @@ Zodra uw verpersoonlijkingsactiviteit een representatieve steekproef van bezoeke
 
 Wij adviseren dat u deze video kijkt die elk van deze stappen bespreekt: [ https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/ ](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).
+Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

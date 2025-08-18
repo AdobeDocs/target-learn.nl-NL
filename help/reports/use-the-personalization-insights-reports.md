@@ -25,4 +25,4 @@ Automated Personalization- en Auto-Target-activiteiten maken gebruik van geavanc
 
 ## Aanvullende informatie
 
-* [ de Inzichten van Personalization in de documentatie van de Hulp ](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=nl-NL)
+* [ de Inzichten van Personalization in de documentatie van de Hulp ](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
