@@ -1,7 +1,9 @@
 ---
 user-guide-title: Adobe Target-tutorials
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+landing-page-breadcrumb-title: Adobe Target
+landing-page-name: target
+source-git-commit: a416f01d695b7f2b1686c93e3c777b8ae005ca09
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 1%
@@ -27,7 +29,7 @@ ht-degree: 1%
 + Implementatie{#implementation}
    + [Inleiding tot doelimplementatie](../dev101/2-1-intro-to-target-implementation.md)
    + [Doel integreren met starten](../dev101/3-1-target-launch.md)
-   + [ voert in Websites met Lancering uit ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=nl-NL)
+   + [ voert in Websites met Lancering uit ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Voordelen van het gebruik van locaties](../dev101/2-2-benefits-of-locations.md)
    + [Inleiding tot doelverzoeken](../dev101/2-3-intro-to-target-requests.md)
    + [Inleiding tot doelparameters](../dev101/2-4-intro-to-target-params.md)
@@ -35,7 +37,7 @@ ht-degree: 1%
    + [Implementeer at.js 2.0 in een Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Een doelimplementatie ontwerpen](../dev101/2-5-design-target-implementation.md)
    + [Volgende stappen om een doelimplementatie te ontwerpen](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [ Opt-binnen van het Gebruik aan Controle de Oplossingen van Experience Cloud die op de Toestemming van de Gebruiker worden gebaseerd ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=nl-NL)
+   + [ Opt-binnen van het Gebruik aan Controle de Oplossingen van Experience Cloud die op de Toestemming van de Gebruiker worden gebaseerd ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
    + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
    + [Implementatiepatronen voor Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
