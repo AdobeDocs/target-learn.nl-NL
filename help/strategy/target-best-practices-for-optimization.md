@@ -6,9 +6,9 @@ role: Leader, Architect, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -118,6 +118,6 @@ Personalization bevat ook het type Experience Targeting-testactiviteit, dat inho
 
 In het licht van het bovenstaande raadt Adobe u aan te optimaliseren voordat u de Personalization personaliseert en van breed naar korrelig gaat. Om de Activiteiten van Personalization van brein tot korrelig te rijpen, zult u beginnen een één-aan-vele (brede) verpersoonlijkings (het gebruiken van A/B het testen), dan beweging in één-aan-één verpersoonlijkings (korrelige) stijl (het gebruiken van de Geautomatiseerde verpersoonlijkingsactiviteiten).
 
-Voor meer informatie, te luisteren gelieve aan [ webinar over het begrijpen van en het optimaliseren van uw implementatie van Adobe Target ](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), met Bedrijfs Consultant, Katie Cozby.
+Voor meer informatie, te lezen gelieve [ QuickStart voor verpersoonlijkings het testen en roadmap verwezenlijking ](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).
+Leer meer over strategie en gedachte leiderschap in de [ hub van Perspectieven ](https://experienceleague.adobe.com/en/perspectives).
