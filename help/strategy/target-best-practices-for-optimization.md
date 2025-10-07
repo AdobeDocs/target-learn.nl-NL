@@ -36,7 +36,7 @@ Optimalisatie wordt gedefinieerd als &quot;het optimaal of het doeltreffendst ge
 
 Het weten dat de verandering een constante is, zou onze optimaliseringsstrategie een herhalende uitvoeringscyclus moeten zijn om aan de voortdurend veranderende behoeften van uw klanten te voldoen (zie Figuur 1 hieronder).
 
-![ Optimalisering &amp; verpersoonlijking ](assets/optimize-and-personalize.png)
+![&#x200B; Optimalisering &amp; verpersoonlijking &#x200B;](assets/optimize-and-personalize.png)
 
 _Figuur 1 - de Interactieve Cyclus van de optimalisering_
 
@@ -118,6 +118,6 @@ Personalization bevat ook het type Experience Targeting-testactiviteit, dat inho
 
 In het licht van het bovenstaande raadt Adobe u aan te optimaliseren voordat u de Personalization personaliseert en van breed naar korrelig gaat. Om de Activiteiten van Personalization van brein tot korrelig te rijpen, zult u beginnen een één-aan-vele (brede) verpersoonlijkings (het gebruiken van A/B het testen), dan beweging in één-aan-één verpersoonlijkings (korrelige) stijl (het gebruiken van de Geautomatiseerde verpersoonlijkingsactiviteiten).
 
-Voor meer informatie, te lezen gelieve [ QuickStart voor verpersoonlijkings het testen en roadmap verwezenlijking ](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Voor meer informatie, te lezen gelieve [&#x200B; QuickStart voor verpersoonlijkings het testen en roadmap verwezenlijking &#x200B;](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Leer meer over strategie en gedachte leiderschap in de [ hub van Perspectieven ](https://experienceleague.adobe.com/en/perspectives).
+Leer meer over strategie en gedachte leiderschap in de [&#x200B; hub van Perspectieven &#x200B;](https://experienceleague.adobe.com/en/perspectives).
