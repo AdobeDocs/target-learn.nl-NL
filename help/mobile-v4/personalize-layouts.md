@@ -44,7 +44,7 @@ Ga als volgt te werk in de interface [!DNL Target] :
 
 1. Selecteer **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]** .
 
-   ![ creeer Activiteit ](assets/activity_create_1.jpg)
+   ![&#x200B; creeer Activiteit &#x200B;](assets/activity_create_1.jpg)
 
 1. Klik op **[!UICONTROL Mobile App]**.
 1. Selecteer de **[!UICONTROL Form composer]** .
@@ -52,52 +52,52 @@ Ga als volgt te werk in de interface [!DNL Target] :
 1. Selecteer uw bezit (het zelfde bezit u in vorige lessen gebruikte).
 1. Klik op **[!UICONTROL Next]**.
 
-   ![ creeer Activiteit ](assets/activity_create_2.jpg)
+   ![&#x200B; creeer Activiteit &#x200B;](assets/activity_create_2.jpg)
 
 1. Wijzig de titel van de activiteit in **[!UICONTROL Engage Users]** .
 1. Selecteer **[!UICONTROL ellipsis]** > **[!UICONTROL Change Audience]** .
-   ![ de Nieuwe Mobiele Gebruikers van de Toepassing veranderen publiek ](assets/activity_create_3.jpg)
+   ![&#x200B; de Nieuwe Mobiele Gebruikers van de Toepassing veranderen publiek &#x200B;](assets/activity_create_3.jpg)
 1. Stel het publiek in op **[!UICONTROL New Mobile App Users]** .
 1. Klik op **[!UICONTROL Done]**.
-   ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_4.jpg)
+   ![&#x200B; Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing &#x200B;](assets/activity_create_4.jpg)
 
 1. Verander de plaats in _wetravel_commit_home_.
 1. Selecteer de vervolgkeuzepijl naast Standaardinhoud en selecteer **[!UICONTROL Change HTML Offer]** .
 
-   ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_5.jpg)
+   ![&#x200B; Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing &#x200B;](assets/activity_create_5.jpg)
 
 1. Selecteer de **[!UICONTROL Home: Engage New Users]** -aanbieding.
 1. Selecteer **[!UICONTROL Done]** .
 
-   ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_6.jpg)
+   ![&#x200B; Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing &#x200B;](assets/activity_create_6.jpg)
 
 1. Selecteer **[!UICONTROL Add Location]** .
-   ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_7.jpg)
+   ![&#x200B; Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing &#x200B;](assets/activity_create_7.jpg)
 
 1. Selecteer de _wetravel_commit_search_ plaats.
 1. Wijzig het HTML-voorstel.
 
-   ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_8.jpg)
+   ![&#x200B; Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing &#x200B;](assets/activity_create_8.jpg)
 
 1. Selecteer de **[!UICONTROL Search: Engage New Users]** -aanbieding.
 1. Klik op **[!UICONTROL Done]**.
 
-   ![ Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing ](assets/activity_create_9.jpg)
+   ![&#x200B; Nieuwe Mobiele Publiek van de Gebruikers van de Toepassing &#x200B;](assets/activity_create_9.jpg)
 
 U hebt zojuist een publiek verbonden met locaties en aanbiedingen en zo de persoonlijke ervaring voor de nieuwe mobiele App-gebruikers gecreëerd! De ervaring moet er nu als volgt uitzien:
 
-![ Ervaring A Definitief ](assets/activity_engage_users_a_final.jpg)
+![&#x200B; Ervaring A Definitief &#x200B;](assets/activity_engage_users_a_final.jpg)
 
 Maak nu een ervaring voor het retourneren van gebruikers van mobiele apps:
 
 1. Selecteer **[!UICONTROL Add Experience Targeting]** aan de linkerkant.
 1. Selecteer het publiek **[!UICONTROL Returning Mobile App Users]** .
 1. Selecteer **[!UICONTROL Done]** .
-   ![ Terugkerend Mobiel publiek van de Gebruikers van de Toepassing ](assets/activity_create_11.jpg)
+   ![&#x200B; Terugkerend Mobiel publiek van de Gebruikers van de Toepassing &#x200B;](assets/activity_create_11.jpg)
 
 Gebruik nu het zelfde proces wij vroeger gebruikten om de nieuwe ervaring te vormen. De configuratie voor de beleving van de Mobiele App van de Gebruikers die terugkeren zou als volgt moeten kijken:
 
-![ Terugkerend Mobiele de Gebruikers van de Toepassing Definitief ](assets/activity_engage_users_b_final.jpg)
+![&#x200B; Terugkerend Mobiele de Gebruikers van de Toepassing Definitief &#x200B;](assets/activity_engage_users_b_final.jpg)
 
 Laten we doorgaan naar het volgende scherm in de configuratie:
 
@@ -105,20 +105,20 @@ Laten we doorgaan naar het volgende scherm in de configuratie:
 1. Gebruik de standaardinstellingen voor Targeting. Als u ervaringen voor publiek had dat (b.v. _de Gebruikers van New York_ en _Eerste Gebruikers_) overlapte, kon u de prioritaire orde op dit scherm schikken.
 1. Klik op **[!UICONTROL Next]** om naar **[!UICONTROL Goals & Settings]** te gaan.
 
-   ![ de Activiteit van de Gebruikers van de Ingenieur - richtend Standaard ](assets/activity_engage_users_targeting.jpg)
+   ![&#x200B; de Activiteit van de Gebruikers van de Ingenieur - richtend Standaard &#x200B;](assets/activity_engage_users_targeting.jpg)
 
 Laten we nu de activiteiteninstellingen voltooien:
 
 1. Stel de waarde **[!UICONTROL Primary Goal]** in op **[!UICONTROL Conversion]** .
 1. Plaats de actie aan **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (Aangezien deze plaats op het bevestigingsscherm is, kunnen wij het gebruiken om omzettingen te meten).
 
-   ![ de Activiteit van de Gebruikers van de Overeenkomst - Doelen ](assets/activity_create_12.jpg)
+   ![&#x200B; de Activiteit van de Gebruikers van de Overeenkomst - Doelen &#x200B;](assets/activity_create_12.jpg)
 
 1. Houd alle andere montages op het scherm aan de gebreken.
 1. Klik op **[!UICONTROL Save & Close]** om de activiteit op te slaan.
 1. Activeer **[!UICONTROL Activity]** op het volgende scherm.
 
-![ Ervaring B Publiek ](assets/activity_create_13.jpg)
+![&#x200B; Ervaring B Publiek &#x200B;](assets/activity_create_13.jpg)
 
 Onze eerste activiteit is nu live en klaar om te testen!
 
@@ -135,11 +135,11 @@ Herhaal hetzelfde proces als hierboven voor de volgende activiteit - &quot;Conte
 
 #### San Diego
 
-![ Contextuele Aanbiedingen - Ervaring A ](assets/activity_contextual_a_final.jpg)
+![&#x200B; Contextuele Aanbiedingen - Ervaring A &#x200B;](assets/activity_contextual_a_final.jpg)
 
 #### Los Angeles
 
-![ Contextuele Aanbiedingen - Ervaring B ](assets/activity_contextual_b_final.jpg)
+![&#x200B; Contextuele Aanbiedingen - Ervaring B &#x200B;](assets/activity_contextual_b_final.jpg)
 
 Bij de stap Doelstellingen en instellingen wijzigen we het primaire doel in de locatie op het bevestigingsscherm van de reservering:
 
@@ -147,7 +147,7 @@ Bij de stap Doelstellingen en instellingen wijzigen we het primaire doel in de l
 1. Plaats de actie aan **[!UICONTROL Viewed an mbox]** > _wetravel_context_dest_ (in deze activiteit, is dit metrisch fundamenteel betekenisloos aangezien dit ook de zelfde plaats is die de ervaring) levert.
 1. Klik op **[!UICONTROL Save & Close]**.
 
-![ Contextuele Aanbiedingen - Ervaring ](assets/activity_create_14.jpg)
+![&#x200B; Contextuele Aanbiedingen - Ervaring &#x200B;](assets/activity_create_14.jpg)
 
 Activeer de Activiteit op het volgende scherm.
 
@@ -157,15 +157,15 @@ Onze tweede activiteit is live en klaar om te testen!
 
 Voer de emulator uit en controleer of de eerste aanbieding onder aan het thuisscherm wordt weergegeven. Als u een terugkerende gebruiker met 5 of meer app lanceert bent, zou u _welkome rug_ getoonde aanbieding zien. Als u een nieuwe gebruiker (minder dan 5 app lanceert) bent, zou u het _nieuwe gebruiker_ bericht moeten zien:
 
-![ bevestigt de Aanbieding van het Huis ](assets/layout_home_validate.jpg)
+![&#x200B; bevestigt de Aanbieding van het Huis &#x200B;](assets/layout_home_validate.jpg)
 
 Als de nieuwe gebruikersaanbieding niet wordt weergegeven, probeert u de gegevens voor uw emulator te wissen. De volgende keer dat u de app start, wordt de app opnieuw ingesteld op 1. Dit gebeurt onder **[!UICONTROL Tools]** > **[!UICONTROL AVD Manager]** . Mogelijk moet u Android Studio opnieuw starten als Logcat niet correct werkt:
 
-![ Sluiterende Mededinger ](assets/layout_home_validate_avd_wipe.jpg)
+![&#x200B; Sluiterende Mededinger &#x200B;](assets/layout_home_validate_avd_wipe.jpg)
 
 U kunt de reactie in Logcat ook bevestigen door voor _wetravel_commit_home_ te filtreren:
 
-![ bevestigt de Aanbieding van het Huis - Logcat ](assets/layout_home_validate_logcat.jpg)
+![&#x200B; bevestigt de Aanbieding van het Huis - Logcat &#x200B;](assets/layout_home_validate_logcat.jpg)
 
 ## Zoekvoorstel valideren
 
@@ -173,7 +173,7 @@ Selecteer **[!UICONTROL San Jose]** als uw **[!UICONTROL Departure]** en **[!UIC
 
 Voor het resultatenscherm, zou u het _bericht van de gebruiksfilters_ moeten zien. Als u een terugkerende gebruiker bent met 5 of meer toepassingslanceringen, zal geen bericht hier verschijnen aangezien de standaardinhoud voor deze plaats (die leeg is) wordt geplaatst:
 
-![ bevestigt de Aanbieding van het Onderzoek ](assets/layout_search_validate.jpg)
+![&#x200B; bevestigt de Aanbieding van het Onderzoek &#x200B;](assets/layout_search_validate.jpg)
 
 ## Valideer de contextafhankelijke aanbiedingen op het scherm Bedankt
 
@@ -185,11 +185,11 @@ Doorgaan met het boekingsproces:
 
 Aangezien San Diego als bestemming werd geselecteerd, zou u _DJ SAM_ aanbiedingsbanner op het bevestigingsscherm moeten zien:
 
-![ bevestig de Aanbieding van de Context - San Diego ](assets/layout_context_san_diego.jpg)
+![&#x200B; bevestig de Aanbieding van de Context - San Diego &#x200B;](assets/layout_context_san_diego.jpg)
 
 Selecteer nu **[!UICONTROL Done]** en probeer een andere boeking uit te voeren met Los Angeles als bestemming. Het bevestigingsscherm zou de _Universele banner van Studios_ moeten tonen:
 
-![ bevestigt de Aanbieding van de Context - Los Angeles ](assets/layout_context_los_angeles.jpg)
+![&#x200B; bevestigt de Aanbieding van de Context - Los Angeles &#x200B;](assets/layout_context_los_angeles.jpg)
 
 ## Conclusie
 

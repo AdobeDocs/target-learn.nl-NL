@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Als u nog niet vertrouwd bent met uw organisatie en vertrouwd wilt raken met de functies van een test- en optimalisatiepraktijk, kunt u met dit artikel aan de slag. We beginnen met een overzicht van Adobe Target-implementatie en -structuur. U zult leren hoe te om de opstelling van uw organisatie te begrijpen en te controleren. Tot slot zullen wij gemeenschappelijke het oplossen van problementechnieken en uiteinden bij het creëren van een kennisbewaarplaats voor uw team bespreken.
 
-Adobe Target is een hulpprogramma waarmee u unieke inhoud kunt testen en toewijzen aan verschillende bezoekers. Voor een overzicht van de beschikbare eigenschappen, [ bezoek deze gids ](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL).
+Adobe Target is een hulpprogramma waarmee u unieke inhoud kunt testen en toewijzen aan verschillende bezoekers. Voor een overzicht van de beschikbare eigenschappen, [&#x200B; bezoek deze gids &#x200B;](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=nl-NL).
 
 ## Doelimplementatie en -structuur
 
@@ -164,6 +164,6 @@ De typische documenten in een Bewaarplaats van de Kennis omvatten:
 * **document van het Plan van de Activiteit** - een document dat wordt gebruikt om resultaten en geadviseerde volgende stappen aan belanghebbenden mee te delen
 * **dashboard van het Programma** - een document dat wordt gebruikt om programmaprestaties, kadentie, en opbrengstvoordelen in tijd te volgen.
 
-Voor meer informatie, herzie ons [ webinar ](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) met senior Consultant, Wilder Freed.
+Voor meer informatie, herzie ons [&#x200B; webinar &#x200B;](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) met senior Consultant, Wilder Freed.
 
-Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).
+Leer meer over strategie en gedachte leiderschap bij de [&#x200B; hub van het Succes van de Klant &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).

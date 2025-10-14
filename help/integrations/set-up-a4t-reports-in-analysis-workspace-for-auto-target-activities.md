@@ -30,7 +30,7 @@ Hoewel uitgebreide analysemogelijkheden beschikbaar zijn in [!DNL Adobe Analytic
 In deze zelfstudie worden de aanbevolen wijzigingen voor het analyseren van [!UICONTROL Auto-Target] -activiteiten in [!DNL Analysis Workspace] besproken. Deze zijn gebaseerd op de volgende sleutelconcepten:
 
 * De **[!UICONTROL Control vs Targeted]** -dimensie kan worden gebruikt om een onderscheid te maken tussen [!UICONTROL Control] -ervaringen en [!UICONTROL Auto-Target] -ervaringen die door het algoritme ensemble ML worden aangeboden.
-* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Bovendien [ Adobe Analytics&#39; standaard tellende methodologie zou bezoeken kunnen omvatten waar de gebruiker niet eigenlijk activiteiteninhoud ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=nl-NL#metrics){target=_blank} ziet, maar dit standaardgedrag kan worden gewijzigd door een geschikt bereiksegment (details hieronder) te gebruiken.
+* Bezoekingen moeten worden gebruikt als de normaliserende maatstaf bij het bekijken van onderverdelingen van prestaties op ervaringsniveau. Bovendien [&#x200B; Adobe Analytics&#39; standaard tellende methodologie zou bezoeken kunnen omvatten waar de gebruiker niet eigenlijk activiteiteninhoud &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=nl-NL#metrics){target=_blank} ziet, maar dit standaardgedrag kan worden gewijzigd door een geschikt bereiksegment (details hieronder) te gebruiken.
 * Visit-lookback scoped attributie, ook gekend als &quot;bezoek lookback venster&quot;op het voorgeschreven attributiemodel, wordt gebruikt door de modellen van [!DNL Adobe Target] ML tijdens hun opleidingsfasen, en het zelfde (niet gebrek) attributiemodel zou moeten worden gebruikt wanneer het breken van doel metrisch.
 
 ## Het deelvenster A4T voor [!UICONTROL Auto-Target] maken in [!DNL Analysis Workspace]
@@ -41,7 +41,7 @@ Als u een A4T-rapport voor [!UICONTROL Auto-Target] wilt maken, begint u met het
 2. **[!UICONTROL Normalizing Metric]**: Selecteer [!UICONTROL Visits] .
 3. **[!UICONTROL Success Metrics]**: Hoewel u metrische gegevens kunt selecteren waarop u wilt rapporteren, moet u rapporten over dezelfde maatstaf weergeven die u hebt gekozen voor optimalisatie tijdens het maken van activiteiten in [!DNL Target] .
 
-   ![[!UICONTROL Analytics for Target] paneelopstelling voor [!UICONTROL Auto-Target] activiteiten. ](assets/Figure1.png)
+   ![[!UICONTROL Analytics for Target] paneelopstelling voor [!UICONTROL Auto-Target] activiteiten. &#x200B;](assets/Figure1.png)
 
    *Figuur 1: [!UICONTROL Analytics for Target] paneelopstelling voor [!UICONTROL Auto-Target] activiteiten.*
 
@@ -63,7 +63,7 @@ Deze vervanging maakt de standaard [!UICONTROL Lift and Confidence] -berekeninge
 
 >[!NOTE]
 >
->Momenteel zijn [!UICONTROL Lift and Confidence] getallen niet beschikbaar voor [!UICONTROL Control vs Targeted] afmetingen voor A4T-rapporten voor [!UICONTROL Auto-Target] . Tot de steun wordt toegevoegd, [!UICONTROL Lift and Confidence] kan manueel worden gegevens verwerkt door de [ betrouwbaarheidscalculator ](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=nl-NL) te downloaden.
+>Momenteel zijn [!UICONTROL Lift and Confidence] getallen niet beschikbaar voor [!UICONTROL Control vs Targeted] afmetingen voor A4T-rapporten voor [!UICONTROL Auto-Target] . Tot de steun wordt toegevoegd, [!UICONTROL Lift and Confidence] kan manueel worden gegevens verwerkt door de [&#x200B; betrouwbaarheidscalculator &#x200B;](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=nl-NL) te downloaden.
 
 ## Onderverdelingen op ervaringsniveau toevoegen voor metriek
 
@@ -120,7 +120,7 @@ Als u liever melding wilt maken van bezoeken waarop de gebruiker daadwerkelijk h
 6. Klik op het tandwielpictogram en selecteer **[!UICONTROL Attribution model > Instance]** zoals in de onderstaande afbeelding wordt getoond.
 7. Klik op **[!UICONTROL Save]**.
 
-![ Segment in [!DNL Analysis Workspace]](assets/Figure5.png)
+![&#x200B; Segment in [!DNL Analysis Workspace]](assets/Figure5.png)
 
 *Figuur 5: Gebruik een segment zoals hier getoond om [!UICONTROL Visits] metrisch in uw A4T voor [!UICONTROL Auto-Target] rapport* te filtreren
 
@@ -149,7 +149,7 @@ Het verschil tussen de attributie die wordt gebruikt door de [!DNL Target] -mode
 >
 >Als de modellen van XML voor metrisch optimaliseren die verschillend van dat van de metriek wordt toegeschreven u in een rapport bekijkt, zouden de modellen niet kunnen uitvoeren zoals verwacht. Om dit te vermijden, zorg ervoor dat de doelmetriek op uw rapport de zelfde metrische definitie en attributie gebruiken die door de [!DNL Target] modellen van ML wordt gebruikt.
 
-De nauwkeurige metrische definitie, en attributie montages hangen van het [ optimalisatiecriterium ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=nl-NL#supported){target=_blank} af u tijdens activiteitenverwezenlijking specificeerde.
+De nauwkeurige metrische definitie, en attributie montages hangen van het [&#x200B; optimalisatiecriterium &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=nl-NL#supported){target=_blank} af u tijdens activiteitenverwezenlijking specificeerde.
 
 ### Het doel bepaalde omzettingen, of [!DNL Analytics] metriek met *maximaliseert Metrische Waarde per Bezoek*
 
@@ -159,17 +159,17 @@ Voer de volgende stappen uit om doelmetriek weer te geven die dezelfde toewijzin
 
 1. Houd de muisaanwijzer boven het tandwielpictogram van het doel:
 
-   ![ gearicon.png ](assets/gearicon.png)
+   ![&#x200B; gearicon.png &#x200B;](assets/gearicon.png)
 
 1. Ga in het resulterende menu naar **[!UICONTROL Data settings]** .
 1. Selecteer **[!UICONTROL Use non-default  attribution model]** (als dit nog niet het geval is).
 
-   ![ niet-default attributionmodel.png ](assets/non-defaultattributionmodel.png)
+   ![&#x200B; niet-default attributionmodel.png &#x200B;](assets/non-defaultattributionmodel.png)
 
 1. Klik op **[!UICONTROL Edit]**.
 1. Selecteer **[!UICONTROL Model]**: **[!UICONTROL Participation]** en **[!UICONTROL Lookback window]**: **[!UICONTROL Visit]** .
 
-   ![ ParticipationbyVisit.png ](assets/ParticipationbyVisit.png)
+   ![&#x200B; ParticipationbyVisit.png &#x200B;](assets/ParticipationbyVisit.png)
 
 1. Klik op **[!UICONTROL Apply]**.
 
@@ -197,7 +197,7 @@ In het scenario waar u *selecteerde maximaliseer het Unieke Tarief van de Omzett
 
 6. Klik op **[!UICONTROL Save]**.
 
-![ Figure7.png ](assets/Figure7.png)
+![&#x200B; Figure7.png &#x200B;](assets/Figure7.png)
 
 *Figuur 7: Het filtreren van de segmentdefinitie aan bezoeken met een positieve orde. Afhankelijk van metrische optimalisering van uw activiteit, moet u orden met aangewezen metrisch vervangen*
 
@@ -205,7 +205,7 @@ In het scenario waar u *selecteerde maximaliseer het Unieke Tarief van de Omzett
 
 Dit segment kan nu worden gebruikt om te filteren op bezoeken met een positief aantal bestellingen en waar een hit is opgetreden voor de [!DNL Auto-Target] -activiteit. De procedure om metrisch te filtreren is gelijkaardig aan vóór, en na het toepassen van het nieuwe segment op reeds gefilterde bezoek metrisch, zou het rapportpaneel als Figuur 8 moeten kijken
 
-![ Figure8.png ](assets/Figure8.png)
+![&#x200B; Figure8.png &#x200B;](assets/Figure8.png)
 
 *Figuur 8: Het rapportpaneel met correcte uniek-bezoek metrische conversie: het aantal bezoeken waar een slag van de activiteit werd geregistreerd, en waar metrische omzetting (orden in dit voorbeeld) niet-nul was.*
 
@@ -227,11 +227,11 @@ Doe dit door een [!UICONTROL Calculated Metric] te maken met behulp van de volge
 
 >[!TIP]
 >
-> U kunt metrisch ook tot stand brengen gebruikend [ snel berekende metrische functionaliteit ](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=nl-NL).
+> U kunt metrisch ook tot stand brengen gebruikend [&#x200B; snel berekende metrische functionaliteit &#x200B;](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=nl-NL).
 
 De volledige berekende metrische definitie wordt hier getoond.
 
-![ Figuur9.png ](assets/Figure9.png)
+![&#x200B; Figuur9.png &#x200B;](assets/Figure9.png)
 
 *Figuur 7: De bezoek-gecorrigeerde en attributie-gecorrigeerde metrische definitie van de modelomzettingssnelheid. (Merk op dit metrisch is afhankelijk van uw doel metrisch en activiteit. Met andere woorden, is deze metrische definitie niet herbruikbaar over activiteiten.)*
 
@@ -245,6 +245,6 @@ Als u alle bovenstaande stappen in één venster verenigt, wordt in de onderstaa
 
 Klik om de afbeelding uit te vouwen.
 
-![ Definitief A4T rapport in [!DNL Analysis Workspace]](assets/Figure10.png " A4T rapport in Analysis Workspace "){width="600" zoomable="yes"}
+![&#x200B; Definitief A4T rapport in [!DNL Analysis Workspace]](assets/Figure10.png " A4T rapport in Analysis Workspace "){width="600" zoomable="yes"}
 
 *Figuur 10: Het definitieve A4T [!UICONTROL Auto-Target] rapport in [!DNL Adobe Analytics] [!DNL Workspace], dat alle aanpassingen aan metrische definities combineert die in de vorige secties van dit leerprogramma worden beschreven.*

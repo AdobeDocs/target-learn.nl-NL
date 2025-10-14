@@ -30,7 +30,7 @@ Implementatiedetails en voorbeelden van hoe u de Adobe Target-functie [!UICONTRO
 
 Een kort overzicht van de basiscomponenten van een `dataProvider` en hoe u de code in de juiste volgorde kunt krijgen.\
 Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
-[ https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
+[&#x200B; https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
 ## Integreren met een externe API
 
@@ -38,7 +38,7 @@ Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
 
 Een realistischer voorbeeld, die een weer API integreren.\
 Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
-[ https://target.enablementadobe.com/data-providers/3rdparty.html](https://target.enablementadobe.com/data-providers/3rdparty.html)
+[&#x200B; https://target.enablementadobe.com/data-providers/3rdparty.html](https://target.enablementadobe.com/data-providers/3rdparty.html)
 
 ## Integreren met meerdere providers
 
@@ -46,7 +46,7 @@ Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
 
 Hoe te om gegevens van veelvoudige leveranciers in uw globale [!DNL Target] verzoek op te nemen.\
 Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
-[ https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
+[&#x200B; https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
 ## Effect paginabelasting minimaliseren
 
@@ -54,8 +54,8 @@ Hier vindt u een werkvoorbeeld met de code die in de video wordt gebruikt:
 
 Minimaliseer de invloed op de laadtijd van de pagina door gegevens in een voorwerp van de zittingsopslag op te slaan. U kunt de waarden ook doorgeven als profielparameters met behulp van het voorvoegsel `profile.` en ze gewoon doorgeven in het eerste [!DNL Target] -verzoek van de sessie. U kunt echter alleen vijftig profielparameters doorgeven per aanvraag.
 
-Een werkend voorbeeld met de code die in de video wordt gebruikt kan hier worden gevonden: [ https://target.enablementadobe.com/data-providers/reducedCalls.html ](https://target.enablementadobe.com/data-providers/reducedCalls.html)
+Een werkend voorbeeld met de code die in de video wordt gebruikt kan hier worden gevonden: [&#x200B; https://target.enablementadobe.com/data-providers/reducedCalls.html &#x200B;](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Ondersteunende materialen
 
-* [ Leveranciers van Gegevens van het Gebruik met Adobe Target ](use-data-providers-to-integrate-third-party-data.md)
+* [&#x200B; Leveranciers van Gegevens van het Gebruik met Adobe Target &#x200B;](use-data-providers-to-integrate-third-party-data.md)

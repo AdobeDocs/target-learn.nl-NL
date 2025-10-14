@@ -36,4 +36,4 @@ In deze video leert u hoe u:
 * [Criteria maken](create-criteria.md)
 * [Aangepaste ontwerpen maken](create-custom-designs.md)
 * [Verzamelingen en uitsluitingen maken](create-collections-and-exclusions.md)
-* [ Documentatie van Aanbevelingen ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=nl-NL)
+* [&#x200B; Documentatie van Aanbevelingen &#x200B;](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=nl-NL)

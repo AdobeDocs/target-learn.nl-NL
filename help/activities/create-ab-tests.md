@@ -29,4 +29,4 @@ In deze video leert u hoe u:
 
 ## Overige middelen
 
-Voor geleidelijke instructies, zie [ een Test A/B ](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=nl-NL){target=_blank} in de *Gids van de Bedrijfs van Adobe Target Bedrijfs van de Praktijk* creëren.
+Voor geleidelijke instructies, zie [&#x200B; een Test A/B &#x200B;](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=nl-NL){target=_blank} in de *Gids van de Bedrijfs van Adobe Target Bedrijfs van de Praktijk* creëren.

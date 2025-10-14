@@ -41,7 +41,7 @@ Meer specifiek, in deze les zullen wij publiek en aanbiedingen tot stand brengen
 
 Als uw bedrijf Eigenschappen en Werkruimten gebruikt om grenzen te vestigen voor het personaliseren van apps en websites-en u uitvoerde de parameter at_property in laatste les-u zou eerst moeten ervoor zorgen dat u in correcte Workspace bent alvorens met deze les te werk te gaan. Als u geen Eigenschappen en Werkruimten gebruikt, negeer enkel deze stap. Selecteer Workspace die u in de vorige les gebruikte om de at_property waarde te kopiëren:
 
-![ Voorbeeld van Workspace ](assets/workspace.jpg)
+![&#x200B; Voorbeeld van Workspace &#x200B;](assets/workspace.jpg)
 
 ## Soorten publiek maken
 
@@ -53,18 +53,18 @@ Het publiek van Adobe Target wordt gebruikt om specifieke groepen bezoekers te i
 
 1. Klik op **[!UICONTROL Audiences]** in de bovenste navigatie.
 1. Klik op **[!UICONTROL Create Audience]** .
-   ![ creeer een Nieuw publiek van de Gebruiker ](assets/audience_new_mobile_app_users_1.jpg)
+   ![&#x200B; creeer een Nieuw publiek van de Gebruiker &#x200B;](assets/audience_new_mobile_app_users_1.jpg)
 
 1. Voer **[!UICONTROL New Mobile App Users]** in als de publieksnaam.
 1. Selecteer **[!UICONTROL Add Rule]** .
 1. Selecteer een **[!UICONTROL Custom]** -regel.
-   ![ creeer een Nieuw publiek van de Gebruiker ](assets/audience_new_mobile_app_users_2.jpg)
+   ![&#x200B; creeer een Nieuw publiek van de Gebruiker &#x200B;](assets/audience_new_mobile_app_users_2.jpg)
 
 1. Selecteer **[!UICONTROL a.Launches]** .
 1. Selecteer **[!UICONTROL is less than]** .
 1. Ga **5** in.
 1. Sla het nieuwe publiek op.
-   ![ creeer een Nieuw publiek van de Gebruiker ](assets/audience_new_mobile_app_users_3.jpg)
+   ![&#x200B; creeer een Nieuw publiek van de Gebruiker &#x200B;](assets/audience_new_mobile_app_users_3.jpg)
 
 ### Een publiek maken voor terugkerende gebruikers
 
@@ -74,7 +74,7 @@ Volg dezelfde stappen als hierboven beschreven om een publiek te maken voor teru
 1. Gebruik **[!UICONTROL a.Launches is greater than or equal to 5]** als de aangepaste regel.
 1. Sla het nieuwe publiek op.
 
-   ![ creeer een Terugkerend publiek van de Gebruiker ](assets/audience_returning_mobile_app_users.jpg)
+   ![&#x200B; creeer een Terugkerend publiek van de Gebruiker &#x200B;](assets/audience_returning_mobile_app_users.jpg)
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aan
 1. Gebruik een douaneregel met deze definitie: _locationDest bevat San Diego_.
 1. Sla het nieuwe publiek op.
 
-   ![ creeer &quot;San Diego&quot;Publiek ](assets/audience_locationDest_san_diego.jpg)
+   ![&#x200B; creeer &quot;San Diego&quot;Publiek &#x200B;](assets/audience_locationDest_san_diego.jpg)
 
 ### Een publiek maken voor gebruikers die een reis naar Los Angeles boeken
 
@@ -100,7 +100,7 @@ Nu maken we een paar soorten publiek voor een aantal bestemmingen die worden aan
 1. Gebruik een douaneregel met deze definitie: _locationDest bevat Los Angeles_
 1. Sla het nieuwe publiek op.
 
-![ creeer &quot;Los Angeles&quot;Publiek ](assets/audience_locationDest_los_angeles.jpg)
+![&#x200B; creeer &quot;Los Angeles&quot;Publiek &#x200B;](assets/audience_locationDest_los_angeles.jpg)
 
 ## Aanbiedingen maken
 
@@ -114,13 +114,13 @@ Laten we eerst aanbiedingen voor de berichten aan Nieuwe gebruikers maken:
 1. Klik op **[!UICONTROL Create]**.
 1. Selecteer **[!UICONTROL HTML Offer]** .
 
-   ![ creeer de Aanbieding van het Huis ](assets/offer_home_1.jpg)
+   ![&#x200B; creeer de Aanbieding van het Huis &#x200B;](assets/offer_home_1.jpg)
 
 1. Noem het voorstel _Huis: De Nieuwe Gebruikers van de Mogelijkheid_.
 1. Ga _Uitgezochte Source en Bestemming in om naar beschikbare bussen_ als code te zoeken.
 1. Sla het nieuwe voorstel op.
 
-   ![ creeer de Aanbieding van HTML van het Huis ](assets/offer_home_2.jpg)
+   ![&#x200B; creeer de Aanbieding van HTML van het Huis &#x200B;](assets/offer_home_2.jpg)
 
 ### De aanbieding voor terugkerende gebruikers maken
 
@@ -130,7 +130,7 @@ Laten we nu de ene aanbieding voor terugkerende gebruikers maken (de tweede aanb
 1. Ga _Welkom terug! Gebruik de Bodemcode BACK30 tijdens het afrekenen om een korting van 10% te krijgen._ als de HTML-code.
 1. Sla het nieuwe voorstel op.
 
-   ![ creeer de Aanbieding van HTML van het Huis ](assets/offer_home_returning_users.jpg)
+   ![&#x200B; creeer de Aanbieding van HTML van het Huis &#x200B;](assets/offer_home_returning_users.jpg)
 
 ### De San Diego-aanbieding maken
 
@@ -140,7 +140,7 @@ Wanneer &quot;DJ&quot; wordt geretourneerd aan de activiteit Dankuwel, geeft log
 1. Ga _DJ_ als code van HTML in.
 1. Sla het nieuwe voorstel op.
 
-![ creeer &quot;San Diego&quot;Aanbieding ](assets/offer_san_diego.jpg)
+![&#x200B; creeer &quot;San Diego&quot;Aanbieding &#x200B;](assets/offer_san_diego.jpg)
 
 ### Aanbieding maken voor gebruikers die naar Los Angeles gaan
 
@@ -150,7 +150,7 @@ Wanneer &quot;Universal&quot; wordt geretourneerd naar de activiteit Dankuwel, w
 1. Ga _Universeel_ als code van HTML in.
 1. Sla het nieuwe voorstel op.
 
-![ creeer &quot;Los Angeles&quot;Aanbieding ](assets/offer_los_angeles.jpg)
+![&#x200B; creeer &quot;Los Angeles&quot;Aanbieding &#x200B;](assets/offer_los_angeles.jpg)
 
 ## Conclusie
 

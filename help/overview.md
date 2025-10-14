@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >* *[&#128279;](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=nl-NL){target=_blank} van de Bedrijfs Adobe Target Gids van de Praktijk*
 >
->* *[de Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank}*
+>* *[de Gids van de Ontwikkelaar van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=nl-NL){target=_blank}*
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>

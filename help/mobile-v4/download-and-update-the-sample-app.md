@@ -28,21 +28,21 @@ Aan het eind van deze les, zult u kunnen:
 
 ## Download de Web.Travel-app
 
-* Download [ steekproef-app-android-SDKv4-Base-Version.zip ](assets/sample-app-android-SDKv4-Base-Version.zip)
+* Download [&#x200B; steekproef-app-android-SDKv4-Base-Version.zip &#x200B;](assets/sample-app-android-SDKv4-Base-Version.zip)
 * Het ZIP-bestand decomprimeren
 * Open app in Android Studio als bestaand project (negeer eventuele fouten over &quot;Ongeldige VCS-hoofdtoewijzing&quot;)
 * Voer de app in een emulator uit om te bevestigen dat de app is gemaakt en dat u het beginscherm kunt zien
 * Blader naar de app en controleer of u het boekingsproces kunt voltooien (selecteer een betalingsoptie en druk op Doorgaan om het factureringsscherm over te slaan!)
 
-  ![ open het app ](assets/wetravel_homeScreen.png)![ Bevestigingsscherm ](assets/wetravel_confirmationScreen.png)
+  ![&#x200B; open het app &#x200B;](assets/wetravel_homeScreen.png)![&#x200B; Bevestigingsscherm &#x200B;](assets/wetravel_confirmationScreen.png)
 
 ## De SDK-instellingen voor mobiele services controleren en bijwerken voor [!DNL Target]
 
-Adobe Mobile Services SDK is vooraf geïnstalleerd binnen de We.Travel app [ volgens de documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=nl-NL). Nu gaat u de installatie bijwerken zodat deze naar uw eigen [!DNL Target] -account verwijst.
+Adobe Mobile Services SDK is vooraf geïnstalleerd binnen de We.Travel app [&#x200B; volgens de documentatie &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=nl-NL). Nu gaat u de installatie bijwerken zodat deze naar uw eigen [!DNL Target] -account verwijst.
 
 Maak eerst een nieuwe toepassing in de gebruikersinterface voor mobiele services:
 
-1. Login aan de [ interface van de Diensten van Adobe Mobiele ](https://mobilemarketing.adobe.com/).
+1. Login aan de [&#x200B; interface van de Diensten van Adobe Mobiele &#x200B;](https://mobilemarketing.adobe.com/).
 1. Ga naar [!UICONTROL Manage Apps] en klik vervolgens op **[!UICONTROL Add]** om een nieuwe toepassing toe te voegen die u in deze zelfstudie wilt gebruiken ( **[!UICONTROL Manage Apps]** > **[!UICONTROL Add]** ).
 1. Kies een Analytics-rapportsuite met niet-productiegegevens, geef de app een naam, selecteer het **[!UICONTROL Standard]** -type en klik op **[!UICONTROL Save]** .
 1. Nadat de app is toegevoegd, voegt u uw [!DNL Target] clientcode toe aan het volgende scherm in de [!UICONTROL SDK Target Options] -sectie (u vindt de clientcode in de [!DNL Target] -interface onder **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]** naast de knop Downloaden `at.js` ).
@@ -51,12 +51,12 @@ Maak eerst een nieuwe toepassing in de gebruikersinterface voor mobiele services
 1. Sla uw wijzigingen op door op **[!UICONTROL Save]** rechtsboven in het venster te klikken (niet op de knop in de sectie [!UICONTROL Universal Links] , [!UICONTROL App Links] of [!UICONTROL Push Services] ).
 1. Blader naar de sectie SDK-downloads voor de app onder aan de pagina en download het configuratiebestand:
 
-   ![ Download het Dossier Config ](assets/config_file.jpg)
+   ![&#x200B; Download het Dossier Config &#x200B;](assets/config_file.jpg)
 
 1. Vervang het bestand `ADBMobileConfig.json` in de map met Android Studio-projectmiddelen (app > src > main > assets).
 
 1. Open nu het bestand `ADBMobileConfig.json` en controleer of het de verwachte wijzigingen bevat, zoals de [!DNL Target] Client Code en uw Analytics-gegevens:
-   ![ Download het Dossier Config ](assets/client_code.jpg)
+   ![&#x200B; Download het Dossier Config &#x200B;](assets/client_code.jpg)
 
 Als u de instellingen niet ziet, controleert u of u op de knop right **[!UICONTROL Save]** in de [!UICONTROL Mobile Services] -interface hebt geklikt en het bestand naar de juiste locatie hebt gekopieerd.
 

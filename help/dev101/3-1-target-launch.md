@@ -28,7 +28,7 @@ In deze video leert u hoe u:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
 
-Voor meer informatie, bezoek het [ markeringsleerprogramma ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=nl-NL).
+Voor meer informatie, bezoek het [&#x200B; markeringsleerprogramma &#x200B;](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=nl-NL).
 
 >[!NOTE]
 >

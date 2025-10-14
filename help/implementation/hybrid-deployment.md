@@ -37,5 +37,5 @@ Aan het einde van deze video zult u:
 
 ## Aanvullende bronnen
 
-* [ het Beslissende Overzicht van het Apparaat ](https://experienceleague.adobe.com/nl/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [ de documentatie van Adobe Target SDK ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [&#x200B; het Beslissende Overzicht van het Apparaat &#x200B;](https://experienceleague.adobe.com/nl/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [&#x200B; de documentatie van Adobe Target SDK &#x200B;](https://experienceleague.adobe.com/nl/docs/target-dev/developer/server-side/on-device-decisioning/overview)

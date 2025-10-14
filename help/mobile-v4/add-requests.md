@@ -23,7 +23,7 @@ In deze les bereidt u de Web.Travel-app voor op personalisatie door [!DNL Target
 
 ## Vereisten
 
-Ben zeker aan [ download en werk steekproef app ](download-and-update-the-sample-app.md) bij.
+Ben zeker aan [&#x200B; download en werk steekproef app &#x200B;](download-and-update-the-sample-app.md) bij.
 
 ## Leerdoelen
 
@@ -52,7 +52,7 @@ Hieronder vindt u een aantal belangrijke doelterminologie die we in de rest van 
 
 Het eerste verzoek dat we in We.Travel implementeren, is een batchvoorkeursaanvraag met twee [!DNL Target] -locaties op het Basisscherm. In een recentere les, zullen wij aanbiedingen voor deze plaatsen vormen die berichten tonen helpen nieuwe gebruikers door het boekingsproces begeleiden.
 
-Met een Prefetch-aanvraag wordt [!DNL Target] -inhoud zo min mogelijk opgehaald door de Adobe Target-serverreactie (aanbieding) in cache te plaatsen. Een batch-prefetch-aanvraag haalt meerdere aanbiedingen op en plaatst deze in het cachegeheugen, elk gekoppeld aan een andere locatie. Alle vooraf ingestelde locaties worden in het cachegeheugen opgeslagen op het apparaat voor toekomstig gebruik in de gebruikerssessie. Door meerdere locaties vooraf in te stellen op het Homescherm, kunnen we aanbiedingen ophalen die later kunnen worden gebruikt wanneer de bezoeker door de app navigeert. Verwijs naar de [ prefetch documentatie ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=nl-NL) voor meer details op prefetch methodes.
+Met een Prefetch-aanvraag wordt [!DNL Target] -inhoud zo min mogelijk opgehaald door de Adobe Target-serverreactie (aanbieding) in cache te plaatsen. Een batch-prefetch-aanvraag haalt meerdere aanbiedingen op en plaatst deze in het cachegeheugen, elk gekoppeld aan een andere locatie. Alle vooraf ingestelde locaties worden in het cachegeheugen opgeslagen op het apparaat voor toekomstig gebruik in de gebruikerssessie. Door meerdere locaties vooraf in te stellen op het Homescherm, kunnen we aanbiedingen ophalen die later kunnen worden gebruikt wanneer de bezoeker door de app navigeert. Verwijs naar de [&#x200B; prefetch documentatie &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=nl-NL) voor meer details op prefetch methodes.
 
 ### De aanvraag Batch Prefetch toevoegen
 
@@ -62,7 +62,7 @@ We beginnen met de HomeActivity-controller (de broncode van het Homescherm), die
 
 De twee in rood weergegeven codeblokken worden toegevoegd:
 
-![ PrefetchCode HomeActivity ](assets/homeactivity.jpg)
+![&#x200B; PrefetchCode HomeActivity &#x200B;](assets/homeactivity.jpg)
 
 De rol neer aan het eind van de code van HomeActivity en voegt hieronder verstrekte code na de `setHeader()` functie toe en *die* de huidige `onResume()` functie vervangt:
 
@@ -101,7 +101,7 @@ import com.adobe.mobile.Target;
 import com.adobe.mobile.TargetPrefetchObject;
 ```
 
-![ de Invoer de Klassen van het Doel ](assets/import.jpg)
+![&#x200B; de Invoer de Klassen van het Doel &#x200B;](assets/import.jpg)
 
 U zult waarschijnlijk ook fouten voor &quot;kunnen geen symbool veranderlijke wetravel_engt_home&quot;vinden en &quot;kan symboolvariabele wetravel_engt_search&quot;niet vinden. Voeg deze toe aan het bestand `Constant.java` (in app > src > main > java > com > wetravel > Utils):
 
@@ -110,7 +110,7 @@ public static final String wetravel_engage_home = "wetravel_engage_home";
 public static final String wetravel_engage_search = "wetravel_engage_search";
 ```
 
-![ voeg de plaatsnamen aan het Constant.java- dossier ](assets/constants.jpg) toe
+![&#x200B; voeg de plaatsnamen aan het Constant.java- dossier &#x200B;](assets/constants.jpg) toe
 
 ### Codeuitleg voor batchvoorkeursaanvraag
 
@@ -132,7 +132,7 @@ Maak de app opnieuw en open de Android Emulator. (De volgende schermafbeeldingen
 
 Wanneer het startscherm wordt weergegeven, moet de prefetch-aanvraag worden geladen. Met Logcat filtert u op [!DNL "Target"] om de aanvraag en het antwoord te zien:
 
-![ bevestigt de verzoeken op het Scherm van het Huis ](assets/prefetch_validation.jpg)
+![&#x200B; bevestigt de verzoeken op het Scherm van het Huis &#x200B;](assets/prefetch_validation.jpg)
 
 Als het antwoord niet is gelukt, controleert u de instellingen in het bestand `ADBMobileConfig.json` en de syntaxis van de code in het bestand HomeActivity.
 
@@ -144,7 +144,7 @@ Nu de locaties vooraf zijn ingesteld en de reacties op deze locaties in het cach
 
 Voeg eerst de aanroep en methode `engageMessage()` toe voor de locatie wetravel_commit_home in HomeActivity:
 
-![ voeg eerste ladingsverzoek ](assets/wetravel_engage_home_loadRequest.jpg) toe
+![&#x200B; voeg eerste ladingsverzoek &#x200B;](assets/wetravel_engage_home_loadRequest.jpg) toe
 
 Hier volgt de bijgewerkte code:
 
@@ -190,7 +190,7 @@ Hier volgt de bijgewerkte code:
 
 Voeg nu de `engageMessage()` vraag &amp; methode voor de wetravel_commit_onderzoeksplaats in SearchBusActivity toe. De aanroep van `engageMessage()` wordt in de methode `onResume()` ingesteld vóór de aanroep van `setUpSearch()` , zodat deze wordt uitgevoerd voordat het scherm wordt ingesteld:
 
-![ voeg tweede ladingsverzoek ](assets/wetravel_engage_search_loadRequest.jpg) toe
+![&#x200B; voeg tweede ladingsverzoek &#x200B;](assets/wetravel_engage_search_loadRequest.jpg) toe
 
 Hier volgt de bijgewerkte code:
 
@@ -230,7 +230,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 Het volgende verzoek dat we aan de app toevoegen, wordt een realtime aanvraag op het scherm Bedankt. Met &quot;real-time&quot; bedoelen we dat zowel het verzoek als het antwoord onmiddellijk zullen worden toegepast (niet in cache geplaatst voor later). In een recentere les, zullen wij een ervaring gebruikend dit verzoek bouwen, die aan de reisbestemming van de gebruiker gepersonaliseerd is.
 
 Laten we dus een aanvraag in real time toevoegen op het scherm Dankuwel. In het bestand BedanktYouActivity voeren we de wijzigingen in het rood aan:
-![ voeg een plaats in real time op Dank toe u het Scherm ](assets/thankyou.jpg)
+![&#x200B; voeg een plaats in real time op Dank toe u het Scherm &#x200B;](assets/thankyou.jpg)
 
 Blader naar het einde van het bestand DankuwelActivity. Maak een commentaarregel van de drie regels in de functie `getRecommandations()` en voeg de aanroep van de functie `targetLoadRequest()` toe:
 
@@ -247,7 +247,7 @@ targetLoadRequest(recommandation.recommandations);
 ```
 
 Nu moeten we de functie `targetLoadRequest()` definiëren:
-![ voeg een plaats in real time op Dank toe u het Scherm ](assets/thankyou2.jpg)
+![&#x200B; voeg een plaats in real time op Dank toe u het Scherm &#x200B;](assets/thankyou2.jpg)
 
 Voeg dit codeblok toe na de functie `filterRecommendationBasedOnOffer()` :
 
@@ -305,7 +305,7 @@ Open de Android Emulator en voer alle stappen uit om een trip te boeken: Home > 
 
 Kijk op het scherm &#39;Hartelijk dank&#39; naar Logcat voor het antwoord. De reactie moet als volgt luiden: &quot;Standaardinhoud is geretourneerd voor &quot;wetravel_context_dest&quot;:
 
-![ voeg een plaats in real time op Dank toe u het Scherm ](assets/thankyou_validation.jpg)
+![&#x200B; voeg een plaats in real time op Dank toe u het Scherm &#x200B;](assets/thankyou_validation.jpg)
 
 ## Vooraf ingestelde locaties uit cache wissen
 
@@ -317,7 +317,7 @@ Voor dit voorbeeld, zullen wij enkel vooraf ingestelde plaatsen voor de zitting 
 Target.clearPrefetchCache()
 ```
 
-![ Duidelijke Vooraf ingestelde Plaatsen van Geheime voorgeheugen ](assets/clearPrefetch.jpg)
+![&#x200B; Duidelijke Vooraf ingestelde Plaatsen van Geheime voorgeheugen &#x200B;](assets/clearPrefetch.jpg)
 
 Gefeliciteerd! Uw app beschikt nu over het framework voor personalisatie. In de volgende les, zullen wij onze verpersoonlijkingsmogelijkheden verbeteren door parameters aan deze plaatsen toe te voegen.
 

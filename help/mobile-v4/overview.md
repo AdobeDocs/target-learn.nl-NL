@@ -23,7 +23,7 @@ Er is een demo Android-app beschikbaar waarmee u de lessen kunt voltooien. Nadat
 
 Na het voltooien van deze zelfstudie kunt u het volgende doen:
 
-* Valideer [ Adobe Mobile Services SDK ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=nl-NL) opstelling
+* Valideer [&#x200B; Adobe Mobile Services SDK &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=nl-NL) opstelling
 * Voer de volgende typen [!DNL Target] -aanvragen uit:
    * Voorvertoning van [!DNL Target] -inhoud
    * Meerdere [!DNL Target] locaties (mboxes) in één aanvraag in batch plaatsen
@@ -42,8 +42,8 @@ In deze lessen wordt aangenomen dat u:
 
 * Een Adobe-id en een toegangsnummer op goedkeuringsniveau tot de Adobe Target-interface hebben (zie de verificatiestappen hieronder)
 * Ken uw Adobe Target-clientcode zodat u aanvragen kunt indienen bij uw eigen account. De clientcode wordt weergegeven in de Adobe Target-interface op het tabblad   Setup > Implementation > Edit at.js settings screen
-* Heb toegang tot en ben vertrouwd met het [ Mobiele gebruikersinterface van de Diensten ](https://mobilemarketing.adobe.com/)
-* Hebt u een IDE voor de ontwikkeling van mobiele apps voor Android. Dit leerprogramma kenmerkt {de Studio van 0} Android [ in diverse stappen en screenshots](https://developer.android.com/studio/install)
+* Heb toegang tot en ben vertrouwd met het [&#x200B; Mobiele gebruikersinterface van de Diensten &#x200B;](https://mobilemarketing.adobe.com/)
+* Hebt u een IDE voor de ontwikkeling van mobiele apps voor Android. Dit leerprogramma kenmerkt {de Studio van 0} Android [&#x200B; in diverse stappen en screenshots](https://developer.android.com/studio/install)
 
 Als u niet de vereiste toegang tot de Oplossingen van Experience Cloud hebt, contacteer uw Beheerder van Experience Cloud.
 
@@ -53,18 +53,18 @@ Bovendien wordt aangenomen dat u bekend bent met de Android-ontwikkeling in Java
 
 Deze les vereist toegang tot Adobe Target. Voordat u de volgende stappen doorloopt, moet u ervoor zorgen dat u toegang hebt tot Adobe Target door het volgende te doen:
 
-1. Logboek in [ Adobe Experience Cloud ](https://experience.adobe.com/)
+1. Logboek in [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com/)
 1. Klik in het beginscherm van Experience Cloud op [!DNL Target] :
-   ![ het Homescherm van Experience Cloud ](assets/aec_homeScreen_clickTarget.png)
+   ![&#x200B; het Homescherm van Experience Cloud &#x200B;](assets/aec_homeScreen_clickTarget.png)
 1. Ga naar de lijst Activiteiten in Adobe Target, zoals hieronder wordt afgebeeld. Je moet zien dat de gebruiker toegang op fiveau heeft. Als u geen toegang hebt tot [!DNL Target] of als u de toegang op het niveau van de fiatteur niet kunt verifiëren, gelieve één van de Beheerders van Experience Cloud van uw bedrijf te contacteren, om deze toegang te verzoeken en deze zelfstudie te hervatten zodra het wordt verleend:
 
-   ![ UI van Adobe ](assets/targetUI_approver.png)
+   ![&#x200B; UI van Adobe &#x200B;](assets/targetUI_approver.png)
 
 ## Informatie over de lessen
 
 In deze lessen implementeert u Adobe Target in een demo-reisapp genaamd &#39;We.Travel&#39; met uw eigen Adobe Target-account. Aan het einde van de zelfstudie stuurt u persoonlijke berichten aan de gebruiker op basis van hun gebruik van de app! De laatste personalisatie-ervaringen zien er als volgt uit:
 
-![ Wij.Travel app definitief ](assets/overview_final_result.jpg)
+![&#x200B; Wij.Travel app definitief &#x200B;](assets/overview_final_result.jpg)
 
 Nadat u de implementatie binnen de We.Travel-app hebt doorlopen, kunt u [!DNL Target] gebruiken in uw eigen mobiele app.
 

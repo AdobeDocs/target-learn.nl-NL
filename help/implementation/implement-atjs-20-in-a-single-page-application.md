@@ -73,5 +73,5 @@ window.onhashchange = function() {
 
 ## Aanvullende bronnen
 
-* [ Begrijpend hoe at.js 2.0 werkt (de Diagrammen van de Architectuur) ](understanding-how-atjs-20-works.md)
+* [&#x200B; Begrijpend hoe at.js 2.0 werkt (de Diagrammen van de Architectuur) &#x200B;](understanding-how-atjs-20-works.md)
 * [Adobe Target-composer voor visuele ervaring gebruiken voor toepassingen van één pagina (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

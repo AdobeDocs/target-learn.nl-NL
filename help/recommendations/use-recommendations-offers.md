@@ -28,5 +28,5 @@ Aanbiedingen van aanbevelingen kunnen worden gebruikt met A/B Test en de ervarin
 
 ## Aanvullende bronnen
 
-* [ Aanbevelingen als aanbiedingsdocumentatie ](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=nl-NL)
+* [&#x200B; Aanbevelingen als aanbiedingsdocumentatie &#x200B;](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=nl-NL)
 * [Video over activiteiten voor aanbevelingen maken](create-a-recommendations-activity.md)

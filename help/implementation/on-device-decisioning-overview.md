@@ -33,7 +33,7 @@ Aan het einde van deze video kunt u het volgende doen:
 * Beschrijf de beslissing op het apparaat en zijn voordelen
 * Apparaatbeslissingen binnen doel inschakelen
 * Een op formulieren gebaseerde composer-activiteit maken die is bedoeld voor gebruik met apparaatbeslissingen
-* Leer meer over de configuratie van SDK die voor op-apparatenbesluit wordt vereist door de [ documentatie van SDK van Adobe Target ](https://experienceleague.adobe.com/nl/docs/target-dev/developer/server-side/on-device-decisioning/overview) te bezoeken
+* Leer meer over de configuratie van SDK die voor op-apparatenbesluit wordt vereist door de [&#x200B; documentatie van SDK van Adobe Target &#x200B;](https://experienceleague.adobe.com/nl/docs/target-dev/developer/server-side/on-device-decisioning/overview) te bezoeken
 * Begrijp wat de eindgebruikers voor geleverde inhoud gebruikend op apparaat besluitvorming zullen ervaren
 
 ## Beoogd publiek
@@ -42,4 +42,4 @@ Aan het einde van deze video kunt u het volgende doen:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Voor meer informatie, zie [ Op apparaat beslissingsoverzicht ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=nl-NL){target=_blank} in de *gids van de Ontwikkelaar van Adobe Target*.
+Voor meer informatie, zie [&#x200B; Op apparaat beslissingsoverzicht &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=nl-NL){target=_blank} in de *gids van de Ontwikkelaar van Adobe Target*.

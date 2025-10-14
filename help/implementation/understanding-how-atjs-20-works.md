@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Architectuurdiagrammen
 
-![ at.js 2.0 gedrag op paginading ](assets/pageload.png)
+![&#x200B; at.js 2.0 gedrag op paginading &#x200B;](assets/pageload.png)
 
 1. De vraag keert Experience Cloud ID (ECID) terug. Als de gebruiker voor authentiek wordt verklaard, synchroniseert een andere vraag de klantenidentiteitskaart
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 1. [!DNL Analytics] gegevens die van de pagina naar de [!UICONTROL Data Collection] Servers worden verzonden
 1. [!DNL Target] -gegevens worden via de SDID gekoppeld aan analysegegevens en worden verwerkt in de [!DNL Analytics] -rapportageopslag. [!DNL Analytics] -gegevens kunnen vervolgens zowel in [!DNL Analytics] als [!DNL Target] via A4T-rapporten worden weergegeven.
 
-![ at.js 2.0 gedrag wanneer de triggerView () functie wordt gebruikt ](assets/triggerview.png)
+![&#x200B; at.js 2.0 gedrag wanneer de triggerView () functie wordt gebruikt &#x200B;](assets/triggerview.png)
 
 1. `adobe.target.triggerView()` wordt aangeroepen in de toepassing voor één pagina
 1. De gerichte inhoud voor de mening wordt gelezen uit het geheime voorgeheugen

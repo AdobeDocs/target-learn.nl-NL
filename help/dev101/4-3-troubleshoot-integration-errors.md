@@ -28,4 +28,4 @@ In deze video leert u hoe u:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35155/?quality=12)
 
-Voor meer informatie, bezoek de [ documentatie ](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=nl-NL).
+Voor meer informatie, bezoek de [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=nl-NL).
