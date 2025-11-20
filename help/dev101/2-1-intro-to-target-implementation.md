@@ -32,5 +32,5 @@ In deze video leert u hoe u:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Voor meer informatie, zie [&#x200B; cliënt-zijimplementatie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=nl-NL){target=_blank} of [&#x200B; server-zijimplementatie &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=nl-NL){target=_blank} in *[!UICONTROL Adobe Target Developer Guide]*.
+Voor meer informatie, zie [ cliënt-zijimplementatie ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} of [ server-zijimplementatie ](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} in *[!UICONTROL Adobe Target Developer Guide]*.
 
