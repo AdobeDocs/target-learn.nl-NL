@@ -118,6 +118,6 @@ Personalization bevat ook het type Experience Targeting-testactiviteit, dat inho
 
 In het licht van het bovenstaande raadt Adobe u aan te optimaliseren voordat u de Personalization personaliseert en van breed naar korrelig gaat. Om de Activiteiten van Personalization van brein tot korrelig te rijpen, zult u beginnen een één-aan-vele (brede) verpersoonlijkings (het gebruiken van A/B het testen), dan beweging in één-aan-één verpersoonlijkings (korrelige) stijl (het gebruiken van de Geautomatiseerde verpersoonlijkingsactiviteiten).
 
-Voor meer informatie, te lezen gelieve [&#x200B; QuickStart voor verpersoonlijkings het testen en roadmap verwezenlijking &#x200B;](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Voor meer informatie, te lezen gelieve [&#x200B; QuickStart voor verpersoonlijkings het testen en roadmap verwezenlijking &#x200B;](https://experienceleague.adobe.com/nl/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Leer meer over strategie en gedachte leiderschap in de [&#x200B; hub van Perspectieven &#x200B;](https://experienceleague.adobe.com/en/perspectives).
+Leer meer over strategie en gedachte leiderschap in de [&#x200B; hub van Perspectieven &#x200B;](https://experienceleague.adobe.com/nl/perspectives).
