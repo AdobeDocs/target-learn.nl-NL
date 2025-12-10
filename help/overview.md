@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Naast deze handleiding zijn ook de volgende [!DNL Adobe Target] hulplijnen beschikbaar:
 >
->* *[](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank} van de Bedrijfs Adobe Target Gids van de Praktijk*
+>* *[&#128279;](https://experienceleague.adobe.com/docs/target/using/target-home.html){target=_blank} van de Bedrijfs Adobe Target Gids van de Praktijk*
 >
->* *[de Gids van de Ontwikkelaar van Adobe Target ](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
+>* *[de Gids van de Ontwikkelaar van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}*
 
 <div id="recs-overview-body-1"></div>
 <div id="recs-overview-body-2"></div>
