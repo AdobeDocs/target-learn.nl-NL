@@ -2,11 +2,11 @@
 title: Aanbevolen werkwijzen voor optimalisatie
 description: Leer Adobe zes essentiële onderdelen van optimalisatie en hoe u deze toepast.
 solution: Target
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: d65720ae992a3079462ba59421c3b7a8d4f5ea7b
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1236'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Optimalisatie wordt gedefinieerd als &quot;het optimaal of het doeltreffendst ge
 
 Het weten dat de verandering een constante is, zou onze optimaliseringsstrategie een herhalende uitvoeringscyclus moeten zijn om aan de voortdurend veranderende behoeften van uw klanten te voldoen (zie Figuur 1 hieronder).
 
-![&#x200B; Optimalisering &amp; verpersoonlijking &#x200B;](assets/optimize-and-personalize.png)
+![ Optimalisering &amp; verpersoonlijking ](assets/optimize-and-personalize.png)
 
 _Figuur 1 - de Interactieve Cyclus van de optimalisering_
 
@@ -118,6 +118,6 @@ Personalization bevat ook het type Experience Targeting-testactiviteit, dat inho
 
 In het licht van het bovenstaande raadt Adobe u aan te optimaliseren voordat u de Personalization personaliseert en van breed naar korrelig gaat. Om de Activiteiten van Personalization van brein tot korrelig te rijpen, zult u beginnen een één-aan-vele (brede) verpersoonlijkings (het gebruiken van A/B het testen), dan beweging in één-aan-één verpersoonlijkings (korrelige) stijl (het gebruiken van de Geautomatiseerde verpersoonlijkingsactiviteiten).
 
-Voor meer informatie, te lezen gelieve [&#x200B; QuickStart voor verpersoonlijkings het testen en roadmap verwezenlijking &#x200B;](https://experienceleague.adobe.com/nl/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Voor meer informatie, te lezen gelieve [ QuickStart voor verpersoonlijkings het testen en roadmap verwezenlijking ](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Leer meer over strategie en gedachte leiderschap in de [&#x200B; hub van Perspectieven &#x200B;](https://experienceleague.adobe.com/nl/perspectives).
+Leer meer over strategie en gedachte leiderschap in de [ hub van Perspectieven ](https://experienceleague.adobe.com/en/perspectives).

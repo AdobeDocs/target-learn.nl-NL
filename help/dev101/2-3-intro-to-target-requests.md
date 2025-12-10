@@ -1,7 +1,7 @@
 ---
 title: Hoe werken doelverzoeken?
 description: Leer hoe te om het aantal en de soorten verzoeken van Adobe Target te bepalen, tussen synchrone en asynchrone plaatsing te onderscheiden, en flikkerbeheer te verklaren.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development
 feature: Implementation
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 0%
@@ -32,4 +32,4 @@ In deze video leert u hoe u:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35141/?quality=12)
 
-Voor meer informatie, bezoek de [&#x200B; documentatie &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=nl-NL).
+Voor meer informatie, bezoek de [ documentatie ](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

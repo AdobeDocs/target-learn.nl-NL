@@ -3,9 +3,9 @@ title: QuickStart voor personalisatie testen en routekaart maken
 description: Leer een framework dat u kunt gebruiken om uw personalisatieactiviteiten te valideren en een routekaart voor personalisatie te maken die via Adobe Target en Adobe Analytics kan worden uitgevoerd.
 solution: Target,Analytics
 level: Intermediate
-role: Leader, Architect, Developer, Admin
+role: Leader, Developer, Admin
 exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 0%
@@ -88,6 +88,6 @@ Zodra uw verpersoonlijkingsactiviteit een representatieve steekproef van bezoeke
 
 ### Meer informatie
 
-Wij adviseren dat u deze video kijkt die elk van deze stappen bespreekt: [&#x200B; https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/ &#x200B;](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+Wij adviseren dat u deze video kijkt die elk van deze stappen bespreekt: [ https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/ ](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
 
-Leer meer over strategie en gedachte leiderschap bij de [&#x200B; hub van het Succes van de Klant &#x200B;](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=nl-NL).
+Leer meer over strategie en gedachte leiderschap bij de [ hub van het Succes van de Klant ](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
