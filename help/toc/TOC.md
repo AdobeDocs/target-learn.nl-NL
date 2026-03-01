@@ -29,7 +29,7 @@ ht-degree: 1%
 + Implementatie{#implementation}
    + [Inleiding tot doelimplementatie](../dev101/2-1-intro-to-target-implementation.md)
    + [Doel integreren met starten](../dev101/3-1-target-launch.md)
-   + [ voert in Websites met Lancering uit ](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [&#x200B; voert in Websites met Lancering uit &#x200B;](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Voordelen van het gebruik van locaties](../dev101/2-2-benefits-of-locations.md)
    + [Inleiding tot doelverzoeken](../dev101/2-3-intro-to-target-requests.md)
    + [Inleiding tot doelparameters](../dev101/2-4-intro-to-target-params.md)
@@ -37,7 +37,7 @@ ht-degree: 1%
    + [Implementeer at.js 2.0 in een Single Page Application (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Een doelimplementatie ontwerpen](../dev101/2-5-design-target-implementation.md)
    + [Volgende stappen om een doelimplementatie te ontwerpen](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [ Opt-binnen van het Gebruik aan Controle de Oplossingen van Experience Cloud die op de Toestemming van de Gebruiker worden gebaseerd ](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [&#x200B; Opt-binnen van het Gebruik aan Controle de Oplossingen van Experience Cloud die op de Toestemming van de Gebruiker worden gebaseerd &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [De hybride Adobe Target-implementatie begrijpen](../implementation/hybrid-deployment.md)
    + [Overzicht van beslissingen op het apparaat](../implementation/on-device-decisioning-overview.md)
    + [Implementatiepatronen voor Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
@@ -58,7 +58,7 @@ ht-degree: 1%
       + [Real-Time CDP-profielkenmerken gebruiken in Doel](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Doel met Scene7 integreren](../dev101/3-8-target-scene7.md)
    + [Doel integreren met Adobe Experience Manager](../dev101/3-5-target-aem.md)
-   + [ De Fragmenten van de Ervaring van AEM van het Gebruik in Adobe Target ](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [&#x200B; De Fragmenten van de Ervaring van AEM van het Gebruik in Adobe Target &#x200B;](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
    + [Gegevens in: Data Providers gebruiken om gegevens van derden te integreren](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Gegevens in: Data Providers implementeren om gegevens van derden te integreren](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Gegevens uit: De Tokens van de Reactie van het gebruik en de Gebeurtenissen van de Douane at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -80,7 +80,7 @@ ht-degree: 1%
    + [De composer voor visuele ervaring gebruiken](../experiences/use-the-visual-experience-composer.md)
    + [Het gebruiken van de Visuele Composer van de Ervaring voor Enige Toepassingen van de Pagina (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [De Form-Based Experience Composer gebruiken](../experiences/use-the-form-based-experience-composer.md)
-   + [ De Fragmenten van de Ervaring van AEM van het Gebruik in Adobe Target ](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [&#x200B; De Fragmenten van de Ervaring van AEM van het Gebruik in Adobe Target &#x200B;](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Rapporten{#reports}
    + [Personalization Insights-rapporten gebruiken](../reports/use-the-personalization-insights-reports.md)
 + Aanbevelingen{#recommendations}
