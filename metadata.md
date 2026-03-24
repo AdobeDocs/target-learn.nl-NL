@@ -3,20 +3,22 @@ cloud: Experience Cloud
 product: target
 solution: Target
 solution-title: Target
-solution-hub-url: https://helpx.adobe.com/nl/support/target.html
+landing-page-name: target
+landing-page-breadcrumb-title: Target
+solution-hub-url: https://helpx.adobe.com/support/target.html
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/nl/target/get-started.html
+getting-started-url: https://helpx.adobe.com/target/get-started.html
 tutorials-title: Tutorials
 tutorials-url: /content/help/en/target-learn/tutorials/overview.html
-git-repo: https://github.com/AdobeDocs/target-learn.nl-NL
+git-repo: https://github.com/AdobeDocs/target-learn.en
 index: true
 mini-toc-levels: 2
 feature-set: Target
 type: Tutorial
 auto-video-transcripts: true
-source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
+source-git-commit: 9d58452f04e280cc5f27b17a50cd5d6dc0141f47
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
